@@ -980,9 +980,9 @@
   position: absolute;
   width: 100%;
 }
-/* screen - contact */
+/* screen - contact-2-all-breakpoints */
 
-.contact {
+.contact-2-all-breakpoints {
   background-color: var(--log-cabin);
   height: 385.41vw;
   overflow: hidden;
@@ -991,7 +991,7 @@
   width: 100.0vw;
 }
 
-.contact .group-3-Z8I9gN {
+.contact-2-all-breakpoints .group-3-Z8I9gN {
   background-color: transparent;
   height: 48.01vw;
   left: 0.0vw;
@@ -1001,19 +1001,19 @@
   width: 100.0vw;
 }
 
-.contact .rectangle-3-eWS28r {
+.contact-2-all-breakpoints .rectangle-3-eWS28r {
   bottom: 0.0vw;
   height: 28.65vw;
 }
 
-.contact .title-Z8I9gN {
+.contact-2-all-breakpoints .title-Z8I9gN {
   height: 13.79vw;
   left: 22.28vw;
   top: 31.56vw;
   width: 55.17vw;
 }
 
-.contact .home-L3d4jP {
+.contact-2-all-breakpoints .home-L3d4jP {
   background-color: transparent;
   height: 100%;
   left: 0.0vw;
@@ -1022,7 +1022,7 @@
   width: 100%;
 }
 
-.contact .title-q9CUKV {
+.contact-2-all-breakpoints .title-q9CUKV {
   height: calc(100.00% + 0.53vw);
   left: 0.0vw;
   letter-spacing: 0.0vw;
@@ -1033,7 +1033,7 @@
   width: calc(100.00% + 0.53vw);
 }
 
-.contact .group-2-Z8I9gN {
+.contact-2-all-breakpoints .group-2-Z8I9gN {
   background-color: transparent;
   height: 61.27vw;
   left: 0.0vw;
@@ -1042,12 +1042,12 @@
   width: 100.0vw;
 }
 
-.contact .rectangle-3-x50H1Q {
+.contact-2-all-breakpoints .rectangle-3-x50H1Q {
   height: calc(100.00% - 13.79vw);
   top: 13.79vw;
 }
 
-.contact .nav-bar-Z8I9gN {
+.contact-2-all-breakpoints .nav-bar-Z8I9gN {
   background-color: transparent;
   height: 23.08vw;
   left: 1.06vw;
@@ -1056,7 +1056,7 @@
   width: 94.69vw;
 }
 
-.contact .social-icons-hVwJO6 {
+.contact-2-all-breakpoints .social-icons-hVwJO6 {
   background-color: transparent;
   height: calc(100.00% - 5.84vw);
   position: absolute;
@@ -1065,7 +1065,7 @@
   width: 12.47vw;
 }
 
-.contact .social_-icon_-artstation-0493xZ {
+.contact-2-all-breakpoints .social_-icon_-artstation-0493xZ {
   background-color: transparent;
   bottom: 0.0vw;
   cursor: pointer;
@@ -1077,11 +1077,11 @@
   width: calc(100.00% - 1.59vw);
 }
 
-.contact .social_-icon_-artstation-0493xZ:hover {
+.contact-2-all-breakpoints .social_-icon_-artstation-0493xZ:hover {
   transform: scale(1.1);
 }
 
-.contact .icon-awesome-artstation-kxwOfv {
+.contact-2-all-breakpoints .icon-awesome-artstation-kxwOfv {
   background-color: transparent;
   height: calc(100.00% - 2.65vw);
   object-fit: cover;
@@ -1091,7 +1091,7 @@
   width: 6.63vw;
 }
 
-.contact .social_-icon_-linkdin-0493xZ {
+.contact-2-all-breakpoints .social_-icon_-linkdin-0493xZ {
   background-color: transparent;
   cursor: pointer;
   height: 8.49vw;
@@ -1103,11 +1103,11 @@
   width: 100%;
 }
 
-.contact .social_-icon_-linkdin-0493xZ:hover {
+.contact-2-all-breakpoints .social_-icon_-linkdin-0493xZ:hover {
   transform: scale(1.1);
 }
 
-.contact .icon-linkedin-kiWkvA {
+.contact-2-all-breakpoints .icon-linkedin-kiWkvA {
   background-color: transparent;
   height: 5.84vw;
   object-fit: cover;
@@ -1117,7 +1117,7 @@
   width: 5.84vw;
 }
 
-.contact .logo-hVwJO6 {
+.contact-2-all-breakpoints .logo-hVwJO6 {
   background-color: transparent;
   cursor: pointer;
   height: 100%;
@@ -1129,11 +1129,11 @@
   width: 60.21vw;
 }
 
-.contact .logo-hVwJO6:hover {
+.contact-2-all-breakpoints .logo-hVwJO6:hover {
   transform: scale(0.9); 
 }
 
-.contact .mohammed-qamar-DNcQEE {
+.contact-2-all-breakpoints .mohammed-qamar-DNcQEE {
   background-color: transparent;
   bottom: calc(32.43% - 4.24vw);
   color: transparent;
@@ -1151,7 +1151,7 @@
   width: 33.16vw;
 }
 
-.contact .my-logo_-image-DNcQEE {
+.contact-2-all-breakpoints .my-logo_-image-DNcQEE {
   background-color: transparent;
   height: 100%;
   object-fit: cover;
@@ -1161,7 +1161,7 @@
   width: 22.55vw;
 }
 
-.contact .work-hVwJO6 {
+.contact-2-all-breakpoints .work-hVwJO6 {
   background-color: transparent;
   cursor: pointer;
   height: 11.41vw;
@@ -1174,11 +1174,11 @@
   width: 33.16vw;
 }
 
-.contact .work-hVwJO6:hover {
+.contact-2-all-breakpoints .work-hVwJO6:hover {
   transform: scale(1.1);
 }
 
-.contact .group-25-89eAwv {
+.contact-2-all-breakpoints .group-25-89eAwv {
   background-color: transparent;
   height: 100%;
   left: 0.0vw;
@@ -1187,7 +1187,7 @@
   width: 100%;
 }
 
-.contact .work-xRlneY {
+.contact-2-all-breakpoints .work-xRlneY {
   background-color: transparent;
   height: 8.22vw;
   left: 3.98vw;
@@ -1200,7 +1200,7 @@
   width: 15.65vw;
 }
 
-.contact .icon-awesome-book-xRlneY {
+.contact-2-all-breakpoints .icon-awesome-book-xRlneY {
   background-color: transparent;
   height: 7.16vw;
   object-fit: cover;
@@ -1210,7 +1210,7 @@
   width: 6.37vw;
 }
 
-.contact .contact-hVwJO6 {
+.contact-2-all-breakpoints .contact-hVwJO6 {
   background-color: transparent;
   bottom: 0.0vw;
   cursor: pointer;
@@ -1222,11 +1222,11 @@
   width: 46.15vw;
 }
 
-.contact .contact-hVwJO6:hover {
+.contact-2-all-breakpoints .contact-hVwJO6:hover {
   transform: scale(1.1);
 }
 
-.contact .contact-TVpaDZ {
+.contact-2-all-breakpoints .contact-TVpaDZ {
   background-color: transparent;
   height: 8.22vw;
   left: 3.98vw;
@@ -1239,7 +1239,7 @@
   width: 25.46vw;
 }
 
-.contact .icon-material-contact-mail-TVpaDZ {
+.contact-2-all-breakpoints .icon-material-contact-mail-TVpaDZ {
   background-color: transparent;
   height: 7.16vw;
   object-fit: cover;
@@ -1249,7 +1249,7 @@
   width: 9.55vw;
 }
 
-.contact .if-you-have-any-ques-Z8I9gN {
+.contact-2-all-breakpoints .if-you-have-any-ques-Z8I9gN {
   background-color: transparent;
   color: var(--white);
   font-family: var(--font-family-itcavant_garde_gothic_std-demi);
@@ -1267,7 +1267,7 @@
   width: auto;
 }
 
-.contact .name_-field-Z8I9gN {
+.contact-2-all-breakpoints .name_-field-Z8I9gN {
   background-color: transparent;
   height: 27.59vw;
   left: 19.36vw;
@@ -1276,7 +1276,7 @@
   width: 63.13vw;
 }
 
-.contact .name-5NeixR {
+.contact-2-all-breakpoints .name-5NeixR {
   background-color: transparent;
   height: 9.02vw;
   left: 0.0vw;
@@ -1289,7 +1289,7 @@
   width: 24.93vw;
 }
 
-.contact .group-23-5NeixR {
+.contact-2-all-breakpoints .group-23-5NeixR {
   background-color: transparent;
   bottom: 0.0vw;
   height: 16.98vw;
@@ -1298,7 +1298,7 @@
   width: 100%;
 }
 
-.contact .your-name-ojTPIT {
+.contact-2-all-breakpoints .your-name-ojTPIT {
   background-color: transparent;
   border: 0;
   bottom: calc(46.67% - 4.24vw);
@@ -1314,11 +1314,11 @@
   width: 42.97vw;
 }
 
-.contact .your-name-ojTPIT::placeholder {
+.contact-2-all-breakpoints .your-name-ojTPIT::placeholder {
   color: #00000099;
 }
 
-.contact .email_-field-Z8I9gN {
+.contact-2-all-breakpoints .email_-field-Z8I9gN {
   background-color: transparent;
   height: 27.59vw;
   left: 18.04vw;
@@ -1327,7 +1327,7 @@
   width: 64.46vw;
 }
 
-.contact .email-address-WhYRsX {
+.contact-2-all-breakpoints .email-address-WhYRsX {
   background-color: transparent;
   height: 9.02vw;
   left: 0.0vw;
@@ -1340,7 +1340,7 @@
   width: 51.46vw;
 }
 
-.contact .group-23-WhYRsX {
+.contact-2-all-breakpoints .group-23-WhYRsX {
   background-color: transparent;
   bottom: 0.0vw;
   height: 16.98vw;
@@ -1349,7 +1349,7 @@
   width: calc(100.00% - 1.33vw);
 }
 
-.contact .email-address-gr7Fue {
+.contact-2-all-breakpoints .email-address-gr7Fue {
   background-color: transparent;
   border: 0;
   bottom: calc(46.67% - 4.24vw);
@@ -1365,11 +1365,11 @@
   width: calc(100.00% - 10.08vw);
 }
 
-.contact .email-address-gr7Fue::placeholder {
+.contact-2-all-breakpoints .email-address-gr7Fue::placeholder {
   color: #00000099;
 }
 
-.contact .email_-field-5xHzHv {
+.contact-2-all-breakpoints .email_-field-5xHzHv {
   background-color: transparent;
   cursor: pointer;
   height: 18.04vw;
@@ -1381,11 +1381,11 @@
   width: 48.28vw;
 }
 
-.contact .email_-field-5xHzHv:hover {
+.contact-2-all-breakpoints .email_-field-5xHzHv:hover {
   transform: scale(0.9); 
 }
 
-.contact .group-23-sDYBC0 {
+.contact-2-all-breakpoints .group-23-sDYBC0 {
   background-color: transparent;
   cursor: pointer;
   height: 100%;
@@ -1395,7 +1395,7 @@
   width: 100%;
 }
 
-.contact .send-bQtObU {
+.contact-2-all-breakpoints .send-bQtObU {
   background-color: transparent;
   bottom: calc(36.76% - 3.18vw);
   height: 9.02vw;
@@ -1408,7 +1408,7 @@
   width: 17.51vw;
 }
 
-.contact .email_-field-YV3iqv {
+.contact-2-all-breakpoints .email_-field-YV3iqv {
   background-color: transparent;
   height: 79.58vw;
   left: 19.36vw;
@@ -1417,7 +1417,7 @@
   width: 63.13vw;
 }
 
-.contact .message-NgOV69 {
+.contact-2-all-breakpoints .message-NgOV69 {
   background-color: transparent;
   height: 9.02vw;
   left: 0.0vw;
@@ -1430,7 +1430,7 @@
   width: 35.01vw;
 }
 
-.contact .group-23-NgOV69 {
+.contact-2-all-breakpoints .group-23-NgOV69 {
   background-color: transparent;
   height: calc(100.00% - 10.61vw);
   left: 0.27vw;
@@ -1439,7 +1439,7 @@
   width: 100%;
 }
 
-.contact .your-message-N4xaux {
+.contact-2-all-breakpoints .your-message-N4xaux {
   background-color: transparent;
   border: 0;
   height: 9.02vw;
@@ -1455,11 +1455,11 @@
   width: calc(100.00% - 10.08vw);
 }
 
-.contact .your-message-N4xaux::placeholder {
+.contact-2-all-breakpoints .your-message-N4xaux::placeholder {
   color: #00000099;
 }
 
-.contact .rectangle-13 {
+.contact-2-all-breakpoints .rectangle-13 {
   background-color: var(--aubergine);
   border: 1.06vw solid;
   border-color: var(--kilamanjaro);
@@ -1471,7 +1471,7 @@
   width: 100%;
 }
 
-.contact .rectangle-2 {
+.contact-2-all-breakpoints .rectangle-2 {
   background-color: var(--kilamanjaro);
   height: 100%;
   left: 0.0vw;
@@ -1480,7 +1480,7 @@
   width: 100%;
 }
 
-.contact .rectangle-3 {
+.contact-2-all-breakpoints .rectangle-3 {
   background-color: var(--aubergine);
   left: 0.0vw;
   position: absolute;
@@ -1498,7 +1498,7 @@
   .screen.contact { 
     display: none;
    }
-  .screen.contact { 
+  .screen.contact-2-all-breakpoints { 
     display: none;
    }
 }
@@ -1506,7 +1506,7 @@
   .screen.contact-1 { 
     display: none;
    }
-  .screen.contact { 
+  .screen.contact-2-all-breakpoints { 
     display: none;
    }
 }
