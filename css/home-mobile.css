@@ -1,0 +1,375 @@
+/* screen - home-mobile */
+
+.home-mobile {
+  background-color: var(--log-cabin-2);
+  margin: 0.0vw;
+  min-height: 369.23vw;
+  min-width: 100.0vw;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.home-mobile .home-page-JkOQxj {
+  background-color: transparent;
+  height: 100%;
+  left: -114.02%;
+  position: relative;
+  top: 0.0vw;
+  width: 328.21%;
+}
+
+.home-mobile .bg_-home-tfkbI2 {
+  background-color: transparent;
+  height: 328.21vw;
+  left: 0.0vw;
+  mix-blend-mode: soft-light;
+  overflow: hidden;
+  position: absolute;
+  top: 0.0vw;
+  width: 328.21vw;
+}
+
+.home-mobile .bg_-home-tfkbI2 video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.home-mobile .bg_-home-tfkbI2 img {
+  object-fit: cover;
+}
+
+.home-mobile .nav-bar-tfkbI2 {
+  background-color: transparent;
+  height: 13.5vw;
+  left: 120.34vw;
+  position: absolute;
+  top: 2.39vw;
+  width: 85.81vw;
+}
+
+.home-mobile .social-icons-QbtMwf {
+  background-color: transparent;
+  height: 7.69vw;
+  position: absolute;
+  right: 0.0vw;
+  top: calc(44.12% - 3.42vw);
+  width: 21.54vw;
+}
+
+.home-mobile .social_-icon_-linkdin-K3ul2X {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 11.28vw;
+}
+
+.home-mobile .icon-linkedin-VaXmRt {
+  background-color: transparent;
+  height: 5.3vw;
+  object-fit: cover;
+  position: absolute;
+  right: calc(49.41% - 2.74vw);
+  top: 1.03vw;
+  width: 5.47vw;
+}
+
+.home-mobile .social_-icon_-artstation-K3ul2X {
+  background-color: transparent;
+  height: 100%;
+  position: absolute;
+  right: 0.0vw;
+  top: 0.0vw;
+  width: 9.91vw;
+}
+
+.home-mobile .icon-awesome-artstation-O2Dr6d {
+  background-color: transparent;
+  height: calc(100.00% - 2.39vw);
+  object-fit: cover;
+  position: absolute;
+  right: calc(46.12% - 2.74vw);
+  top: 1.2vw;
+  width: 6.15vw;
+}
+
+.home-mobile .logo-QbtMwf {
+  background-color: transparent;
+  height: 13.5vw;
+  left: 59.56%;
+  position: absolute;
+  top: 0.0vw;
+  width: 15.54%;
+}
+
+.home-mobile .my-logo_-image-ohEaKx {
+  background-color: transparent;
+  height: 13.5vw;
+  object-fit: cover;
+  position: absolute;
+  right: 0.0vw;
+  top: calc(50.00% - 6.84vw);
+  width: 100%;
+}
+
+.home-mobile .pages-QbtMwf {
+  background-color: transparent;
+  bottom: calc(50.00% - 3.59vw);
+  height: 7.35vw;
+  left: 0.0vw;
+  position: absolute;
+  width: 51.11vw;
+}
+
+.home-mobile .contact-miXzhU {
+  cursor: pointer;
+  height: 100%;
+  right: 0.0vw;
+  top: 0.0vw;
+  width: 29.74vw;
+}
+
+.home-mobile .contact-Zi3BF1 {
+  height: 5.3vw;
+  left: 2.56vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.93vw;
+  text-align: left;
+  top: 1.37vw;
+  white-space: nowrap;
+  width: 16.41vw;
+}
+
+.home-mobile .icon-material-contact-mail-Zi3BF1 {
+  background-color: transparent;
+  height: 4.62vw;
+  object-fit: cover;
+  position: absolute;
+  right: 2.22vw;
+  top: 1.03vw;
+  width: 6.15vw;
+}
+
+.home-mobile .work-miXzhU {
+  height: 100%;
+  left: 0.0vw;
+  mix-blend-mode: lighten;
+  top: 0.0vw;
+  width: 21.37vw;
+}
+
+.home-mobile .group-25-kHeWSr {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  position: relative;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.home-mobile .work-2BnraX {
+  height: 5.3vw;
+  left: 2.56vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.93vw;
+  text-align: left;
+  top: 1.37vw;
+  white-space: nowrap;
+  width: 10.09vw;
+}
+
+.home-mobile .icon-awesome-book-2BnraX {
+  background-color: transparent;
+  height: 4.62vw;
+  object-fit: cover;
+  position: absolute;
+  right: 2.22vw;
+  top: 1.03vw;
+  width: 4.1vw;
+}
+
+.home-mobile .button_-scroll-down-tfkbI2 {
+  background-color: transparent;
+  height: 9.4vw;
+  left: 155.56vw;
+  position: absolute;
+  top: 157.09vw;
+  width: 17.09vw;
+}
+
+.home-mobile .icon-ionic-ios-arrow-down-cmHZ5I {
+  background-color: transparent;
+  bottom: calc(47.08% - 2.05vw);
+  height: 4.27vw;
+  left: calc(50.00% - 3.76vw);
+  object-fit: cover;
+  position: absolute;
+  width: 7.52vw;
+}
+
+.home-mobile .title-tfkbI2 {
+  height: 68.21vw;
+  left: 130.6vw;
+  top: 81.03vw;
+  width: 67.01vw;
+}
+
+.home-mobile .title-DgaBgx {
+  height: 54.7vw;
+  left: 10.77vw;
+  letter-spacing: 0.0vw;
+  line-height: 7.18vw;
+  text-align: center;
+  top: 0.0vw;
+  width: calc(100.00% - 21.54vw);
+}
+
+.home-mobile .scroll-down-to-see-some-of-my-work-DgaBgx {
+  background-color: transparent;
+  bottom: -0.34vw;
+  height: 4.62vw;
+  left: 0.0vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.59vw;
+  position: absolute;
+  text-align: center;
+  width: calc(100.00% + 0.34vw);
+}
+
+.home-mobile .footer-tfkbI2 {
+  background-color: transparent;
+  height: 109.23vw;
+  left: 114.02vw;
+  position: absolute;
+  top: 260.0vw;
+  width: 100.0vw;
+}
+
+.home-mobile .group-24-FPRVIW {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.home-mobile .rectangle-2-xxemJl {
+  background-color: var(--kilamanjaro);
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.home-mobile .rectangle-3-xxemJl {
+  background-color: var(--aubergine);
+  height: calc(100.00% - 10.94vw);
+  left: 0.0vw;
+  position: absolute;
+  top: 10.94vw;
+  width: 100%;
+}
+
+.home-mobile .button_3-d-art-FPRVIW {
+  background-color: transparent;
+  bottom: calc(42.04% - 15.73vw);
+  cursor: pointer;
+  height: 37.26vw;
+  left: 72.99vw;
+  position: absolute;
+  width: 0.0vw;
+}
+
+.home-mobile .icon-feather-box-w5Ai2m {
+  background-color: transparent;
+  height: 24.79vw;
+  position: absolute;
+  right: -646172583.12%;
+  top: calc(47.95% - 11.79vw);
+  width: 22.22vw;
+}
+
+.home-mobile .path-1-itr6MP {
+  background-color: transparent;
+  height: calc(100.00% + 0.51vw);
+  left: -0.17vw;
+  object-fit: cover;
+  position: absolute;
+  top: -0.34vw;
+  width: calc(100.00% + 0.51vw);
+}
+
+.home-mobile .path-2-itr6MP {
+  background-color: transparent;
+  height: 6.84vw;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: calc(32.15% - 2.22vw);
+  width: 100%;
+}
+
+.home-mobile .path-3-itr6MP {
+  background-color: transparent;
+  bottom: -0.34vw;
+  height: 12.99vw;
+  left: calc(50.00% - 0.17vw);
+  object-fit: cover;
+  position: absolute;
+  width: 0.51vw;
+}
+
+.home-mobile .button_-games-FPRVIW {
+  background-color: transparent;
+  bottom: calc(42.04% - 15.73vw);
+  cursor: pointer;
+  height: 37.26vw;
+  left: 27.01vw;
+  position: absolute;
+  width: 16.07%;
+}
+
+.home-mobile .icon-ionic-logo-game-controller-b-Vkmx0L {
+  background-color: transparent;
+  height: 22.56vw;
+  left: -47.84%;
+  position: relative;
+  top: calc(50.00% - 11.28vw);
+  width: 31.45vw;
+}
+
+.home-mobile .path-4-HFqpDx {
+  background-color: transparent;
+  height: 2.74vw;
+  left: calc(20.48% - 0.51vw);
+  object-fit: cover;
+  position: absolute;
+  top: calc(38.60% - 1.03vw);
+  width: 2.74vw;
+}
+
+.home-mobile .path-5-HFqpDx {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.home-mobile .contact-2 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.home-mobile .work {
+  background-color: transparent;
+  position: absolute;
+}

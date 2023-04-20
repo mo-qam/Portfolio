@@ -1,0 +1,3636 @@
+/* screen - 3d-art-1 */
+
+.x3d-art-1 {
+  background-color: var(--log-cabin);
+  height: 276.17vw;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100.0vw;
+}
+
+.x3d-art-1 .group-3-7UQSWg {
+  background-color: transparent;
+  height: 23.57vw;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  transform: rotate(180deg);
+  width: 100.0vw;
+}
+
+.x3d-art-1 .rectangle-3-p2otld {
+  bottom: 0.0vw;
+  height: 14.06vw;
+}
+
+.x3d-art-1 .title-7UQSWg {
+  height: 6.77vw;
+  left: 39.84vw;
+  top: 15.49vw;
+  width: 20.31vw;
+}
+
+.x3d-art-1 .home-bBFJHt {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  position: relative;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .title-Uby80n {
+  height: calc(100.00% + 0.26vw);
+  left: 0.0vw;
+  letter-spacing: 0.0vw;
+  line-height: 5.47vw;
+  text-align: center;
+  top: 0.65vw;
+  white-space: nowrap;
+  width: calc(100.00% + 0.26vw);
+}
+
+.x3d-art-1 .group-2-7UQSWg {
+  background-color: transparent;
+  height: 34.64vw;
+  left: 0.0vw;
+  position: absolute;
+  top: 241.28vw;
+  width: 100.0vw;
+}
+
+.x3d-art-1 .rectangle-3-2U7COj {
+  height: calc(100.00% - 6.77vw);
+  top: 6.77vw;
+}
+
+.x3d-art-1 .group-18-7UQSWg {
+  background-color: transparent;
+  cursor: pointer;
+  height: 8.33vw;
+  left: 24.09vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 258.59vw;
+  transition: all 0.2s ease;
+  width: 51.95vw;
+}
+
+.x3d-art-1 .group-18-7UQSWg:hover {
+  transform: scale(0.9); 
+}
+
+.x3d-art-1 .rectangle-7-NTgytn {
+  background-color: var(--white);
+  border-radius: 2.99vw;
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .view-more-on-artstation-NTgytn {
+  background-color: transparent;
+  bottom: calc(33.33% - 1.3vw);
+  color: var(--aubergine);
+  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
+  font-size: 2.99vw;
+  font-style: normal;
+  font-weight: 400;
+  height: 4.04vw;
+  left: 5.08vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.99vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 10.42vw);
+}
+
+.x3d-art-1 .button_3-d-art-7UQSWg {
+  background-color: transparent;
+  cursor: pointer;
+  height: 30.47vw;
+  left: 43.88vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 24.87vw;
+  transition: all 0.2s ease;
+  width: 50.13vw;
+}
+
+.x3d-art-1 .button_3-d-art-7UQSWg:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-1 .icon-feather-box-SMWVJe {
+  background-color: transparent;
+  height: 17.45vw;
+  position: absolute;
+  right: 0.0vw;
+  top: calc(42.97% - 7.55vw);
+  width: 15.76vw;
+}
+
+.x3d-art-1 .path-1-S3xHk7 {
+  background-color: transparent;
+  height: calc(100.00% + 0.39vw);
+  left: -0.13vw;
+  object-fit: cover;
+  position: absolute;
+  top: -0.26vw;
+  width: calc(100.00% + 0.39vw);
+}
+
+.x3d-art-1 .path-2-S3xHk7 {
+  background-color: transparent;
+  height: 5.21vw;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: calc(32.05% - 1.69vw);
+  width: 100%;
+}
+
+.x3d-art-1 .path-3-S3xHk7 {
+  background-color: transparent;
+  bottom: -0.13vw;
+  height: 8.98vw;
+  left: calc(50.00% - 0.13vw);
+  object-fit: cover;
+  position: absolute;
+  width: 0.39vw;
+}
+
+.x3d-art-1 .x3-d-art-SMWVJe {
+  background-color: transparent;
+  bottom: 14.97vw;
+  height: 4.43vw;
+  left: calc(46.50% - 7.42vw);
+  letter-spacing: 0.0vw;
+  line-height: 3.26vw;
+  position: absolute;
+  text-align: right;
+  width: 16.02vw;
+}
+
+.x3d-art-1 .a-collection-of-my-art-work-SMWVJe {
+  background-color: transparent;
+  bottom: 11.59vw;
+  height: 2.6vw;
+  left: 0.0vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.82vw;
+  position: absolute;
+  text-align: right;
+  width: 31.9vw;
+}
+
+.x3d-art-1 .button_-games-7UQSWg {
+  background-color: transparent;
+  cursor: pointer;
+  height: 30.47vw;
+  left: 3.65vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 207.55vw;
+  transition: all 0.2s ease;
+  width: 46.61vw;
+}
+
+.x3d-art-1 .button_-games-7UQSWg:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-1 .icon-ionic-logo-game-controller-b-ftRPxw {
+  background-color: transparent;
+  height: 17.19vw;
+  left: 0.0vw;
+  position: absolute;
+  top: calc(50.00% - 8.59vw);
+  width: 23.96vw;
+}
+
+.x3d-art-1 .path-4-yH42pL {
+  background-color: transparent;
+  height: 2.08vw;
+  left: calc(20.48% - 0.39vw);
+  object-fit: cover;
+  position: absolute;
+  top: calc(38.60% - 0.78vw);
+  width: 2.08vw;
+}
+
+.x3d-art-1 .path-5-yH42pL {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .games-ftRPxw {
+  background-color: transparent;
+  bottom: 14.97vw;
+  height: 4.43vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.26vw;
+  position: absolute;
+  right: calc(16.31% - 2.6vw);
+  text-align: left;
+  width: 16.02vw;
+}
+
+.x3d-art-1 .a-collection-of-games-ive-worked-on-ftRPxw {
+  background-color: transparent;
+  bottom: 9.77vw;
+  height: 4.95vw;
+  left: 54.78%;
+  letter-spacing: 0.0vw;
+  line-height: 1.82vw;
+  position: absolute;
+  text-align: left;
+  width: 45.79%;
+}
+
+.x3d-art-1 .showcase_a-7UQSWg {
+  background-color: transparent;
+  height: 28.39vw;
+  left: 2.73vw;
+  position: absolute;
+  top: 55.08vw;
+  width: 94.14vw;
+}
+
+.x3d-art-1 .group-8-FIR2YV {
+  bottom: 0.78vw;
+  height: 25.26vw;
+  left: 33.98vw;
+  width: 60.16vw;
+}
+
+.x3d-art-1 .this-piece-is-from-m-EAqwY1 {
+  background-color: transparent;
+  height: 13.93vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  right: 2.47vw;
+  text-align: left;
+  top: 4.04vw;
+  white-space: nowrap;
+  width: 41.8vw;
+}
+
+.x3d-art-1 .group-26-EAqwY1 {
+  background-color: transparent;
+  bottom: 3.12vw;
+  height: 3.78vw;
+  position: absolute;
+  right: 3.26vw;
+  width: 41.67vw;
+}
+
+.x3d-art-1 .group-7-xbJSXK {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  pointer-events: auto;
+  position: absolute;
+  right: 0.13vw;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 11.98vw;
+}
+
+.x3d-art-1 .group-7-xbJSXK:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .unity-hdrp-4t5xSo {
+  background-color: transparent;
+  bottom: calc(34.65% - 0.65vw);
+  height: 1.95vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.3vw;
+  position: absolute;
+  right: calc(41.39% - 3.26vw);
+  text-align: left;
+  white-space: nowrap;
+  width: 7.81vw;
+}
+
+.x3d-art-1 .group-6-xbJSXK {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  left: calc(48.28% - 7.94vw);
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 16.54vw;
+}
+
+.x3d-art-1 .group-6-xbJSXK:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .substance-painter-SHXJ6l {
+  bottom: calc(34.65% - 0.65vw);
+  height: 1.95vw;
+  left: 1.82vw;
+  line-height: 1.3vw;
+  width: calc(100.00% - 3.39vw);
+}
+
+.x3d-art-1 .group-5-xbJSXK {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 10.42vw;
+}
+
+.x3d-art-1 .group-5-xbJSXK:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .x3-ds-max-3JBjOA {
+  bottom: calc(34.65% - 0.65vw);
+  height: 1.95vw;
+  line-height: 1.3vw;
+  right: calc(46.91% - 2.99vw);
+  width: 6.25vw;
+}
+
+.x3d-art-1 .group-27-FIR2YV {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  left: 0.0vw;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.13vw;
+  transform: translate(-3.26vw, 0);
+  transition: all 0.2s ease;
+  width: 47.92vw;
+}
+
+.x3d-art-1 .group-27-FIR2YV.bp3-animate-enter4 {
+  animation: bp3-animate-enter4-frames 0.20s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-3.26vw, 0);
+}
+
+@keyframes bp3-animate-enter4-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-1 .group-27-FIR2YV:hover {
+  transform: translate(5px, 0);
+}
+
+.x3d-art-1 .no-path-TbWqts {
+  background-color: var(--kilamanjaro);
+  height: calc(100.00% - 0.65vw);
+  top: 0.65vw;
+}
+
+.x3d-art-1 .beauty-shot_a_2x-TbWqts {
+  background-color: transparent;
+  border-radius: 4.56vw;
+  height: calc(100.00% - 1.43vw);
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .showcase_c-7UQSWg {
+  background-color: transparent;
+  height: 29.04vw;
+  left: 2.73vw;
+  position: absolute;
+  top: 131.38vw;
+  width: 94.01vw;
+}
+
+.x3d-art-1 .group-8-kEOF3o {
+  height: calc(100.00% - 0.39vw);
+  left: 13.41vw;
+  top: 0.13vw;
+  width: calc(100.00% - 13.41vw);
+}
+
+.x3d-art-1 .this-piece-is-from-a-clMtsF {
+  background-color: transparent;
+  height: 17.84vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  right: 8.2vw;
+  text-align: left;
+  top: 4.56vw;
+  white-space: nowrap;
+  width: 36.85vw;
+}
+
+.x3d-art-1 .group-5-clMtsF {
+  background-color: transparent;
+  bottom: 2.6vw;
+  cursor: pointer;
+  height: 3.78vw;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(49.82% - 4.82vw);
+  transition: all 0.2s ease;
+  width: 9.77vw;
+}
+
+.x3d-art-1 .group-5-clMtsF:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .x3-ds-max-DoAWyp {
+  bottom: calc(26.92% - 0.52vw);
+  height: 2.08vw;
+  line-height: 1.43vw;
+  right: calc(47.83% - 3.26vw);
+  width: 6.77vw;
+}
+
+.x3d-art-1 .group-6-clMtsF {
+  background-color: transparent;
+  bottom: 2.6vw;
+  cursor: pointer;
+  height: 3.78vw;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(26.15% - 4.82vw);
+  transition: all 0.2s ease;
+  width: 18.36vw;
+}
+
+.x3d-art-1 .group-6-clMtsF:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .substance-painter-xG41UA {
+  bottom: calc(29.17% - 0.65vw);
+  height: 2.21vw;
+  left: 1.43vw;
+  line-height: 1.56vw;
+  width: calc(100.00% - 2.6vw);
+}
+
+.x3d-art-1 .group-7-clMtsF {
+  background-color: transparent;
+  bottom: 2.6vw;
+  cursor: pointer;
+  height: 3.78vw;
+  pointer-events: auto;
+  position: absolute;
+  right: 2.73vw;
+  transition: all 0.2s ease;
+  width: 12.89vw;
+}
+
+.x3d-art-1 .group-7-clMtsF:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .sound-design-q1PNmi {
+  bottom: calc(32.14% - 0.65vw);
+  left: 1.56vw;
+  width: calc(100.00% - 2.73vw);
+}
+
+.x3d-art-1 .group-4-kEOF3o {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: calc(100.00% - 1.43vw);
+  left: 0.0vw;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 1.43vw;
+  transform: translate(3.26vw, 0);
+  transition: all 0.2s ease;
+  width: 46.35vw;
+}
+
+.x3d-art-1 .group-4-kEOF3o.bp3-animate-enter5 {
+  animation: bp3-animate-enter5-frames 0.20s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(3.26vw, 0);
+}
+
+@keyframes bp3-animate-enter5-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-1 .group-4-kEOF3o:hover {
+  transform: translate(-5px, 0);
+}
+
+.x3d-art-1 .no-path-s3tZhk {
+  background-color: var(--kilamanjaro);
+  height: calc(100.00% - 0.78vw);
+  top: 0.78vw;
+}
+
+.x3d-art-1 .demo-reel00_01_00_06-still0012x-s3tZhk {
+  background-color: transparent;
+  border-radius: 4.56vw;
+  height: calc(100.00% - 1.3vw);
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .showcase_b-7UQSWg {
+  background-color: transparent;
+  height: 30.6vw;
+  left: 4.04vw;
+  position: absolute;
+  top: 91.54vw;
+  width: 91.15vw;
+}
+
+.x3d-art-1 .group-8-Ftnydg {
+  height: calc(100.00% - 0.78vw);
+  left: 0.13vw;
+  top: 0.0vw;
+  width: 75.13vw;
+}
+
+.x3d-art-1 .this-piece-is-a-pers-db0HCI {
+  background-color: transparent;
+  height: 17.84vw;
+  left: 4.3vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  text-align: left;
+  top: 5.08vw;
+  white-space: nowrap;
+  width: 34.51vw;
+}
+
+.x3d-art-1 .group-5-db0HCI {
+  background-color: transparent;
+  bottom: 3.26vw;
+  cursor: pointer;
+  height: 4.17vw;
+  left: 4.3vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 12.89vw;
+}
+
+.x3d-art-1 .group-5-db0HCI:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .marmoset-QdCeu6 {
+  background-color: transparent;
+  bottom: calc(32.14% - 0.78vw);
+  color: var(--white);
+  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
+  font-size: 1.69vw;
+  font-style: normal;
+  font-weight: 400;
+  height: 2.34vw;
+  left: 1.56vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.69vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 3.12vw);
+}
+
+.x3d-art-1 .group-9-db0HCI {
+  background-color: transparent;
+  bottom: 3.26vw;
+  cursor: pointer;
+  height: 4.17vw;
+  left: calc(46.79% - 5.21vw);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 11.2vw;
+}
+
+.x3d-art-1 .group-9-db0HCI:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .unreal-5-NbFL1O {
+  background-color: transparent;
+  bottom: calc(33.33% - 0.78vw);
+  height: 2.21vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  right: calc(46.44% - 3.52vw);
+  text-align: left;
+  white-space: nowrap;
+  width: 7.55vw;
+}
+
+.x3d-art-1 .group-7-db0HCI {
+  background-color: transparent;
+  bottom: 3.26vw;
+  cursor: pointer;
+  height: 4.17vw;
+  left: calc(28.66% - 2.99vw);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 10.68vw;
+}
+
+.x3d-art-1 .group-7-db0HCI:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .x3-ds-max-CUi8J2 {
+  bottom: calc(33.33% - 0.78vw);
+  height: 2.21vw;
+  line-height: 1.56vw;
+  right: calc(45.92% - 3.39vw);
+  width: 7.42vw;
+}
+
+.x3d-art-1 .group-4-Ftnydg {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: calc(100.00% - 2.21vw);
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  right: 0.13vw;
+  top: 2.21vw;
+  transform: translate(-3.26vw, 0);
+  transition: all 0.2s ease;
+  width: 47.92vw;
+}
+
+.x3d-art-1 .group-4-Ftnydg.bp3-animate-enter6 {
+  animation: bp3-animate-enter6-frames 0.20s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-3.26vw, 0);
+}
+
+@keyframes bp3-animate-enter6-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-1 .group-4-Ftnydg:hover {
+  transform: translate(5px, 0);
+}
+
+.x3d-art-1 .no-path-uUSt0x {
+  background-color: var(--kilamanjaro);
+  height: calc(100.00% - 0.65vw);
+  top: 0.65vw;
+}
+
+.x3d-art-1 .sequence-master03292x-uUSt0x {
+  background-color: transparent;
+  border-radius: 4.56vw;
+  height: calc(100.00% - 1.43vw);
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .showcase_d-7UQSWg {
+  background-color: transparent;
+  height: 28.78vw;
+  left: 3.26vw;
+  position: absolute;
+  top: 169.4vw;
+  width: 91.67vw;
+}
+
+.x3d-art-1 .group-8-YxZxxo {
+  height: calc(100.00% - 0.52vw);
+  left: 0.0vw;
+  top: 0.0vw;
+  width: calc(100.00% - 12.76vw);
+}
+
+.x3d-art-1 .this-environment-was-g3m2n5 {
+  background-color: transparent;
+  height: 15.89vw;
+  left: 4.04vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  text-align: left;
+  top: 4.43vw;
+  white-space: nowrap;
+  width: 40.23vw;
+}
+
+.x3d-art-1 .group-5-g3m2n5 {
+  background-color: transparent;
+  bottom: 2.99vw;
+  cursor: pointer;
+  height: 4.04vw;
+  left: 4.04vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 9.24vw;
+}
+
+.x3d-art-1 .group-5-g3m2n5:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .c-6WXXkx {
+  background-color: transparent;
+  bottom: calc(36.67% - 0.78vw);
+  height: 2.08vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.43vw;
+  position: absolute;
+  right: calc(49.06% - 1.17vw);
+  text-align: left;
+  white-space: nowrap;
+  width: 2.34vw;
+}
+
+.x3d-art-1 .group-6-g3m2n5 {
+  background-color: transparent;
+  bottom: 2.99vw;
+  cursor: pointer;
+  height: 4.04vw;
+  left: calc(22.09% - 3.12vw);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 14.06vw;
+}
+
+.x3d-art-1 .group-6-g3m2n5:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .level-design-xFtuz8 {
+  background-color: transparent;
+  bottom: calc(30.00% - 0.65vw);
+  height: 2.08vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.43vw;
+  position: absolute;
+  right: calc(46.88% - 4.69vw);
+  text-align: left;
+  white-space: nowrap;
+  width: 9.9vw;
+}
+
+.x3d-art-1 .group-7-g3m2n5 {
+  background-color: transparent;
+  bottom: 2.99vw;
+  cursor: pointer;
+  height: 4.04vw;
+  left: calc(45.38% - 6.38vw);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 14.06vw;
+}
+
+.x3d-art-1 .group-7-g3m2n5:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-1 .sound-design-19pjCT {
+  bottom: calc(34.38% - 0.65vw);
+  left: 2.08vw;
+  width: calc(100.00% - 3.91vw);
+}
+
+.x3d-art-1 .group-4-YxZxxo {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: calc(100.00% - 1.69vw);
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  right: 0.13vw;
+  top: 1.69vw;
+  transform: translate(-3.26vw, 0);
+  transition: all 0.2s ease;
+  width: 45.83vw;
+}
+
+.x3d-art-1 .group-4-YxZxxo.bp3-animate-enter7 {
+  animation: bp3-animate-enter7-frames 0.20s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-3.26vw, 0);
+}
+
+@keyframes bp3-animate-enter7-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-1 .group-4-YxZxxo:hover {
+  transform: translate(5px, 0);
+}
+
+.x3d-art-1 .no-path-06kiIV {
+  background-color: var(--kilamanjaro);
+  height: calc(100.00% - 0.65vw);
+  top: 0.65vw;
+}
+
+.x3d-art-1 .no-path-Yljtai {
+  background-color: transparent;
+  height: calc(100.00% - 1.43vw);
+  object-fit: cover;
+  top: 0.0vw;
+}
+
+.x3d-art-1 .nav-bar-7UQSWg {
+  background-color: transparent;
+  height: 8.85vw;
+  left: 4.82vw;
+  position: absolute;
+  top: 2.34vw;
+  width: 89.45vw;
+}
+
+.x3d-art-1 .social-icons-vzZLYK {
+  background-color: transparent;
+  height: 5.86vw;
+  position: absolute;
+  right: 0.0vw;
+  top: calc(47.83% - 2.86vw);
+  width: 16.41vw;
+}
+
+.x3d-art-1 .social_-icon_-artstation-xvv2Cf {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  pointer-events: auto;
+  position: absolute;
+  right: 0.0vw;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 7.55vw;
+}
+
+.x3d-art-1 .social_-icon_-artstation-xvv2Cf:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-1 .icon-awesome-artstation-YlucRc {
+  background-color: transparent;
+  height: calc(100.00% - 1.82vw);
+  object-fit: cover;
+  position: absolute;
+  right: calc(46.12% - 2.08vw);
+  top: 0.91vw;
+  width: 4.69vw;
+}
+
+.x3d-art-1 .social_-icon_-linkdin-xvv2Cf {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 8.59vw;
+}
+
+.x3d-art-1 .social_-icon_-linkdin-xvv2Cf:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-1 .icon-linkedin-LcZo2R {
+  background-color: transparent;
+  height: 4.04vw;
+  object-fit: cover;
+  position: absolute;
+  right: calc(49.41% - 2.08vw);
+  top: 0.78vw;
+  width: 4.17vw;
+}
+
+.x3d-art-1 .logo-vzZLYK {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(32.00% - 7.81vw);
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 24.35vw;
+}
+
+.x3d-art-1 .logo-vzZLYK:hover {
+  transform: scale(0.9); 
+}
+
+.x3d-art-1 .mohammed-qamar-5SnEQc {
+  background-color: transparent;
+  bottom: 0.39vw;
+  color: var(--white);
+  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
+  font-size: 2.34vw;
+  font-style: normal;
+  font-weight: 400;
+  height: 6.25vw;
+  left: 0.0vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.34vw;
+  position: absolute;
+  text-align: right;
+  white-space: nowrap;
+  width: 15.36vw;
+}
+
+.x3d-art-1 .my-logo_-image-5SnEQc {
+  background-color: transparent;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  right: 0.0vw;
+  top: 0.0vw;
+  width: 8.72vw;
+}
+
+.x3d-art-1 .contact-vzZLYK {
+  background-color: transparent;
+  bottom: calc(44.00% - 2.47vw);
+  cursor: pointer;
+  height: 5.6vw;
+  left: calc(24.37% - 5.47vw);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 22.66vw;
+}
+
+.x3d-art-1 .contact-vzZLYK:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-1 .contact-Rk4HHW {
+  background-color: transparent;
+  height: 4.04vw;
+  left: 1.95vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.99vw;
+  position: absolute;
+  text-align: left;
+  top: 1.04vw;
+  white-space: nowrap;
+  width: 12.5vw;
+}
+
+.x3d-art-1 .icon-material-contact-mail-Rk4HHW {
+  background-color: transparent;
+  height: 3.52vw;
+  object-fit: cover;
+  position: absolute;
+  right: 1.69vw;
+  top: 0.78vw;
+  width: 4.69vw;
+}
+
+.x3d-art-1 .work-vzZLYK {
+  background-color: transparent;
+  bottom: calc(44.00% - 2.47vw);
+  cursor: pointer;
+  height: 5.6vw;
+  left: 0.0vw;
+  mix-blend-mode: lighten;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 16.28vw;
+}
+
+.x3d-art-1 .work-vzZLYK:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-1 .group-25-Pw051f {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  position: relative;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .work-M8k5BH {
+  background-color: transparent;
+  height: 4.04vw;
+  left: 1.95vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.99vw;
+  position: absolute;
+  text-align: left;
+  top: 1.04vw;
+  white-space: nowrap;
+  width: 7.68vw;
+}
+
+.x3d-art-1 .icon-awesome-book-M8k5BH {
+  background-color: transparent;
+  height: 3.52vw;
+  object-fit: cover;
+  position: absolute;
+  right: 1.69vw;
+  top: 0.78vw;
+  width: 3.12vw;
+}
+
+.x3d-art-1 .group-8 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.x3d-art-1 .no-path {
+  border-radius: 4.56vw;
+  left: 0.0vw;
+  position: absolute;
+  width: 100%;
+}
+
+.x3d-art-1 .rectangle-2 {
+  background-color: var(--kilamanjaro);
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .rectangle-3 {
+  background-color: var(--aubergine);
+  left: 0.0vw;
+  position: absolute;
+  width: 100%;
+}
+
+.x3d-art-1 .rectangle-5 {
+  background-color: transparent;
+  border: 0.13vw solid;
+  border-color: var(--white);
+  border-radius: 3.91vw;
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .rectangle-6 {
+  background-color: var(--aubergine);
+  border-radius: 2.47vw;
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-1 .sound-design {
+  background-color: transparent;
+  height: 1.95vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.3vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.x3d-art-1 .substance-painter {
+  background-color: transparent;
+  letter-spacing: 0.0vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.x3d-art-1 .x3-ds-max {
+  background-color: transparent;
+  letter-spacing: 0.0vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+}
+/* screen - 3d-art-2 */
+
+.x3d-art-2 {
+  background-color: var(--log-cabin);
+  height: 620.95vw;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100.0vw;
+}
+
+.x3d-art-2 .group-3-48PAX3 {
+  background-color: transparent;
+  height: 48.01vw;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  transform: rotate(180deg);
+  width: 100.0vw;
+}
+
+.x3d-art-2 .rectangle-2-R6s45U {
+  height: 100%;
+}
+
+.x3d-art-2 .rectangle-3-R6s45U {
+  bottom: 0.0vw;
+  height: 28.65vw;
+}
+
+.x3d-art-2 .title-48PAX3 {
+  height: 13.79vw;
+  left: 29.18vw;
+  top: 31.56vw;
+  width: 41.38vw;
+}
+
+.x3d-art-2 .home-TlRQx7 {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  position: relative;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-2 .title-fEb9xl {
+  height: calc(100.00% + 0.53vw);
+  left: 0.0vw;
+  letter-spacing: 0.0vw;
+  line-height: 11.14vw;
+  text-align: center;
+  top: 1.33vw;
+  white-space: nowrap;
+  width: calc(100.00% + 0.53vw);
+}
+
+.x3d-art-2 .group-2-48PAX3 {
+  background-color: transparent;
+  height: 78.51vw;
+  left: 0.0vw;
+  position: absolute;
+  top: 542.71vw;
+  width: 100.0vw;
+}
+
+.x3d-art-2 .rectangle-2-wyjXQs {
+  height: calc(100.00% - 3.98vw);
+}
+
+.x3d-art-2 .rectangle-3-wyjXQs {
+  height: calc(100.00% - 19.63vw);
+  top: 19.63vw;
+}
+
+.x3d-art-2 .group-18-48PAX3 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 9.55vw;
+  left: 13.53vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 547.48vw;
+  transition: all 0.2s ease;
+  width: 73.21vw;
+}
+
+.x3d-art-2 .group-18-48PAX3:hover {
+  transform: scale(0.9); 
+}
+
+.x3d-art-2 .rectangle-7-SleibE {
+  background-color: var(--white);
+  border-radius: 6.1vw;
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-2 .view-more-on-artstation-SleibE {
+  background-color: transparent;
+  bottom: calc(26.67% - 1.59vw);
+  color: var(--aubergine);
+  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: 5.57vw;
+  left: 9.02vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.98vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 17.77vw);
+}
+
+.x3d-art-2 .button_3-d-art-48PAX3 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 62.07vw;
+  left: 17.77vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 53.58vw;
+  transition: all 0.2s ease;
+  width: 91.51vw;
+}
+
+.x3d-art-2 .button_3-d-art-48PAX3:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-2 .icon-feather-box-mLpV1F {
+  background-color: transparent;
+  height: 35.54vw;
+  left: calc(27.49% - 8.75vw);
+  position: absolute;
+  top: calc(15.07% - 5.31vw);
+  width: 32.1vw;
+}
+
+.x3d-art-2 .path-1-u3PZwz {
+  background-color: transparent;
+  height: calc(100.00% + 0.8vw);
+  left: -0.27vw;
+  object-fit: cover;
+  position: absolute;
+  top: -0.53vw;
+  width: calc(100.00% + 0.8vw);
+}
+
+.x3d-art-2 .path-2-u3PZwz {
+  background-color: transparent;
+  height: 10.61vw;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: calc(32.05% - 3.45vw);
+  width: 100%;
+}
+
+.x3d-art-2 .path-3-u3PZwz {
+  background-color: transparent;
+  bottom: -0.27vw;
+  height: 18.3vw;
+  left: calc(50.00% - 0.27vw);
+  object-fit: cover;
+  position: absolute;
+  width: 0.8vw;
+}
+
+.x3d-art-2 .a-collection-of-my-art-work-mLpV1F {
+  background-color: transparent;
+  bottom: 12.73vw;
+  height: 5.31vw;
+  left: 0.0vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.71vw;
+  position: absolute;
+  text-align: center;
+  width: 64.99vw;
+}
+
+.x3d-art-2 .button_-games-48PAX3 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 45.09vw;
+  left: 24.67vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 571.62vw;
+  transition: all 0.2s ease;
+  width: 48.81vw;
+}
+
+.x3d-art-2 .button_-games-48PAX3:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-2 .icon-ionic-logo-game-controller-b-ZUzDm5 {
+  background-color: transparent;
+  height: 35.01vw;
+  left: calc(50.00% - 24.4vw);
+  position: absolute;
+  top: 0.0vw;
+  width: 48.81vw;
+}
+
+.x3d-art-2 .path-4-SoUzqx {
+  background-color: transparent;
+  height: 4.24vw;
+  left: calc(20.48% - 0.8vw);
+  object-fit: cover;
+  position: absolute;
+  top: calc(38.60% - 1.59vw);
+  width: 4.24vw;
+}
+
+.x3d-art-2 .path-5-SoUzqx {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-2 .games-ZUzDm5 {
+  background-color: transparent;
+  bottom: 1.86vw;
+  height: 9.02vw;
+  letter-spacing: 0.0vw;
+  line-height: 6.63vw;
+  position: absolute;
+  right: calc(47.54% - 15.38vw);
+  text-align: center;
+  width: 32.63vw;
+}
+
+.x3d-art-2 .nav-bar-48PAX3 {
+  background-color: transparent;
+  height: 24.14vw;
+  left: 0.53vw;
+  position: absolute;
+  top: 2.12vw;
+  width: 98.94vw;
+}
+
+.x3d-art-2 .social-icons-7K2BDO {
+  background-color: transparent;
+  height: calc(100.00% - 3.71vw);
+  position: absolute;
+  right: 0.0vw;
+  top: 1.33vw;
+  width: 13.26vw;
+}
+
+.x3d-art-2 .social_-icon_-artstation-pxpQxR {
+  background-color: transparent;
+  bottom: 0.0vw;
+  cursor: pointer;
+  height: 9.55vw;
+  left: 0.27vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  width: calc(100.00% - 0.8vw);
+}
+
+.x3d-art-2 .social_-icon_-artstation-pxpQxR:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-2 .icon-awesome-artstation-Zks00z {
+  background-color: transparent;
+  height: calc(100.00% - 2.92vw);
+  object-fit: cover;
+  position: absolute;
+  right: calc(47.55% - 3.71vw);
+  top: 1.33vw;
+  width: 7.69vw;
+}
+
+.x3d-art-2 .social_-icon_-linkdin-pxpQxR {
+  background-color: transparent;
+  cursor: pointer;
+  height: 9.02vw;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.x3d-art-2 .social_-icon_-linkdin-pxpQxR:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-2 .icon-linkedin-MslOLH {
+  background-color: transparent;
+  height: 6.63vw;
+  object-fit: cover;
+  position: absolute;
+  right: calc(49.54% - 3.45vw);
+  top: 1.06vw;
+  width: 6.63vw;
+}
+
+.x3d-art-2 .logo-7K2BDO {
+  background-color: transparent;
+  height: 22.02vw;
+  left: 19.03%;
+  position: absolute;
+  top: 0.0vw;
+  width: 42.63%;
+}
+
+.x3d-art-2 .my-logo_-image-sG970h {
+  background-color: transparent;
+  height: 22.02vw;
+  object-fit: cover;
+  position: absolute;
+  right: 0.27vw;
+  top: calc(50.00% - 11.14vw);
+  width: 51.57%;
+}
+
+.x3d-art-2 .mohammed-qamar-sG970h {
+  background-color: transparent;
+  bottom: calc(41.51% - 3.18vw);
+  height: 7.96vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.92vw;
+  position: absolute;
+  right: 22.81vw;
+  text-align: right;
+  white-space: nowrap;
+  width: 45.91%;
+}
+
+.x3d-art-2 .pages-7K2BDO {
+  background-color: transparent;
+  height: calc(100.00% - 2.39vw);
+  left: 0.0vw;
+  position: absolute;
+  top: 2.39vw;
+  width: 39.79vw;
+}
+
+.x3d-art-2 .contact-NTKvj2 {
+  background-color: transparent;
+  bottom: 0.0vw;
+  cursor: pointer;
+  height: 9.81vw;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.x3d-art-2 .contact-NTKvj2:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-2 .contact-QK7p1d {
+  background-color: transparent;
+  height: 6.9vw;
+  left: 3.45vw;
+  letter-spacing: 0.0vw;
+  line-height: 5.04vw;
+  position: absolute;
+  text-align: left;
+  top: 1.59vw;
+  white-space: nowrap;
+  width: 21.22vw;
+}
+
+.x3d-art-2 .icon-material-contact-mail-QK7p1d {
+  background-color: transparent;
+  height: 6.1vw;
+  object-fit: cover;
+  position: absolute;
+  right: 3.18vw;
+  top: 1.33vw;
+  width: 8.22vw;
+}
+
+.x3d-art-2 .work-NTKvj2 {
+  background-color: transparent;
+  cursor: pointer;
+  height: calc(100.00% - 11.94vw);
+  left: 0.0vw;
+  mix-blend-mode: lighten;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 28.38vw;
+}
+
+.x3d-art-2 .work-NTKvj2:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-2 .group-25-Xqv1rC {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  position: relative;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-2 .work-iLZvDc {
+  background-color: transparent;
+  height: 7.16vw;
+  left: 3.45vw;
+  letter-spacing: 0.0vw;
+  line-height: 5.31vw;
+  position: absolute;
+  text-align: left;
+  top: 1.59vw;
+  white-space: nowrap;
+  width: 13.53vw;
+}
+
+.x3d-art-2 .icon-awesome-book-iLZvDc {
+  background-color: transparent;
+  height: 6.1vw;
+  object-fit: cover;
+  position: absolute;
+  right: 2.92vw;
+  top: 1.33vw;
+  width: 5.31vw;
+}
+
+.x3d-art-2 .showcase_a-48PAX3 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 94.43vw;
+  left: 2.12vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 116.98vw;
+  transition: all 0.2s ease;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .showcase_a-48PAX3:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .group-8-rshY3b {
+  height: 44.83vw;
+  top: 49.6vw;
+}
+
+.x3d-art-2 .rectangle-5-ITBpdp {
+  height: 44.83vw;
+  top: 0.0vw;
+}
+
+.x3d-art-2 .this-piece-is-from-m-ITBpdp {
+  background-color: transparent;
+  height: auto;
+  left: 4.51vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.45vw;
+  position: absolute;
+  text-align: left;
+  top: 9.02vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-26-ITBpdp {
+  height: 27.85vw;
+  left: 45.36vw;
+  top: 10.61vw;
+  width: 32.1vw;
+}
+
+.x3d-art-2 .group-7-7iS1ZE {
+  background-color: transparent;
+  cursor: pointer;
+  height: 8.22vw;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 19.89vw;
+  transition: all 0.2s ease;
+  width: 32.1vw;
+}
+
+.x3d-art-2 .group-7-7iS1ZE:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-uGxLNb {
+  height: 8.22vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 32.1vw;
+}
+
+.x3d-art-2 .substance-painter-uGxLNb {
+  height: auto;
+  left: 2.92vw;
+  line-height: 2.65vw;
+  top: 2.65vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-6-7iS1ZE {
+  background-color: transparent;
+  cursor: pointer;
+  height: 8.22vw;
+  left: 7.16vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 9.81vw;
+  transition: all 0.2s ease;
+  width: 24.93vw;
+}
+
+.x3d-art-2 .group-6-7iS1ZE:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-C7wfkg {
+  height: 8.22vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 24.93vw;
+}
+
+.x3d-art-2 .unity-hdrp-C7wfkg {
+  background-color: transparent;
+  height: auto;
+  left: 4.24vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.65vw;
+  position: absolute;
+  text-align: left;
+  top: 2.65vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-5-7iS1ZE {
+  background-color: transparent;
+  cursor: pointer;
+  height: 8.22vw;
+  left: 13.26vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 18.83vw;
+}
+
+.x3d-art-2 .group-5-7iS1ZE:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-xOOExC {
+  height: 8.22vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 18.83vw;
+}
+
+.x3d-art-2 .x3-ds-max-xOOExC {
+  left: 3.45vw;
+  top: 2.65vw;
+}
+
+.x3d-art-2 .image-rshY3b {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 56.23vw;
+  left: 0.0vw;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transform: translate(-6.63vw, 0);
+  transition: all 0.2s ease;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .image-rshY3b.bp1-animate-enter5 {
+  animation: bp1-animate-enter5-frames 0.60s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-6.63vw, 0);
+}
+
+@keyframes bp1-animate-enter5-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-2 .image-rshY3b:hover {
+  transform: translate(-5px, 0);
+}
+
+.x3d-art-2 .beauty-shot_a_2x-M1kxHG {
+  background-color: transparent;
+  border-radius: 9.28vw;
+  height: 53.58vw;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .showcase_a-Ixifbn {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100.53vw;
+  left: 2.12vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 219.89vw;
+  transition: all 0.2s ease;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .showcase_a-Ixifbn:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .group-8-ahD6eZ {
+  height: 50.93vw;
+  top: 49.6vw;
+}
+
+.x3d-art-2 .rectangle-5-B5NP4U {
+  height: 50.93vw;
+  top: 0.0vw;
+}
+
+.x3d-art-2 .this-piece-is-a-rece-B5NP4U {
+  background-color: transparent;
+  height: auto;
+  left: 4.51vw;
+  letter-spacing: 0.0vw;
+  line-height: 4.24vw;
+  position: absolute;
+  text-align: left;
+  top: 7.96vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-26-B5NP4U {
+  height: 25.99vw;
+  left: 46.95vw;
+  top: 19.89vw;
+  width: 29.97vw;
+}
+
+.x3d-art-2 .group-7-79EwoN {
+  background-color: transparent;
+  cursor: pointer;
+  height: 7.69vw;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 18.3vw;
+  transition: all 0.2s ease;
+  width: 29.97vw;
+}
+
+.x3d-art-2 .group-7-79EwoN:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-FHUviY {
+  height: 7.69vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 29.97vw;
+}
+
+.x3d-art-2 .unreal-engine-5-FHUviY {
+  background-color: transparent;
+  height: auto;
+  left: 3.45vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.65vw;
+  position: absolute;
+  text-align: left;
+  top: 2.39vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-6-79EwoN {
+  background-color: transparent;
+  cursor: pointer;
+  height: 7.69vw;
+  left: 7.69vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 9.28vw;
+  transition: all 0.2s ease;
+  width: 22.28vw;
+}
+
+.x3d-art-2 .group-6-79EwoN:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-RqtbBd {
+  height: 7.69vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 22.28vw;
+}
+
+.x3d-art-2 .marmoset-RqtbBd {
+  background-color: transparent;
+  height: auto;
+  left: 3.71vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.65vw;
+  position: absolute;
+  text-align: left;
+  top: 2.39vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-5-79EwoN {
+  background-color: transparent;
+  cursor: pointer;
+  height: 7.69vw;
+  left: 10.34vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 19.63vw;
+}
+
+.x3d-art-2 .group-5-79EwoN:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-EIvio4 {
+  height: 7.69vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 19.63vw;
+}
+
+.x3d-art-2 .x3-ds-max-EIvio4 {
+  left: 3.71vw;
+  top: 2.39vw;
+}
+
+.x3d-art-2 .image-ahD6eZ {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 56.23vw;
+  left: 0.0vw;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transform: translate(6.63vw, 0);
+  transition: all 0.2s ease;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .image-ahD6eZ.bp1-animate-enter6 {
+  animation: bp1-animate-enter6-frames 0.60s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(6.63vw, 0);
+}
+
+@keyframes bp1-animate-enter6-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-2 .image-ahD6eZ:hover {
+  transform: translate(-5px, 0);
+}
+
+.x3d-art-2 .sequence-master03292x-PxEaiF {
+  background-color: transparent;
+  border-radius: 9.28vw;
+  height: 53.58vw;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .showcase_a-cuDUY3 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 102.39vw;
+  left: 2.12vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 327.06vw;
+  transition: all 0.2s ease;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .showcase_a-cuDUY3:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .group-8-rUQf1H {
+  height: 52.79vw;
+  top: 49.6vw;
+}
+
+.x3d-art-2 .rectangle-5-sktKLd {
+  height: 52.79vw;
+  top: 0.0vw;
+}
+
+.x3d-art-2 .this-piece-is-from-a-sktKLd {
+  background-color: transparent;
+  height: auto;
+  left: 4.24vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.71vw;
+  position: absolute;
+  text-align: left;
+  top: 10.88vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-26-sktKLd {
+  height: 29.18vw;
+  left: 44.56vw;
+  top: 18.83vw;
+  width: 32.63vw;
+}
+
+.x3d-art-2 .group-7-ZxX5Sh {
+  background-color: transparent;
+  cursor: pointer;
+  height: 8.49vw;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 20.69vw;
+  transition: all 0.2s ease;
+  width: 32.63vw;
+}
+
+.x3d-art-2 .group-7-ZxX5Sh:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-kTx06h {
+  height: 8.49vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 32.63vw;
+}
+
+.x3d-art-2 .substance-painter-kTx06h {
+  height: auto;
+  left: 3.18vw;
+  line-height: 2.65vw;
+  top: 2.92vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-6-ZxX5Sh {
+  background-color: transparent;
+  cursor: pointer;
+  height: 8.49vw;
+  left: 10.61vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 10.34vw;
+  transition: all 0.2s ease;
+  width: 22.02vw;
+}
+
+.x3d-art-2 .group-6-ZxX5Sh:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-RCgXHb {
+  height: 8.49vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 22.02vw;
+}
+
+.x3d-art-2 .unity-urp-RCgXHb {
+  background-color: transparent;
+  height: auto;
+  left: 4.51vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.65vw;
+  position: absolute;
+  text-align: left;
+  top: 2.92vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-5-ZxX5Sh {
+  background-color: transparent;
+  cursor: pointer;
+  height: 8.49vw;
+  left: 13.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 19.63vw;
+}
+
+.x3d-art-2 .group-5-ZxX5Sh:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .path-6-ttQDNt {
+  background-color: transparent;
+  height: 8.49vw;
+  left: -0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 19.63vw;
+}
+
+.x3d-art-2 .x3-ds-max-ttQDNt {
+  left: 3.71vw;
+  top: 2.92vw;
+}
+
+.x3d-art-2 .image-rUQf1H {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 56.23vw;
+  left: 0.0vw;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transform: translate(-6.63vw, 0);
+  transition: all 0.2s ease;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .image-rUQf1H.bp1-animate-enter7 {
+  animation: bp1-animate-enter7-frames 0.60s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-6.63vw, 0);
+}
+
+@keyframes bp1-animate-enter7-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-2 .image-rUQf1H:hover {
+  transform: translate(-5px, 0);
+}
+
+.x3d-art-2 .demo-reel00_01_00_06-still0012x-EERxDx {
+  background-color: transparent;
+  border-radius: 9.28vw;
+  height: 53.58vw;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .showcase_a-uzQcxx {
+  background-color: transparent;
+  cursor: pointer;
+  height: 99.47vw;
+  left: 2.12vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 436.34vw;
+  transition: all 0.2s ease;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .showcase_a-uzQcxx:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .group-8-hEUNrL {
+  height: 94.96vw;
+  top: 4.51vw;
+}
+
+.x3d-art-2 .rectangle-5-4ecZ30 {
+  height: 49.87vw;
+  top: 45.09vw;
+}
+
+.x3d-art-2 .this-environment-was-4ecZ30 {
+  background-color: transparent;
+  height: auto;
+  left: 4.24vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.71vw;
+  position: absolute;
+  text-align: left;
+  top: 57.03vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-26-4ecZ30 {
+  height: 90.19vw;
+  left: 0.53vw;
+  top: 0.0vw;
+  width: 79.58vw;
+}
+
+.x3d-art-2 .group-7-ac43EZ {
+  background-color: transparent;
+  cursor: pointer;
+  height: 90.19vw;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 80.11vw;
+}
+
+.x3d-art-2 .group-7-ac43EZ:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-RUQ7rR {
+  height: 9.28vw;
+  left: 42.44vw;
+  top: 80.9vw;
+  width: 33.95vw;
+}
+
+.x3d-art-2 .substance-painter-RUQ7rR {
+  height: auto;
+  left: 46.42vw;
+  line-height: 2.65vw;
+  top: 84.35vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .substance-painter-i9Ufbb {
+  color: #707070;
+  font-family: var(--font-family-segoeui-regular);
+  font-size: 5.31vw;
+  font-style: normal;
+  font-weight: 400;
+  height: 80.11vw;
+  left: 0.0vw;
+  line-height: 5.31vw;
+  top: 0.0vw;
+  width: 80.11vw;
+}
+
+.x3d-art-2 .group-6-ac43EZ {
+  background-color: transparent;
+  cursor: pointer;
+  height: 9.28vw;
+  left: 50.66vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 69.76vw;
+  transition: all 0.2s ease;
+  width: 25.73vw;
+}
+
+.x3d-art-2 .group-6-ac43EZ:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-dYfqxB {
+  height: 9.28vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 25.73vw;
+}
+
+.x3d-art-2 .unity-srp-dYfqxB {
+  background-color: transparent;
+  height: auto;
+  left: 6.37vw;
+  letter-spacing: 0.0vw;
+  line-height: 2.65vw;
+  position: absolute;
+  text-align: left;
+  top: 3.18vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x3d-art-2 .group-5-ac43EZ {
+  background-color: transparent;
+  cursor: pointer;
+  height: 9.28vw;
+  left: 56.76vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 58.62vw;
+  transition: all 0.2s ease;
+  width: 19.63vw;
+}
+
+.x3d-art-2 .group-5-ac43EZ:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-2 .rectangle-6-5ekQNn {
+  height: 9.28vw;
+  left: 0.0vw;
+  top: 0.0vw;
+  width: 19.63vw;
+}
+
+.x3d-art-2 .x3-ds-max-5ekQNn {
+  left: 3.71vw;
+  top: 3.18vw;
+}
+
+.x3d-art-2 .image-hEUNrL {
+  background-color: transparent;
+  display: block;
+  height: 56.23vw;
+  left: 0.0vw;
+  opacity: 0;
+  position: absolute;
+  top: 0.0vw;
+  transform: translate(6.63vw, 0);
+  width: 95.49vw;
+}
+
+.x3d-art-2 .image-hEUNrL.bp1-animate-enter8 {
+  animation: bp1-animate-enter8-frames 0.60s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(6.63vw, 0);
+}
+
+@keyframes bp1-animate-enter8-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-2 .no-path-copy-2-kWVsJe {
+  background-color: transparent;
+  border-radius: 9.28vw;
+  height: 53.58vw;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .group-26 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.x3d-art-2 .group-8 {
+  background-color: transparent;
+  left: 7.69vw;
+  position: absolute;
+  width: 80.11vw;
+}
+
+.x3d-art-2 .no-path {
+  background-color: var(--kilamanjaro);
+  border-radius: 9.28vw;
+  height: 56.23vw;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 95.49vw;
+}
+
+.x3d-art-2 .rectangle-2 {
+  background-color: var(--kilamanjaro);
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-2 .rectangle-3 {
+  background-color: var(--aubergine);
+  left: 0.0vw;
+  position: absolute;
+  width: 100%;
+}
+
+.x3d-art-2 .rectangle-5 {
+  background-color: transparent;
+  border: 0.27vw solid;
+  border-color: var(--white);
+  border-radius: 7.96vw;
+  left: 0.0vw;
+  position: absolute;
+  width: 80.11vw;
+}
+
+.x3d-art-2 .rectangle-6 {
+  background-color: var(--aubergine);
+  border-radius: 5.04vw;
+  position: absolute;
+}
+
+.x3d-art-2 .substance-painter {
+  background-color: transparent;
+  letter-spacing: 0.0vw;
+  position: absolute;
+  text-align: left;
+}
+
+.x3d-art-2 .x3-ds-max {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.0vw;
+  line-height: 2.65vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+/* screen - 3d-art-all-breakpoints */
+
+.x3d-art-all-breakpoints {
+  background-color: var(--log-cabin);
+  margin: 0.0vw;
+  min-height: 212.32vw;
+  min-width: 100.0vw;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .group-3-YpVvhc {
+  background-color: transparent;
+  height: 14.12vw;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  transform: rotate(180deg);
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .rectangle-3-zvK2xz {
+  bottom: 0.0vw;
+  height: 8.42vw;
+}
+
+.x3d-art-all-breakpoints .title-YpVvhc {
+  height: 4.06vw;
+  left: calc(50.00% - 6.08vw);
+  top: 9.28vw;
+  width: 12.17vw;
+}
+
+.x3d-art-all-breakpoints .home-VAa2VQ {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  position: relative;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .title-YrmioE {
+  height: calc(100.00% + 0.16vw);
+  left: 0.0vw;
+  letter-spacing: 0.0vw;
+  line-height: 3.28vw;
+  text-align: center;
+  top: 0.39vw;
+  white-space: nowrap;
+  width: calc(100.00% + 0.16vw);
+}
+
+.x3d-art-all-breakpoints .group-2-YpVvhc {
+  background-color: transparent;
+  bottom: -3.35vw;
+  height: 20.75vw;
+  left: 0.0vw;
+  position: absolute;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .rectangle-3-x3O7YY {
+  height: calc(100.00% - 4.06vw);
+  top: 4.06vw;
+}
+
+.x3d-art-all-breakpoints .group-18-YpVvhc {
+  background-color: transparent;
+  bottom: 4.52vw;
+  cursor: pointer;
+  height: 4.99vw;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(49.94% - 15.52vw);
+  transition: all 0.2s ease;
+  width: 31.12vw;
+}
+
+.x3d-art-all-breakpoints .group-18-YpVvhc:hover {
+  transform: scale(0.9); 
+}
+
+.x3d-art-all-breakpoints .rectangle-7-4eLJZx {
+  background-color: var(--white);
+  border-radius: 1.79vw;
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .view-more-on-artstation-4eLJZx {
+  background-color: transparent;
+  bottom: calc(33.33% - 0.78vw);
+  color: var(--aubergine);
+  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
+  font-size: 1.79vw;
+  font-style: normal;
+  font-weight: 400;
+  height: 2.42vw;
+  left: 3.04vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.79vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 6.24vw);
+}
+
+.x3d-art-all-breakpoints .nav-bar-YpVvhc {
+  background-color: transparent;
+  height: 6.79vw;
+  left: 2.89vw;
+  position: absolute;
+  top: 0.62vw;
+  width: calc(100.00% - 6.47vw);
+}
+
+.x3d-art-all-breakpoints .social-icons-vAfxK5 {
+  background-color: transparent;
+  height: 3.51vw;
+  position: absolute;
+  right: 0.0vw;
+  top: calc(50.00% - 1.72vw);
+  width: 9.83vw;
+}
+
+.x3d-art-all-breakpoints .social_-icon_-artstation-BCYxbd {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  pointer-events: auto;
+  position: absolute;
+  right: 0.0vw;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 4.52vw;
+}
+
+.x3d-art-all-breakpoints .social_-icon_-artstation-BCYxbd:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-all-breakpoints .icon-awesome-artstation-RBAIXx {
+  background-color: transparent;
+  height: calc(100.00% - 1.09vw);
+  object-fit: cover;
+  position: absolute;
+  right: calc(46.12% - 1.25vw);
+  top: 0.55vw;
+  width: 2.81vw;
+}
+
+.x3d-art-all-breakpoints .social_-icon_-linkdin-BCYxbd {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 5.15vw;
+}
+
+.x3d-art-all-breakpoints .social_-icon_-linkdin-BCYxbd:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-all-breakpoints .icon-linkedin-bj6tMS {
+  background-color: transparent;
+  height: 2.42vw;
+  object-fit: cover;
+  position: absolute;
+  right: calc(49.41% - 1.25vw);
+  top: 0.47vw;
+  width: 2.5vw;
+}
+
+.x3d-art-all-breakpoints .logo-vAfxK5 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(49.66% - 12.71vw);
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 25.66vw;
+}
+
+.x3d-art-all-breakpoints .logo-vAfxK5:hover {
+  transform: scale(0.9); 
+}
+
+.x3d-art-all-breakpoints .mohammed-qamar-FqfiWY {
+  background-color: transparent;
+  bottom: calc(42.86% - 1.01vw);
+  height: 2.42vw;
+  left: 0.0vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.79vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 18.17vw;
+}
+
+.x3d-art-all-breakpoints .my-logo_-image-FqfiWY {
+  background-color: transparent;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  right: 0.0vw;
+  top: 0.0vw;
+  width: 6.63vw;
+}
+
+.x3d-art-all-breakpoints .work-vAfxK5 {
+  background-color: transparent;
+  bottom: calc(45.45% - 1.56vw);
+  cursor: pointer;
+  height: 3.35vw;
+  left: 0.0vw;
+  mix-blend-mode: lighten;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 9.75vw;
+}
+
+.x3d-art-all-breakpoints .work-vAfxK5:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-all-breakpoints .group-25-90SMvy {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  position: relative;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .work-C3ovDr {
+  background-color: transparent;
+  height: 2.42vw;
+  left: 1.17vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.79vw;
+  position: absolute;
+  text-align: left;
+  top: 0.62vw;
+  white-space: nowrap;
+  width: 4.6vw;
+}
+
+.x3d-art-all-breakpoints .icon-awesome-book-C3ovDr {
+  background-color: transparent;
+  height: 2.11vw;
+  object-fit: cover;
+  position: absolute;
+  right: 1.01vw;
+  top: 0.47vw;
+  width: 1.87vw;
+}
+
+.x3d-art-all-breakpoints .contact-vAfxK5 {
+  background-color: transparent;
+  bottom: calc(45.45% - 1.56vw);
+  cursor: pointer;
+  height: 3.35vw;
+  left: 9.75vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 13.57vw;
+}
+
+.x3d-art-all-breakpoints .contact-vAfxK5:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-all-breakpoints .contact-nl9PK5 {
+  background-color: transparent;
+  height: 2.42vw;
+  left: 1.17vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.79vw;
+  position: absolute;
+  text-align: left;
+  top: 0.62vw;
+  white-space: nowrap;
+  width: 7.49vw;
+}
+
+.x3d-art-all-breakpoints .icon-material-contact-mail-nl9PK5 {
+  background-color: transparent;
+  height: 2.11vw;
+  object-fit: cover;
+  position: absolute;
+  right: 1.01vw;
+  top: 0.47vw;
+  width: 2.81vw;
+}
+
+.x3d-art-all-breakpoints .showcase_a-YpVvhc {
+  background-color: transparent;
+  height: 25.12vw;
+  left: 4.68vw;
+  position: absolute;
+  top: calc(17.71% - 4.45vw);
+  width: calc(100.00% - 8.97vw);
+}
+
+.x3d-art-all-breakpoints .group-8-wPqkbV {
+  bottom: 0.23vw;
+  height: 20.12vw;
+  left: 38.3vw;
+  width: 52.73vw;
+}
+
+.x3d-art-all-breakpoints .this-piece-is-from-m-r64n8I {
+  background-color: transparent;
+  height: 11.0vw;
+  left: 7.1vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  text-align: left;
+  top: 2.18vw;
+  white-space: nowrap;
+  width: 31.59vw;
+}
+
+.x3d-art-all-breakpoints .group-26-r64n8I {
+  background-color: transparent;
+  bottom: 2.26vw;
+  height: 3.28vw;
+  left: 7.1vw;
+  position: absolute;
+  width: calc(100.00% - 11.54vw);
+}
+
+.x3d-art-all-breakpoints .group-7-J2vEQu {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  pointer-events: auto;
+  position: absolute;
+  right: 0.0vw;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 10.92vw;
+}
+
+.x3d-art-all-breakpoints .group-7-J2vEQu:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .unity-hdrp-KCulnz {
+  background-color: transparent;
+  bottom: calc(35.00% - 0.62vw);
+  height: 1.72vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.25vw;
+  position: absolute;
+  right: calc(48.89% - 3.59vw);
+  text-align: left;
+  white-space: nowrap;
+  width: 7.41vw;
+}
+
+.x3d-art-all-breakpoints .group-6-J2vEQu {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(49.39% - 7.8vw);
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 15.76vw;
+}
+
+.x3d-art-all-breakpoints .group-6-J2vEQu:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .substance-painter-QDstIS {
+  bottom: calc(35.00% - 0.62vw);
+  left: 1.72vw;
+  width: calc(100.00% - 3.2vw);
+}
+
+.x3d-art-all-breakpoints .group-5-J2vEQu {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 11.23vw;
+}
+
+.x3d-art-all-breakpoints .group-5-J2vEQu:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .x3-ds-max-904VJi {
+  bottom: calc(35.00% - 0.62vw);
+  right: calc(47.83% - 2.81vw);
+}
+
+.x3d-art-all-breakpoints .image-wPqkbV {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 25.12vw;
+  left: 0.0vw;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: calc(50.00% - 12.56vw);
+  transform: translate(1.95vw, 0);
+  transition: all 0.2s ease;
+  width: 42.36vw;
+}
+
+.x3d-art-all-breakpoints .image-wPqkbV.bp2-animate-enter {
+  animation: bp2-animate-enter-frames 0.20s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(1.95vw, 0);
+}
+
+@keyframes bp2-animate-enter-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-all-breakpoints .image-wPqkbV:hover {
+  transform: translate(-5px, 0);
+}
+
+.x3d-art-all-breakpoints .no-path-pAMx09 {
+  background-color: transparent;
+  left: 0.08vw;
+  object-fit: cover;
+}
+
+.x3d-art-all-breakpoints .beauty-shot_a_2x-pAMx09 {
+  background-color: transparent;
+  border-radius: 2.73vw;
+  height: calc(100.00% - 1.33vw);
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .showcase_c-YpVvhc {
+  background-color: transparent;
+  bottom: calc(40.50% - 10.14vw);
+  height: 25.12vw;
+  left: 4.68vw;
+  position: absolute;
+  width: calc(100.00% - 8.97vw);
+}
+
+.x3d-art-all-breakpoints .group-8-1OM7Vg {
+  bottom: 0.23vw;
+  height: 20.36vw;
+  right: 0.0vw;
+  width: 52.81vw;
+}
+
+.x3d-art-all-breakpoints .this-piece-is-from-a-AlUPaH {
+  background-color: transparent;
+  height: 11.0vw;
+  left: 7.18vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  text-align: left;
+  top: 2.42vw;
+  white-space: nowrap;
+  width: 34.56vw;
+}
+
+.x3d-art-all-breakpoints .group-5-AlUPaH {
+  background-color: transparent;
+  bottom: 2.26vw;
+  cursor: pointer;
+  height: 3.2vw;
+  left: 7.18vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 9.36vw;
+}
+
+.x3d-art-all-breakpoints .group-5-AlUPaH:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .x3-ds-max-I4r2pb {
+  bottom: calc(36.84% - 0.62vw);
+  right: calc(46.67% - 2.73vw);
+}
+
+.x3d-art-all-breakpoints .group-6-AlUPaH {
+  background-color: transparent;
+  bottom: 2.26vw;
+  cursor: pointer;
+  height: 3.2vw;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(48.19% - 7.8vw);
+  transition: all 0.2s ease;
+  width: 16.22vw;
+}
+
+.x3d-art-all-breakpoints .group-6-AlUPaH:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .substance-painter-gwdawj {
+  bottom: calc(36.84% - 0.62vw);
+  left: 1.87vw;
+  width: calc(100.00% - 3.67vw);
+}
+
+.x3d-art-all-breakpoints .group-7-AlUPaH {
+  background-color: transparent;
+  bottom: 2.26vw;
+  cursor: pointer;
+  height: 3.2vw;
+  pointer-events: auto;
+  position: absolute;
+  right: 5.77vw;
+  transition: all 0.2s ease;
+  width: 9.44vw;
+}
+
+.x3d-art-all-breakpoints .group-7-AlUPaH:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .unity-urp-xxekV6 {
+  background-color: transparent;
+  bottom: calc(36.84% - 0.62vw);
+  height: 1.72vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.25vw;
+  position: absolute;
+  right: calc(44.74% - 2.89vw);
+  text-align: left;
+  white-space: nowrap;
+  width: 6.47vw;
+}
+
+.x3d-art-all-breakpoints .group-4-1OM7Vg {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  left: 0.0vw;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transform: translate(1.95vw, 0);
+  transition: all 0.2s ease;
+  width: 42.36vw;
+}
+
+.x3d-art-all-breakpoints .group-4-1OM7Vg.bp2-animate-enter1 {
+  animation: bp2-animate-enter1-frames 0.20s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(1.95vw, 0);
+}
+
+@keyframes bp2-animate-enter1-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-all-breakpoints .group-4-1OM7Vg:hover {
+  transform: translate(-5px, 0);
+}
+
+.x3d-art-all-breakpoints .no-path-zylWYO {
+  background-color: var(--kilamanjaro);
+  border-radius: 2.73vw;
+  left: 0.0vw;
+}
+
+.x3d-art-all-breakpoints .demo-reel00_01_00_06-still0012x-zylWYO {
+  background-color: transparent;
+  border-radius: 2.73vw;
+  height: calc(100.00% - 1.25vw);
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .showcase_b-YpVvhc {
+  background-color: transparent;
+  height: 25.74vw;
+  left: 3.51vw;
+  position: absolute;
+  top: calc(35.24% - 9.05vw);
+  width: calc(100.00% - 6.63vw);
+}
+
+.x3d-art-all-breakpoints .group-8-fxsLSn {
+  height: calc(100.00% - 2.57vw);
+  left: 0.0vw;
+  top: 2.11vw;
+  width: 61.08vw;
+}
+
+.x3d-art-all-breakpoints .this-piece-is-a-rece-2OjB0V {
+  background-color: transparent;
+  height: 12.56vw;
+  left: 3.43vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  text-align: left;
+  top: 1.95vw;
+  white-space: nowrap;
+  width: 39.78vw;
+}
+
+.x3d-art-all-breakpoints .group-5-2OjB0V {
+  background-color: transparent;
+  bottom: calc(18.58% - 0.62vw);
+  cursor: pointer;
+  height: 3.43vw;
+  left: 3.43vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 11.23vw;
+}
+
+.x3d-art-all-breakpoints .group-5-2OjB0V:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .marmoset-OsX1vJ {
+  background-color: transparent;
+  bottom: calc(32.50% - 0.62vw);
+  height: 1.87vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.33vw;
+  position: absolute;
+  right: calc(47.83% - 3.67vw);
+  text-align: left;
+  white-space: nowrap;
+  width: 7.64vw;
+}
+
+.x3d-art-all-breakpoints .group-6-2OjB0V {
+  background-color: transparent;
+  bottom: calc(18.58% - 0.62vw);
+  cursor: pointer;
+  height: 3.43vw;
+  left: calc(31.27% - 2.96vw);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 9.44vw;
+}
+
+.x3d-art-all-breakpoints .group-6-2OjB0V:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .x3-ds-max-coxUlH {
+  bottom: calc(40.91% - 0.7vw);
+  left: calc(50.00% - 2.96vw);
+}
+
+.x3d-art-all-breakpoints .group-7-2OjB0V {
+  background-color: transparent;
+  bottom: calc(18.58% - 0.62vw);
+  cursor: pointer;
+  height: 3.43vw;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(41.88% - 6.08vw);
+  transition: all 0.2s ease;
+  width: 14.51vw;
+}
+
+.x3d-art-all-breakpoints .group-7-2OjB0V:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .unreal-engine-5-aii2Yk {
+  background-color: transparent;
+  bottom: calc(40.91% - 0.7vw);
+  height: 1.72vw;
+  left: 1.87vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.25vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 3.43vw);
+}
+
+.x3d-art-all-breakpoints .group-4-fxsLSn {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  right: 0.0vw;
+  top: 0.0vw;
+  transform: translate(-1.95vw, 0);
+  transition: all 0.2s ease;
+  width: 43.45vw;
+}
+
+.x3d-art-all-breakpoints .group-4-fxsLSn.bp2-animate-enter2 {
+  animation: bp2-animate-enter2-frames 0.20s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-1.95vw, 0);
+}
+
+@keyframes bp2-animate-enter2-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-all-breakpoints .group-4-fxsLSn:hover {
+  transform: translate(5px, 0);
+}
+
+.x3d-art-all-breakpoints .no-path-DT9vsc {
+  background-color: var(--kilamanjaro);
+  border-radius: 2.73vw;
+  left: 0.0vw;
+}
+
+.x3d-art-all-breakpoints .sequence-master03292x-DT9vsc {
+  background-color: transparent;
+  border-radius: 2.73vw;
+  height: calc(100.00% - 1.33vw);
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .showcase_d-YpVvhc {
+  background-color: transparent;
+  bottom: calc(23.05% - 5.77vw);
+  height: 25.2vw;
+  left: 5.3vw;
+  position: absolute;
+  width: calc(100.00% - 9.59vw);
+}
+
+.x3d-art-all-breakpoints .group-8-POv8Cg {
+  bottom: 0.31vw;
+  height: 20.44vw;
+  left: 0.0vw;
+  width: 61.47vw;
+}
+
+.x3d-art-all-breakpoints .this-environment-was-AC7UPT {
+  background-color: transparent;
+  height: 11.0vw;
+  left: 3.28vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  text-align: left;
+  top: 2.03vw;
+  white-space: nowrap;
+  width: 34.01vw;
+}
+
+.x3d-art-all-breakpoints .group-5-AC7UPT {
+  background-color: transparent;
+  bottom: 2.42vw;
+  cursor: pointer;
+  height: 3.28vw;
+  left: 3.28vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 10.22vw;
+}
+
+.x3d-art-all-breakpoints .group-5-AC7UPT:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .unity-srp-EexgbR {
+  background-color: transparent;
+  bottom: calc(35.00% - 0.62vw);
+  height: 1.72vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.25vw;
+  position: absolute;
+  right: calc(48.00% - 3.04vw);
+  text-align: left;
+  white-space: nowrap;
+  width: 6.32vw;
+}
+
+.x3d-art-all-breakpoints .group-6-AC7UPT {
+  background-color: transparent;
+  bottom: 2.42vw;
+  cursor: pointer;
+  height: 3.28vw;
+  left: calc(28.36% - 2.73vw);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 9.75vw;
+}
+
+.x3d-art-all-breakpoints .group-6-AC7UPT:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .x3-ds-max-ufNMYM {
+  bottom: calc(35.00% - 0.62vw);
+  right: calc(48.00% - 2.81vw);
+}
+
+.x3d-art-all-breakpoints .group-7-AC7UPT {
+  background-color: transparent;
+  bottom: 2.42vw;
+  cursor: pointer;
+  height: 3.28vw;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(43.25% - 7.1vw);
+  transition: all 0.2s ease;
+  width: 16.38vw;
+}
+
+.x3d-art-all-breakpoints .group-7-AC7UPT:hover {
+  transform: translate(0, -5px);
+}
+
+.x3d-art-all-breakpoints .substance-painter-dJ1Yp0 {
+  bottom: calc(35.00% - 0.62vw);
+  left: 2.11vw;
+  width: calc(100.00% - 3.82vw);
+}
+
+.x3d-art-all-breakpoints .group-4-POv8Cg {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  right: 0.0vw;
+  top: 0.0vw;
+  transform: translate(-1.95vw, 0);
+  transition: all 0.2s ease;
+  width: 42.51vw;
+}
+
+.x3d-art-all-breakpoints .group-4-POv8Cg.bp2-animate-enter3 {
+  animation: bp2-animate-enter3-frames 0.20s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-1.95vw, 0);
+}
+
+@keyframes bp2-animate-enter3-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.x3d-art-all-breakpoints .group-4-POv8Cg:hover {
+  transform: translate(5px, 0);
+}
+
+.x3d-art-all-breakpoints .no-path-2jwvKE {
+  background-color: var(--kilamanjaro);
+  border-radius: 2.73vw;
+  left: 0.0vw;
+}
+
+.x3d-art-all-breakpoints .demo-reel00_01_15_06-still0022x-2jwvKE {
+  background-color: transparent;
+  border-radius: 2.73vw;
+  height: calc(100.00% - 1.33vw);
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.08vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .button_3-d-art-YpVvhc {
+  background-color: transparent;
+  cursor: pointer;
+  height: 18.25vw;
+  left: 64.82vw;
+  pointer-events: auto;
+  position: absolute;
+  top: calc(7.68% - 1.4vw);
+  transition: all 0.2s ease;
+  width: 31.17%;
+}
+
+.x3d-art-all-breakpoints .button_3-d-art-YpVvhc:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-all-breakpoints .icon-feather-box-KrGe9R {
+  background-color: transparent;
+  height: 10.45vw;
+  position: absolute;
+  right: 0.0vw;
+  top: calc(42.97% - 4.52vw);
+  width: 9.44vw;
+}
+
+.x3d-art-all-breakpoints .path-1-3j3IOY {
+  background-color: transparent;
+  height: calc(100.00% + 0.23vw);
+  left: -0.08vw;
+  object-fit: cover;
+  position: absolute;
+  top: -0.16vw;
+  width: calc(100.00% + 0.23vw);
+}
+
+.x3d-art-all-breakpoints .path-2-3j3IOY {
+  background-color: transparent;
+  height: 3.12vw;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: calc(32.05% - 1.01vw);
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .path-3-3j3IOY {
+  background-color: transparent;
+  bottom: -0.16vw;
+  height: 5.38vw;
+  left: calc(50.00% - 0.08vw);
+  object-fit: cover;
+  position: absolute;
+  width: 0.23vw;
+}
+
+.x3d-art-all-breakpoints .x3-d-art-KrGe9R {
+  background-color: transparent;
+  bottom: 8.97vw;
+  height: 2.65vw;
+  left: calc(44.11% - 4.21vw);
+  letter-spacing: 0.0vw;
+  line-height: 1.95vw;
+  position: absolute;
+  text-align: right;
+  width: 9.59vw;
+}
+
+.x3d-art-all-breakpoints .a-collection-of-my-art-work-KrGe9R {
+  background-color: transparent;
+  bottom: 6.94vw;
+  height: 1.56vw;
+  left: 0.0vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.09vw;
+  position: absolute;
+  text-align: right;
+  width: 19.11vw;
+}
+
+.x3d-art-all-breakpoints .button_-games-YpVvhc {
+  background-color: transparent;
+  bottom: calc(8.96% - 1.64vw);
+  cursor: pointer;
+  height: 18.25vw;
+  left: 5.3vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 37.68%;
+}
+
+.x3d-art-all-breakpoints .button_-games-YpVvhc:hover {
+  transform: scale(1.1);
+}
+
+.x3d-art-all-breakpoints .icon-ionic-logo-game-controller-b-asM2I5 {
+  background-color: transparent;
+  height: 10.3vw;
+  left: calc(3.99% - 0.55vw);
+  position: absolute;
+  top: calc(50.00% - 5.15vw);
+  width: 14.35vw;
+}
+
+.x3d-art-all-breakpoints .path-4-jq7S84 {
+  background-color: transparent;
+  height: 1.25vw;
+  left: calc(20.48% - 0.23vw);
+  object-fit: cover;
+  position: absolute;
+  top: calc(38.60% - 0.47vw);
+  width: 1.25vw;
+}
+
+.x3d-art-all-breakpoints .path-5-jq7S84 {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .games-asM2I5 {
+  background-color: transparent;
+  bottom: 8.97vw;
+  height: 2.65vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.95vw;
+  position: absolute;
+  right: calc(40.28% - 3.9vw);
+  text-align: left;
+  width: 9.59vw;
+}
+
+.x3d-art-all-breakpoints .a-collection-of-games-ive-worked-on-asM2I5 {
+  background-color: transparent;
+  bottom: 7.25vw;
+  height: 1.56vw;
+  left: 44.51%;
+  letter-spacing: 0.0vw;
+  line-height: 1.09vw;
+  position: absolute;
+  text-align: left;
+  width: 55.90%;
+}
+
+.x3d-art-all-breakpoints .group-8 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.x3d-art-all-breakpoints .no-path {
+  height: calc(100.00% - 0.62vw);
+  position: absolute;
+  top: 0.62vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .rectangle-2 {
+  background-color: var(--kilamanjaro);
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .rectangle-3 {
+  background-color: var(--aubergine);
+  left: 0.0vw;
+  position: absolute;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .rectangle-5 {
+  background-color: transparent;
+  border: 0.08vw solid;
+  border-color: var(--white);
+  border-radius: 2.34vw;
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .rectangle-6 {
+  background-color: var(--aubergine);
+  border-radius: 1.48vw;
+  height: 100%;
+  left: 0.0vw;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.x3d-art-all-breakpoints .substance-painter {
+  background-color: transparent;
+  height: 1.72vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.25vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.x3d-art-all-breakpoints .x3-ds-max {
+  background-color: transparent;
+  height: 1.72vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.25vw;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 5.85vw;
+}
+@media screen and (max-width: 767px) {
+  .screen.x3d-art-all-breakpoints { 
+    display: none;
+   }
+  .screen.x3d-art-1 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 768px) and (max-width: 1281px) {
+  .screen.x3d-art-all-breakpoints { 
+    display: none;
+   }
+  .screen.x3d-art-2 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1282px) {
+  .screen.x3d-art-1 { 
+    display: none;
+   }
+  .screen.x3d-art-2 { 
+    display: none;
+   }
+}
