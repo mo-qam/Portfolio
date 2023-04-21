@@ -3,14 +3,12 @@
 .home {
   background-color: var(--log-cabin-2);
   display: block;
-  margin: 0.0vw;
-  min-height: 168.49vw;
-  min-width: 100.0vw;
+  height: 106.16vw;
   opacity: 0;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
-  width: 100%;
+  width: 100.0vw;
 }
 
 .home.bp1-animate-enter {
@@ -28,11 +26,11 @@ to{opacity: 1;
 
 .home .home-page-xl4bh6 {
   background-color: transparent;
-  height: 100%;
-  left: -24.88%;
+  height: 149.77vw;
+  left: -24.88vw;
   position: relative;
   top: 0.0vw;
-  width: 149.77%;
+  width: 149.77vw;
 }
 
 .home .widget-wrapper-odQYo4 {
@@ -72,49 +70,23 @@ to{opacity: 1;
 
 .home .social-icons-L6hEmD {
   background-color: transparent;
-  height: 3.51vw;
+  height: 40.23%;
+  left: 91.91%;
   position: absolute;
-  right: 0.0vw;
-  top: calc(50.00% - 1.72vw);
-  width: 9.83vw;
-}
-
-.home .social_-icon_-linkdin-Lvj3sI {
-  background-color: transparent;
-  cursor: pointer;
-  height: 100%;
-  left: 0.0vw;
-  pointer-events: auto;
-  position: absolute;
-  top: 0.0vw;
-  transition: all 0.2s ease-in-out;
-  width: 5.15vw;
-}
-
-.home .social_-icon_-linkdin-Lvj3sI:hover {
-  transform: scale(1.1);
-}
-
-.home .icon-linkedin-BhwKM4 {
-  background-color: transparent;
-  height: 2.42vw;
-  object-fit: cover;
-  position: absolute;
-  right: calc(49.41% - 1.25vw);
-  top: 0.47vw;
-  width: 2.5vw;
+  top: 29.89%;
+  width: 8.09%;
 }
 
 .home .social_-icon_-artstation-Lvj3sI {
   background-color: transparent;
   cursor: pointer;
-  height: 100%;
+  height: 2.73vw;
+  left: 4.06vw;
   pointer-events: auto;
   position: absolute;
-  right: 0.0vw;
   top: 0.0vw;
   transition: all 0.2s ease-in-out;
-  width: 4.52vw;
+  width: 3.51vw;
 }
 
 .home .social_-icon_-artstation-Lvj3sI:hover {
@@ -123,21 +95,47 @@ to{opacity: 1;
 
 .home .icon-awesome-artstation-txw4QH {
   background-color: transparent;
-  height: calc(100.00% - 1.09vw);
+  height: calc(100.00% - 0.86vw);
   object-fit: cover;
   position: absolute;
-  right: calc(46.12% - 1.25vw);
-  top: 0.55vw;
-  width: 2.81vw;
+  right: calc(47.61% - 1.01vw);
+  top: 0.39vw;
+  width: 2.11vw;
+}
+
+.home .social_-icon_-linkdin-Lvj3sI {
+  background-color: transparent;
+  cursor: pointer;
+  height: 2.73vw;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease-in-out;
+  width: 3.98vw;
+}
+
+.home .social_-icon_-linkdin-Lvj3sI:hover {
+  transform: scale(1.1);
+}
+
+.home .icon-linkedin-BhwKM4 {
+  background-color: transparent;
+  height: 1.87vw;
+  left: calc(49.93% - 0.94vw);
+  object-fit: cover;
+  position: absolute;
+  top: 0.31vw;
+  width: 1.87vw;
 }
 
 .home .logo-L6hEmD {
   background-color: transparent;
   height: 6.79vw;
-  left: 41.28%;
+  left: 36.86%;
   position: absolute;
   top: calc(50.00% - 3.43vw);
-  width: 20.43%;
+  width: 24.85%;
 }
 
 .home .my-logo_-image-cLS5sP {
@@ -147,42 +145,81 @@ to{opacity: 1;
   position: absolute;
   right: 0.0vw;
   top: calc(50.00% - 3.43vw);
-  width: 34.69%;
+  width: 28.52%;
 }
 
 .home .mohammed-qamar-cLS5sP {
   background-color: transparent;
-  height: 1.64vw;
+  bottom: calc(44.17% - 0.94vw);
+  height: 2.11vw;
   letter-spacing: 0.0vw;
-  line-height: 1.17vw;
+  line-height: 1.56vw;
   position: absolute;
-  right: 7.18vw;
+  right: 7.41vw;
   text-align: left;
-  top: calc(46.97% - 0.78vw);
   white-space: nowrap;
-  width: 62.45%;
+  width: 68.12%;
 }
 
 .home .pages-L6hEmD {
   background-color: transparent;
-  bottom: calc(45.45% - 1.56vw);
-  height: 3.35vw;
+  height: 43.68%;
   left: 0.0vw;
   position: absolute;
-  width: 23.32vw;
+  top: 28.74%;
+  width: 21.93%;
+}
+
+.home .contact-53vzJu {
+  background-color: transparent;
+  cursor: pointer;
+  height: 2.96vw;
+  left: 8.58vw;
+  pointer-events: auto;
+  position: absolute;
+  top: 0.0vw;
+  transition: all 0.2s ease;
+  width: 11.93vw;
+}
+
+.home .contact-53vzJu:hover {
+  transform: scale(1.1);
+}
+
+.home .contact-55AWez {
+  background-color: transparent;
+  height: 2.11vw;
+  left: 1.01vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.56vw;
+  position: absolute;
+  text-align: left;
+  top: 0.47vw;
+  white-space: nowrap;
+  width: 6.55vw;
+}
+
+.home .icon-material-contact-mail-55AWez {
+  background-color: transparent;
+  height: 1.56vw;
+  object-fit: cover;
+  position: absolute;
+  right: 1.79vw;
+  top: 0.55vw;
+  width: 2.03vw;
 }
 
 .home .work-53vzJu {
   background-color: transparent;
   cursor: pointer;
-  height: 100%;
+  height: 2.96vw;
   left: 0.0vw;
   mix-blend-mode: lighten;
   pointer-events: auto;
   position: absolute;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 9.75vw;
+  width: 8.58vw;
 }
 
 .home .work-53vzJu:hover {
@@ -200,101 +237,36 @@ to{opacity: 1;
 
 .home .work-gYZ5BW {
   background-color: transparent;
-  height: 2.42vw;
-  left: 1.17vw;
+  height: 2.11vw;
+  left: 1.01vw;
   letter-spacing: 0.0vw;
-  line-height: 1.79vw;
+  line-height: 1.56vw;
   position: absolute;
   text-align: left;
-  top: 0.62vw;
+  top: 0.47vw;
   white-space: nowrap;
-  width: 4.6vw;
+  width: 3.98vw;
 }
 
 .home .icon-awesome-book-gYZ5BW {
   background-color: transparent;
-  height: 2.11vw;
+  height: 1.64vw;
   object-fit: cover;
   position: absolute;
-  right: 1.01vw;
-  top: 0.47vw;
-  width: 1.87vw;
-}
-
-.home .contact-53vzJu {
-  background-color: transparent;
-  cursor: pointer;
-  height: 100%;
-  pointer-events: auto;
-  position: absolute;
-  right: 0.0vw;
-  top: 0.0vw;
-  transition: all 0.2s ease;
-  width: 13.57vw;
-}
-
-.home .contact-53vzJu:hover {
-  transform: scale(1.1);
-}
-
-.home .contact-55AWez {
-  background-color: transparent;
-  height: 2.42vw;
-  left: 1.17vw;
-  letter-spacing: 0.0vw;
-  line-height: 1.79vw;
-  position: absolute;
-  text-align: left;
-  top: 0.62vw;
-  white-space: nowrap;
-  width: 7.49vw;
-}
-
-.home .icon-material-contact-mail-55AWez {
-  background-color: transparent;
-  height: 2.11vw;
-  object-fit: cover;
-  position: absolute;
-  right: 1.01vw;
-  top: 0.47vw;
-  width: 2.81vw;
-}
-
-.home .button_-scroll-down-odQYo4 {
-  background-color: transparent;
-  cursor: pointer;
-  height: 4.29vw;
-  left: 70.98vw;
-  pointer-events: auto;
-  position: absolute;
-  top: 71.68vw;
-  transition: all 0.2s ease;
-  width: 7.8vw;
-}
-
-.home .button_-scroll-down-odQYo4:hover {
-  transform: scale(0.9); 
-}
-
-.home .icon-ionic-ios-arrow-down-zoSLzW {
-  background-color: transparent;
-  bottom: calc(47.08% - 0.94vw);
-  height: 1.95vw;
-  left: calc(50.00% - 1.72vw);
-  object-fit: cover;
-  position: absolute;
-  width: 3.43vw;
+  right: 1.64vw;
+  top: 0.39vw;
+  width: 1.4vw;
 }
 
 .home .title-odQYo4 {
-  height: 18.72vw;
-  left: 52.34vw;
-  top: 36.97vw;
-  width: 45.24vw;
+  height: 14.59vw;
+  left: 40.41vw;
+  top: 29.56vw;
+  width: 69.11vw;
 }
 
 .home .title-0bmqji {
-  height: 12.56vw;
+  height: 8.42vw;
   left: 0.0vw;
   letter-spacing: 0.0vw;
   line-height: 3.28vw;
@@ -320,7 +292,7 @@ to{opacity: 1;
   height: 49.84vw;
   left: 24.88vw;
   position: absolute;
-  top: 118.64vw;
+  top: 71.76vw;
   width: 100.0vw;
 }
 
@@ -353,23 +325,80 @@ to{opacity: 1;
 
 .home .buttons-7EphkZ {
   background-color: transparent;
-  bottom: calc(39.75% - 7.25vw);
   height: 18.25vw;
-  left: 26.91%;
+  left: calc(47.65% - 21.53vw);
   position: absolute;
-  width: 50.23%;
+  top: calc(30.12% - 5.46vw);
+  width: 45.16vw;
+}
+
+.home .button_-games-8icFDP {
+  background-color: transparent;
+  cursor: pointer;
+  height: 18.25vw;
+  left: 0.0vw;
+  pointer-events: auto;
+  position: absolute;
+  top: calc(50.00% - 9.13vw);
+  transition: all 0.2s ease;
+  width: 35.92%;
+}
+
+.home .button_-games-8icFDP:hover {
+  transform: scale(1.1);
+}
+
+.home .icon-ionic-logo-game-controller-b-yPM3h5 {
+  background-color: transparent;
+  height: 10.3vw;
+  left: calc(49.67% - 7.1vw);
+  position: absolute;
+  top: calc(50.00% - 5.15vw);
+  width: 14.35vw;
+}
+
+.home .path-4-xxtIqr {
+  background-color: transparent;
+  height: 1.25vw;
+  left: calc(20.48% - 0.23vw);
+  object-fit: cover;
+  position: absolute;
+  top: calc(38.60% - 0.47vw);
+  width: 1.25vw;
+}
+
+.home .path-5-xxtIqr {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
+.home .games-yPM3h5 {
+  background-color: transparent;
+  bottom: -0.16vw;
+  height: 2.65vw;
+  letter-spacing: 0.0vw;
+  line-height: 1.95vw;
+  position: absolute;
+  right: calc(49.41% - 4.76vw);
+  text-align: center;
+  width: 9.59vw;
 }
 
 .home .button_3-d-art-8icFDP {
   background-color: transparent;
   cursor: pointer;
   height: 18.25vw;
-  left: 40.8vw;
+  left: 35.73vw;
   pointer-events: auto;
   position: absolute;
   top: calc(50.00% - 9.13vw);
   transition: all 0.2s ease;
-  width: 18.79%;
+  width: 20.90%;
 }
 
 .home .button_3-d-art-8icFDP:hover {
@@ -423,63 +452,6 @@ to{opacity: 1;
   letter-spacing: 0.0vw;
   line-height: 1.95vw;
   position: absolute;
-  text-align: center;
-  width: 9.59vw;
-}
-
-.home .button_-games-8icFDP {
-  background-color: transparent;
-  cursor: pointer;
-  height: 18.25vw;
-  left: 0.0vw;
-  pointer-events: auto;
-  position: absolute;
-  top: calc(50.00% - 9.13vw);
-  transition: all 0.2s ease;
-  width: 32.30%;
-}
-
-.home .button_-games-8icFDP:hover {
-  transform: scale(1.1);
-}
-
-.home .icon-ionic-logo-game-controller-b-yPM3h5 {
-  background-color: transparent;
-  height: 10.3vw;
-  left: calc(49.67% - 7.1vw);
-  position: absolute;
-  top: calc(50.00% - 5.15vw);
-  width: 14.35vw;
-}
-
-.home .path-4-xxtIqr {
-  background-color: transparent;
-  height: 1.25vw;
-  left: calc(20.48% - 0.23vw);
-  object-fit: cover;
-  position: absolute;
-  top: calc(38.60% - 0.47vw);
-  width: 1.25vw;
-}
-
-.home .path-5-xxtIqr {
-  background-color: transparent;
-  height: 100%;
-  left: 0.0vw;
-  object-fit: cover;
-  position: absolute;
-  top: 0.0vw;
-  width: 100%;
-}
-
-.home .games-yPM3h5 {
-  background-color: transparent;
-  bottom: -0.16vw;
-  height: 2.65vw;
-  letter-spacing: 0.0vw;
-  line-height: 1.95vw;
-  position: absolute;
-  right: calc(49.41% - 4.76vw);
   text-align: center;
   width: 9.59vw;
 }
@@ -638,6 +610,11 @@ to{opacity: 1;
 .home-1-all-breakpoints .mohammed-qamar-f5dtJA {
   background-color: transparent;
   bottom: calc(29.79% - 1.56vw);
+  color: var(--white);
+  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
+  font-size: 1.95vw;
+  font-style: normal;
+  font-weight: 400;
   height: 5.21vw;
   letter-spacing: 0.0vw;
   line-height: 1.95vw;
@@ -973,14 +950,12 @@ to{opacity: 1;
 .home-2 {
   background-color: var(--log-cabin-2);
   display: block;
-  margin: 0.0vw;
-  min-height: 574.47vw;
-  min-width: 100.0vw;
+  height: 382.18vw;
   opacity: 0;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
-  width: 100%;
+  width: 100.0vw;
 }
 
 .home-2.bp3-animate-enter8 {
@@ -998,11 +973,11 @@ to{opacity: 1;
 
 .home-2 .home-page-ZBGDB0 {
   background-color: transparent;
-  height: 100%;
-  left: -205.32%;
+  height: 510.64vw;
+  left: -205.32vw;
   position: relative;
   top: 0.0vw;
-  width: 510.64%;
+  width: 510.64vw;
 }
 
 .home-2 .widget-wrapper-qDxy0M {
@@ -1033,32 +1008,32 @@ to{opacity: 1;
 
 .home-2 .nav-bar-qDxy0M {
   background-color: transparent;
-  height: 24.2vw;
+  height: 23.67vw;
   left: 205.85vw;
   position: absolute;
-  top: 2.13vw;
-  width: 98.14vw;
+  top: 2.66vw;
+  width: 97.34vw;
 }
 
 .home-2 .social-icons-xtWeZP {
   background-color: transparent;
-  height: calc(100.00% - 3.72vw);
+  height: calc(100.00% - 5.05vw);
   position: absolute;
   right: 0.0vw;
-  top: 1.33vw;
-  width: 13.3vw;
+  top: 2.66vw;
+  width: 10.11vw;
 }
 
 .home-2 .social_-icon_-artstation-bskoWK {
   background-color: transparent;
   bottom: 0.0vw;
   cursor: pointer;
-  height: 9.57vw;
+  height: 7.45vw;
   left: 0.27vw;
   pointer-events: auto;
   position: absolute;
   transition: all 0.2s ease-in-out;
-  width: calc(100.00% - 0.8vw);
+  width: calc(100.00% - 0.53vw);
 }
 
 .home-2 .social_-icon_-artstation-bskoWK:hover {
@@ -1067,18 +1042,18 @@ to{opacity: 1;
 
 .home-2 .icon-awesome-artstation-C7Wt7y {
   background-color: transparent;
-  height: calc(100.00% - 2.93vw);
+  height: calc(100.00% - 2.39vw);
   object-fit: cover;
   position: absolute;
-  right: calc(47.55% - 3.72vw);
-  top: 1.33vw;
-  width: 7.71vw;
+  right: calc(47.88% - 2.66vw);
+  top: 1.06vw;
+  width: 5.85vw;
 }
 
 .home-2 .social_-icon_-linkdin-bskoWK {
   background-color: transparent;
   cursor: pointer;
-  height: 9.04vw;
+  height: 6.91vw;
   left: 0.0vw;
   pointer-events: auto;
   position: absolute;
@@ -1093,21 +1068,21 @@ to{opacity: 1;
 
 .home-2 .icon-linkedin-c9uAiL {
   background-color: transparent;
-  height: 6.65vw;
+  height: 5.05vw;
   object-fit: cover;
   position: absolute;
-  right: calc(49.54% - 3.46vw);
-  top: 1.06vw;
-  width: 6.65vw;
+  right: calc(49.00% - 2.39vw);
+  top: 0.8vw;
+  width: 5.05vw;
 }
 
 .home-2 .logo-xtWeZP {
   background-color: transparent;
   height: 22.07vw;
-  left: 19.24%;
+  left: 39.62%;
   position: absolute;
   top: 0.0vw;
-  width: 43.09%;
+  width: 22.40%;
 }
 
 .home-2 .my-logo_-image-7opxFO {
@@ -1115,30 +1090,17 @@ to{opacity: 1;
   height: 22.07vw;
   object-fit: cover;
   position: absolute;
-  right: 0.27vw;
+  right: 0.0vw;
   top: calc(50.00% - 11.17vw);
-  width: 51.57%;
-}
-
-.home-2 .mohammed-qamar-7opxFO {
-  background-color: transparent;
-  bottom: calc(41.51% - 3.19vw);
-  height: 7.98vw;
-  letter-spacing: 0.0vw;
-  line-height: 2.93vw;
-  position: absolute;
-  right: 22.87vw;
-  text-align: right;
-  white-space: nowrap;
-  width: 45.91%;
+  width: 100%;
 }
 
 .home-2 .pages-xtWeZP {
   background-color: transparent;
-  height: calc(100.00% - 2.39vw);
+  height: calc(100.00% - 1.86vw);
   left: 0.0vw;
   position: absolute;
-  top: 2.39vw;
+  top: 1.86vw;
   width: 39.89vw;
 }
 
@@ -1160,25 +1122,15 @@ to{opacity: 1;
 
 .home-2 .contact-6xGY19 {
   background-color: transparent;
-  height: 6.91vw;
+  height: 5.85vw;
   left: 3.46vw;
   letter-spacing: 0.0vw;
-  line-height: 5.05vw;
+  line-height: 4.26vw;
   position: absolute;
   text-align: left;
-  top: 1.6vw;
+  top: 2.39vw;
   white-space: nowrap;
-  width: 21.28vw;
-}
-
-.home-2 .icon-material-contact-mail-6xGY19 {
-  background-color: transparent;
-  height: 6.12vw;
-  object-fit: cover;
-  position: absolute;
-  right: 3.19vw;
-  top: 1.33vw;
-  width: 8.24vw;
+  width: 18.09vw;
 }
 
 .home-2 .work-fHeCkT {
@@ -1209,25 +1161,15 @@ to{opacity: 1;
 
 .home-2 .work-gpRmKx {
   background-color: transparent;
-  height: 7.18vw;
+  height: 5.85vw;
   left: 3.46vw;
   letter-spacing: 0.0vw;
-  line-height: 5.32vw;
+  line-height: 4.26vw;
   position: absolute;
   text-align: left;
-  top: 1.6vw;
+  top: 2.66vw;
   white-space: nowrap;
-  width: 13.56vw;
-}
-
-.home-2 .icon-awesome-book-gpRmKx {
-  background-color: transparent;
-  height: 6.12vw;
-  object-fit: cover;
-  position: absolute;
-  right: 2.93vw;
-  top: 1.33vw;
-  width: 5.32vw;
+  width: 10.9vw;
 }
 
 .home-2 .button_-scroll-down-qDxy0M {
@@ -1237,7 +1179,7 @@ to{opacity: 1;
   left: 242.02vw;
   pointer-events: auto;
   position: absolute;
-  top: 244.41vw;
+  top: 158.24vw;
   transition: all 0.2s ease;
   width: 26.6vw;
 }
@@ -1257,22 +1199,17 @@ to{opacity: 1;
 }
 
 .home-2 .title-qDxy0M {
-  height: 78.72vw;
+  height: 58.78vw;
   left: 221.01vw;
-  top: 126.06vw;
+  top: 73.67vw;
   width: 71.28vw;
 }
 
 .home-2 .title-DsGQ9R {
-  color: var(--white);
-  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
-  font-size: 7.98vw;
-  font-style: normal;
-  font-weight: 400;
-  height: 51.06vw;
+  height: 34.57vw;
   left: 0.0vw;
   letter-spacing: 0.0vw;
-  line-height: 7.98vw;
+  line-height: 6.65vw;
   text-align: center;
   top: 0.0vw;
   width: calc(100.00% + 0.53vw);
@@ -1281,13 +1218,18 @@ to{opacity: 1;
 .home-2 .scroll-down-to-see-some-of-my-work-DsGQ9R {
   background-color: transparent;
   bottom: -0.53vw;
-  height: 13.83vw;
-  left: 0.0vw;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  height: 10.64vw;
+  left: 7.98vw;
   letter-spacing: 0.0vw;
-  line-height: 5.59vw;
+  line-height: 4.26vw;
   position: absolute;
   text-align: center;
-  width: calc(100.00% - 1.6vw);
+  width: calc(100.00% - 15.69vw);
 }
 
 .home-2 .footer-qDxy0M {
@@ -1295,7 +1237,7 @@ to{opacity: 1;
   height: 169.95vw;
   left: 205.32vw;
   position: absolute;
-  top: 404.52vw;
+  top: 212.5vw;
   width: 100.0vw;
 }
 
@@ -1328,8 +1270,8 @@ to{opacity: 1;
 
 .home-2 .buttons-wLdKB0 {
   background-color: transparent;
-  bottom: calc(40.82% - 48.14vw);
-  height: 117.82vw;
+  bottom: calc(38.95% - 46.54vw);
+  height: 119.41vw;
   left: 25.53%;
   position: absolute;
   width: 48.94%;
@@ -1339,7 +1281,7 @@ to{opacity: 1;
   background-color: transparent;
   bottom: 0.0vw;
   cursor: pointer;
-  height: 52.93vw;
+  height: 54.52vw;
   left: 8.24vw;
   pointer-events: auto;
   position: absolute;
@@ -1356,7 +1298,7 @@ to{opacity: 1;
   height: 35.64vw;
   left: 0.0vw;
   position: absolute;
-  top: calc(42.97% - 15.43vw);
+  top: calc(39.31% - 14.1vw);
   width: 32.18vw;
 }
 

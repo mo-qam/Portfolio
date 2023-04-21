@@ -1148,19 +1148,17 @@ transform: translate(0,0);
 
 .games-2 {
   background-color: var(--log-cabin);
-  margin: 0.0vw;
-  min-height: 594.96vw;
-  min-width: 100.0vw;
+  height: 764.99vw;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
-  width: 100%;
+  width: 100.0vw;
 }
 
 .games-2 .group-3-6iVhuU {
   background-color: transparent;
   height: 48.01vw;
-  left: -204.51%;
+  left: -204.51vw;
   position: absolute;
   top: 0.0vw;
   transform: rotate(180deg);
@@ -1181,13 +1179,13 @@ transform: translate(0,0);
 .games-2 .showcase_a-6iVhuU {
   background-color: transparent;
   cursor: pointer;
-  height: 15.26%;
-  left: 2.25%;
+  height: 128.38vw;
+  left: 2.12vw;
   pointer-events: auto;
   position: absolute;
-  top: 19.64%;
+  top: 103.18vw;
   transition: all 0.2s ease;
-  width: 95.49%;
+  width: 95.49vw;
 }
 
 .games-2 .showcase_a-6iVhuU:hover {
@@ -1195,41 +1193,41 @@ transform: translate(0,0);
 }
 
 .games-2 .group-8-P6Skfr {
-  height: 41.11vw;
+  height: 107.16vw;
 }
 
 .games-2 .rectangle-5-XVsOds {
-  height: 41.11vw;
+  height: 107.16vw;
 }
 
 .games-2 .rocket-rumble-is-a-4-XVsOds {
   background-color: transparent;
   height: auto;
-  left: 4.24vw;
+  left: 6.9vw;
   letter-spacing: 0.0vw;
-  line-height: 4.24vw;
+  line-height: 5.31vw;
   position: absolute;
   text-align: left;
-  top: 10.08vw;
+  top: 39.26vw;
   white-space: nowrap;
   width: auto;
 }
 
 .games-2 .group-26-XVsOds {
-  height: 27.85vw;
-  top: 9.28vw;
+  top: 77.19vw;
+  width: 67.9vw;
 }
 
 .games-2 .group-7-60Agm3 {
   background-color: transparent;
   cursor: pointer;
-  height: 8.22vw;
+  height: 10.61vw;
   left: 0.0vw;
   pointer-events: auto;
   position: absolute;
-  top: 19.89vw;
+  top: 13.26vw;
   transition: all 0.2s ease;
-  width: 29.97vw;
+  width: 44.56vw;
 }
 
 .games-2 .group-7-60Agm3:hover {
@@ -1237,19 +1235,18 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-u2GpAL {
-  height: 8.22vw;
-  width: 29.97vw;
+  width: 44.56vw;
 }
 
 .games-2 .technical-art-u2GpAL {
   background-color: transparent;
   height: auto;
-  left: 4.24vw;
+  left: 5.57vw;
   letter-spacing: 0.0vw;
-  line-height: 2.65vw;
+  line-height: 4.24vw;
   position: absolute;
-  text-align: left;
-  top: 2.65vw;
+  text-align: center;
+  top: 2.92vw;
   white-space: nowrap;
   width: auto;
 }
@@ -1257,13 +1254,13 @@ transform: translate(0,0);
 .games-2 .group-6-60Agm3 {
   background-color: transparent;
   cursor: pointer;
-  height: 8.22vw;
-  left: 3.45vw;
+  height: 10.61vw;
+  left: 27.59vw;
   pointer-events: auto;
   position: absolute;
-  top: 9.81vw;
+  top: 0.0vw;
   transition: all 0.2s ease;
-  width: 26.53vw;
+  width: 40.32vw;
 }
 
 .games-2 .group-6-60Agm3:hover {
@@ -1271,25 +1268,32 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-J8e0dk {
-  height: 8.22vw;
-  width: 26.53vw;
+  width: 40.32vw;
 }
 
 .games-2 .level-design-J8e0dk {
-  left: 3.71vw;
-  top: 2.65vw;
+  background-color: transparent;
+  height: auto;
+  left: 5.84vw;
+  letter-spacing: 0.0vw;
+  line-height: 4.24vw;
+  position: absolute;
+  text-align: center;
+  top: 3.18vw;
+  white-space: nowrap;
+  width: auto;
 }
 
 .games-2 .group-5-60Agm3 {
   background-color: transparent;
   cursor: pointer;
-  height: 8.22vw;
-  left: 10.34vw;
+  height: 10.61vw;
+  left: 0.0vw;
   pointer-events: auto;
   position: absolute;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 19.63vw;
+  width: 24.14vw;
 }
 
 .games-2 .group-5-60Agm3:hover {
@@ -1297,16 +1301,14 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-WqW6xm {
-  height: 8.22vw;
-  width: 19.63vw;
+  width: 24.14vw;
 }
 
 .games-2 .x3-d-art-WqW6xm {
   height: auto;
-  left: 5.04vw;
-  line-height: 2.65vw;
-  text-align: left;
-  top: 2.65vw;
+  left: 4.77vw;
+  line-height: 4.24vw;
+  top: 2.92vw;
   white-space: nowrap;
   width: auto;
 }
@@ -1360,13 +1362,13 @@ transform: translate(0,0);
 .games-2 .showcase_a-ZpGHxK {
   background-color: transparent;
   cursor: pointer;
-  height: 14.76%;
-  left: 2.25%;
+  height: 125.99vw;
+  left: 2.12vw;
   pointer-events: auto;
   position: absolute;
-  top: 36.33%;
+  top: 243.77vw;
   transition: all 0.2s ease;
-  width: 95.49%;
+  width: 95.49vw;
 }
 
 .games-2 .showcase_a-ZpGHxK:hover {
@@ -1374,41 +1376,41 @@ transform: translate(0,0);
 }
 
 .games-2 .group-8-8nj5aN {
-  height: 38.2vw;
+  height: 104.77vw;
 }
 
 .games-2 .rectangle-5-mxskAT {
-  height: 38.2vw;
+  height: 104.77vw;
 }
 
 .games-2 .a-2-d-shooter-develo-mxskAT {
   background-color: transparent;
   height: auto;
-  left: 4.24vw;
+  left: 6.9vw;
   letter-spacing: 0.0vw;
-  line-height: 4.24vw;
+  line-height: 5.31vw;
   position: absolute;
   text-align: left;
-  top: 9.28vw;
+  top: 41.38vw;
   white-space: nowrap;
   width: auto;
 }
 
 .games-2 .group-26-mxskAT {
-  height: 25.99vw;
-  top: 8.49vw;
+  top: 75.86vw;
+  width: 58.09vw;
 }
 
 .games-2 .group-7-Z6NXbV {
   background-color: transparent;
   cursor: pointer;
-  height: 7.69vw;
+  height: 10.61vw;
   left: 0.0vw;
   pointer-events: auto;
   position: absolute;
-  top: 18.3vw;
+  top: 13.26vw;
   transition: all 0.2s ease;
-  width: 29.97vw;
+  width: 47.75vw;
 }
 
 .games-2 .group-7-Z6NXbV:hover {
@@ -1416,24 +1418,19 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-j1s9Pv {
-  height: 7.69vw;
-  width: 29.97vw;
-}
-
-.games-2 .sound-design-j1s9Pv {
-  top: 2.39vw;
+  width: 47.75vw;
 }
 
 .games-2 .group-6-Z6NXbV {
   background-color: transparent;
   cursor: pointer;
-  height: 7.69vw;
-  left: 4.24vw;
+  height: 10.61vw;
+  left: 27.59vw;
   pointer-events: auto;
   position: absolute;
-  top: 9.28vw;
+  top: 0.0vw;
   transition: all 0.2s ease;
-  width: 25.73vw;
+  width: 30.24vw;
 }
 
 .games-2 .group-6-Z6NXbV:hover {
@@ -1441,25 +1438,19 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-5yatZD {
-  height: 7.69vw;
-  width: 25.73vw;
-}
-
-.games-2 .x2-d-art-5yatZD {
-  left: 7.96vw;
-  top: 2.39vw;
+  width: 30.24vw;
 }
 
 .games-2 .group-5-Z6NXbV {
   background-color: transparent;
   cursor: pointer;
-  height: 7.69vw;
-  left: 10.34vw;
+  height: 10.61vw;
+  left: 0.0vw;
   pointer-events: auto;
   position: absolute;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 19.63vw;
+  width: 24.14vw;
 }
 
 .games-2 .group-5-Z6NXbV:hover {
@@ -1467,13 +1458,11 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-xXqhLH {
-  height: 7.69vw;
-  width: 19.63vw;
+  width: 24.14vw;
 }
 
 .games-2 .c-xXqhLH {
-  left: 7.96vw;
-  top: 2.39vw;
+  left: 9.02vw;
 }
 
 .games-2 .image-8nj5aN {
@@ -1486,7 +1475,7 @@ transform: translate(0,0);
   pointer-events: auto;
   position: absolute;
   top: 0.0vw;
-  transform: translate(6.63vw, 0);
+  transform: translate(-6.63vw, 0);
   transition: all 0.2s ease;
   width: 95.49vw;
 }
@@ -1495,12 +1484,12 @@ transform: translate(0,0);
   animation: bp1-animate-enter2-frames 0.60s ease 0.00s 1 normal forwards;
   display: block;
   opacity: 0;
-  transform: translate(6.63vw, 0);
+  transform: translate(-6.63vw, 0);
 }
 
 @keyframes bp1-animate-enter2-frames {
   from{opacity: 0;
-transform: translate(25px, 0);
+transform: translate(-25px, 0);
 }
 to{opacity: 1;
 transform: translate(0,0);
@@ -1516,7 +1505,7 @@ transform: translate(0,0);
   height: 56.23vw;
 }
 
-.games-2 .f_-pd-yc_upscayl_4x_realesrgan-x-Q0xwT4 {
+.games-2 .f_-pd-yc_upscayl_4x_realesrgan-x2x-Q0xwT4 {
   background-color: transparent;
   border-radius: 9.28vw;
   height: 53.58vw;
@@ -1530,13 +1519,13 @@ transform: translate(0,0);
 .games-2 .showcase_a-sONvmA {
   background-color: transparent;
   cursor: pointer;
-  height: 15.58%;
-  left: 2.25%;
+  height: 129.71vw;
+  left: 2.12vw;
   pointer-events: auto;
   position: absolute;
-  top: 53.02%;
+  top: 381.96vw;
   transition: all 0.2s ease;
-  width: 95.49%;
+  width: 95.49vw;
 }
 
 .games-2 .showcase_a-sONvmA:hover {
@@ -1544,41 +1533,41 @@ transform: translate(0,0);
 }
 
 .games-2 .group-8-qfSmc2 {
-  height: 42.97vw;
+  height: 108.49vw;
 }
 
 .games-2 .rectangle-5-RvJ5jd {
-  height: 42.97vw;
+  height: 108.49vw;
 }
 
 .games-2 .wage-slayve-is-a-2-d-RvJ5jd {
   background-color: transparent;
   height: auto;
-  left: 4.24vw;
+  left: 6.9vw;
   letter-spacing: 0.0vw;
-  line-height: 3.71vw;
+  line-height: 5.31vw;
   position: absolute;
   text-align: left;
-  top: 10.61vw;
+  top: 41.38vw;
   white-space: nowrap;
   width: auto;
 }
 
 .games-2 .group-26-RvJ5jd {
-  height: 29.18vw;
-  top: 9.55vw;
+  top: 78.51vw;
+  width: 58.09vw;
 }
 
 .games-2 .group-7-ZaS47V {
   background-color: transparent;
   cursor: pointer;
-  height: 8.49vw;
+  height: 10.61vw;
   left: 0.0vw;
   pointer-events: auto;
   position: absolute;
-  top: 20.69vw;
+  top: 13.26vw;
   transition: all 0.2s ease;
-  width: 29.97vw;
+  width: 47.75vw;
 }
 
 .games-2 .group-7-ZaS47V:hover {
@@ -1586,24 +1575,19 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-Ien2Vx {
-  height: 8.49vw;
-  width: 29.97vw;
-}
-
-.games-2 .sound-design-Ien2Vx {
-  top: 2.65vw;
+  width: 47.75vw;
 }
 
 .games-2 .group-6-ZaS47V {
   background-color: transparent;
   cursor: pointer;
-  height: 8.49vw;
-  left: 4.24vw;
+  height: 10.61vw;
+  left: 27.59vw;
   pointer-events: auto;
   position: absolute;
-  top: 10.34vw;
+  top: 0.0vw;
   transition: all 0.2s ease;
-  width: 25.73vw;
+  width: 30.24vw;
 }
 
 .games-2 .group-6-ZaS47V:hover {
@@ -1611,25 +1595,19 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-TgkloN {
-  height: 8.49vw;
-  width: 25.73vw;
-}
-
-.games-2 .x2-d-art-TgkloN {
-  left: 8.49vw;
-  top: 2.65vw;
+  width: 30.24vw;
 }
 
 .games-2 .group-5-ZaS47V {
   background-color: transparent;
   cursor: pointer;
-  height: 8.49vw;
-  left: 10.34vw;
+  height: 10.61vw;
+  left: 0.0vw;
   pointer-events: auto;
   position: absolute;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 19.63vw;
+  width: 24.14vw;
 }
 
 .games-2 .group-5-ZaS47V:hover {
@@ -1637,13 +1615,11 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-8UfShp {
-  height: 8.49vw;
-  width: 19.63vw;
+  width: 24.14vw;
 }
 
 .games-2 .c-8UfShp {
-  left: 7.16vw;
-  top: 2.65vw;
+  left: 7.69vw;
 }
 
 .games-2 .image-qfSmc2 {
@@ -1686,7 +1662,7 @@ transform: translate(0,0);
   height: 56.23vw;
 }
 
-.games-2 .o-qd-c9-f_upscayl_4x_realesrgan-x-bNtd0X {
+.games-2 .o-qd-c9-f_upscayl_4x_realesrgan-x2x-bNtd0X {
   background-color: transparent;
   border-radius: 9.28vw;
   height: 53.58vw;
@@ -1700,13 +1676,13 @@ transform: translate(0,0);
 .games-2 .showcase_a-bpBmV9 {
   background-color: transparent;
   cursor: pointer;
-  height: 16.14%;
-  left: 2.25%;
+  height: 143.5vw;
+  left: 2.12vw;
   pointer-events: auto;
   position: absolute;
-  top: 69.71%;
+  top: 524.14vw;
   transition: all 0.2s ease;
-  width: 95.49%;
+  width: 95.49vw;
 }
 
 .games-2 .showcase_a-bpBmV9:hover {
@@ -1714,41 +1690,41 @@ transform: translate(0,0);
 }
 
 .games-2 .group-8-dRC5LB {
-  height: 46.42vw;
+  height: 122.28vw;
 }
 
 .games-2 .rectangle-5-Dj51yr {
-  height: 46.42vw;
+  height: 122.28vw;
 }
 
-.games-2 .solo-submission-for-Dj51yr {
+.games-2 .a-solo-submission-fo-Dj51yr {
   background-color: transparent;
   height: auto;
-  left: 4.24vw;
+  left: 6.9vw;
   letter-spacing: 0.0vw;
-  line-height: 3.71vw;
+  line-height: 5.31vw;
   position: absolute;
   text-align: left;
-  top: 11.41vw;
+  top: 41.38vw;
   white-space: nowrap;
   width: auto;
 }
 
 .games-2 .group-26-Dj51yr {
-  height: 31.56vw;
-  top: 10.34vw;
+  top: 91.25vw;
+  width: 58.09vw;
 }
 
 .games-2 .group-7-B50X0d {
   background-color: transparent;
   cursor: pointer;
-  height: 9.28vw;
+  height: 10.61vw;
   left: 0.0vw;
   pointer-events: auto;
   position: absolute;
-  top: 22.28vw;
+  top: 13.26vw;
   transition: all 0.2s ease;
-  width: 29.97vw;
+  width: 47.75vw;
 }
 
 .games-2 .group-7-B50X0d:hover {
@@ -1756,24 +1732,19 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-kxLcTD {
-  height: 9.28vw;
-  width: 29.97vw;
-}
-
-.games-2 .sound-design-kxLcTD {
-  top: 2.92vw;
+  width: 47.75vw;
 }
 
 .games-2 .group-6-B50X0d {
   background-color: transparent;
   cursor: pointer;
-  height: 9.28vw;
-  left: 4.24vw;
+  height: 10.61vw;
+  left: 27.59vw;
   pointer-events: auto;
   position: absolute;
-  top: 11.14vw;
+  top: 0.0vw;
   transition: all 0.2s ease;
-  width: 25.73vw;
+  width: 30.24vw;
 }
 
 .games-2 .group-6-B50X0d:hover {
@@ -1781,25 +1752,19 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-LOC0l8 {
-  height: 9.28vw;
-  width: 25.73vw;
-}
-
-.games-2 .level-design-LOC0l8 {
-  left: 3.98vw;
-  top: 2.92vw;
+  width: 30.24vw;
 }
 
 .games-2 .group-5-B50X0d {
   background-color: transparent;
   cursor: pointer;
-  height: 9.28vw;
-  left: 10.34vw;
+  height: 10.61vw;
+  left: 0.0vw;
   pointer-events: auto;
   position: absolute;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 19.63vw;
+  width: 24.14vw;
 }
 
 .games-2 .group-5-B50X0d:hover {
@@ -1807,24 +1772,25 @@ transform: translate(0,0);
 }
 
 .games-2 .rectangle-6-VUa9pM {
-  height: 9.28vw;
-  width: 19.63vw;
+  width: 24.14vw;
 }
 
 .games-2 .c-VUa9pM {
-  left: 7.96vw;
-  top: 3.18vw;
+  left: 7.69vw;
 }
 
 .games-2 .image-dRC5LB {
   background-color: transparent;
+  cursor: pointer;
   display: block;
   height: 56.23vw;
   left: 0.0vw;
   opacity: 0;
+  pointer-events: auto;
   position: absolute;
   top: 0.0vw;
-  transform: translate(6.63vw, 0);
+  transform: translate(-6.63vw, 0);
+  transition: all 0.2s ease;
   width: 95.49vw;
 }
 
@@ -1832,16 +1798,20 @@ transform: translate(0,0);
   animation: bp1-animate-enter4-frames 0.60s ease 0.00s 1 normal forwards;
   display: block;
   opacity: 0;
-  transform: translate(6.63vw, 0);
+  transform: translate(-6.63vw, 0);
 }
 
 @keyframes bp1-animate-enter4-frames {
   from{opacity: 0;
-transform: translate(25px, 0);
+transform: translate(-25px, 0);
 }
 to{opacity: 1;
 transform: translate(0,0);
 }
+}
+
+.games-2 .image-dRC5LB:hover {
+  transform: translate(-5px, 0);
 }
 
 .games-2 .no-path-KjkkAE {
@@ -1862,11 +1832,11 @@ transform: translate(0,0);
 
 .games-2 .footer-6iVhuU {
   background-color: transparent;
-  bottom: -4.51vw;
   height: 81.96vw;
   left: 0.0vw;
   position: absolute;
-  width: 100%;
+  top: 685.68vw;
+  width: 100.0vw;
 }
 
 .games-2 .rectangle-2-qmxiCp {
@@ -1882,7 +1852,7 @@ transform: translate(0,0);
 
 .games-2 .title-6iVhuU {
   height: 13.79vw;
-  left: calc(50.00% - 20.95vw);
+  left: 28.91vw;
   top: 31.56vw;
   width: 41.91vw;
 }
@@ -1911,12 +1881,12 @@ transform: translate(0,0);
   background-color: transparent;
   cursor: pointer;
   height: 53.05vw;
-  left: 29.18vw;
+  left: 23.61vw;
   pointer-events: auto;
   position: absolute;
-  top: calc(10.43% - 5.57vw);
+  top: 58.89vw;
   transition: all 0.2s ease;
-  width: 50.36%;
+  width: 70.82vw;
 }
 
 .games-2 .button_-games-6iVhuU:hover {
@@ -1925,21 +1895,21 @@ transform: translate(0,0);
 
 .games-2 .icon-ionic-logo-game-controller-b-UNbqc4 {
   background-color: transparent;
-  height: 29.44vw;
-  left: calc(1.77% - 0.8vw);
+  height: 19.1vw;
   position: absolute;
-  top: calc(20.78% - 6.1vw);
-  width: 41.11vw;
+  right: 0.0vw;
+  top: calc(26.10% - 5.04vw);
+  width: 26.53vw;
 }
 
 .games-2 .path-4-VgaKtD {
   background-color: transparent;
-  height: 4.24vw;
-  left: calc(19.76% - 0.8vw);
+  height: 3.18vw;
+  left: calc(19.22% - 0.53vw);
   object-fit: cover;
   position: absolute;
-  top: calc(38.60% - 1.59vw);
-  width: 4.24vw;
+  top: calc(37.72% - 1.33vw);
+  width: 3.18vw;
 }
 
 .games-2 .path-5-VgaKtD {
@@ -1948,20 +1918,20 @@ transform: translate(0,0);
   left: 0.0vw;
   object-fit: cover;
   position: absolute;
-  top: 0.27vw;
+  top: 0.0vw;
   width: 100%;
 }
 
 .games-2 .a-collection-of-games-ive-worked-on-UNbqc4 {
   background-color: transparent;
-  bottom: 4.51vw;
+  bottom: 28.38vw;
   height: 10.08vw;
   left: 0.0vw;
   letter-spacing: 0.0vw;
   line-height: 3.71vw;
   position: absolute;
-  text-align: center;
-  width: 83.22%;
+  text-align: right;
+  width: 59.09%;
 }
 
 .games-2 .nav-bar-6iVhuU {
@@ -1970,7 +1940,7 @@ transform: translate(0,0);
   left: 0.53vw;
   position: absolute;
   top: 2.12vw;
-  width: calc(100.00% - 1.06vw);
+  width: 98.94vw;
 }
 
 .games-2 .social-icons-bltFB5 {
@@ -2037,10 +2007,10 @@ transform: translate(0,0);
 .games-2 .logo-bltFB5 {
   background-color: transparent;
   height: 22.02vw;
-  left: 19.03%;
+  left: 39.14%;
   position: absolute;
   top: 0.0vw;
-  width: 42.63%;
+  width: 21.98%;
 }
 
 .games-2 .my-logo_-image-IIQc6x {
@@ -2048,22 +2018,9 @@ transform: translate(0,0);
   height: 22.02vw;
   object-fit: cover;
   position: absolute;
-  right: 0.27vw;
+  right: 0.0vw;
   top: calc(50.00% - 11.14vw);
-  width: 51.57%;
-}
-
-.games-2 .mohammed-qamar-IIQc6x {
-  background-color: transparent;
-  bottom: calc(41.51% - 3.18vw);
-  height: 7.96vw;
-  letter-spacing: 0.0vw;
-  line-height: 2.92vw;
-  position: absolute;
-  right: 22.81vw;
-  text-align: right;
-  white-space: nowrap;
-  width: 45.91%;
+  width: 100%;
 }
 
 .games-2 .pages-bltFB5 {
@@ -2102,16 +2059,6 @@ transform: translate(0,0);
   top: 1.59vw;
   white-space: nowrap;
   width: 21.22vw;
-}
-
-.games-2 .icon-material-contact-mail-1qjxHC {
-  background-color: transparent;
-  height: 6.1vw;
-  object-fit: cover;
-  position: absolute;
-  right: 3.18vw;
-  top: 1.33vw;
-  width: 8.22vw;
 }
 
 .games-2 .work-m4JulM {
@@ -2153,26 +2100,16 @@ transform: translate(0,0);
   width: 13.53vw;
 }
 
-.games-2 .icon-awesome-book-XnCtWx {
-  background-color: transparent;
-  height: 6.1vw;
-  object-fit: cover;
-  position: absolute;
-  right: 2.92vw;
-  top: 1.33vw;
-  width: 5.31vw;
-}
-
 .games-2 .button_3-d-art-6iVhuU {
   background-color: transparent;
-  bottom: calc(1.96% - 1.06vw);
   cursor: pointer;
   height: 52.79vw;
   left: 33.95vw;
   pointer-events: auto;
   position: absolute;
+  top: 700.27vw;
   transition: all 0.2s ease;
-  width: 32.17%;
+  width: 32.63vw;
 }
 
 .games-2 .button_3-d-art-6iVhuU:hover {
@@ -2191,7 +2128,7 @@ transform: translate(0,0);
 .games-2 .path-1-ZndJFc {
   background-color: transparent;
   height: calc(100.00% + 0.8vw);
-  left: -0.53vw;
+  left: -0.27vw;
   object-fit: cover;
   position: absolute;
   top: -0.53vw;
@@ -2223,7 +2160,6 @@ transform: translate(0,0);
   height: 9.02vw;
   left: 0.23%;
   line-height: 6.63vw;
-  text-align: center;
   width: 32.63vw;
 }
 
@@ -2231,37 +2167,27 @@ transform: translate(0,0);
   background-color: transparent;
   height: auto;
   letter-spacing: 0.0vw;
-  line-height: 2.65vw;
+  line-height: 4.24vw;
   position: absolute;
   text-align: left;
+  top: 2.92vw;
   white-space: nowrap;
   width: auto;
 }
 
 .games-2 .group-26 {
   background-color: transparent;
-  left: 46.95vw;
+  height: 23.61vw;
+  left: 4.51vw;
   position: absolute;
-  width: 29.97vw;
 }
 
 .games-2 .group-8 {
   background-color: transparent;
-  left: 7.69vw;
+  left: 2.12vw;
   position: absolute;
-  top: 49.6vw;
-  width: 80.11vw;
-}
-
-.games-2 .level-design {
-  background-color: transparent;
-  height: auto;
-  letter-spacing: 0.0vw;
-  line-height: 2.65vw;
-  position: absolute;
-  text-align: left;
-  white-space: nowrap;
-  width: auto;
+  top: 21.22vw;
+  width: 92.31vw;
 }
 
 .games-2 .no-path {
@@ -2293,12 +2219,15 @@ transform: translate(0,0);
   left: 0.0vw;
   position: absolute;
   top: 0.0vw;
-  width: 80.11vw;
+  width: 92.31vw;
 }
 
 .games-2 .rectangle-6 {
   background-color: var(--aubergine);
+  border: 0.27vw solid;
+  border-color: var(--red);
   border-radius: 5.04vw;
+  height: 10.61vw;
   left: 0.0vw;
   position: absolute;
   top: 0.0vw;
@@ -2307,11 +2236,12 @@ transform: translate(0,0);
 .games-2 .sound-design {
   background-color: transparent;
   height: auto;
-  left: 4.24vw;
+  left: 7.96vw;
   letter-spacing: 0.0vw;
-  line-height: 2.65vw;
+  line-height: 4.24vw;
   position: absolute;
   text-align: left;
+  top: 2.92vw;
   white-space: nowrap;
   width: auto;
 }
@@ -2319,10 +2249,12 @@ transform: translate(0,0);
 .games-2 .x2-d-art {
   background-color: transparent;
   height: auto;
+  left: 8.22vw;
   letter-spacing: 0.0vw;
-  line-height: 2.65vw;
+  line-height: 4.24vw;
   position: absolute;
   text-align: left;
+  top: 2.92vw;
   white-space: nowrap;
   width: auto;
 }
@@ -2331,24 +2263,23 @@ transform: translate(0,0);
   background-color: transparent;
   letter-spacing: 0.0vw;
   position: absolute;
+  text-align: center;
 }
 /* screen - games-all-breakpoints */
 
 .games-all-breakpoints {
   background-color: var(--log-cabin);
-  margin: 0.0vw;
-  min-height: 212.66vw;
-  min-width: 100.0vw;
+  height: 200.0vw;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
-  width: 100%;
+  width: 100.0vw;
 }
 
 .games-all-breakpoints .group-3-xnfOr9 {
   background-color: transparent;
   height: 14.14vw;
-  left: calc(50.00% - 75.0vw);
+  left: -25.0vw;
   position: absolute;
   top: 0.0vw;
   transform: rotate(180deg);
@@ -2369,19 +2300,24 @@ transform: translate(0,0);
   height: 25.16vw;
   left: 4.69vw;
   position: absolute;
-  top: calc(17.71% - 4.45vw);
-  width: calc(100.00% - 8.83vw);
+  top: 33.2vw;
+  width: 92.58vw;
 }
 
 .games-all-breakpoints .group-8-oAR7Kh {
   bottom: 0.23vw;
   height: 16.09vw;
   left: 38.36vw;
-  width: 52.81vw;
+  width: 54.22vw;
 }
 
 .games-all-breakpoints .rocket-rumble-is-a-4-1TmU3M {
   background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
+  font-size: 1.17vw;
+  font-style: normal;
+  font-weight: 400;
   height: 6.09vw;
   left: 7.11vw;
   letter-spacing: 0.0vw;
@@ -2398,8 +2334,8 @@ transform: translate(0,0);
   bottom: 2.27vw;
   height: 3.28vw;
   position: absolute;
-  right: calc(25.41% - 11.02vw);
-  width: 43.28vw;
+  right: calc(24.11% - 10.94vw);
+  width: 45.47vw;
 }
 
 .games-all-breakpoints .group-5-qkNYFQ {
@@ -2411,7 +2347,7 @@ transform: translate(0,0);
   position: absolute;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 11.25vw;
+  width: 9.77vw;
 }
 
 .games-all-breakpoints .group-5-qkNYFQ:hover {
@@ -2419,24 +2355,25 @@ transform: translate(0,0);
 }
 
 .games-all-breakpoints .x3-d-art-MhaCUt {
-  bottom: calc(35.00% - 0.62vw);
-  height: 1.72vw;
-  left: calc(49.43% - 2.19vw);
-  line-height: 1.25vw;
+  bottom: calc(23.33% - 0.47vw);
+  height: 2.11vw;
+  line-height: 1.56vw;
+  right: calc(47.27% - 2.58vw);
+  text-align: center;
   white-space: nowrap;
-  width: 4.45vw;
+  width: 5.47vw;
 }
 
 .games-all-breakpoints .group-6-qkNYFQ {
   background-color: transparent;
   cursor: pointer;
   height: 100%;
-  left: calc(46.12% - 5.55vw);
+  left: calc(40.84% - 5.7vw);
   pointer-events: auto;
   position: absolute;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 12.11vw;
+  width: 13.91vw;
 }
 
 .games-all-breakpoints .group-6-qkNYFQ:hover {
@@ -2444,7 +2381,9 @@ transform: translate(0,0);
 }
 
 .games-all-breakpoints .level-design-ulMRHG {
+  bottom: calc(23.33% - 0.47vw);
   left: 1.72vw;
+  width: calc(100.00% - 3.28vw);
 }
 
 .games-all-breakpoints .group-7-qkNYFQ {
@@ -2456,7 +2395,7 @@ transform: translate(0,0);
   right: 0.0vw;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 13.67vw;
+  width: 15.55vw;
 }
 
 .games-all-breakpoints .group-7-qkNYFQ:hover {
@@ -2465,15 +2404,15 @@ transform: translate(0,0);
 
 .games-all-breakpoints .technical-art-ONiOkj {
   background-color: transparent;
-  bottom: calc(35.00% - 0.62vw);
-  height: 1.72vw;
-  left: 1.8vw;
+  bottom: calc(23.33% - 0.47vw);
+  height: 2.11vw;
+  left: 1.72vw;
   letter-spacing: 0.0vw;
-  line-height: 1.25vw;
+  line-height: 1.56vw;
   position: absolute;
   text-align: left;
   white-space: nowrap;
-  width: 9.77vw;
+  width: calc(100.00% - 3.36vw);
 }
 
 .games-all-breakpoints .image-oAR7Kh {
@@ -2530,91 +2469,43 @@ transform: translate(0,0);
 
 .games-all-breakpoints .showcase_c-xnfOr9 {
   background-color: transparent;
-  bottom: calc(40.50% - 10.16vw);
   height: 25.16vw;
   left: 4.69vw;
   position: absolute;
-  width: calc(100.00% - 8.83vw);
+  top: 99.14vw;
+  width: 91.17vw;
 }
 
 .games-all-breakpoints .group-8-kyIxgs {
-  bottom: 0.23vw;
-  height: 16.41vw;
+  height: calc(100.00% - 3.44vw);
   right: 0.0vw;
+  top: 3.2vw;
   width: 52.89vw;
 }
 
 .games-all-breakpoints .wage-slayve-is-a-2-d-6BNgx0 {
   background-color: transparent;
-  height: 5.78vw;
-  left: 7.19vw;
+  height: 9.92vw;
+  left: 7.03vw;
   letter-spacing: 0.0vw;
-  line-height: 1.09vw;
+  line-height: 1.56vw;
   position: absolute;
   text-align: left;
-  top: calc(31.62% - 1.8vw);
+  top: calc(38.74% - 3.83vw);
   white-space: nowrap;
-  width: 33.52vw;
-}
-
-.games-all-breakpoints .group-5-6BNgx0 {
-  background-color: transparent;
-  bottom: 2.27vw;
-  cursor: pointer;
-  height: 3.2vw;
-  left: 7.19vw;
-  pointer-events: auto;
-  position: absolute;
-  transition: all 0.2s ease;
-  width: 6.8vw;
-}
-
-.games-all-breakpoints .group-5-6BNgx0:hover {
-  transform: translate(0, -5px);
-}
-
-.games-all-breakpoints .c-dUWurO {
-  bottom: calc(36.84% - 0.62vw);
-  height: 1.72vw;
-  left: calc(45.28% - 1.17vw);
-  line-height: 1.25vw;
-  width: 2.66vw;
-}
-
-.games-all-breakpoints .group-6-6BNgx0 {
-  background-color: transparent;
-  bottom: 2.27vw;
-  cursor: pointer;
-  height: 3.2vw;
-  left: calc(42.71% - 3.59vw);
-  pointer-events: auto;
-  position: absolute;
-  transition: all 0.2s ease;
-  width: 8.44vw;
-}
-
-.games-all-breakpoints .group-6-6BNgx0:hover {
-  transform: translate(0, -5px);
-}
-
-.games-all-breakpoints .x2-d-art-Kvxmuh {
-  bottom: calc(36.84% - 0.62vw);
-  height: 1.72vw;
-  left: calc(47.06% - 2.11vw);
-  line-height: 1.25vw;
-  width: 4.45vw;
+  width: 37.42vw;
 }
 
 .games-all-breakpoints .group-7-6BNgx0 {
   background-color: transparent;
-  bottom: 2.27vw;
+  bottom: 2.19vw;
   cursor: pointer;
-  height: 3.2vw;
+  height: 3.52vw;
   pointer-events: auto;
   position: absolute;
-  right: 7.73vw;
+  right: 5.94vw;
   transition: all 0.2s ease;
-  width: 12.73vw;
+  width: 15.94vw;
 }
 
 .games-all-breakpoints .group-7-6BNgx0:hover {
@@ -2622,9 +2513,57 @@ transform: translate(0,0);
 }
 
 .games-all-breakpoints .sound-design-uu0mXJ {
-  bottom: calc(36.84% - 0.62vw);
-  left: 1.64vw;
-  width: calc(100.00% - 3.12vw);
+  bottom: calc(30.56% - 0.62vw);
+  height: 2.11vw;
+  left: 2.03vw;
+  line-height: 1.56vw;
+  width: calc(100.00% - 3.91vw);
+}
+
+.games-all-breakpoints .group-28-6BNgx0 {
+  background-color: transparent;
+  bottom: 2.19vw;
+  cursor: pointer;
+  height: 3.52vw;
+  left: 7.03vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 7.34vw;
+}
+
+.games-all-breakpoints .group-28-6BNgx0:hover {
+  transform: translate(0, -5px);
+}
+
+.games-all-breakpoints .c-iA3EhQ {
+  bottom: calc(30.56% - 0.62vw);
+  left: calc(50.00% - 1.64vw);
+  width: 3.28vw;
+}
+
+.games-all-breakpoints .group-29-6BNgx0 {
+  background-color: transparent;
+  bottom: 2.19vw;
+  cursor: pointer;
+  height: 3.52vw;
+  left: calc(42.00% - 4.14vw);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 9.92vw;
+}
+
+.games-all-breakpoints .group-29-6BNgx0:hover {
+  transform: translate(0, -5px);
+}
+
+.games-all-breakpoints .x2-d-art-KQpWGk {
+  bottom: calc(30.56% - 0.62vw);
+  height: 2.11vw;
+  line-height: 1.56vw;
+  right: calc(47.37% - 2.58vw);
+  width: 5.47vw;
 }
 
 .games-all-breakpoints .group-4-kyIxgs {
@@ -2686,40 +2625,40 @@ transform: translate(0,0);
   height: 25.78vw;
   left: 3.52vw;
   position: absolute;
-  top: calc(35.24% - 9.06vw);
-  width: calc(100.00% - 6.48vw);
+  top: 65.86vw;
+  width: 93.52vw;
 }
 
 .games-all-breakpoints .group-8-X2YLcc {
   bottom: 0.47vw;
-  height: 16.25vw;
+  height: 18.12vw;
   left: 0.0vw;
   width: 61.17vw;
 }
 
 .games-all-breakpoints .a-2-d-shooter-develo-3OfYKw {
   background-color: transparent;
-  height: 4.61vw;
+  height: 6.02vw;
   left: 3.44vw;
   letter-spacing: 0.0vw;
-  line-height: 1.17vw;
+  line-height: 1.56vw;
   position: absolute;
   text-align: left;
-  top: calc(30.87% - 1.41vw);
+  top: calc(31.29% - 1.88vw);
   white-space: nowrap;
-  width: 25.94vw;
+  width: 34.45vw;
 }
 
 .games-all-breakpoints .group-5-3OfYKw {
   background-color: transparent;
-  bottom: calc(19.51% - 0.7vw);
+  bottom: 2.5vw;
   cursor: pointer;
   height: 3.44vw;
   left: 3.44vw;
   pointer-events: auto;
   position: absolute;
   transition: all 0.2s ease;
-  width: 7.81vw;
+  width: 6.64vw;
 }
 
 .games-all-breakpoints .group-5-3OfYKw:hover {
@@ -2727,19 +2666,17 @@ transform: translate(0,0);
 }
 
 .games-all-breakpoints .c-Zrtebx {
-  bottom: calc(32.50% - 0.62vw);
-  height: 1.88vw;
-  left: calc(44.59% - 0.94vw);
-  line-height: 1.33vw;
-  width: 2.03vw;
+  bottom: calc(26.47% - 0.55vw);
+  right: calc(47.27% - 1.09vw);
+  width: 2.34vw;
 }
 
 .games-all-breakpoints .group-6-3OfYKw {
   background-color: transparent;
-  bottom: calc(19.51% - 0.7vw);
+  bottom: 2.5vw;
   cursor: pointer;
   height: 3.44vw;
-  left: calc(45.51% - 5.62vw);
+  left: calc(43.75% - 5.47vw);
   pointer-events: auto;
   position: absolute;
   transition: all 0.2s ease;
@@ -2752,23 +2689,23 @@ transform: translate(0,0);
 
 .games-all-breakpoints .game-design-alKqqS {
   background-color: transparent;
-  bottom: calc(40.91% - 0.7vw);
+  bottom: calc(36.36% - 0.62vw);
   height: 1.72vw;
-  left: 1.8vw;
   letter-spacing: 0.0vw;
   line-height: 1.25vw;
   position: absolute;
-  text-align: left;
+  right: 1.64vw;
+  text-align: center;
   white-space: nowrap;
   width: 8.91vw;
 }
 
 .games-all-breakpoints .group-9-3OfYKw {
   background-color: transparent;
-  bottom: calc(19.51% - 0.7vw);
+  bottom: 2.5vw;
   cursor: pointer;
   height: 3.44vw;
-  left: calc(23.70% - 2.03vw);
+  left: calc(21.78% - 1.88vw);
   pointer-events: auto;
   position: absolute;
   transition: all 0.2s ease;
@@ -2779,22 +2716,37 @@ transform: translate(0,0);
   transform: translate(0, -5px);
 }
 
+.games-all-breakpoints .path-7-KFiLIt {
+  background-color: transparent;
+  height: 100%;
+  left: 0.0vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0.0vw;
+  width: 100%;
+}
+
 .games-all-breakpoints .x2-d-art-KFiLIt {
   bottom: calc(32.50% - 0.62vw);
+  color: var(--white);
+  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
+  font-size: 1.33vw;
+  font-style: normal;
+  font-weight: 400;
   height: 1.88vw;
-  left: calc(48.94% - 2.34vw);
   line-height: 1.33vw;
-  width: 4.77vw;
+  right: calc(47.92% - 2.27vw);
+  width: 4.69vw;
 }
 
 .games-all-breakpoints .group-7-3OfYKw {
   background-color: transparent;
-  bottom: calc(19.51% - 0.7vw);
+  bottom: 2.5vw;
   cursor: pointer;
   height: 3.44vw;
   pointer-events: auto;
   position: absolute;
-  right: calc(24.75% - 3.36vw);
+  right: calc(26.23% - 3.52vw);
   transition: all 0.2s ease;
   width: 13.52vw;
 }
@@ -2804,9 +2756,11 @@ transform: translate(0,0);
 }
 
 .games-all-breakpoints .sound-design-Xeh2Np {
-  bottom: calc(40.91% - 0.7vw);
-  left: 1.88vw;
-  width: 9.61vw;
+  bottom: calc(36.36% - 0.62vw);
+  height: 1.72vw;
+  line-height: 1.25vw;
+  right: 1.8vw;
+  width: 9.69vw;
 }
 
 .games-all-breakpoints .group-4-X2YLcc {
@@ -2865,97 +2819,31 @@ transform: translate(0,0);
 
 .games-all-breakpoints .showcase_d-xnfOr9 {
   background-color: transparent;
-  bottom: calc(23.05% - 5.78vw);
   height: 25.23vw;
   left: 7.97vw;
   position: absolute;
-  width: calc(100.00% - 9.45vw);
+  top: 131.8vw;
+  width: 90.55vw;
 }
 
 .games-all-breakpoints .group-8-LdS2Px {
-  bottom: 0.31vw;
-  height: 16.64vw;
+  height: calc(100.00% - 4.06vw);
   left: 0.0vw;
+  top: 3.75vw;
   width: 61.56vw;
 }
 
 .games-all-breakpoints .a-solo-submission-fo-5wH0d2 {
   background-color: transparent;
-  height: 5.78vw;
+  height: 9.92vw;
   left: 3.28vw;
   letter-spacing: 0.0vw;
-  line-height: 1.09vw;
+  line-height: 1.56vw;
   position: absolute;
   text-align: left;
-  top: calc(30.94% - 1.8vw);
+  top: 3.67vw;
   white-space: nowrap;
-  width: 35.47vw;
-}
-
-.games-all-breakpoints .group-5-5wH0d2 {
-  background-color: transparent;
-  bottom: 2.42vw;
-  cursor: pointer;
-  height: 3.28vw;
-  left: 3.28vw;
-  pointer-events: auto;
-  position: absolute;
-  transition: all 0.2s ease;
-  width: 7.5vw;
-}
-
-.games-all-breakpoints .group-5-5wH0d2:hover {
-  transform: translate(0, -5px);
-}
-
-.games-all-breakpoints .c-jJwd9K {
-  bottom: calc(35.00% - 0.62vw);
-  height: 1.72vw;
-  line-height: 1.25vw;
-  right: calc(49.30% - 0.94vw);
-  width: 1.95vw;
-}
-
-.games-all-breakpoints .group-6-5wH0d2 {
-  background-color: transparent;
-  bottom: 2.42vw;
-  cursor: pointer;
-  height: 3.28vw;
-  left: calc(29.79% - 3.67vw);
-  pointer-events: auto;
-  position: absolute;
-  transition: all 0.2s ease;
-  width: 12.27vw;
-}
-
-.games-all-breakpoints .group-6-5wH0d2:hover {
-  transform: translate(0, -5px);
-}
-
-.games-all-breakpoints .level-design-i9yFFY {
-  left: 1.8vw;
-}
-
-.games-all-breakpoints .group-7-5wH0d2 {
-  background-color: transparent;
-  bottom: 2.42vw;
-  cursor: pointer;
-  height: 3.28vw;
-  pointer-events: auto;
-  position: absolute;
-  right: calc(35.56% - 4.84vw);
-  transition: all 0.2s ease;
-  width: 13.67vw;
-}
-
-.games-all-breakpoints .group-7-5wH0d2:hover {
-  transform: translate(0, -5px);
-}
-
-.games-all-breakpoints .sound-design-PddvYp {
-  bottom: calc(35.00% - 0.62vw);
-  left: 1.8vw;
-  width: 9.61vw;
+  width: 38.67vw;
 }
 
 .games-all-breakpoints .group-4-LdS2Px {
@@ -3008,17 +2896,85 @@ transform: translate(0,0);
   left: 0.0vw;
   object-fit: cover;
   position: absolute;
-  top: 0.08vw;
+  top: 0.0vw;
   width: 100%;
+}
+
+.games-all-breakpoints .group-30-LdS2Px {
+  background-color: transparent;
+  bottom: 2.89vw;
+  cursor: pointer;
+  height: 3.52vw;
+  left: calc(38.43% - 6.09vw);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 15.94vw;
+}
+
+.games-all-breakpoints .group-30-LdS2Px:hover {
+  transform: translate(0, -5px);
+}
+
+.games-all-breakpoints .sound-design-WTOkuw {
+  bottom: calc(30.56% - 0.62vw);
+  height: 2.11vw;
+  left: 2.03vw;
+  line-height: 1.56vw;
+  width: calc(100.00% - 3.91vw);
+}
+
+.games-all-breakpoints .group-31-LdS2Px {
+  background-color: transparent;
+  bottom: 2.89vw;
+  cursor: pointer;
+  height: 3.52vw;
+  left: 3.36vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 7.34vw;
+}
+
+.games-all-breakpoints .group-31-LdS2Px:hover {
+  transform: translate(0, -5px);
+}
+
+.games-all-breakpoints .c-5x9fmS {
+  bottom: calc(30.56% - 0.62vw);
+  left: calc(50.00% - 1.17vw);
+  width: 2.34vw;
+}
+
+.games-all-breakpoints .group-32-LdS2Px {
+  background-color: transparent;
+  bottom: 2.89vw;
+  cursor: pointer;
+  height: 3.52vw;
+  left: 12.5vw;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 14.37vw;
+}
+
+.games-all-breakpoints .group-32-LdS2Px:hover {
+  transform: translate(0, -5px);
+}
+
+.games-all-breakpoints .level-design-et7ZSi {
+  bottom: calc(30.56% - 0.62vw);
+  left: 1.95vw;
+  width: calc(100.00% - 3.75vw);
 }
 
 .games-all-breakpoints .footer-xnfOr9 {
   background-color: transparent;
-  bottom: -3.36vw;
   height: 18.05vw;
   left: 0.0vw;
   position: absolute;
-  width: 100%;
+  top: 182.81vw;
+  width: 100.0vw;
 }
 
 .games-all-breakpoints .rectangle-2-XAimX0 {
@@ -3036,16 +2992,16 @@ transform: translate(0,0);
   left: 2.89vw;
   position: absolute;
   top: 0.62vw;
-  width: calc(100.00% - 6.48vw);
+  width: 93.75vw;
 }
 
 .games-all-breakpoints .social-icons-WgoxN3 {
   background-color: transparent;
-  height: 3.52vw;
+  bottom: calc(48.94% - 1.56vw);
+  height: 3.12vw;
   position: absolute;
-  right: 0.0vw;
-  top: calc(50.00% - 1.72vw);
-  width: 9.84vw;
+  right: 0.08vw;
+  width: 8.75vw;
 }
 
 .games-all-breakpoints .social_-icon_-artstation-NzBVTy {
@@ -3057,7 +3013,7 @@ transform: translate(0,0);
   right: 0.0vw;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 4.53vw;
+  width: 4.06vw;
 }
 
 .games-all-breakpoints .social_-icon_-artstation-NzBVTy:hover {
@@ -3066,12 +3022,12 @@ transform: translate(0,0);
 
 .games-all-breakpoints .icon-awesome-artstation-2cJdTJ {
   background-color: transparent;
-  height: calc(100.00% - 1.09vw);
+  height: calc(100.00% - 0.94vw);
   object-fit: cover;
   position: absolute;
-  right: calc(46.12% - 1.25vw);
-  top: 0.55vw;
-  width: 2.81vw;
+  right: calc(47.09% - 1.17vw);
+  top: 0.47vw;
+  width: 2.5vw;
 }
 
 .games-all-breakpoints .social_-icon_-linkdin-NzBVTy {
@@ -3083,7 +3039,7 @@ transform: translate(0,0);
   position: absolute;
   top: 0.0vw;
   transition: all 0.2s ease;
-  width: 5.16vw;
+  width: 4.61vw;
 }
 
 .games-all-breakpoints .social_-icon_-linkdin-NzBVTy:hover {
@@ -3092,12 +3048,12 @@ transform: translate(0,0);
 
 .games-all-breakpoints .icon-linkedin-pu7GQn {
   background-color: transparent;
-  height: 2.42vw;
+  height: 2.19vw;
   object-fit: cover;
   position: absolute;
-  right: calc(49.41% - 1.25vw);
-  top: 0.47vw;
-  width: 2.5vw;
+  right: calc(49.81% - 1.09vw);
+  top: 0.39vw;
+  width: 2.19vw;
 }
 
 .games-all-breakpoints .logo-WgoxN3 {
@@ -3106,7 +3062,7 @@ transform: translate(0,0);
   height: 100%;
   pointer-events: auto;
   position: absolute;
-  right: calc(49.65% - 12.73vw);
+  right: calc(49.83% - 12.81vw);
   top: 0.0vw;
   transition: all 0.2s ease;
   width: 25.7vw;
@@ -3124,7 +3080,7 @@ transform: translate(0,0);
   letter-spacing: 0.0vw;
   line-height: 1.8vw;
   position: absolute;
-  text-align: left;
+  text-align: right;
   white-space: nowrap;
   width: 18.2vw;
 }
@@ -3170,12 +3126,12 @@ transform: translate(0,0);
 
 .games-all-breakpoints .icon-material-contact-mail-cQrxsD {
   background-color: transparent;
-  height: 2.11vw;
+  height: 1.8vw;
   object-fit: cover;
   position: absolute;
-  right: 1.02vw;
-  top: 0.47vw;
-  width: 2.81vw;
+  right: 1.72vw;
+  top: 0.62vw;
+  width: 2.42vw;
 }
 
 .games-all-breakpoints .work-WgoxN3 {
@@ -3219,17 +3175,17 @@ transform: translate(0,0);
 
 .games-all-breakpoints .icon-awesome-book-dkNRQQ {
   background-color: transparent;
-  height: 2.11vw;
+  height: 1.8vw;
   object-fit: cover;
   position: absolute;
-  right: 1.02vw;
-  top: 0.47vw;
-  width: 1.88vw;
+  right: 1.88vw;
+  top: 0.62vw;
+  width: 1.56vw;
 }
 
 .games-all-breakpoints .title-xnfOr9 {
   height: 4.06vw;
-  left: calc(49.74% - 6.17vw);
+  left: 43.59vw;
   top: 9.3vw;
   width: 12.34vw;
 }
@@ -3261,9 +3217,9 @@ transform: translate(0,0);
   left: 58.2vw;
   pointer-events: auto;
   position: absolute;
-  top: calc(7.68% - 1.41vw);
+  top: 15.62vw;
   transition: all 0.2s ease;
-  width: 37.66%;
+  width: 37.66vw;
 }
 
 .games-all-breakpoints .button_-games-xnfOr9:hover {
@@ -3325,14 +3281,14 @@ transform: translate(0,0);
 
 .games-all-breakpoints .button_3-d-art-xnfOr9 {
   background-color: transparent;
-  bottom: calc(8.96% - 1.64vw);
   cursor: pointer;
   height: 18.28vw;
   left: 5.31vw;
   pointer-events: auto;
   position: absolute;
+  top: 162.73vw;
   transition: all 0.2s ease;
-  width: 30.31%;
+  width: 34.45vw;
 }
 
 .games-all-breakpoints .button_3-d-art-xnfOr9:hover {
@@ -3380,29 +3336,37 @@ transform: translate(0,0);
 
 .games-all-breakpoints .x3-d-art-d3wzgQ {
   bottom: 8.98vw;
-  height: 2.66vw;
-  line-height: 1.95vw;
-  right: calc(45.29% - 4.38vw);
+  color: var(--white);
+  font-family: var(--font-family-itcavant_garde_gothic_std-demi);
+  font-size: 2.34vw;
+  font-style: normal;
+  font-weight: 400;
+  height: 3.12vw;
+  left: calc(45.88% - 4.38vw);
+  line-height: 2.34vw;
+  text-align: left;
   width: 9.61vw;
 }
 
 .games-all-breakpoints .a-collection-of-my-art-work-d3wzgQ {
   background-color: transparent;
-  bottom: 6.95vw;
-  height: 1.56vw;
-  left: calc(101.40% - 19.38vw);
+  bottom: 6.41vw;
+  height: 2.11vw;
+  left: calc(101.40% - 23.44vw);
   letter-spacing: 0.0vw;
-  line-height: 1.09vw;
+  line-height: 1.56vw;
   position: absolute;
   text-align: left;
-  width: 19.14vw;
+  width: 23.12vw;
 }
 
 .games-all-breakpoints .c {
   background-color: transparent;
+  height: 2.11vw;
   letter-spacing: 0.0vw;
+  line-height: 1.56vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -3413,14 +3377,12 @@ transform: translate(0,0);
 
 .games-all-breakpoints .level-design {
   background-color: transparent;
-  bottom: calc(35.00% - 0.62vw);
-  height: 1.72vw;
+  height: 2.11vw;
   letter-spacing: 0.0vw;
-  line-height: 1.25vw;
+  line-height: 1.56vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
-  width: 8.59vw;
 }
 
 .games-all-breakpoints .no-path {
@@ -3457,6 +3419,8 @@ transform: translate(0,0);
 
 .games-all-breakpoints .rectangle-6 {
   background-color: var(--aubergine);
+  border: 0.08vw solid;
+  border-color: var(--red);
   border-radius: 1.48vw;
   height: 100%;
   left: 0.0vw;
@@ -3467,11 +3431,9 @@ transform: translate(0,0);
 
 .games-all-breakpoints .sound-design {
   background-color: transparent;
-  height: 1.72vw;
   letter-spacing: 0.0vw;
-  line-height: 1.25vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -3479,7 +3441,7 @@ transform: translate(0,0);
   background-color: transparent;
   letter-spacing: 0.0vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -3487,7 +3449,6 @@ transform: translate(0,0);
   background-color: transparent;
   letter-spacing: 0.0vw;
   position: absolute;
-  text-align: left;
 }
 @media screen and (max-width: 769px) {
   .screen.games-all-breakpoints { 
