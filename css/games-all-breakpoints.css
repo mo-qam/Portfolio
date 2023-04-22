@@ -2315,18 +2315,18 @@ transform: translate(0,0);
   background-color: transparent;
   color: var(--white);
   font-family: var(--font-family-itcavant_garde_gothic_std-demi);
-  font-size: 1.17vw;
+  font-size: 1.2vw;
   font-style: normal;
   font-weight: 400;
   height: 6.09vw;
   left: 7.11vw;
   letter-spacing: 0.0vw;
-  line-height: 1.17vw;
+  line-height: 1.56vw;
   position: absolute;
   text-align: left;
   top: calc(32.03% - 1.95vw);
   white-space: nowrap;
-  width: 29.14vw;
+  width: 37.42vw;
 }
 
 .games-all-breakpoints .group-26-1TmU3M {
@@ -2410,7 +2410,7 @@ transform: translate(0,0);
   letter-spacing: 0.0vw;
   line-height: 1.56vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
   width: calc(100.00% - 3.36vw);
 }
@@ -2668,6 +2668,8 @@ transform: translate(0,0);
 .games-all-breakpoints .c-Zrtebx {
   bottom: calc(26.47% - 0.55vw);
   right: calc(47.27% - 1.09vw);
+  font-size: 1.33vw;
+  right: calc(47.92% - 1vw);
   width: 2.34vw;
 }
 
@@ -2691,10 +2693,11 @@ transform: translate(0,0);
   background-color: transparent;
   bottom: calc(36.36% - 0.62vw);
   height: 1.72vw;
+  font-size: 1.33vw;
   letter-spacing: 0.0vw;
   line-height: 1.25vw;
   position: absolute;
-  right: 1.64vw;
+  right: 1.94vw;
   text-align: center;
   white-space: nowrap;
   width: 8.91vw;
@@ -2758,8 +2761,9 @@ transform: translate(0,0);
 .games-all-breakpoints .sound-design-Xeh2Np {
   bottom: calc(36.36% - 0.62vw);
   height: 1.72vw;
+  font-size: 1.33vw;
   line-height: 1.25vw;
-  right: 1.8vw;
+  right: 1.9vw;
   width: 9.69vw;
 }
 
