@@ -53,8 +53,9 @@
   right: 5.32vw;
   text-align: left;
   top: 3.51vw;
-  white-space: nowrap;
+  white-space: auto;
   width: 38.83vw;
+  font-size: medium;
 }
 
 .games-1 .group-26-4pRXZB {
@@ -90,7 +91,7 @@
   letter-spacing: 0.0vw;
   line-height: 1.3vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
   width: 10.26vw;
 }
@@ -117,6 +118,7 @@
   left: 1.82vw;
   line-height: 1.3vw;
   width: 8.96vw;
+  text-align: center;
 }
 
 .games-1 .group-5-A74Dvs {
@@ -142,6 +144,7 @@
   line-height: 1.3vw;
   white-space: nowrap;
   width: 4.68vw;
+  text-align: center;
 }
 
 .games-1 .image-xrDh1h {
@@ -275,6 +278,7 @@ transform: translate(0,0);
   line-height: 1.3vw;
   right: calc(47.50% - 2.21vw);
   width: 4.68vw;
+  text-align: center;
 }
 
 .games-1 .group-7-hkDeNK {
@@ -297,6 +301,7 @@ transform: translate(0,0);
   bottom: calc(32.14% - 0.65vw);
   right: calc(46.87% - 4.81vw);
   width: 10.13vw;
+  
 }
 
 .games-1 .group-4-0OIfBp {
@@ -433,8 +438,9 @@ transform: translate(0,0);
   bottom: calc(33.33% - 0.78vw);
   height: 2.21vw;
   line-height: 1.56vw;
-  right: calc(47.22% - 2.6vw);
+  right: calc(42.22% - 2.6vw);
   width: 5.58vw;
+  text-align: center;
 }
 
 .games-1 .group-7-XnZHdL {
@@ -590,6 +596,7 @@ transform: translate(0,0);
   line-height: 1.43vw;
   right: calc(46.88% - 4.68vw);
   width: 9.87vw;
+  text-align: center;
 }
 
 .games-1 .group-7-Z5H2wJ {
@@ -612,6 +619,7 @@ transform: translate(0,0);
   bottom: calc(34.38% - 0.65vw);
   left: 2.08vw;
   width: calc(100.00% - 3.9vw);
+  text-align: center;
 }
 
 .games-1 .group-4-WfihOx {
@@ -1046,8 +1054,9 @@ transform: translate(0,0);
   bottom: 14.81vw;
   height: 4.42vw;
   line-height: 3.25vw;
-  right: calc(45.39% - 7.27vw);
+  right: calc(45.39% - 3.27vw);
   width: 15.97vw;
+  text-align: center;
 }
 
 .games-1 .a-collection-of-my-art-work-kuRuZ6 {
@@ -1079,7 +1088,7 @@ transform: translate(0,0);
   background-color: transparent;
   letter-spacing: 0.0vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -1126,7 +1135,7 @@ transform: translate(0,0);
   letter-spacing: 0.0vw;
   line-height: 1.3vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -1142,7 +1151,7 @@ transform: translate(0,0);
   background-color: transparent;
   letter-spacing: 0.0vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
 }
 /* screen - games-2 */
 
@@ -1274,13 +1283,13 @@ transform: translate(0,0);
 .games-2 .level-design-J8e0dk {
   background-color: transparent;
   height: auto;
-  left: 5.84vw;
+  left: 6.84vw;
   letter-spacing: 0.0vw;
   line-height: 4.24vw;
   position: absolute;
   text-align: center;
   top: 3.18vw;
-  white-space: nowrap;
+  white-space: auto;
   width: auto;
 }
 
@@ -1311,6 +1320,7 @@ transform: translate(0,0);
   top: 2.92vw;
   white-space: nowrap;
   width: auto;
+  text-align: center;
 }
 
 .games-2 .image-P6Skfr {
@@ -2161,6 +2171,7 @@ transform: translate(0,0);
   left: 0.23%;
   line-height: 6.63vw;
   width: 32.63vw;
+  text-align: center;
 }
 
 .games-2 .c {
@@ -2240,7 +2251,7 @@ transform: translate(0,0);
   letter-spacing: 0.0vw;
   line-height: 4.24vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   top: 2.92vw;
   white-space: nowrap;
   width: auto;
@@ -2384,6 +2395,7 @@ transform: translate(0,0);
   bottom: calc(23.33% - 0.47vw);
   left: 1.72vw;
   width: calc(100.00% - 3.28vw);
+  text-align: center;
 }
 
 .games-all-breakpoints .group-7-qkNYFQ {
@@ -2518,6 +2530,7 @@ transform: translate(0,0);
   left: 2.03vw;
   line-height: 1.56vw;
   width: calc(100.00% - 3.91vw);
+  text-align: center;
 }
 
 .games-all-breakpoints .group-28-6BNgx0 {
@@ -2564,6 +2577,7 @@ transform: translate(0,0);
   line-height: 1.56vw;
   right: calc(47.37% - 2.58vw);
   width: 5.47vw;
+  text-align: center;
 }
 
 .games-all-breakpoints .group-4-kyIxgs {
@@ -2740,6 +2754,7 @@ transform: translate(0,0);
   line-height: 1.33vw;
   right: calc(47.92% - 2.27vw);
   width: 4.69vw;
+  text-align: center;
 }
 
 .games-all-breakpoints .group-7-3OfYKw {
@@ -2765,6 +2780,7 @@ transform: translate(0,0);
   line-height: 1.25vw;
   right: 1.9vw;
   width: 9.69vw;
+  text-align: center;
 }
 
 .games-all-breakpoints .group-4-X2YLcc {
@@ -2926,6 +2942,7 @@ transform: translate(0,0);
   left: 2.03vw;
   line-height: 1.56vw;
   width: calc(100.00% - 3.91vw);
+  text-align: center;
 }
 
 .games-all-breakpoints .group-31-LdS2Px {
@@ -2970,6 +2987,7 @@ transform: translate(0,0);
   bottom: calc(30.56% - 0.62vw);
   left: 1.95vw;
   width: calc(100.00% - 3.75vw);
+  text-align: center;
 }
 
 .games-all-breakpoints .footer-xnfOr9 {
@@ -3348,7 +3366,7 @@ transform: translate(0,0);
   height: 3.12vw;
   left: calc(45.88% - 4.38vw);
   line-height: 2.34vw;
-  text-align: left;
+  text-align: center;
   width: 9.61vw;
 }
 
