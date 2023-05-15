@@ -104,7 +104,7 @@
   letter-spacing: 0.0vw;
   line-height: 2.99vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
   width: calc(100.00% - 10.42vw);
 }
@@ -2537,7 +2537,7 @@ transform: translate(0,0);
   letter-spacing: 0.0vw;
   line-height: 1.79vw;
   position: absolute;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
   width: calc(100.00% - 6.24vw);
 }
