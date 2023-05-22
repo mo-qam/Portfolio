@@ -37,8 +37,10 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
+      - name: Change Vite permissions
+        run: chmod +x ./node_modules/.bin/vite
       - name: Build
-        run: npx vite build --debug
+        run: ./node_modules/.bin/vite build --debug
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
