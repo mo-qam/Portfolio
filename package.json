@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "homepage": "https://mo-qam.github.io/Portfolio_HTML",
+  "homepage": "https://moqam.ca",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
