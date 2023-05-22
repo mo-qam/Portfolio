@@ -33,7 +33,7 @@ const Contact = () => {
         "service_zg7ziui",
         "template_7ipq5ak",
         {
-          form_name: form.name,
+          from_name: form.name,
           from_email: form.email,
           message: form.message,
           to_name: "Mohammed Qamar",
