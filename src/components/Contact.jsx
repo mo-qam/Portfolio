@@ -34,10 +34,10 @@ const Contact = () => {
         "template_7ipq5ak",
         {
           form_name: form.name,
-          to_name: "Mohammed Qamar",
           from_email: form.email,
-          to_email: "qamar@moqam.ca",
           message: form.message,
+          to_name: "Mohammed Qamar",
+          to_email: "qamar@moqam.ca",
         },
       )
       .then(
