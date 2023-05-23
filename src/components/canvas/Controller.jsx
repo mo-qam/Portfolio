@@ -57,7 +57,7 @@ const ControllersCanvas = () => {
 
   return (
     <>
-      {<Canvas
+      {isMobile ? <></> :<Canvas
         frameloop="always"
         shadows
         dpr={[1, 2]}

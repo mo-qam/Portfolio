@@ -23,7 +23,6 @@ const Ball = ({imgUrl, isMobile}) => {
           color="#fff8eb"
           polygonOffset
           polygonOffsetFactor={-5}
-          fog={true}
         />
         <Decal
           position={[0, 0, 1]}
