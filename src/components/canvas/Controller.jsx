@@ -22,8 +22,8 @@ const Controllers = ({ isMobile }) => {
         <pointLight intensity={2} />
         <primitive
           object={computer.scene}
-          scale={isMobile ? 0.7 : 1}
-          position={isMobile ? [0, -3, -2.2] : [0, -5.25, -1]}
+          scale={isMobile ? 0.6 : 1}
+          position={isMobile ? [0, -4.25, 0] : [0, -5.25, -1]}
           rotation={[0, 45, 0]}
         />
       </mesh>
@@ -57,7 +57,7 @@ const ControllersCanvas = () => {
 
   return (
     <>
-      {isMobile ? <></> : <Canvas
+      {<Canvas
         frameloop="always"
         shadows
         dpr={[1, 2]}
