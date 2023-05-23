@@ -3,6 +3,9 @@ import {
   gamedeveloper,
   tech3dartist,
   systemsdesign,
+
+  artstationIcon,
+  linkedinIcon,
   
   git,
   autodesk3DSMax,
@@ -18,12 +21,22 @@ import {
 
   pixelnauts,
   taply,
+  
   rocketrumble,
+
   ubisoftNext2023,
+  ubisoftNext2023_Gif,
+
   tracksWeLeave,
+  tracksWeLeave_Gif,
+
   returnHome,
+
   gasStation,
-  catfe
+  gasStation_Gif,
+
+  catfe,
+  catfe_Gif,
 
 } from "../assets";
 
@@ -39,6 +52,16 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    title: "Linkedin",
+    link: "https://www.linkedin.com/in/moqam",
+    icon: linkedinIcon,
+  },
+  {
+    title: "Artstation",
+    link: "https://www.linkedin.com/in/moqam",
+    icon: artstationIcon,
   },
 ];
 
@@ -233,7 +256,7 @@ const projects = [
       },
     ],
     image: catfe,
-    video: "https://www.youtube.com/watch?v=dTFHzxAAVy4",
+    gif: catfe_Gif,
     source_code_link: "https://alexfish02.itch.io/calico-cat-fe",
   },
   {
@@ -263,7 +286,7 @@ const projects = [
       },
     ],
     image: ubisoftNext2023,
-    video: "https://youtu.be/LkZfjhZYoQ4",
+    gif: ubisoftNext2023_Gif,
     source_code_link: "https://www.artstation.com/artwork/blaPZo",
   },
   {
@@ -290,7 +313,7 @@ const projects = [
       },
     ],
     image: tracksWeLeave,
-    video: "https://youtu.be/DTKnZPPxC6c",
+    gif: tracksWeLeave_Gif,
     source_code_link: "https://www.artstation.com/artwork/ZeewR1",
   },
   {
@@ -317,7 +340,7 @@ const projects = [
       },
     ],
     image: gasStation,
-    video: "https://youtu.be/jaYmxIQbcwo",
+    gif: gasStation_Gif,
     source_code_link: "https://www.artstation.com/artwork/o2dJqL",
   },
   {

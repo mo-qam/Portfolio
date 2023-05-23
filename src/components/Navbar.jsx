@@ -68,15 +68,31 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((nav) => (
+        <ul className="list-none hidden sm:flex flex-row">
+          {navLinks.map((nav, index) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.id ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[18px] font-medium cursor-pointer ${
+                nav.icon && index !== 0 ? "ml-6" : "ml-10"
+              }`}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a
+                href={nav.id ? `#${nav.id}` : nav.link}
+                target={nav.id ? undefined : '_blank'}
+                rel={nav.id ? undefined : 'noopener noreferrer'}
+              >
+                {nav.icon ? (
+                  <img
+                    src={nav.icon}
+                    alt={nav.title}
+                    className="w-6 h-6 object-contain hover:opacity-90 opacity-60"
+                  />
+                ) : (
+                  nav.title
+                )}
+              </a>
             </li>
           ))}
         </ul>
@@ -101,8 +117,7 @@ const Navbar = () => {
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
                     active === nav.id ? "text-white" : "text-secondary"
                   }`}
-                  onClick={() => {
-                    setToggle(!toggle);
+                  onClick={() => {setToggle(!toggle);
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
