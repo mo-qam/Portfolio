@@ -290,6 +290,7 @@ const projects = [
       },
     ],
     image: tracksWeLeave,
+    video: "https://youtu.be/DTKnZPPxC6c",
     source_code_link: "https://www.artstation.com/artwork/ZeewR1",
   },
   {
@@ -316,6 +317,7 @@ const projects = [
       },
     ],
     image: gasStation,
+    video: "https://youtu.be/jaYmxIQbcwo",
     source_code_link: "https://www.artstation.com/artwork/o2dJqL",
   },
   {
@@ -347,6 +349,7 @@ const projects = [
       },
     ],
     image: returnHome,
+    video: "https://youtu.be/IxpCRCA6Fng",
     source_code_link: "https://www.artstation.com/moqam",
   },
 ];
