@@ -10,7 +10,7 @@ import {
 
 import CanvasLoader from "../Loader";
 
-const Ball = ({imgUrl, isMobile}) => {
+const Ball = ({ imgUrl, isMobile }) => {
   const [decal] = useTexture([imgUrl]);
 
   return (
@@ -18,23 +18,41 @@ const Ball = ({imgUrl, isMobile}) => {
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
-        <sphereGeometry args={isMobile ? [1, 21, 21] : [1, 32, 32] } />
-        <meshPhongMaterial
-          color="#fff8eb"
-          polygonOffset
-          polygonOffsetFactor={-5}
-        />
+        {isMobile ? (
+          <>
+            <icosahedronGeometry args={[1, 1, 1]} />
+            <meshPhongMaterial
+              color="#fff8eb"
+              polygonOffset
+              polygonOffsetFactor={-5}
+              flatShading
+            />
+          </>
+        ) : (
+          <>
+            <sphereGeometry args={[1, 32, 32]} />
+            <meshPhongMaterial
+              color="#fff8eb"
+              polygonOffset
+              polygonOffsetFactor={-5}
+            />
+          </>
+        )}
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
           scale={1}
-        />
-          <Decal
-          position={[0, 0, -1]}
-          rotation={[0, 0, 0]}
-          scale={[-1, 1, -1]}
           map={decal}
+          flatShading={isMobile ? true : false}
         />
+        {!isMobile && (
+          <Decal
+            position={[0, 0, -1]}
+            rotation={[0, 0, 0]}
+            scale={[-1, 1, -1]}
+            map={decal}
+          />
+        )}
       </mesh>
     </Float>
   );
