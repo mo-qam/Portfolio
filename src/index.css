@@ -19,6 +19,14 @@
   display: block;
 }
 
+.image-fade-out {
+  opacity: 0 !important;
+}
+
+.video-fade-in {
+  opacity: 1 !important;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(

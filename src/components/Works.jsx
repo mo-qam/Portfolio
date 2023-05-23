@@ -6,6 +6,9 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import React, { useRef, useState } from 'react';
+import GifEmbed from './GifEmbed';
+import VideoEmbed from './VideoEmbed';
 
 const ProjectCard = ({
   index,
@@ -13,19 +16,68 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  gif,
+  video,
+  zoom,
   source_code_link,
 }) => {
+  const videoRef = useRef(null);
+  const imgRef = useRef(null);
+
+  const [hasMedia, setHasMedia] = useState(!!gif || !!video);
+
+  const handleMouseEnter = () => {
+    if (hasMedia) {
+      setHovered(true);
+    }
+  };
+  
+  const handleMouseLeave = () => {
+    if (hasMedia) {
+      setHovered(false);
+    }
+  };
+
+  const [hovered, setHovered] = useState(false);
+
+  const mediaWrapperStyle = {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    width: '100%',
+    height: '100%',
+    overflow: 'hidden',
+    borderRadius: '1rem',
+  };
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[230px]"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}>
           <img
+            ref={imgRef}
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-2xl"
+            style={{ opacity: hasMedia && hovered ? 0 : 1 }}
+            className="w-full h-full object-cover rounded-2xl transition-opacity duration-300"
+          />
+          <GifEmbed
+            gifUrl={gif}
+            opacity={hasMedia && hovered ? 1 : 0}
+            shouldPlay={hovered}
+            style={mediaWrapperStyle}
+          />
+          <VideoEmbed
+            url={video}
+            opacity={hasMedia && hovered ? 1 : 0}
+            shouldPlay={hovered}
+            style={mediaWrapperStyle}
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div

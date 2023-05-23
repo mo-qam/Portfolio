@@ -178,7 +178,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "..looking forward to seeing what he does in the future. Hes great.",
+      "..looking forward to seeing what you do in the future.",
     name: "Alex Golebiowski",
     designation: "COO",
     company: "PixelNAUTS Games",
@@ -210,6 +210,7 @@ const projects = [
       },
     ],
     image: rocketrumble,
+    gif: "https://static.wixstatic.com/media/5080c4_4f0c106b79394a3d8cfb70161f55fa19~mv2.gif",
     source_code_link: "https://www.rocketrumblegame.com",
   },
   {
@@ -232,6 +233,7 @@ const projects = [
       },
     ],
     image: catfe,
+    video: "https://www.youtube.com/watch?v=dTFHzxAAVy4",
     source_code_link: "https://alexfish02.itch.io/calico-cat-fe",
   },
   {
@@ -261,6 +263,7 @@ const projects = [
       },
     ],
     image: ubisoftNext2023,
+    video: "https://youtu.be/LkZfjhZYoQ4",
     source_code_link: "https://www.artstation.com/artwork/blaPZo",
   },
   {
