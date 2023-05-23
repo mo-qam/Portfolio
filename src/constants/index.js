@@ -60,7 +60,7 @@ export const navLinks = [
   },
   {
     title: "Artstation",
-    link: "https://www.linkedin.com/in/moqam",
+    link: "https://www.artstation.com/moqam",
     icon: artstationIcon,
   },
 ];
