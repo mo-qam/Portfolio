@@ -60,6 +60,20 @@ const Ball = ({ imgUrl, isMobile }) => {
 
 const BallCanvas = ({ icon }) => {
   const [isMobile, setIsMobile] = useState(false);
+  const [iconToUse, setIconToUse] = useState(icon);
+  const iconLowRes = icon.replace(".png", "_low_res.png");
+
+  const checkLowResExists = async () => {
+    try {
+      const response = await fetch(iconLowRes);
+      if (response.ok) {
+        return true;
+      }
+    } catch (error) {
+      console.error("Error fetching low-res texture:", error);
+    }
+    return false;
+  };
 
   useEffect(() => {
     // Add a listener for changes to the screen size
@@ -69,12 +83,25 @@ const BallCanvas = ({ icon }) => {
     setIsMobile(mediaQuery.matches);
 
     // Define a callback function to handle changes to the media query
-    const handleMediaQueryChange = (event) => {
+    const handleMediaQueryChange = async (event) => {
       setIsMobile(event.matches);
+      if (event.matches) {
+        const lowResExists = await checkLowResExists();
+        if (lowResExists) {
+          setIconToUse(iconLowRes);
+        } else {
+          setIconToUse(icon);
+        }
+      } else {
+        setIconToUse(icon);
+      }
     };
 
     // Add the callback function as a listener for changes to the media query
     mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    // Call the handleMediaQueryChange function to set the initial iconToUse state
+    handleMediaQueryChange({ matches: mediaQuery.matches });
 
     // Remove the listener when the component is unmounted
     return () => {
@@ -90,7 +117,7 @@ const BallCanvas = ({ icon }) => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
-        <Ball imgUrl={icon} isMobile={isMobile} />
+        <Ball imgUrl={iconToUse} isMobile={isMobile} />
       </Suspense>
 
       <Preload all />
