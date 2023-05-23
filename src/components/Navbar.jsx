@@ -120,7 +120,13 @@ const Navbar = () => {
                   onClick={() => {setToggle(!toggle);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a
+                    href={nav.id ? `#${nav.id}` : nav.link}
+                    target={nav.id ? undefined : '_blank'}
+                    rel={nav.id ? undefined : 'noopener noreferrer'}
+                  >
+                    {nav.title}
+                  </a>
                 </li>
               ))}
             </ul>
