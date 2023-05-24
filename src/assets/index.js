@@ -39,6 +39,8 @@ import tracksWeLeave from "./tracksweleave.png";
 import tracksWeLeave_Gif from "./tracksweleave.gif";
 
 import returnHome from "./returnhome.png";
+import returnHome_Gif from "./returnhome.gif";
+
 
 import gasStation from "./gasstation.png";
 import gasStation_Gif from "./gasstation.gif";
@@ -84,6 +86,7 @@ export {
   tracksWeLeave_Gif,
 
   returnHome,
+  returnHome_Gif,
 
   gasStation,
   gasStation_Gif,

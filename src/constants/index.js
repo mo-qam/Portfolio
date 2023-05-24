@@ -31,6 +31,7 @@ import {
   tracksWeLeave_Gif,
 
   returnHome,
+  returnHome_Gif,
 
   gasStation,
   gasStation_Gif,
@@ -372,7 +373,7 @@ const projects = [
       },
     ],
     image: returnHome,
-    video: "https://youtu.be/IxpCRCA6Fng",
+    gif: returnHome_Gif,
     source_code_link: "https://www.artstation.com/moqam",
   },
 ];
