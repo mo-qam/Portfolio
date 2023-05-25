@@ -18,12 +18,10 @@ const ProjectCard = ({
   image,
   gif,
   video,
-  zoom,
   source_code_link,
 }) => {
-  const videoRef = useRef(null);
   const imgRef = useRef(null);
-
+  const isMobile = window.innerWidth <= 768;
   const [hasMedia, setHasMedia] = useState(!!gif || !!video);
 
   const handleMouseEnter = () => {
@@ -52,7 +50,7 @@ const ProjectCard = ({
   };
 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={!isMobile && fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
@@ -64,21 +62,25 @@ const ProjectCard = ({
             ref={imgRef}
             src={image}
             alt={name}
-            style={{ opacity: hasMedia && hovered ? 0 : 1 }}
+            style={{ opacity: hasMedia && hovered && !isMobile ? 0 : 1 }}
             className="w-full h-full object-cover rounded-2xl transition-opacity duration-300"
           />
-          <GifEmbed
-            gifUrl={gif}
-            opacity={hasMedia && hovered ? 1 : 0}
-            shouldPlay={hovered}
-            style={mediaWrapperStyle}
-          />
-          <VideoEmbed
-            url={video}
-            opacity={hasMedia && hovered ? 1 : 0}
-            shouldPlay={hovered}
-            style={mediaWrapperStyle}
-          />
+          {!isMobile && (
+            <GifEmbed
+              gifUrl={gif}
+              opacity={hasMedia && hovered? 1 : 0}
+              shouldPlay={hovered}
+              style={mediaWrapperStyle}
+            />
+          )}
+          {!isMobile && (
+            <VideoEmbed
+              url={video}
+              opacity={hasMedia && hovered ? 1 : 0}
+              shouldPlay={hovered}
+              style={mediaWrapperStyle}
+            />
+          )}
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
