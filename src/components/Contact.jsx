@@ -7,6 +7,13 @@ import { BladeCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+
+
+const contentStyle = { background: '#fff0', borderRadius: '20px', border: 'none', boxShadow: '0 25px 50px -12px rgb(0 0 0 / 0.25)', borderWidth: '2px'};
+const overlayStyle = { background: 'rgba(0,0,0,0.4)' };
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -14,12 +21,34 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
   const [loading, setLoading] = useState(false);
+  const [popupVisible, setPopupVisible] = useState(false);
+
+  const [sendSuccess, setSendSuccess] = useState(false);
+
+  
+
+  const isFormValid = () => {
+    if (form.name.trim() === "" || form.email.trim() === "" || form.message.trim() === "") {
+      return false;
+    }
+
+    // Simple email validation
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    if (!emailRegex.test(form.email.trim())) {
+      return false;
+    }
+
+    return true;
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
+
+  const [thankYouMessage, setThankYouMessage] = useState("Thank you for your message. I will get back to you within a few minutes.");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,7 +57,6 @@ const Contact = () => {
     emailjs.init("mQV6y7wKOkRNbfR--")
     
     emailjs
-      
       .send(
         "service_zg7ziui",
         "template_7ipq5ak",
@@ -43,22 +71,60 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          setSendSuccess(true);
+          setPopupVisible(true);
+          const submittedName = form.name;
+          console.log(submittedName);
 
           setForm({
             name: "",
             email: "",
             message: "",
           });
+          
+          // Update the paragraph content with the submitted name
+          setThankYouMessage(`Thank you for your message ${submittedName}. I will get back to you within a few minutes.`);
         },
         (error) => {
           setLoading(false);
-
+          setSendSuccess(false);
           console.log(error);
-          alert("Something went wrong.");
+          setPopupVisible(true);
         }
       );
   };
+
+  const SendButton = () => (
+    <Popup 
+      trigger={
+        <button
+          type="submit"
+          className={`bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary ${
+            isFormValid() ? "opacity-90 hover:opacity-100 transition-opacity" : "opacity-50"
+          }`}
+          hover="green"
+          disabled={!isFormValid() || loading}
+          >
+          {loading ? "Sending..." : "Send"}
+        </button>
+
+      } modal>
+
+      <span> 
+        Please fill out all fields and enter a valid email address.
+      </span>
+
+    </Popup>
+  );
+
+  const CloseButton = () => (
+    <button 
+      type="submit"
+      onClick={() => setPopupVisible(false)}
+      className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary opacity-90 hover:opacity-100 transition-opacity">
+      Close
+    </button>
+  );
 
   return (
     <div
@@ -109,22 +175,46 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
-
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <SendButton />
         </form>
       </motion.div>
-
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <BladeCanvas />
       </motion.div>
+  
+        <Popup
+          open={popupVisible}
+          modal
+          closeOnDocumentClick
+          onClose={() => setPopupVisible(false)}
+          contentStyle = {contentStyle}
+          overlayStyle = {overlayStyle}
+        >
+          <div className="flex-[0.75] bg-black-100 p-8 rounded-2xl text-center shadow-2xl text-white font-medium animate-anvil">
+            {sendSuccess ? (
+              <div>
+                <p id="thankYouMessage">{thankYouMessage}</p>
+                <br/>
+                <CloseButton />
+              </div>
+            ) : (
+              <div>
+                <p>Something went wrong. Please click
+                  <a href="mailto:qamar@moqam.ca" className="pl-1 blue-text-gradient opacity-90 hover:opacity-100 transition-opacity"> 
+                    here
+                  </a> if this issue persists. 
+                  <br/>
+                  <br/>
+                  <CloseButton />
+                </p>
+              </div>
+            )}
+          </div>
+        </Popup>
+
     </div>
   );
 };
