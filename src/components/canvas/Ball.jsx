@@ -45,12 +45,17 @@ const Ball = ({ imgUrl, isMobile }) => {
           map={decal}
           flatShading={isMobile ? true : false}
         />
+        {!isMobile ? (
         <Decal
           position={[0, 0, -1]}
           rotation={[0, 0, 0]}
           scale={[-1, 1, -1]}
           map={decal}
+          flatShading={isMobile ? true : false}
         />
+        ) : (
+          <></>
+        )}
       </mesh>
     </Float>
   );
@@ -59,45 +64,23 @@ const Ball = ({ imgUrl, isMobile }) => {
 const BallCanvas = ({ icon }) => {
   const [isMobile, setIsMobile] = useState(false);
   const [iconToUse, setIconToUse] = useState(icon);
+
   const iconLowRes = icon.replace(".png", "_low_res.png");
 
-  const checkLowResExists = async (numRetries = 3) => {
-    try {
-      const response = await fetch(iconLowRes);
-      if (response.ok) {
-        return true;
-      }
-      throw new Error("Low-res texture response not ok");
-    } catch (error) {
-      console.error("Error fetching low-res texture:", error);
-      if (numRetries > 0) {
-        console.log(`Retrying... (${numRetries} attempts remaining)`);
-        return await checkLowResExists(numRetries - 1);
-      }
-      throw error;
-    }
-  };
-
   useEffect(() => {
-    // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
-    // Set the initial value of the `isMobile` state variable
-    setIsMobile(mediaQuery.matches);
-
-    // Define a callback function to handle changes to the media query
     const handleMediaQueryChange = async (event) => {
       setIsMobile(event.matches);
       if (event.matches) {
         try {
-          const lowResExists = await checkLowResExists();
-          if (lowResExists) {
+          const response = await fetch(iconLowRes);
+          if (response.ok) {
             setIconToUse(iconLowRes);
           } else {
             setIconToUse(icon);
           }
         } catch (error) {
-          // Handle the error, for example, by setting a default texture or showing an error message
           setIconToUse(icon);
         }
       } else {
@@ -105,17 +88,14 @@ const BallCanvas = ({ icon }) => {
       }
     };
 
-    // Add the callback function as a listener for changes to the media query
     mediaQuery?.addEventListener("change", handleMediaQueryChange);
-    
-    // Call the handleMediaQueryChange function to set the initial iconToUse state
+
     handleMediaQueryChange({ matches: mediaQuery.matches });
 
-    // Remove the listener when the component is unmounted
     return () => {
       mediaQuery?.removeEventListener("change", handleMediaQueryChange);
     };
-  }, []);
+  }, [icon, iconLowRes]);
 
   return (
     <Canvas
