@@ -6,9 +6,9 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
+import useOnScreen from './useOnScreen';
 import GifEmbed from './GifEmbed';
-import VideoEmbed from './VideoEmbed';
 
 const ProjectCard = ({
   index,
@@ -24,6 +24,7 @@ const ProjectCard = ({
   const isMobile = window.innerWidth <= 768;
   const [hasMedia, setHasMedia] = useState(!!gif || !!video);
 
+
   const handleMouseEnter = () => {
     if (hasMedia) {
       setHovered(true);
@@ -38,6 +39,23 @@ const ProjectCard = ({
 
   const [hovered, setHovered] = useState(false);
 
+   // Add a new state to control playing the GIF on mobile
+  const [mobileGifPlaying, setMobileGifPlaying] = useState(false);
+
+  const [ref, isVisible] = useOnScreen({ threshold: 0.1 }); // Adjust the threshold according to your requirements
+
+  useEffect(() => {
+    if (isMobile && isVisible && !mobileGifPlaying) {
+      const timer = setTimeout(() => {
+        setMobileGifPlaying(true);
+      }, 2000); // Modify the delay as needed (2000 ms = 2 seconds)
+  
+      return () => {
+        clearTimeout(timer);
+      };
+    }
+  }, [isMobile, isVisible, mobileGifPlaying]);
+
   const mediaWrapperStyle = {
     position: 'absolute',
     top: 0,
@@ -50,85 +68,152 @@ const ProjectCard = ({
   };
 
   return (
-    <motion.div variants={!isMobile && fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
-      >
-        <div className="relative w-full h-[230px]"
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}>
-          <img
-            ref={imgRef}
-            src={image}
-            alt={name}
-            style={{ opacity: hasMedia && hovered && !isMobile ? 0 : 1 }}
-            className="w-full h-full object-cover rounded-2xl transition-opacity duration-300"
-          />
-          {!isMobile && (
+    <>
+      {!isMobile ? (
+        <motion.div  ref = {ref} variants={!isMobile && fadeIn("up", "spring", index * 0.5, 0.75)}>
+          <Tilt
+            options={{ max: 45, scale: 1, speed: 450 }}
+            className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
+          >
+            <div className="relative w-full h-[230px]"
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}>
+              <img
+                ref={imgRef}
+                src={image}
+                alt={name}
+                style={{ opacity: hasMedia && hovered && mobileGifPlaying ? 0 : 1 }}
+                className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 hover:transition-opacity"
+              />
+                <GifEmbed
+                  gifUrl={gif}
+                  opacity={(hasMedia && mobileGifPlaying) || (hasMedia && hovered) ? 1 : 0}
+                  shouldPlay={(hasMedia && mobileGifPlaying) || (hasMedia && hovered)}
+                  style={mediaWrapperStyle}
+                />
+              <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+                <div
+                  onClick={() => window.open(source_code_link, "_blank")}
+                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer 
+                  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                >
+                  <img
+                    src={github}
+                    alt="github"
+                    className="w-1/2 h-1/2 object-contain"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="mt-5">
+              <h3 className="text-white font-bold text-[24px]">{name}</h3>
+              <p className="mt-2 text-secondary text-[14px]">{description}</p>
+            </div>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {tags.map((tag) => (
+                <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                  #{tag.name}
+                </p>
+              ))}
+            </div>
+          </Tilt>
+        </motion.div>
+      ) : (
+        <div ref = {ref} className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full">
+          <div className="relative w-full h-[230px]">
+            <img
+              ref={imgRef}
+              src={image}
+              alt={name}
+              style={{ opacity: hasMedia && mobileGifPlaying ? 0 : 1 }}
+              className="w-full h-full object-cover rounded-2xl transition-opacity duration-300"
+            />
             <GifEmbed
               gifUrl={gif}
-              opacity={hasMedia && hovered? 1 : 0}
-              shouldPlay={hovered}
+              opacity={hasMedia && mobileGifPlaying ? 1 : 0}
+              shouldPlay={hasMedia && mobileGifPlaying}
               style={mediaWrapperStyle}
             />
-          )}
-          {!isMobile && (
-            <VideoEmbed
-              url={video}
-              opacity={hasMedia && hovered ? 1 : 0}
-              shouldPlay={hovered}
-              style={mediaWrapperStyle}
-            />
-          )}
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt="github"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
             </div>
           </div>
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          </div>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                #{tag.name}
+              </p>
+            ))}
+          </div>
         </div>
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
-        </div>
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-              #{tag.name}
-            </p>
-          ))}
-        </div>
-      </Tilt>
-    </motion.div>
+    )}
+  </>
+);
+};
+
+const TitleContent = () => {
+  return (
+    <div className="flex flex-col">
+      <p className={styles.sectionSubText}>My work</p>
+      <h2 className={styles.sectionHeadText}>Projects.</h2>
+    </div>
   );
 };
 
-const Works = () => {
+const SubHeadingContent = () => {
+  return (
+    <div className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]" >
+      <p>
+        Following projects showcases my skills and experience through
+        real-world examples of my work. Each project is briefly described with
+        links to their location. It reflects my
+        ability to solve complex problems, work with different technologies,
+        and manage projects effectively.
+      </p>
+    </div>
+  );
+};
+
+const Works = ({isMobile}) => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
-      </motion.div>
+      {isMobile ? (
+        <motion.div variants={textVariant()}>
+          <TitleContent />
+        </motion.div>
+      ) : (
+        <div className="flex flex-col">
+          <TitleContent />
+        </div>
+      )}
+
 
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
-        </motion.p>
+        {isMobile ? (
+            <motion.p
+              variants={fadeIn("", "", 0.1, 1)}
+              className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+            >
+              <SubHeadingContent />
+          </motion.p>
+        ) : (
+          <div className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]" >
+            <SubHeadingContent />
+          </div>
+        )}
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">

@@ -31,7 +31,7 @@ const CardContent = ({ icon, title }) => (
 );
 
 const ServiceCard = ({ index, title, icon, isMobile }) => (
-  isMobile ? (
+  !isMobile ? (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.1, 0.75)}
