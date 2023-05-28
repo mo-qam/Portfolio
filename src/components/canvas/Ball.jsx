@@ -11,6 +11,7 @@ import {
 import CanvasLoader from "../Loader";
 
 const Ball = ({ imgUrl, isMobile }) => {
+  
   const [decal] = useTexture([imgUrl]);
 
   return (
@@ -62,46 +63,14 @@ const Ball = ({ imgUrl, isMobile }) => {
 };
 
 const BallCanvas = ({ icon }) => {
-  const [isMobile, setIsMobile] = useState(false);
+  const isMobile = window.innerWidth <= 768;
   const [iconToUse, setIconToUse] = useState(icon);
-
-  const iconLowRes = icon.replace(".png", "_low_res.png");
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-
-    const handleMediaQueryChange = async (event) => {
-      setIsMobile(event.matches);
-      if (event.matches) {
-        try {
-          const response = await fetch(iconLowRes);
-          if (response.ok) {
-            setIconToUse(iconLowRes);
-          } else {
-            setIconToUse(icon);
-          }
-        } catch (error) {
-          setIconToUse(icon);
-        }
-      } else {
-        setIconToUse(icon);
-      }
-    };
-
-    mediaQuery?.addEventListener("change", handleMediaQueryChange);
-
-    handleMediaQueryChange({ matches: mediaQuery.matches });
-
-    return () => {
-      mediaQuery?.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, [icon, iconLowRes]);
 
   return (
     <Canvas
       frameloop={isMobile ? "ondemand" : "always"}
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
+      dpr={[1, 1]}
+      gl={{ preserveDrawingBuffer: false }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
