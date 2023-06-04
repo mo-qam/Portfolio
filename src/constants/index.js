@@ -57,7 +57,7 @@ export const navLinks = [
   },
   {
     title: "Resume",
-    link: "/Mohammed_Qamar_Resume.pdf",
+    link: "https://drive.proton.me/urls/45AJBY8HS4#0OT8hVQHzY21",
     isPDF: true,
   },
   {
