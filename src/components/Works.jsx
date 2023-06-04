@@ -42,13 +42,13 @@ const ProjectCard = ({
    // Add a new state to control playing the GIF on mobile
   const [mobileGifPlaying, setMobileGifPlaying] = useState(false);
 
-  const [ref, isVisible] = useOnScreen({ threshold: 0.1 }); // Adjust the threshold according to your requirements
+  const [ref, isVisible] = useOnScreen({ threshold: 0.3 }); // Adjust the threshold according to your requirements
 
   useEffect(() => {
     if (isMobile && isVisible && !mobileGifPlaying) {
       const timer = setTimeout(() => {
         setMobileGifPlaying(true);
-      }, 2000); // Modify the delay as needed (2000 ms = 2 seconds)
+      }, 3000); // Modify the delay as needed (2000 ms = 2 seconds)
   
       return () => {
         clearTimeout(timer);
