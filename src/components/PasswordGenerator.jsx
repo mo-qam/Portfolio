@@ -41,30 +41,32 @@ const PasswordGenerator = () => {
 
   const onLengthChange = (e) => {
     setLength(e.target.value);
+    generatePassword();
     updateStrengthColor(e.target.value);
   };
 
   const updateStrengthColor = (length) => {
     let color;
-    if (length >= 11) color = 'darkgreen';
-    else if (length >= 9) color = 'green';
-    else if (length >= 7) color = 'yellow';
-    else if (length >= 4) color = 'red';
-    else color = 'white';
+    if (length >= 12) color = '#2E7D32';
+    else if (length >= 10) color = '#43A047';
+    else if (length >= 8) color = '#FFC107';
+    else if (length >= 4) color = '#E53935';
+    else color = '#E53935';
     setStrengthColor(color);
   };
 
   return (
     <div className="container mx-auto px-4 py-20">
       <h1 className="text-4xl font-semibold mb-4 py-7">Password Generator</h1>
+      <h2 className="text-2xl font-semibold mb-4">Your password</h2>
       <div className="my-8">
-        <div className="bg-tertiary p-4 rounded-lg">
+        <div className="bg-tertiary p-4 rounded-lg font-semibold text-white">
           <input
             type="text"
             readOnly
             value={password}
             style={{ backgroundColor: strengthColor }}
-            className="w-full text-black py-2 px-4 rounded-lg"
+            className="w-full text-white py-2 px-4 rounded-lg"
           />
         </div>
         <div className="flex justify-around my-4">
@@ -98,7 +100,7 @@ const PasswordGenerator = () => {
             onChange={onLengthChange}
             min={3}
             step={1}
-            className="w-full border border-gray-300 p-2 mr-2 rounded-lg"
+            className="w-full h-2 bg-gray-200 rounded-lg cursor-pointer" // Add the desired Tailwind classes here
           />
         </div>
       </div>
