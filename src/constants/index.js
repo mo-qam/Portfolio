@@ -57,7 +57,7 @@ export const navLinks = [
   },
   {
     title: "Resume",
-    link: "/public/Mohammed_Qamar_Resume.pdf",
+    link: "/Mohammed_Qamar_Resume.pdf",
     isPDF: true,
   },
   {
