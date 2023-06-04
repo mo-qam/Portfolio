@@ -41,6 +41,7 @@ import {
 
 } from "../assets";
 
+
 export const navLinks = [
   {
     id: "about",
@@ -53,6 +54,11 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    title: "Resume",
+    link: "/public/Mohammed_Qamar_Resume.pdf",
+    isPDF: true,
   },
   {
     title: "Linkedin",

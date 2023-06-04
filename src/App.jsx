@@ -1,4 +1,6 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import PasswordGenerator from './components/PasswordGenerator';
+import Main from './components/Main';
 
 import {
   About,
@@ -16,17 +18,14 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar />
-          <Hero />
+        <Navbar />
+        <div>
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/p-gen" element={<PasswordGenerator />} />
+          </Routes>
         </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
         <div className="relative z-0">
-          <Contact />
           <StarsCanvas />
         </div>
       </div>
