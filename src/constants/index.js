@@ -351,7 +351,7 @@ const projects = [
     source_code_link: "https://www.artstation.com/artwork/o2dJqL",
   },
   {
-    name: "Return Home",
+    name: "Home",
     description:
       `This piece is a recent personal project rendered in Unreal Engine 5.
       I was responsible for creating the stone fountain and mystical sword hero props.
@@ -380,7 +380,7 @@ const projects = [
     ],
     image: returnHome,
     gif: returnHome_Gif,
-    source_code_link: "https://www.artstation.com/moqam",
+    source_code_link: "https://www.artstation.com/artwork/xDNOJ2",
   },
 ];
 
