@@ -88,12 +88,14 @@ const Navbar = () => {
                 </a>
               ) : (
                 <Link
-                  to={nav.id ? `#${nav.id}` : nav.link}
+                  to={nav.link ? nav.link : `#${nav.id}`}
                   target={nav.id ? undefined : '_blank'}
                   rel={nav.id ? undefined : 'noopener noreferrer'}
-                  onClick={() => {
+                  onClick={(e) => {
+                    if (nav.link) return; // Navigate to nav.link if it exists
+                    e.preventDefault(); // Prevent default behavior of scrolling to the anchor
                     const element = document.getElementById(nav.id);
-                    if (element) element.scrollIntoView({ behavior: 'smooth' });
+                    if (element) element.scrollIntoView({ behavior: 'smooth' }); // Scroll to nav.id
                   }}
                 >
                   {nav.icon ? (
