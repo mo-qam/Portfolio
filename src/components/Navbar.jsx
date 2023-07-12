@@ -91,6 +91,10 @@ const Navbar = () => {
                   to={nav.id ? `#${nav.id}` : nav.link}
                   target={nav.id ? undefined : '_blank'}
                   rel={nav.id ? undefined : 'noopener noreferrer'}
+                  onClick={() => {
+                    const element = document.getElementById(nav.id);
+                    if (element) element.scrollIntoView({ behavior: 'smooth' });
+                  }}
                 >
                   {nav.icon ? (
                     <img
@@ -144,6 +148,10 @@ const Navbar = () => {
                       to={nav.id ? `#${nav.id}` : nav.link}
                       target={nav.id ? undefined : '_blank'}
                       rel={nav.id ? undefined : 'noopener noreferrer'}
+                      onClick={() => {
+                        const element = document.getElementById(nav.id);
+                        if (element) element.scrollIntoView({ behavior: 'smooth' });
+                      }}
                     >
                       {nav.title}
                     </Link>

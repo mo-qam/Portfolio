@@ -56,16 +56,19 @@ export const navLinks = [
     title: "Contact",
   },
   {
+    id: "resume",
     title: "Resume",
     link: "https://drive.proton.me/urls/45AJBY8HS4#0OT8hVQHzY21",
     isPDF: true,
   },
   {
+    id: "linkedin",
     title: "Linkedin",
     link: "https://www.linkedin.com/in/moqam",
     icon: linkedinIcon,
   },
   {
+    id: "artstation",
     title: "Artstation",
     link: "https://www.artstation.com/moqam",
     icon: artstationIcon,
