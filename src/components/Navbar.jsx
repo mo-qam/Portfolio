@@ -147,7 +147,7 @@ const Navbar = () => {
                     </a>
                   ) : (
                     <Link
-                      to={nav.id ? `#${nav.id}` : nav.link}
+                      to={nav.link ? nav.link : `#${nav.id}`}
                       target={nav.id ? undefined : '_blank'}
                       rel={nav.id ? undefined : 'noopener noreferrer'}
                       onClick={() => {
