@@ -22,7 +22,7 @@ const App = () => {
         <div>
           <Routes>
             <Route path="/" element={<Main />} />
-            <Route path="/p-gen" element={<PasswordGenerator />} />
+            <Route path="/pgen" element={<PasswordGenerator />} />
           </Routes>
         </div>
         <div className="relative z-0">
