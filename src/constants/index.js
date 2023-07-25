@@ -30,6 +30,8 @@ import {
   tracksWeLeave,
   tracksWeLeave_Gif,
 
+  wd2MarcusRoom,
+
   returnHome,
   returnHome_Gif,
 
@@ -143,7 +145,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Designer & 3D Artist",
+    title: "Game Designer | 3D Artist",
     company_name: "PixelNAUTS Games",
     icon: pixelnauts,
     iconBg: "#383E56",
@@ -299,14 +301,41 @@ const projects = [
     gif: ubisoftNext2023_Gif,
     source_code_link: "https://www.artstation.com/artwork/blaPZo",
   },
+  // {
+  //   name: "Gas Station",
+  //   description:
+  //     `This piece is from a personal project rendered in Unity URP. I was responsible for modelling, baking, and texturing.
+  //     Textures for rocks, foliage and skybox, were sourced from textures.com and Unity sample packages.`,
+  //   tags: [
+  //     {
+  //       name: "Unity URP",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "3DS Max",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Substance Painter",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Photoshop",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: gasStation,
+  //   gif: gasStation_Gif,
+  //   source_code_link: "https://www.artstation.com/artwork/o2dJqL",
+  // },
   {
-    name: "Tracks We Leave",
+    name: "Watch Dogs 2 - Marcus' Room",
     description:
-      `This environment was created during my second year of University, in an Environment Design course.
-      The props, landscape, lighting and visual effects were my responsibility, with added guidance from professors.`,
+      `This piece is from a personal project rendered in Unreal Engine 5.
+      I was responsible for modelling, baking, texturing, lighting, visual effects, and post-processing.`,
     tags: [
       {
-        name: "Unity SRP",
+        name: "Unreal Engine 5",
         color: "pink-text-gradient",
       },
       {
@@ -318,30 +347,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Photoshop",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tracksWeLeave,
-    gif: tracksWeLeave_Gif,
-    source_code_link: "https://www.artstation.com/artwork/ZeewR1",
-  },
-  {
-    name: "Gas Station",
-    description:
-      `This piece is from a personal project rendered in Unity URP. I was responsible for modelling, baking, and texturing.
-      Textures for rocks, foliage and skybox, were sourced from textures.com and Unity sample packages.`,
-    tags: [
-      {
-        name: "Unity URP",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "3DS Max",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Substance Painter",
+        name: "Marmoset Toolbag",
         color: "pink-text-gradient",
       },
       {
@@ -349,9 +355,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: gasStation,
-    gif: gasStation_Gif,
-    source_code_link: "https://www.artstation.com/artwork/o2dJqL",
+    image: wd2MarcusRoom,
+    source_code_link: "https://www.artstation.com/artwork/bl8vLm",
   },
   {
     name: "Home",
@@ -384,6 +389,33 @@ const projects = [
     image: returnHome,
     gif: returnHome_Gif,
     source_code_link: "https://www.artstation.com/artwork/xDNOJ2",
+  },
+  {
+    name: "Tracks We Leave",
+    description:
+      `This environment was created during my second year of University, in an Environment Design course.
+      The props, landscape, lighting and visual effects were my responsibility, with added guidance from professors.`,
+    tags: [
+      {
+        name: "Unity SRP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "3DS Max",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Substance Painter",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Photoshop",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tracksWeLeave,
+    gif: tracksWeLeave_Gif,
+    source_code_link: "https://www.artstation.com/artwork/ZeewR1",
   },
 ];
 

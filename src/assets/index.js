@@ -26,21 +26,24 @@ import unity from "./tech/unity.png";
 import unrealengine from "./tech/unrealengine.png";
 
 //Companies
-import pixelnauts from "./company/pixelnauts.png";
 import taply from "./company/taply.png";
+
+import pixelnauts from "./company/pixelnauts.png";
+
 
 //Projects
 import rocketrumble from "./rocketrumble.png";
 
-import ubisoftNext2023 from "./ubisoftNext2023.jpg";
+import ubisoftNext2023 from "./ubisoftNext2023_thumbnail.jpg";
 import ubisoftNext2023_Gif from "./ubisoftNext2023.gif";
 
 import tracksWeLeave from "./tracksweleave.png";
 import tracksWeLeave_Gif from "./tracksweleave.gif";
 
-import returnHome from "./returnhome.png";
+import returnHome from "./Home_thumbnail.jpg";
 import returnHome_Gif from "./returnhome.gif";
 
+import wd2MarcusRoom from "./wd2_marcus_thumbnail.jpg";
 
 import gasStation from "./gasstation.png";
 import gasStation_Gif from "./gasstation.gif";
@@ -84,6 +87,8 @@ export {
 
   tracksWeLeave,
   tracksWeLeave_Gif,
+
+  wd2MarcusRoom,
 
   returnHome,
   returnHome_Gif,
