@@ -193,7 +193,7 @@ const testimonials = [
     name: "Hussam Hassan",
     designation: "COO",
     company: "Taply Inc",
-    image: "https://media.licdn.com/dms/image/C5603AQHPSp2Vm7aluw/profile-displayphoto-shrink_100_100/0/1517404935460?e=1690416000&v=beta&t=quAfJZ7Q5WVcu61_Px_QxxyCK0eVWhfxpYpZa8rsGHM",
+    image: "https://media.licdn.com/dms/image/C5603AQHPSp2Vm7aluw/profile-displayphoto-shrink_800_800/0/1517404935460?e=1697068800&v=beta&t=f1qVh9LcNp1723_l9ccTX4eeBS7ZWDo-IujkL26tO74",
   },
   {
     testimonial:
@@ -201,7 +201,7 @@ const testimonials = [
     name: "Arsh Sanwarwala",
     designation: "CEO",
     company: "ThrillX Design",
-    image: "https://media.licdn.com/dms/image/D5603AQH6L-7yaiB8Aw/profile-displayphoto-shrink_100_100/0/1674495449743?e=1690416000&v=beta&t=qzDhO-F83Z2hDQxyAxyehMDcpv6V2iinqSQ_YwCKN8s",
+    image: "https://media.licdn.com/dms/image/D5603AQH6L-7yaiB8Aw/profile-displayphoto-shrink_800_800/0/1674495449743?e=1697068800&v=beta&t=XGquZ13HDMVlPiA_4uanukZHxGRZqHbrVPmPfnJN50A",
   },
   {
     testimonial:
@@ -209,7 +209,7 @@ const testimonials = [
     name: "Kevin Gordon",
     designation: "3D Art Professor",
     company: "Niagara College",
-    image: "https://media.licdn.com/dms/image/C5603AQHl37nptIh2ew/profile-displayphoto-shrink_200_200/0/1517504452964?e=1690416000&v=beta&t=zUyebCj6w34f8FrAj2g8el-kSXa3FlS5-6epd1LhKdE",
+    image: "https://media.licdn.com/dms/image/C5603AQHl37nptIh2ew/profile-displayphoto-shrink_800_800/0/1517504452964?e=1697068800&v=beta&t=y1x2RAHXiHEY-6v00hB1e-Zh5Tj2wYXOU9AelWz40mM",
   },
   {
     testimonial:
@@ -217,7 +217,7 @@ const testimonials = [
     name: "Alex Golebiowski",
     designation: "COO",
     company: "PixelNAUTS Games",
-    image: "https://media.licdn.com/dms/image/C4E03AQE40l6Fmb5Aww/profile-displayphoto-shrink_100_100/0/1649173014738?e=1690416000&v=beta&t=sHgeenTL19jRIPnS5KW9Od5QKSlE2-6mz21Pbh9aeyA",
+    image: "https://media.licdn.com/dms/image/C4E03AQE40l6Fmb5Aww/profile-displayphoto-shrink_800_800/0/1649173014738?e=1697068800&v=beta&t=2fss0Cz98-NILoeRxbzoOzAAln9JQkWu0ULmVART30A",
   },
 ];
 
