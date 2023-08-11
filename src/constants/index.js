@@ -189,7 +189,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "..we ended up extending our term with him due to his excellent performance.",
+      "..we extended our term with him due to his excellent performance.",
     name: "Hussam Hassan",
     designation: "COO",
     company: "Taply Inc",
@@ -197,7 +197,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a designer who truly cares about his craft like Mohammed does.",
+      "I've never met a designer who truly cares about his craft like Mohammed Qamar does.",
     name: "Arsh Sanwarwala",
     designation: "CEO",
     company: "ThrillX Design",
@@ -213,7 +213,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "..looking forward to seeing what you do in the future.",
+      "..looking forward to seeing what you do in the future Mohammed.",
     name: "Alex Golebiowski",
     designation: "COO",
     company: "PixelNAUTS Games",
