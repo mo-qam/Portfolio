@@ -69,7 +69,7 @@ const About = () => {
         I'm a quick learner and collaborate closely with my collegues to
         create efficient, scalable, and performant solutions that solve
         problems fast.
-        <a href="https://canvasrebel.com/meet-mohammed-qamar" className="ml-2 text-secondary text-[15px] max-w-3xl leading-[15px] text-rose-400 hover:animate-pulse ">
+        <a href="https://canvasrebel.com/meet-mohammed-qamar" className="ml-2 text-[15px] max-w-3xl leading-[15px] text-rose-400 hover:animate-pulse ">
           Click here to learn more about me.
         </a>
       </motion.p>
