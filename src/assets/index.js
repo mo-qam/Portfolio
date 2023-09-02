@@ -1,4 +1,4 @@
-import logo from "./logo.gif";
+import logo from "./mohammed-qamar-logo.gif";
 
 import gamedesign from "./mohammed-qamar-gamedesign.png";
 import gamedeveloper from "./mohammed-qamar-gamedeveloper.png";
@@ -8,7 +8,7 @@ import systemsdesign from "./mohammed-qamar-systemsdesign.png";
 import artstationIcon from "./mohammed-qamar-artstation_icon.png";
 import linkedinIcon from "./mohammed-qamar-linkdin_icon.png";
 
-import github from "./github.png";
+import github from "./mohammed-qamar-github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
