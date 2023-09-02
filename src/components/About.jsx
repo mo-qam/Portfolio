@@ -64,11 +64,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Designer and Artist with experience in Systems Design, 
+        I'm a skilled Designer and Artist with experience in Systems Design,
         Level Design, Technical Design, 3D Artistry, and UI/UX implementation.
         I'm a quick learner and collaborate closely with my collegues to
         create efficient, scalable, and performant solutions that solve
         problems fast.
+        <a href="https://canvasrebel.com/meet-mohammed-qamar" className="ml-2 text-secondary text-[15px] max-w-3xl leading-[15px] hover:animate-pulse text-rose-400">
+          Click here to learn more about me.
+        </a>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
