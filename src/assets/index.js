@@ -1,12 +1,12 @@
 import logo from "./logo.gif";
 
-import gamedesign from "./gamedesign.png";
-import gamedeveloper from "./gamedeveloper.png";
-import tech3dartist from "./3dtechartist.png";
-import systemsdesign from "./systemsdesign.png";
+import gamedesign from "./mohammed-qamar-gamedesign.png";
+import gamedeveloper from "./mohammed-qamar-gamedeveloper.png";
+import tech3dartist from "./mohammed-qamar-3dtechartist.png";
+import systemsdesign from "./mohammed-qamar-systemsdesign.png";
 
-import artstationIcon from "./artstation_icon.png";
-import linkedinIcon from "./linkdin_icon.png";
+import artstationIcon from "./mohammed-qamar-artstation_icon.png";
+import linkedinIcon from "./mohammed-qamar-linkdin_icon.png";
 
 import github from "./github.png";
 import menu from "./menu.svg";
