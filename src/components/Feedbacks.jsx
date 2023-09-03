@@ -33,7 +33,7 @@ const FeedbackCard = ({
           </p>
         </div>
 
-        <a href={link}>
+        <a href={link} target="_blank">
           <img
             src={image}
             alt={`feedback_by-${name}`}
