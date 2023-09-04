@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
+import { fadeIn, textVariant } from "../utils/motion";
 import { ControllersCanvas } from "./canvas";
 
 const Hero = () => {
@@ -21,9 +22,9 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#b33939]">Mohammed Qamar</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 fade`}>
             Designer | Developer | Artist <br className="sm:block hidden" />
-             for Game Applications.
+            for Game Applications.
           </p>
         </div>
       </div>

@@ -68,7 +68,7 @@ const BallCanvas = ({ icon }) => {
 
   return (
     <Canvas
-      frameloop={isMobile ? "ondemand" : "always"}
+      frameloop={isMobile ? "ondemand" : "ondemand"}
       dpr={[1, 1]}
       gl={{ preserveDrawingBuffer: false }}
     >

@@ -7,8 +7,6 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const isMobile = window.innerWidth <= 768;
-
 const CardContent = ({ icon, title }) => (
   <div
     options={{

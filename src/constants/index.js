@@ -189,7 +189,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "..we extended our term with Mohammed him due to his excellent performance.",
+      "..we extended our term with Mohammed Qamar due to his excellent performance.",
     name: "Hussam Hassan",
     designation: "COO",
     company: "Taply Inc",
