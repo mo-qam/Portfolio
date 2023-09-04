@@ -1,22 +1,15 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import PasswordGenerator from './components/PasswordGenerator';
 import Main from './components/Main';
 
 import {
-  About,
-  Contact,
-  Experience,
-  Feedbacks,
-  Hero,
   Navbar,
-  Tech,
-  Works,
   StarsCanvas,
 } from "./components";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="relative z-0 bg-primary">
         <Navbar />
         <div>
@@ -29,7 +22,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
