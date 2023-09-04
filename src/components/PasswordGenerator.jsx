@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect  } from 'react';
 
 const PasswordGenerator = () => {
   const [password, setPassword] = useState('');
@@ -55,10 +55,22 @@ const PasswordGenerator = () => {
     setStrengthColor(color);
   };
 
+  // Call generatePassword when the component mounts
+  useEffect(() => {
+    generatePassword();
+    updateStrengthColor(length);
+  }, []);
+
+  // Added function to handle copy with notification
+  const handleCopy = () => {
+    navigator.clipboard.writeText(password);
+    alert('Password copied to clipboard'); // Replace with your notification component or method
+  };
+
   return (
     <div className="container mx-auto px-4 py-20">
-      <h1 className="text-4xl font-semibold mb-4 py-7">Password Generator</h1>
-      <h2 className="text-2xl font-semibold mb-4">Your password</h2>
+      <h1 className="text-3xl font-semibold mb-1 py-7">Mohammed Qamar's <br></br>Password Generator</h1>
+      <h5 className="text-2xl font-semibold mb-4">Your password</h5>
       <div className="my-8">
         <div className="bg-tertiary p-4 rounded-lg font-semibold text-white">
           <input
@@ -69,18 +81,18 @@ const PasswordGenerator = () => {
             className="w-full text-white py-2 px-4 rounded-lg"
           />
         </div>
-        <div className="flex justify-around my-4">
+        <div className="flex my-4 space-x-2">
         <button
-            onClick={() => navigator.clipboard.writeText(password)}
-            className="bg-tertiary text-white py-2 px-4 rounded-lg"
-          >
-            Copy
-          </button>
-          <button
             onClick={generatePassword}
-            className="bg-tertiary text-white py-2 px-4 rounded-lg"
+            className="bg-tertiary text-white py-3 px-5 rounded-lg"
           >
             Refresh
+          </button>
+        <button
+            onClick={() => navigator.clipboard.writeText(password) && handleCopy()}
+            className="bg-tertiary text-white py-3 px-5 rounded-lg"
+          >
+            Copy
           </button>
         </div>
       </div>
@@ -103,73 +115,6 @@ const PasswordGenerator = () => {
             className="w-full h-2 bg-gray-200 rounded-lg cursor-pointer" // Add the desired Tailwind classes here
           />
         </div>
-      </div>
-      <div className="grid grid-cols-2 gap-4 mb-4">
-        <label className="flex items-center">
-          <input
-            type="checkbox"
-            checked={easyToSay}
-            onChange={(e) => setEasyToSay(e.target.checked)}
-            className="mr-2"
-          />
-          Easy to say
-        </label>
-        <label className="flex items-center">
-          <input
-            type="checkbox"
-            checked={easyToRead}
-            onChange={(e) => setEasyToRead(e.target.checked)}
-            className="mr-2"
-          />
-          Easy to read
-        </label>
-        <label className="flex items-center">
-          <input
-            type="checkbox"
-            checked={allCharacters}
-            onChange={(e) => setAllCharacters(e.target.checked)}
-            className="mr-2"
-          />
-          All Characters
-        </label>
-      </div>
-      <div className="grid grid-cols-2 gap-4">
-        <label className="flex items-center">
-          <input
-            type="checkbox"
-            checked={uppercase}
-            onChange={(e) => setUppercase(e.target.checked)}
-            className="mr-2"
-          />
-          Uppercase
-        </label>
-        <label className="flex items-center">
-          <input
-            type="checkbox"
-            checked={lowercase}
-            onChange={(e) => setLowercase(e.target.checked)}
-            className="mr-2"
-          />
-          Lowercase
-        </label>
-        <label className="flex items-center">
-          <input
-            type="checkbox"
-            checked={numbers}
-            onChange={(e) => setNumbers(e.target.checked)}
-            className="mr-2"
-          />
-          Numbers
-        </label>
-        <label className="flex items-center">
-          <input
-            type="checkbox"
-            checked={symbols}
-            onChange={(e) => setSymbols(e.target.checked)}
-            className="mr-2"
-          />
-          Symbols
-        </label>
       </div>
     </div>
   );

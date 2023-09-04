@@ -70,6 +70,10 @@ const About = () => {
         <a href="https://canvasrebel.com/meet-mohammed-qamar" target="_blank" className="ml-2 text-[15px] max-w-3xl leading-[15px] text-rose-400 hover:animate-pulse ">
           Click here to learn more about me.
         </a>
+      
+        <a href="/pgen" target="_blank" className="ml-2 text-[15px] max-w-3xl leading-[15px] text-rose-400 hover:animate-pulse ">
+          Click here to generate a password.
+        </a>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
