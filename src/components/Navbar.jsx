@@ -74,7 +74,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.id ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer ${
+              } hover:text-white text-[18px] font-medium cursor-pointer transition transform active:-translate-y-1 ${
                 nav.icon && index !== 0 ? "ml-6" : "ml-10"
               }`}
             >
