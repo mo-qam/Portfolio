@@ -147,6 +147,7 @@ const experiences = [
   {
     title: "Game Designer | 3D Artist",
     company_name: "PixelNAUTS Games",
+    company_link: "https://pixelnauts.ca/",
     icon: pixelnauts,
     iconBg: "#383E56",
     date: "June 2022 - Present",
@@ -161,6 +162,7 @@ const experiences = [
   {
     title: "3D Artist - Intern",
     company_name: "PixelNAUTS Games",
+    company_link: "https://pixelnauts.ca/",
     icon: pixelnauts,
     iconBg: "#383E56",
     date: "May 2022 - June 2022",
@@ -174,6 +176,7 @@ const experiences = [
   {
     title: "Graphic Designer",
     company_name: "Taply Inc",
+    company_link: "https://www.taply.io/",
     icon: taply,
     iconBg: "#383E56",
     date: "July 2017 - August 2020",

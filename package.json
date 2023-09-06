@@ -29,6 +29,7 @@
     "react-tooltip": "^5.13.1",
     "react-vertical-timeline-component": "^3.6.0",
     "react-video-cover": "^1.2.2",
+    "react-youtube": "^10.1.0",
     "reactjs-popup": "^2.0.5",
     "three": "^0.149.0"
   },
