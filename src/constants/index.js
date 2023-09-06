@@ -232,56 +232,73 @@ const projects = [
   {
     name: "Rocket Rumble",
     description:
-      "Rocket Rumble is a 3D multiplayer game where players compete to be the last one standing. Players can use a variety of weapons and power-ups to destroy their opponents and be the last one standing.",
+      `As a Designer & 3D Artist for Rocket Rumble, I crafted a diverse array of 3D assets, including character models and environmental props. 
+      I designed levels that enhanced player engagement and aligned well with gameplay mechanics. 
+      Additionally, I collaborated with the systems design team to optimize art assets for real-time multiplayer, elevating the overall user experience
+      through strategic planning and creative problem-solving`,
+
     tags: [
       {
         name: "Unity",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
       {
-        name: "Systems Design",
-        color: "green-text-gradient",
+        name: "Technical Design",
+        color: "pink-text-gradient",
       },
       {
-        name: "3D Art",
+        name: "Technical Art",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Environment Art",
         color: "pink-text-gradient",
       },
       {
         name: "Level Design",
-        color: "orange-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: rocketrumble,
-    gif: "https://static.wixstatic.com/media/5080c4_4f0c106b79394a3d8cfb70161f55fa19~mv2.gif",
+    youtube_URL: "WvLXuEEq39w",
     source_code_link: "https://www.rocketrumblegame.com",
   },
   {
     name: "Calico Cat-fe",
     description:
-      `Calico Cat-fe is a 3D couch co-op game where players work together to serve drinks to customers.
-      Winner of the 2023 Level Up! showcase player choice award. My contributions included environment art, technical art and VFX`,
+      `As a Technical Artist, Technical Designer, Environment Artist, and Sound Designer on Calico Cat-fe, 
+      This 3D couch co-op game, which won the 2023 Level Up! Showcase Player Choice Award, challenges players to work together in a frenetic drink-serving environment. 
+      I was responsible for crafting the game's visually striking environment art and provided both technical art and technical design solutions to enhance gameplay mechanics. 
+      In addition, I curated the game's sound design, creating an immersive auditory experience that perfectly complements its interactive and visual elements.`,
     tags: [
       {
-        name: "Unity",
+        name: "Environment Art",
         color: "pink-text-gradient",
       },
       {
-        name: "3DS Max",
+        name: "Technical Art",
         color: "pink-text-gradient",
       },
       {
-        name: "Photoshop",
+        name: "Technical Design",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Sound Design",
         color: "pink-text-gradient",
       },
     ],
     image: catfe,
-    gif: catfe_Gif,
+    youtube_URL: "dTFHzxAAVy4",
     source_code_link: "https://alexfish02.itch.io/calico-cat-fe",
   },
   {
     name: "Ubisoft Next 2023",
     description:
-      "This piece is from my independent submission for the Ubisoft Next Challenge. I was responsible for the modelling, baking, texturing, shader creation, and lighting of the scene.",
+      `For my independent submission to the Ubisoft Next Challenge, I wore multiple hats, serving as the project's Modeler, Texture Artist, Shader Developer, and Lighting Technician. 
+      I meticulously crafted a visually rich scene from the ground up—starting with intricate 3D models and advancing through the baking process to texturing and custom shader creation. 
+      I finalized my work by expertly tuning the lighting elements, ensuring a harmonious and immersive environment. 
+      My multi-faceted approach showcased my comprehensive skill set, delivering a submission that stood as a testament to my capabilities in game development.`,
     tags: [
       {
         name: "Unity HDRP",
@@ -305,7 +322,7 @@ const projects = [
       },
     ],
     image: ubisoftNext2023,
-    gif: ubisoftNext2023_Gif,
+    youtube_URL: "LkZfjhZYoQ4",
     source_code_link: "https://www.artstation.com/artwork/blaPZo",
   },
   // {
@@ -338,8 +355,10 @@ const projects = [
   {
     name: "Watch Dogs 2 - Marcus' Room",
     description:
-      `This piece is from a personal project rendered in Unreal Engine 5.
-      I was responsible for modelling, baking, texturing, lighting, visual effects, and post-processing.`,
+      `
+      In this personal project, I brought to life Marcus' never-before-seen apartment, an unused concept from Watch_Dogs 2, using Unreal Engine 5 as the rendering platform. As the sole creator, I handled everything from 3D modeling and texture baking to advanced lighting schemes and visual effects. 
+      I also managed the post-processing work to ensure the highest quality output. By meticulously taking care of each creative and technical aspect, I succeeded in materializing what was once just a concept into a fully-realized, immersive virtual space.
+      `,
     tags: [
       {
         name: "Unreal Engine 5",
@@ -363,14 +382,18 @@ const projects = [
       },
     ],
     image: wd2MarcusRoom,
+    youtube_URL: "JXdg2gMbZNg",
     source_code_link: "https://www.artstation.com/artwork/bl8vLm",
   },
   {
     name: "Home",
     description:
-      `This piece is a recent personal project rendered in Unreal Engine 5.
-      I was responsible for creating the stone fountain and mystical sword hero props.
-      The foliage, rocks and debris were sourced from the Quixel Megascans library.`,
+      `
+      In this recent personal project, realized in Unreal Engine 5, I meticulously crafted a visually striking scene centered around a stone fountain and a mystical sword, both of which served as the hero props. 
+      Utilizing advanced modeling and texturing techniques, I brought these central elements to life, ensuring they stand out as focal points within the setting. 
+      To augment the scene's realism and depth, I incorporated high-quality foliage, rocks, and debris sourced from the Quixel Megascans library. 
+      The end result is a harmonious blend of custom-made and pre-existing assets, creating a visually captivating and emotionally resonant 3D environment.
+      `,
     tags: [
       {
         name: "Unreal Engine 5",
@@ -394,14 +417,18 @@ const projects = [
       },
     ],
     image: returnHome,
-    gif: returnHome_Gif,
+    youtube_URL: "rJF9gXFQqGI",
     source_code_link: "https://www.artstation.com/artwork/xDNOJ2",
   },
   {
     name: "Tracks We Leave",
     description:
-      `This environment was created during my second year of University, in an Environment Design course.
-      The props, landscape, lighting and visual effects were my responsibility, with added guidance from professors.`,
+      `
+      Crafted as part of my second-year University coursework in an Environment Design class, this game-ready setting stands as a comprehensive showcase of my skills in multiple facets of game development. 
+      Guided by expert instruction from professors, I single-handedly developed an array of key components including props, landscape design, lighting, and visual effects. 
+      The environment leverages advanced design techniques such as trim-textures, texture atlases, and modular construction, lending it a level of sophistication and polish. 
+      Inspired by the captivating world of Bend Studio's 'Days Gone,' the project aims to emulate the same level of visual and atmospheric complexity.
+      `,
     tags: [
       {
         name: "Unity SRP",
@@ -421,7 +448,7 @@ const projects = [
       },
     ],
     image: tracksWeLeave,
-    gif: tracksWeLeave_Gif,
+    youtube_URL:"DTKnZPPxC6c",
     source_code_link: "https://www.artstation.com/artwork/ZeewR1",
   },
 ];

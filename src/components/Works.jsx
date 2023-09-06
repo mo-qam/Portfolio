@@ -16,13 +16,13 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  gif,
+  youtube_URL,
   video,
   source_code_link,
 }) => {
   const imgRef = useRef(null);
   const isMobile = window.innerWidth <= 768;
-  const [hasMedia, setHasMedia] = useState(!!gif || !!video);
+  const [hasMedia, setHasMedia] = useState(!!youtube_URL || !!video);
 
 
   const handleMouseEnter = () => {
@@ -57,6 +57,9 @@ const ProjectCard = ({
   }, [isMobile, isVisible, mobileGifPlaying]);
 
   const mediaWrapperStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     position: 'absolute',
     top: 0,
     left: 0,
@@ -66,6 +69,7 @@ const ProjectCard = ({
     overflow: 'hidden',
     borderRadius: '1rem',
   };
+  
 
   return (
     <>
@@ -75,7 +79,7 @@ const ProjectCard = ({
             options={{ max: 45, scale: 1, speed: 450 }}
             className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
           >
-            <div className="relative w-full h-[230px]"
+            <div className="relative w-full h-[230px] hover:border-4 border-purple-900 rounded-2xl overflow-hidden "
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}>
               <img
@@ -86,9 +90,9 @@ const ProjectCard = ({
                 className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 hover:transition-opacity"
               />
                 <GifEmbed
-                  gifUrl={gif}
+                  youtube_URL={youtube_URL}
                   opacity={(hasMedia && mobileGifPlaying) || (hasMedia && hovered) ? 1 : 0}
-                  shouldPlay={(hasMedia && mobileGifPlaying) || (hasMedia && hovered)}
+                  shouldPlay={(hasMedia && hovered)}
                   style={mediaWrapperStyle}
                 />
               <div className="absolute inset-0 flex justify-end m-3 card-img_hover animate-pulse">
@@ -106,8 +110,14 @@ const ProjectCard = ({
               </div>
             </div>
             <div className="mt-5">
+            <div className="mt-5">
               <h3 className="text-white font-bold text-[24px]">{name}</h3>
-              <p className="mt-2 text-secondary text-[14px]">{description}</p>
+              {description.split('\n').map((line, index) => (
+                <p key={index} className="mt-2 text-secondary text-[14px]">
+                  {line}
+                </p>
+              ))}
+            </div>
             </div>
             <div className="mt-4 flex flex-wrap gap-2">
               {tags.map((tag) => (
@@ -129,7 +139,7 @@ const ProjectCard = ({
               className="w-full h-full object-cover rounded-2xl transition-opacity duration-300"
             />
             <GifEmbed
-              gifUrl={gif}
+              youtube_URL={youtube_URL}
               opacity={hasMedia && mobileGifPlaying ? 1 : 0}
               shouldPlay={hasMedia && mobileGifPlaying}
               style={mediaWrapperStyle}

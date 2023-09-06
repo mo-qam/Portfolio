@@ -1,21 +1,52 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import YouTube from 'react-youtube';
 
-const GifEmbed = ({ gifUrl, opacity, shouldPlay, style }) => {
+const GifEmbed = ({ youtube_URL, opacity, shouldPlay, style }) => {
+  const opts = {
+    playerVars: {
+      mute: 1,
+      autoplay: 1,
+      controls: 0,
+      modestbranding: 0,
+      rel: 0,
+      showinfo: 0,
+      fs: 0,
+      loop: 1,
+    },
+  };
+
+  const playerRef = useRef(null);
+
+  const handleVideoOnReady = (event) => {
+    playerRef.current = event.target;
+    event.target.pauseVideo(); // Pause the video as soon as it's ready
+  };
+
+  useEffect(() => {
+    if (playerRef.current) {
+      if (shouldPlay) {
+        playerRef.current.playVideo();
+      } else {
+        playerRef.current.pauseVideo();
+      }
+    }
+  }, [shouldPlay]);
+  
+
   return (
-    <img
-      src={gifUrl}
-      alt=""
+    <YouTube
+      videoId={youtube_URL}
+      opts={opts}
+      onReady={handleVideoOnReady}
       style={{
         ...style,
         position: 'absolute',
-        top: 0,
-        left: 0,
         width: '100%',
         height: '100%',
-        objectFit: 'cover',
+        objectFit: 'fill',
         opacity: opacity,
-      }}
-      className={`w-full h-full object-cover transition-opacity duration-300 ${shouldPlay ? 'visible' : 'hidden'}`}
+        transform: 'scale(1.3)',
+      }}      
     />
   );
 };
