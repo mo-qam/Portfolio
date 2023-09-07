@@ -6,6 +6,8 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { throttle } from 'lodash';
+
 import React, { useRef, useState, useEffect } from 'react';
 import useOnScreen from './useOnScreen';
 import GifEmbed from './GifEmbed';
@@ -25,11 +27,11 @@ const ProjectCard = ({
   const [hasMedia, setHasMedia] = useState(!!youtube_URL || !!video);
 
 
-  const handleMouseEnter = () => {
-    if (hasMedia) {
-      setHovered(true);
-    }
-  };
+const handleMouseEnter = throttle(() => {
+  if (hasMedia) {
+    setHovered(true);
+  }
+}, 200); // Run at most once per 200ms
   
   const handleMouseLeave = () => {
     if (hasMedia) {
