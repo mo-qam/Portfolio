@@ -21,6 +21,7 @@
     "react-awesome-slider": "^4.1.0",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-particles-js": "^3.6.0",
     "react-pdf": "^7.0.3",
     "react-player": "^2.12.0",

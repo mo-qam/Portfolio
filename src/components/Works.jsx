@@ -8,11 +8,11 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { throttle } from 'lodash';
 
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect, memo } from 'react';
 import useOnScreen from './useOnScreen';
 import GifEmbed from './GifEmbed';
 
-const ProjectCard = ({
+const ProjectCard = memo(({
   index,
   name,
   description,
@@ -50,7 +50,7 @@ const handleMouseEnter = throttle(() => {
     if (isMobile && isVisible && !mobileGifPlaying) {
       const timer = setTimeout(() => {
         setMobileGifPlaying(true);
-      }, 3000); // Modify the delay as needed (2000 ms = 2 seconds)
+      }, 2000); // Modify the delay as needed (2000 ms = 2 seconds)
   
       return () => {
         clearTimeout(timer);
@@ -130,9 +130,11 @@ const handleMouseEnter = throttle(() => {
             </div>
           </Tilt>
         </motion.div>
+
+      //////////////////////////// MOBILE ////////////////////////////////////////
       ) : (
         <div ref = {ref} className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full">
-          <div className="relative w-full h-[230px]">
+          <div className="relative w-full h-[230px] border-4 border-purple-900 rounded-2xl overflow-hidden">
             <img
               ref={imgRef}
               src={image}
@@ -142,7 +144,7 @@ const handleMouseEnter = throttle(() => {
             />
             <GifEmbed
               youtube_URL={youtube_URL}
-              opacity={hasMedia && mobileGifPlaying ? 1 : 0}
+              opacity={(hasMedia && mobileGifPlaying) || (hasMedia && hovered) ? 1 : 0}
               shouldPlay={hasMedia && mobileGifPlaying}
               style={mediaWrapperStyle}
             />
@@ -174,7 +176,7 @@ const handleMouseEnter = throttle(() => {
     )}
   </>
 );
-};
+});
 
 const TitleContent = () => {
   return (

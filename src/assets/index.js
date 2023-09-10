@@ -1,4 +1,4 @@
-import logo from "./mohammed-qamar-logo.gif";
+import logo from "./mohammedqamar.png";
 
 import gamedesign from "./mohammed-qamar-gamedesign.png";
 import gamedeveloper from "./mohammed-qamar-gamedeveloper.png";
