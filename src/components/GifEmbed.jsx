@@ -1,34 +1,36 @@
 import React, { useEffect, useRef } from 'react';
 import YouTube from 'react-youtube';
 
-const GifEmbed = ({ youtube_URL, opacity, shouldPlay, style }) => {
-  const opts = {
-    playerVars: {
-      mute: 1,
-      autoplay: 1,
-      controls: 0,
-      modestbranding: 0,
-      rel: 0,
-      showinfo: 0,
-      fs: 0,
-      loop: 1,
-    },
-  };
+const playerVars = {
+  mute: 1,
+  autoplay: 1,
+  controls: 0,
+  modestbranding: 0,
+  rel: 0,
+  showinfo: 0,
+  fs: 0,
+  loop: 1,
+};
 
+const opts = {
+  playerVars,
+};
+
+const GifEmbed = ({ youtube_URL, opacity, shouldPlay, style }) => {
   const playerRef = useRef(null);
 
   const handleVideoOnReady = (event) => {
-    playerRef.current = event.target;
-    event.target.pauseVideo(); // Pause the video as soon as it's ready
+    const { target } = event;
+    playerRef.current = target;
+    
+    if (!shouldPlay) {
+      target.pauseVideo(); // Pause the video as soon as it's ready only if shouldPlay is false
+    }
   };
 
   useEffect(() => {
     if (playerRef.current) {
-      if (shouldPlay) {
-        playerRef.current.playVideo();
-      } else {
-        playerRef.current.pauseVideo();
-      }
+      shouldPlay ? playerRef.current.playVideo() : playerRef.current.pauseVideo();
     }
   }, [shouldPlay]);
   
