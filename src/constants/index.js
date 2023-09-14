@@ -234,8 +234,7 @@ const projects = [
     description:
       `As a Designer & 3D Artist for Rocket Rumble, I crafted a diverse array of 3D assets, including character models and environmental props. 
       I designed levels that enhanced player engagement and aligned well with gameplay mechanics. 
-      Additionally, I collaborated with the systems design team to optimize art assets for real-time multiplayer, elevating the overall user experience
-      through strategic planning and creative problem-solving`,
+      Additionally, I collaborated with the systems design team to optimize art assets for real-time multiplayer, elevating the overall user experience through strategic planning and creative problem-solving`,
 
     tags: [
       {
@@ -453,4 +452,30 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const projectPage = [
+  {
+    name: "Project Name",
+    projectType: "Project Type",
+    duration: "Project Duration",
+    role: "Project Role",
+    tools: "Tool A, Tool B, Tool C",
+    tags: "tag1, tag2, tag3",
+
+    background_Description:
+    `
+    Crafted as part of my second-year University coursework in an Environment Design class, this game-ready setting stands as a comprehensive showcase of my skills in multiple facets of game development. 
+    Guided by expert instruction from professors, I single-handedly developed an array of key components including props, landscape design, lighting, and visual effects. 
+    The environment leverages advanced design techniques such as trim-textures, texture atlases, and modular construction, lending it a level of sophistication and polish. 
+    Inspired by the captivating world of Bend Studio's 'Days Gone,' the project aims to emulate the same level of visual and atmospheric complexity.
+    `,
+    project_Description:
+      `
+      Crafted as part of my second-year University coursework in an Environment Design class, this game-ready setting stands as a comprehensive showcase of my skills in multiple facets of game development. 
+      Guided by expert instruction from professors, I single-handedly developed an array of key components including props, landscape design, lighting, and visual effects. 
+      The environment leverages advanced design techniques such as trim-textures, texture atlases, and modular construction, lending it a level of sophistication and polish. 
+      Inspired by the captivating world of Bend Studio's 'Days Gone,' the project aims to emulate the same level of visual and atmospheric complexity.
+      `,
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, projectPage };
