@@ -51,6 +51,38 @@
   );
 }
 
+.aws-btn {
+
+  --slider-height-percentage: 60%;
+  --slider-transition-duration: 770ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 40px;
+  --organic-arrow-color: #77a0daf3;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #62a4fa;
+  --control-bullet-active-color: #538bd5;
+  --loader-bar-color: transparent;
+  --loader-bar-height: 6px;
+  }
+
+.blue-gradient {
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  background: #152983; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #050816,
+    #193099
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #050816,
+    #152983
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #ff5252 1.9%, #b33939 97.5%);
