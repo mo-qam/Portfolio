@@ -376,6 +376,10 @@ const ProjectPages = () => {
     (project) => project.name === decodedProjectName
   );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   if (!project) {
     return <p>Project not found</p>; // Or some 404 component
   }
