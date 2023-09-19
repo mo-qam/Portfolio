@@ -115,7 +115,7 @@ const ProjectPage = ({ project }) => {
                 onClick={() => window.open(project.source_code_link, "_blank")}
                 className="
                   cursor-pointer transition ease-in-out hover:-translate-y-1 duration-200 tracking-tight
-                  hover:ring ring-rose-500 ring-offset-[20px] rounded-2xl dark:ring-offset-slate-900  tracking-wide
+                  hover:ring ring-rose-500 ring-offset-[20px] rounded-2xl dark:ring-offset-slate-900 tracking-wide
                   "
               >
                 <p className={styles.heroSubText}>{project.company_name}</p>

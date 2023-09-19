@@ -595,7 +595,7 @@ const projects = [
   // },
   {
     name: "Watch Dogs 2 - Marcus' Room",
-
+    company_name: "Personal Project",
     description:
       `
       I handled everything from 3D modeling and texture baking to advanced lighting schemes and visual effects. 
