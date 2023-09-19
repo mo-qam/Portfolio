@@ -1,24 +1,48 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-
+import React, { useEffect, useState, Fragment } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
+import { projects as projectPageData } from "../constants";
 import { logo, menu, close } from "../assets";
+
+import { Menu, Transition } from '@headlessui/react';
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
+
+import Dropdown from 'react-dropdown';
+
+import 'react-dropdown/style.css';
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
+
+const menuItemStyling = (active) => {
+  return active ? 'bg-rose-600 text-gray-100 rounded 2x1' : 'text-secondary';
+}
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const location = useLocation(); // <-- Use React Router's useLocation
+
   useEffect(() => {
     const handleScroll = () => {
+      
+      if (location.pathname !== '/') {
+        setActive(location.pathname);
+      }
+      
       const scrollTop = window.scrollY;
       if (scrollTop > 100) {
         setScrolled(true);
       } else {
         setScrolled(false);
-        setActive("");
-      }
+        if (location.pathname === '/') {
+          setActive("");
+        }
+      }       
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -44,7 +68,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("scroll", navbarHighlighter);
     };
-  }, []);
+  }, [location]); // <-- Add location as a dependency
 
   return (
     <nav
@@ -58,9 +82,6 @@ const Navbar = () => {
         <Link
           to="/"
           className="flex items-center gap-2"
-          onClick={() => {
-            window.scrollTo(0, 0);
-          }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
@@ -73,12 +94,12 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.id ? "text-white" : "text-secondary"
+                (active === nav.id || active === nav.link) ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer transition transform active:-translate-y-1 ${
                 nav.icon && index !== 0 ? "ml-6" : "ml-10"
               }`}
             >
-              {nav.isPdf ? (
+              {nav.id === 'resume' ? (
                 <a
                   href={nav.link}
                   target="_blank"
@@ -87,27 +108,117 @@ const Navbar = () => {
                   {nav.title}
                 </a>
               ) : (
+                //////////////////////////// PROJECTS CHECK ////////////////////////////////////////
+                nav.id === 'projects' ? (
+                  <Menu as="div" className="relative inline-block">
+                    <div>
+                      <Menu.Button 
+                        className="inline-flex w-full justify-center rounded-md shadow-sm">
+                        Projects
+                        <ChevronDownIcon className="h-5 py-1" aria-hidden="true" />
+                      </Menu.Button>
+                    </div>
+                    <Transition
+                      as={Fragment}
+                      enter="transition ease-out duration-100"
+                      enterFrom="transform opacity-0 scale-95"
+                      enterTo="transform opacity-100 scale-100"
+                      leave="transition ease-in duration-75"
+                      leaveFrom="transform opacity-100 scale-100"
+                      leaveTo="transform opacity-0 scale-95"
+                    >
+                      <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-rose-500 rounded-md bg-tertiary shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                        <div className="py-1">
+                        <Menu.Item>
+                            {({ active }) => (
+                              <Link
+                                to={`/#${nav.id}`}
+                                target={nav.id ? undefined : '_blank'}
+                                rel={nav.id ? undefined : 'noopener noreferrer'}
+                                className={classNames(
+                                  menuItemStyling(active),
+                                  'block px-4 py-2 text-sm font-semibold'
+                                )}
+                                onClick={(e) => {
+                                  // If the link is a regular route, handle it normally
+                                  if (nav.link) {
+                                    setActive(nav.link); // Update active state
+                                    return; 
+                                  }
+                                
+                                  // If we are on the homepage, scroll to the section
+                                  if (location.pathname === '/#') {
+                                    e.preventDefault(); // Prevent default behavior of scrolling to the anchor
+                                    const element = document.getElementById(nav.id);
+                                    if (element) element.scrollIntoView({ behavior: 'smooth' }); // Scroll to nav.id
+                                  } else {
+                                    // If not on '/', set window location directly to the base URL + hash
+                                    window.location.href = `${window.location.origin}/#${nav.id}`;
+                                  }
+                                }}  
+                              >
+                                View All Projects
+                              </Link>
+                            )}
+                          </Menu.Item>
+                        </div>
+                        <div className="py-1">
+                        {projectPageData.map(({ name }) => (
+                            <Menu.Item key={name}>
+                              {({ active }) => (
+                                <Link
+                                  to={`/projects/${encodeURIComponent(name)}`}
+                                  className={classNames(
+                                    menuItemStyling(active),
+                                    'block px-4 py-2 text-sm'
+                                  )}
+                                >
+                                  {name}
+                                </Link>
+                              )}
+                            </Menu.Item>
+                          ))}
+                        </div>
+                      </Menu.Items>
+                    </Transition>
+                  </Menu>
+                ) : (
+      
                 <Link
-                  to={nav.link ? nav.link : `#${nav.id}`}
+                  to={`/#${nav.id}`}
                   target={nav.id ? undefined : '_blank'}
                   rel={nav.id ? undefined : 'noopener noreferrer'}
                   onClick={(e) => {
-                    if (nav.link) return; // Navigate to nav.link if it exists
-                    e.preventDefault(); // Prevent default behavior of scrolling to the anchor
-                    const element = document.getElementById(nav.id);
-                    if (element) element.scrollIntoView({ behavior: 'smooth' }); // Scroll to nav.id
-                  }}
+                    // If the link is a regular route, handle it normally
+                    if (nav.link) {
+                      setActive(nav.link); // Update active state
+                      return; 
+                    }
+                  
+                    // If we are on the homepage, scroll to the section
+                    if (location.pathname === '/') {
+                      e.preventDefault(); // Prevent default behavior of scrolling to the anchor
+                      const element = document.getElementById(nav.id);
+                      if (element) element.scrollIntoView({ behavior: 'smooth' }); // Scroll to nav.id
+                    } else {
+                      // If not on '/', set window location directly to the base URL + hash
+                      window.location.href = `${window.location.origin}/#${nav.id}`;
+                    }
+                  }}      
                 >
                   {nav.icon ? (
-                    <img
-                      src={nav.icon}
-                      alt={nav.title}
-                      className="w-6 h-6 object-contain hover:opacity-90 opacity-60"
-                    />
+                    <a href={nav.link} target="_blank" rel="noopener noreferrer">
+                        <img
+                          src={nav.icon}
+                          alt={nav.title}
+                          className="w-6 h-6 object-contain hover:opacity-90 opacity-60"
+                        />
+                      </a>
                   ) : (
                     nav.title
                   )}
                 </Link>
+                )
               )}
             </li>
           ))}
@@ -124,8 +235,9 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-tertiary shadow-lg shadow-rose-500/40 ring-1 ring-black ring-opacity-5 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
+            
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li
@@ -137,7 +249,7 @@ const Navbar = () => {
                     setToggle(!toggle);
                   }}
                 >
-                  {nav.isPdf ? (
+                  {nav.id === 'resume' ? (
                     <a
                       href={nav.link}
                       target="_blank"
@@ -147,16 +259,15 @@ const Navbar = () => {
                     </a>
                   ) : (
                     <Link
-                      to={nav.link ? nav.link : `#${nav.id}`}
-                      target={nav.id ? undefined : '_blank'}
-                      rel={nav.id ? undefined : 'noopener noreferrer'}
-                      onClick={() => {
-                        const element = document.getElementById(nav.id);
-                        if (element) element.scrollIntoView({ behavior: 'smooth' });
-                      }}
-                    >
-                      {nav.title}
-                    </Link>
+                    to={nav.link ? nav.link : `/#${nav.id}`}
+                    onClick={() => {
+                      setToggle(!toggle);
+                      const element = document.getElementById(nav.id);
+                      if (element) element.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
+                    {nav.title}
+                  </Link>
                   )}
                 </li>
               ))}

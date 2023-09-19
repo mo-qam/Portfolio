@@ -9,6 +9,9 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { throttle } from 'lodash';
 
 import React, { useRef, useState, useEffect, memo } from 'react';
+import { Link } from 'react-router-dom';
+
+
 import useOnScreen from './useOnScreen';
 import GifEmbed from './GifEmbed';
 
@@ -21,6 +24,7 @@ const ProjectCard = memo(({
   youtube_URL,
   video,
   source_code_link,
+  project_id,
 }) => {
   const imgRef = useRef(null);
   const isMobile = window.innerWidth <= 768;
@@ -76,7 +80,7 @@ const handleMouseEnter = throttle(() => {
   return (
     <>
       {!isMobile ? (
-        <motion.div  ref = {ref} variants={!isMobile && fadeIn("up", "spring", index * 0.5, 0.75)}>
+        <motion.div  ref = {ref} variants={!isMobile && fadeIn("up", "spring", index * 0.5, 0.75)} >
           <Tilt
             options={{ max: 45, scale: 1, speed: 450 }}
             className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
@@ -84,31 +88,32 @@ const handleMouseEnter = throttle(() => {
             <div className="relative w-full h-[230px] hover:border-4 border-purple-900 rounded-2xl overflow-hidden "
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}>
-              <img
-                ref={imgRef}
-                src={image}
-                alt={name}
-                style={{ opacity: hasMedia && hovered && mobileGifPlaying ? 0 : 1 }}
-                className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 hover:transition-opacity"
-              />
-                <GifEmbed
-                  youtube_URL={youtube_URL}
-                  opacity={(hasMedia && mobileGifPlaying) || (hasMedia && hovered) ? 1 : 0}
-                  shouldPlay={(hasMedia && hovered)}
-                  style={mediaWrapperStyle}
+                <img
+                  ref={imgRef}
+                  src={image}
+                  alt={name}
+                  style={{ opacity: hasMedia && hovered && mobileGifPlaying ? 0 : 1 }}
+                  className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 hover:transition-opacity"
                 />
-              <div className="absolute inset-0 flex justify-end m-3 card-img_hover animate-pulse">
-                <div
-                  onClick={() => window.open(source_code_link, "_blank")}
-                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer 
-                  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-200"
-                >
-                  <img
-                    src={github}
-                    alt="github"
-                    className="w-1/2 h-1/2 object-contain"
+                  <GifEmbed
+                    youtube_URL={youtube_URL}
+                    opacity={(hasMedia && mobileGifPlaying) || (hasMedia && hovered) ? 1 : 0}
+                    shouldPlay={(hasMedia && hovered)}
+                    style={mediaWrapperStyle}
                   />
-                </div>
+              <div className="absolute inset-0 flex justify-end m-3 card-img_hover animate-pulse">
+              <Link to={`/projects/#${encodeURIComponent(name)}`} target="_blank">
+                  <div
+                    className="blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer 
+                      transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-200"
+                  >
+                    <img
+                      src={github}
+                      alt="github"
+                      className="w-1/2 h-1/2 object-contain"
+                    />
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="mt-5">
@@ -151,7 +156,8 @@ const handleMouseEnter = throttle(() => {
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                className="blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer 
+                transition ease-in-out"
               >
                 <img
                   src={github}
@@ -189,7 +195,7 @@ const TitleContent = () => {
 
 const SubHeadingContent = () => {
   return (
-    <div className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]" >
+    <div className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
       <p>
         Following projects showcases my skills and experience through
         real-world examples of my work. Each project is briefly described with
@@ -205,7 +211,7 @@ const Works = ({isMobile}) => {
   return (
     <>
       {isMobile ? (
-        <motion.div variants={textVariant()}>
+        <motion.div variants={textVariant()} >
           <TitleContent />
         </motion.div>
       ) : (
