@@ -144,7 +144,7 @@ const ProjectPage = ({ project }) => {
       </div>
 
       {/* ///////BODY/////// */}
-      <div className={`${styles.paddingProject} grid grid-cols-1 ${isMobile ? '' : 'md:grid-cols-12'} gap-4 mt-10`}>
+      <div className={`${styles.paddingProject} grid grid-cols-1 ${isMobile ? 'mt-24' : 'md:grid-cols-12 gap-4'}  mt-10`}>
           <div className={`col-span-1 ${isMobile ? 'col-span-12' : 'md:col-span-5'}`}>
             <h2 className="text-white text-[24px] font-bold mb-12">{project.projectSubtitle}</h2>
             <div className="flex flex-wrap">
@@ -162,7 +162,7 @@ const ProjectPage = ({ project }) => {
               </div>
                 <div className="w-full mt-12">
                   <p className="font-secondary"><strong>Tags</strong></p>
-                  <div className="mt-4 flex flex-wrap gap-2">
+                  <div className={`mt-4 flex flex-wrap gap-2 ${isMobile ? 'mb-14' : ''}`}>
                   {project.tags.map((tag) => (
                     <p key={tag.name} className={`text-[16px] ${tag.color}`}>
                       #{tag.name}
@@ -219,7 +219,7 @@ const ProjectPage = ({ project }) => {
                           width="100%"
                           height="100%"
                           allow="autoplay"
-                          className="transition-all duration-300 rounded-2xl scale-110"
+                          className="rounded-2xl scale-110"
                         ></iframe>
                       ) : media.image ? (
                         <div className="Tilt-inner rounded-2xl overflow-hidden h-full hover:ring-2 ring-rose-600 transition-all duration-200">
@@ -233,7 +233,7 @@ const ProjectPage = ({ project }) => {
                         onReady={() => console.log("Player is ready")}
                         onError={(e) => console.log("There was an error!", e)}
                         controls
-                        className="transition-all duration-300 rounded-2xl scale-110 hover:outline-2 outline-rose-600"
+                        className="rounded-2xl scale-110"
                       />
                       ) : null}
                     </div>
@@ -351,7 +351,17 @@ const ProjectPage = ({ project }) => {
                             <div className="Tilt-inner rounded-2xl overflow-hidden h-full hover:scale-[1.05] transition-all duration-200">
                               <img src={media.image} alt={media.alt} className="h-full w-full" />
                             </div>
-                          ) : null}
+                          ) : !isGoogleDrive ? (
+                              <ReactPlayer
+                                url={media.link}
+                                width="100%"
+                                height="100%"
+                                onReady={() => console.log("Player is ready")}
+                                onError={(e) => console.log("There was an error!", e)}
+                                controls
+                                className="transition-all duration-300 rounded-2xl scale-110"
+                              />
+                              ) : null}
                         </div>
                       </div>
                     </>

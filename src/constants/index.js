@@ -253,25 +253,37 @@ const projects = [
 
     tags: [
       {
-        name: "Programming",
-        color: "pink-text-gradient",
+        "name": "Multiplayer Game Design",
+        "color": "green-text-gradient"
       },
       {
-        name: "Technical Design",
-        color: "pink-text-gradient",
+        "name": "3D Asset Creation",
+        "color": "blue-text-gradient"
       },
       {
-        name: "Technical Art",
-        color: "pink-text-gradient",
+        "name": "Player Engagement",
+        "color": "yellow-text-gradient"
       },
       {
-        name: "Environment Art",
-        color: "pink-text-gradient",
+        "name": "Environmental Props",
+        "color": "cyan-text-gradient"
       },
       {
-        name: "Level Design",
-        color: "pink-text-gradient",
+        "name": "Character Modeling",
+        "color": "red-text-gradient"
       },
+      {
+        "name": "Real-time Optimization",
+        "color": "purple-text-gradient"
+      },
+      {
+        "name": "Collaborative Design",
+        "color": "teal-text-gradient"
+      },
+      {
+        "name": "Creative Problem-Solving",
+        "color": "orange-text-gradient"
+      }
     ],
     image: rocketrumble,
     youtube_URL: "WvLXuEEq39w",
@@ -368,24 +380,33 @@ const projects = [
     description:
       `I was responsible for crafting the game's visually striking environment art and provided both technical art and technical design solutions to enhance gameplay mechanics. 
       In addition, I curated the game's sound design, creating an immersive auditory experience that perfectly complements its narrative and aesthetic.`,
-    tags: [
-      {
-        name: "Environment Art",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Technical Art",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Technical Design",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Sound Design",
-        color: "pink-text-gradient",
-      },
-    ],
+      tags: [
+        {
+          name: "Environment Art",
+          color: "green-text-gradient"
+        },
+        {
+          name: "Technical Art",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "Technical Design",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "Sound Design",
+          color: "teal-text-gradient"
+        },
+        {
+          name: "Narrative Integration",
+          color: "purple-text-gradient"
+        },
+        {
+          name: "Award-Winning",
+          color: "yellow-text-gradient"
+        }
+      ],
+      
     image: catfe,
     youtube_URL: "dTFHzxAAVy4",
     source_code_link: "https://alexfish02.itch.io/calico-cat-fe",
@@ -472,28 +493,49 @@ const projects = [
       `
       In the Ubisoft Next 2023 3D Art Challenge, I successfully deployed a wide range of skills that would make a significant impact in a studio setting. From environment art to technical tools, my work demonstrated a mastery of game art production, tailored to enhance gameplay and storytelling.
       `,
-    tags: [
-      {
-        name: "Unity HDRP",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "3DS Max",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Substance Painter",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Photoshop",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Marmoset Toolbag",
-        color: "pink-text-gradient",
-      },
-    ],
+      tags: [
+        {
+          name: "Level Design",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Technical Art",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Visual Effects",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Modular Design",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "Shader Development",
+          color: "red-text-gradient",
+        },
+        {
+          name: "Story-Driven Layout",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Pre-Visualization",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "High-Impact Visuals",
+          color: "magenta-text-gradient",
+        },
+        {
+          name: "Thematic Consistency",
+          color: "teal-text-gradient",
+        },
+        {
+          name: "Emotional Resonance",
+          color: "violet-text-gradient",
+        }
+      ],
+      
     image: ubisoftNext2023,
     youtube_URL: "LkZfjhZYoQ4",
     source_code_link: "https://www.artstation.com/artwork/blaPZo",
@@ -524,10 +566,10 @@ const projects = [
       {
         id: "A",
         alt: "Media A",
-        mediaTitle: "Environment & Props",
-        mediaSubtitle: "Versatile 3D Art Expertise",
+        mediaTitle: "3D Art & Level Design",
+        mediaSubtitle: "The Architecture of Gameplay",
         mediaDescription: `
-          
+          In my submission for the Ubisoft Next 2023 challenge, I demonstrated a holistic understanding of level design and environmental art. I created assets and layouts that are not just visually captivating but also contribute to gameplay and narrative enhancement.
         `,
         mediaBulletPoints: [
           "Efficient Level Design: Created a modular kit designed for quick and flexible level adjustments, thereby saving time and resources.",
@@ -539,10 +581,10 @@ const projects = [
       {
         id: "B",
         alt: "Media B",
-        mediaTitle: "Technical Art & Shading",
-        mediaSubtitle: "Powering Visual Experience",
+        mediaTitle: "Technical Art & Tools",
+        mediaSubtitle: "Tailoring Tech to Creative Visions",
         mediaDescription: `
-           
+          My technical art proficiency was showcased in the development of custom tools and shaders. I created resources that not only enriched the visual landscape but also streamlined the development process, aligning technological capabilities with artistic vision.
         `,
         mediaBulletPoints: [
           "Visual Atmosphere: Crafted shaders that add depth and mood, enriching player immersion and potentially increasing user engagement.",
@@ -553,10 +595,10 @@ const projects = [
       {
         id: "C",
         alt: "Media C",
-        mediaTitle: "Visual Effects",
-        mediaSubtitle: "Capturing the Eye",
+        mediaTitle: "Visual Effects & Atmosphere",
+        mediaSubtitle: "Crafting Cohesion and Emotional Resonance",
         mediaDescription: `
-          
+          Visual effects in my submission were meticulously crafted to add a layer of emotional depth and thematic cohesion. I employed a combination of particle systems and shaders to produce high-impact visuals that heightened the overall game quality.
         `,
         mediaBulletPoints: [
           "High-Impact Visuals: Utilized particle systems and shaders to produce effects that add polish and emotional depth, enhancing overall game quality.",
@@ -596,6 +638,10 @@ const projects = [
   {
     name: "Watch Dogs 2 - Marcus' Room",
     company_name: "Personal Project",
+    background:
+    ` This project was inspired by the Watch Dogs 2 video game. The goal was to create the main character's room which never appeared in the final game.
+
+    `,
     description:
       `
       I handled everything from 3D modeling and texture baking to advanced lighting schemes and visual effects. 
@@ -603,24 +649,36 @@ const projects = [
       `,
     tags: [
       {
-        name: "Unreal Engine 5",
+        name: "3D Modeling",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Texture Baking",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Lighting Design",
         color: "pink-text-gradient",
       },
       {
-        name: "3DS Max",
-        color: "pink-text-gradient",
+        name: "Post-Processing",
+        color: "yellow-text-gradient",
       },
       {
-        name: "Substance Painter",
-        color: "pink-text-gradient",
+        name: "Visual Effects",
+        color: "red-text-gradient",
       },
       {
-        name: "Marmoset Toolbag",
-        color: "pink-text-gradient",
+        name: "Asset Optimization",
+        color: "cyan-text-gradient",
       },
       {
-        name: "Photoshop",
-        color: "pink-text-gradient",
+        name: "Conceptualization",
+        color: "teal-text-gradient",
+      },
+      {
+        name: "Immersive Design",
+        color: "purple-text-gradient",
       },
     ],
     image: wd2MarcusRoom,
@@ -658,45 +716,34 @@ const projects = [
       {
         id: "A",
         alt: "Media A",
-        mediaTitle: "Environment & Props",
-        mediaSubtitle: "Versatile 3D Art Expertise",
+        mediaTitle: "3D Modeling and Texturing",
+        mediaSubtitle: "Building the Foundations",
         mediaDescription: `
-          
+          Marcus' Room stands as a testament to my intricate 3D modeling and texture baking skills. By focusing on even the minutest details, I was able to convert an abstract concept into a believable, tangible space.
         `,
         mediaBulletPoints: [
-          "Efficient Level Design: Created a modular kit designed for quick and flexible level adjustments, thereby saving time and resources.",
-          "Pre-visualization Expertise: Modelled props and developed whitebox layouts, crucial steps for early testing and gameplay mechanics tuning.",
-          "Story-Driven Layout: Developed thematic concepts and layouts based on the given narrative, ensuring alignment with creative direction and enhancing storytelling.",
+          "3D Modeling: Handled the design and construction of all 3D models, paying close attention to geometrical accuracy and detail.",
+          "Texture Baking: Utilized advanced techniques for baking textures onto the models, enhancing their visual appeal and realism.",
+          "Asset Optimization: Ensured the 3D models and textures were optimized for performance, maintaining a balance between visual quality and runtime efficiency.",
+          "Artistic Integrity: Successfully translated concept art into 3D models, preserving the artistic vision while adding my own creative touches",
         ],
         link: "https://youtu.be/JXdg2gMbZNg",
       },
       {
         id: "B",
         alt: "Media B",
-        mediaTitle: "Technical Art & Shading",
-        mediaSubtitle: "Powering Visual Experience",
+        mediaTitle: "Lighting and Post-Processing",
+        mediaSubtitle: "Illuminating a Digital Space",
         mediaDescription: `
-           
+          The atmosphere of Marcus' Room was significantly amplified by my work on lighting schemes and post-processing techniques. These elements not only embellished the scene but also contributed to a deeply immersive gaming experience.
         `,
         mediaBulletPoints: [
-          "Visual Atmosphere: Crafted shaders that add depth and mood, enriching player immersion and potentially increasing user engagement.",
-          "Tools for Streamlined Development: Produced customizable tools that can adapt to varying project needs, aiding both designers and programmers in the development process.",
+          "Advanced Lighting: Developed complex lighting schemes that added depth and mood to the virtual environment.",
+          "Visual Effects: Implemented a range of visual effects to complement the lighting and add dynamism to the scene.",
+          "Post-Processing: Managed all post-processing work, including color grading and visual enhancements, to elevate the final output to the highest quality standards.",
+          "Technical Finesse: Leveraged in-engine tools to ensure optimal lighting and post-processing effects without compromising performance.",
         ],
-        image: "https://cdnb.artstation.com/p/assets/images/images/065/342/303/large/mohammed-qamar-ls-animation-0022.jpg?1690141690",
-      },
-      {
-        id: "C",
-        alt: "Media C",
-        mediaTitle: "Visual Effects",
-        mediaSubtitle: "Capturing the Eye",
-        mediaDescription: `
-          
-        `,
-        mediaBulletPoints: [
-          "High-Impact Visuals: Utilized particle systems and shaders to produce effects that add polish and emotional depth, enhancing overall game quality.",
-          "Thematic Consistency: Ensured that visual effects supported the theme and atmosphere, adding an extra layer of cohesion and professionalism to any project.",
-        ],
-        image: "https://cdna.artstation.com/p/assets/images/images/065/376/220/large/mohammed-qamar-ls-animation-0365.jpg?1690221568",
+        link: "https://youtu.be/770ZQHHgmnk",
       },
     ],
   },
@@ -712,24 +759,36 @@ const projects = [
       `,
     tags: [
       {
+        name: "Environment Art",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Technical Art",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hero Prop Design",
+        color: "pink-text-gradient",
+      },
+      {
         name: "Unreal Engine 5",
-        color: "pink-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
-        name: "3DS Max",
-        color: "pink-text-gradient",
+        name: "Custom Shaders",
+        color: "red-text-gradient",
       },
       {
-        name: "Substance Painter",
-        color: "pink-text-gradient",
+        name: "Vertex Painting",
+        color: "cyan-text-gradient",
       },
       {
-        name: "Marmoset Toolbag",
-        color: "pink-text-gradient",
+        name: "Realism & Depth",
+        color: "teal-text-gradient",
       },
       {
-        name: "Photoshop",
-        color: "pink-text-gradient",
+        name: "Modular Design",
+        color: "purple-text-gradient",
       },
     ],
     image: returnHome,
@@ -808,20 +867,28 @@ const projects = [
       `,
     tags: [
       {
-        name: "Unity SRP",
+        name: "Environment Art",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Lighting Design",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Visual Effects",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Particle Systems",
         color: "pink-text-gradient",
       },
       {
-        name: "3DS Max",
-        color: "pink-text-gradient",
+        name: "Modular Construction",
+        color: "purple-text-gradient",
       },
       {
-        name: "Substance Painter",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Photoshop",
-        color: "pink-text-gradient",
+        name: "Advanced Design Techniques",
+        color: "magenta-text-gradient",
       },
     ],
     image: tracksWeLeave,
@@ -859,43 +926,32 @@ const projects = [
       {
         id: "A",
         alt: "Media A",
-        mediaTitle: "Environment & Props",
-        mediaSubtitle: "Versatile 3D Art Expertise",
+        mediaTitle: "Environment Art",
+        mediaSubtitle: "A Captivating World",
         mediaDescription: `
-          
+          In this section of the project, I focused on the detailed construction of props and landscapes, leveraging a range of advanced techniques to add depth and realism to the environment.
         `,
         mediaBulletPoints: [
-          "Efficient Level Design: Created a modular kit designed for quick and flexible level adjustments, thereby saving time and resources.",
-          "Pre-visualization Expertise: Modelled props and developed whitebox layouts, crucial steps for early testing and gameplay mechanics tuning.",
-          "Story-Driven Layout: Developed thematic concepts and layouts based on the given narrative, ensuring alignment with creative direction and enhancing storytelling.",
+          "Prop Design: Crafted a variety of in-game props that contribute to the thematic coherence and visual richness of the environment.",
+          "Landscape Crafting: Utilized advanced design skills to create compelling and realistic landscapes.",
+          "Texture Mastery: Employed trim-textures and texture atlases to achieve nuanced visual details.",
+          "Modular Construction: Adopted modular design principles to build versatile and reusable assets.",
         ],
         image: "https://cdna.artstation.com/p/assets/images/images/044/673/732/large/mohammed-qamar-screenshot-85.jpg?1640797408",
       },
       {
         id: "B",
         alt: "Media B",
-        mediaTitle: "Technical Art & Shading",
-        mediaSubtitle: "Powering Visual Experience",
+        mediaTitle: "Visual Effects & Lighting",
+        mediaSubtitle: "Illuminating the World",
         mediaDescription: `
-           
+          Lighting was an integral part of setting the mood and enhancing the visual complexity of the project.
         `,
         mediaBulletPoints: [
-          "Visual Atmosphere: Crafted shaders that add depth and mood, enriching player immersion and potentially increasing user engagement.",
-          "Tools for Streamlined Development: Produced customizable tools that can adapt to varying project needs, aiding both designers and programmers in the development process.",
-        ],
-        image: "https://cdnb.artstation.com/p/assets/images/images/066/509/689/large/mohammed-qamar-material-a-showcase.jpg?1693073382",
-      },
-      {
-        id: "C",
-        alt: "Media C",
-        mediaTitle: "Visual Effects",
-        mediaSubtitle: "Capturing the Eye",
-        mediaDescription: `
-          
-        `,
-        mediaBulletPoints: [
-          "High-Impact Visuals: Utilized particle systems and shaders to produce effects that add polish and emotional depth, enhancing overall game quality.",
-          "Thematic Consistency: Ensured that visual effects supported the theme and atmosphere, adding an extra layer of cohesion and professionalism to any project.",
+          "Atmospheric Effects: Introduced elements like fog, rain, and wind to create a captivating atmosphere.",
+          "Particle Systems: Used particle systems to generate realistic, dynamic elements, enhancing the overall experience.",
+          "Dynamic Ranges: Created varying lighting conditions to add depth and realism to the setting.",
+          "Visual Complexity: Combined multiple effects to emulate the level of atmospheric complexity found in 'Days Gone.'",
         ],
         link: "https://youtu.be/DTKnZPPxC6c",
       },

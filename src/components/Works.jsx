@@ -102,7 +102,7 @@ const handleMouseEnter = throttle(() => {
                     style={mediaWrapperStyle}
                   />
               <div className="absolute inset-0 flex justify-end m-3 card-img_hover animate-pulse">
-              <Link to={`/projects/#${encodeURIComponent(name)}`} target="_blank">
+              <Link to={`/projects/${encodeURIComponent(name)}`} target="_blank">
                   <div
                     className="blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer 
                       transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-200"
@@ -154,17 +154,18 @@ const handleMouseEnter = throttle(() => {
               style={mediaWrapperStyle}
             />
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-              <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className="blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer 
-                transition ease-in-out"
-              >
-                <img
-                  src={github}
-                  alt="github"
-                  className="w-1/2 h-1/2 object-contain"
-                />
-              </div>
+            <Link to={`/projects/${encodeURIComponent(name)}`}>
+                  <div
+                    className="blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer 
+                      transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-200"
+                  >
+                    <img
+                      src={github}
+                      alt="github"
+                      className="w-1/2 h-1/2 object-contain"
+                    />
+                  </div>
+                </Link>
             </div>
           </div>
           <div className="mt-5">
