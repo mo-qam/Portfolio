@@ -81,63 +81,52 @@ const handleMouseEnter = throttle(() => {
     <>
       {!isMobile ? (
         <motion.div  ref = {ref} variants={!isMobile && fadeIn("up", "spring", index * 0.5, 0.75)} >
-          <Tilt
-            options={{ max: 45, scale: 1, speed: 450 }}
-            className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
-          >
-            <div className="relative w-full h-[230px] hover:border-4 border-purple-900 rounded-2xl overflow-hidden "
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}>
-                <img
-                  ref={imgRef}
-                  src={image}
-                  alt={name}
-                  style={{ opacity: hasMedia && hovered && mobileGifPlaying ? 0 : 1 }}
-                  className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 hover:transition-opacity"
-                />
-                  <GifEmbed
-                    youtube_URL={youtube_URL}
-                    opacity={(hasMedia && mobileGifPlaying) || (hasMedia && hovered) ? 1 : 0}
-                    shouldPlay={(hasMedia && hovered)}
-                    style={mediaWrapperStyle}
+          <Link to={`/projects/${encodeURIComponent(name)}`} target="_blank">
+            <Tilt
+              options={{ max: 45, scale: 1, speed: 450 }}
+              className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
+            >
+              <div className="relative w-full h-[230px] hover:border-4 border-purple-900 rounded-2xl overflow-hidden "
+                      onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave}>
+                  <img
+                    ref={imgRef}
+                    src={image}
+                    alt={name}
+                    style={{ opacity: hasMedia && hovered && mobileGifPlaying ? 0 : 1 }}
+                    className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 hover:transition-opacity"
                   />
-              <div className="absolute inset-0 flex justify-end m-3 card-img_hover animate-pulse">
-              <Link to={`/projects/${encodeURIComponent(name)}`} target="_blank">
-                  <div
-                    className="blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer 
-                      transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-200"
-                  >
-                    <img
-                      src={github}
-                      alt="github"
-                      className="w-1/2 h-1/2 object-contain"
+                    <GifEmbed
+                      youtube_URL={youtube_URL}
+                      opacity={(hasMedia && mobileGifPlaying) || (hasMedia && hovered) ? 1 : 0}
+                      shouldPlay={(hasMedia && hovered)}
+                      style={mediaWrapperStyle}
                     />
-                  </div>
-                </Link>
               </div>
-            </div>
-            <div className="mt-5">
-            <div className="mt-5">
-              <h3 className="text-white font-bold text-[24px]">{name}</h3>
-              {description.split('\n').map((line, index) => (
-                <p key={index} className="mt-2 text-secondary text-[14px]">
-                  {line}
-                </p>
-              ))}
-            </div>
-            </div>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {tags.map((tag) => (
-                <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-                  #{tag.name}
-                </p>
-              ))}
-            </div>
-          </Tilt>
+              <div className="mt-5">
+              <div className="mt-5">
+                <h3 className="text-white font-bold text-[24px]">{name}</h3>
+                {description.split('\n').map((line, index) => (
+                  <p key={index} className="mt-2 text-secondary text-[14px]">
+                    {line}
+                  </p>
+                ))}
+              </div>
+              </div>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {tags.map((tag) => (
+                  <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                    #{tag.name}
+                  </p>
+                ))}
+              </div>
+            </Tilt>
+            </Link>
         </motion.div>
 
       //////////////////////////// MOBILE ////////////////////////////////////////
       ) : (
+        <Link to={`/projects/${encodeURIComponent(name)}`}>
         <div ref = {ref} className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full">
           <div className="relative w-full h-[230px] border-4 border-purple-900 rounded-2xl overflow-hidden">
             <img
@@ -153,20 +142,6 @@ const handleMouseEnter = throttle(() => {
               shouldPlay={hasMedia && mobileGifPlaying}
               style={mediaWrapperStyle}
             />
-            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <Link to={`/projects/${encodeURIComponent(name)}`}>
-                  <div
-                    className="blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer 
-                      transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-200"
-                  >
-                    <img
-                      src={github}
-                      alt="github"
-                      className="w-1/2 h-1/2 object-contain"
-                    />
-                  </div>
-                </Link>
-            </div>
           </div>
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
@@ -180,6 +155,7 @@ const handleMouseEnter = throttle(() => {
             ))}
           </div>
         </div>
+        </Link>
     )}
   </>
 );
