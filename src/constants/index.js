@@ -132,24 +132,8 @@ const technologies = [
     icon: substancePainter,
   },
   {
-    name: "Substance Designer",
-    icon: substanceDesigner,
-  },
-  {
-    name: "Substance Sampler",
-    icon: substanceSampler,
-  },
-  {
-    name: "Substance Stager",
-    icon: substanceStager,
-  },
-  {
     name: "Photoshop",
     icon: photoshop,
-  },
-  {
-    name: "git",
-    icon: git,
   },
 ];
 

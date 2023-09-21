@@ -1,12 +1,62 @@
 import { motion } from "framer-motion";
-
+import React, { useEffect, useState } from "react";
 import { styles } from "../styles";
-import { fadeIn, textVariant } from "../utils/motion";
 import { ControllersCanvas } from "./canvas";
+import { Link } from "react-router-dom";
+import 'react-dropdown/style.css';
 
-import AwesomeSlider from 'react-awesome-slider';
+import { BsArrowDown } from 'react-icons/bs';
+
+
+import "../index.css";
 
 const Hero = () => {
+  const [scrolled, setScrolled] = useState(false);
+  const [active, setActive] = useState("");
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      
+      if (location.pathname !== '/') {
+        setActive(location.pathname);
+      }
+      
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+        if (location.pathname === '/') {
+          setActive("");
+        }
+      }       
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    const navbarHighlighter = () => {
+      const sections = document.querySelectorAll("section[id]");
+
+      sections.forEach((current) => {
+        const sectionId = current.getAttribute("id");
+        const sectionHeight = current.offsetHeight;
+        const sectionTop =
+          current.getBoundingClientRect().top - sectionHeight * 0.2;
+
+        if (sectionTop < 0 && sectionTop + sectionHeight > 0) {
+          setActive(sectionId);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", navbarHighlighter);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", navbarHighlighter);
+    };
+  }, [location]); // <-- Add location as a dependency
+
   return (
     <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
     <section className={`relative w-full h-screen mx-auto`}>
@@ -32,8 +82,16 @@ const Hero = () => {
       <ControllersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+        <Link
+            to={`#about`}
+            rel={'noopener noreferrer'}
+            className= 'block px-4 py-2 text-sm font-semibold'
+            onClick={(e) => {
+              const element = document.getElementById('about');
+              element.scrollIntoView({ behavior: 'smooth' });
+            }}  
+          >
+          <div className="flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -43,10 +101,14 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
+              className="w-3 h-3 mb-4"
+            >
+              <BsArrowDown 
+                className="scale-[3.4] text-white-100"
+              />
+            </motion.div>
           </div>
-        </a>
+          </Link>
       </div>
     </section>
     </div>

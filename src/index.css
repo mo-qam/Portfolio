@@ -13,25 +13,6 @@
   color-scheme: dark;
 }
 
-@keyframes pulse {
-  0% {
-    border-color: transparent;
-  }
-  50% {
-    border-color: rgb(255, 255, 255);
-  }
-  100% {
-    border-color: transparent;
-  }
-}
-
-.border-pulse {
-  background-color: red-gradient;
-  animation: pulse 6s ease-in-out infinite;
-  
-}
-
-
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -71,7 +52,6 @@
 }
 
 .aws-btn {
-
   --slider-height-percentage: 60%;
   --slider-transition-duration: 770ms;
   --organic-arrow-thickness: 4px;
