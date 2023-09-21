@@ -185,14 +185,15 @@ const Navbar = () => {
                 ) : (
       
                 <Link
-                  to={`/#${nav.id}`}
-                  target={nav.id ? undefined : '_blank'}
+                  to={nav.link ? nav.link : `/#${nav.id}`}
                   rel={nav.id ? undefined : 'noopener noreferrer'}
                   onClick={(e) => {
                     // If the link is a regular route, handle it normally
                     if (nav.link) {
+                      e.preventDefault();
+                      window.open(nav.link, '_blank');
                       setActive(nav.link); // Update active state
-                      return; 
+                      return;
                     }
                   
                     // If we are on the homepage, scroll to the section
@@ -200,14 +201,14 @@ const Navbar = () => {
                       e.preventDefault(); // Prevent default behavior of scrolling to the anchor
                       const element = document.getElementById(nav.id);
                       if (element) element.scrollIntoView({ behavior: 'smooth' }); // Scroll to nav.id
-                    } else {
+                    } else if (!nav.icon) {
                       // If not on '/', set window location directly to the base URL + hash
                       window.location.href = `${window.location.origin}/#${nav.id}`;
                     }
                   }}      
                 >
                   {nav.icon ? (
-                    <a href={nav.link} target="_blank" rel="noopener noreferrer">
+                    <a target="_blank" rel="noopener noreferrer">
                         <img
                           src={nav.icon}
                           alt={nav.title}
@@ -231,13 +232,11 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
-
           <div
             className={`${
               !toggle ? "hidden" : "flex"
             } p-6 bg-tertiary shadow-lg shadow-rose-500/40 ring-1 ring-black ring-opacity-5 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li

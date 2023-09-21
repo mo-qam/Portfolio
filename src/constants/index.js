@@ -48,30 +48,25 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-    isPDF: false,
   },
   {
     id: "work",
     title: "Work",
-    isPDF: false,
   },
   {
     id: "projects",
     title: "Projects",
-    isPDF: false,
     
   },
   {
     id: "contact",
     title: "Contact",
-    isPDF: false,
 
   },
   {
     id: "resume",
     title: "Resume",
     link: "https://drive.proton.me/urls/45AJBY8HS4#0OT8hVQHzY21",
-    isPDF: false,
   },
   {
     id: "linkedin",
