@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Tilt from 'react-tilt';
 import ReactPlayer from 'react-player';
 import AwesomeSlider from 'react-awesome-slider';
@@ -222,9 +222,11 @@ const ProjectPage = ({ project }) => {
                           className="rounded-2xl scale-110"
                         ></iframe>
                       ) : media.image ? (
-                        <div className="Tilt-inner rounded-2xl overflow-hidden h-full hover:ring-2 ring-rose-600 transition-all duration-200">
-                          <img src={media.image} alt={media.alt} className="h-full w-full" />
-                        </div>
+                        <Link to={media.image_Link ? media.image_Link : ''}>
+                          <div className="Tilt-inner rounded-2xl overflow-hidden h-full hover:ring-2 ring-rose-600 transition-all duration-200">
+                            <img src={media.image} alt={media.alt} className="h-full w-full" />
+                          </div>
+                        </Link>
                       ) : !isGoogleDrive ? (
                       <ReactPlayer
                         url={media.link}
@@ -277,9 +279,11 @@ const ProjectPage = ({ project }) => {
                                 className="transition-all duration-300 rounded-2xl scale-110 hover:scale-[1.12] outline-2 outline-rose-600"
                               ></iframe>
                             ) : media.image ? (
-                              <div className="Tilt-inner rounded-2xl overflow-hidden h-full hover:scale-[1.05] transition-all duration-200">
-                                <img src={media.image} alt={media.alt} className="h-full w-full" />
-                              </div>
+                              <Link to={media.image_Link ? media.image_Link : ''} target="_blank">
+                                <div className="Tilt-inner rounded-2xl overflow-hidden h-full hover:scale-[1.05] transition-all duration-200">
+                                    <img src={media.image} alt={media.alt} className="h-full w-full" />
+                                </div>
+                               </Link>
                             ) : !isGoogleDrive ? (
                               <ReactPlayer
                                 url={media.link}
@@ -348,9 +352,11 @@ const ProjectPage = ({ project }) => {
                               className="transition-all duration-300 rounded-2xl scale-110 hover:scale-[1.05]"
                             ></iframe>
                           ) : media.image ? (
-                            <div className="Tilt-inner rounded-2xl overflow-hidden h-full hover:scale-[1.05] transition-all duration-200">
-                              <img src={media.image} alt={media.alt} className="h-full w-full" />
-                            </div>
+                            <Link to={media.image_Link ? media.image_Link : ''} target="_blank">
+                              <div className="Tilt-inner rounded-2xl overflow-hidden h-full hover:scale-[1.05] transition-all duration-200">
+                                  <img src={media.image} alt={media.alt} className="h-full w-full" />
+                              </div>
+                           </Link>
                           ) : !isGoogleDrive ? (
                               <ReactPlayer
                                 url={media.link}

@@ -141,11 +141,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2022 - Present",
     points: [
-      "Worked directly with C-Suite and stakeholders to deliver seamless experiences.",
-      "Worked with marketing and engineering decision makers to deliver high-quality game assets and environments.",
-      "Delivered proof of concepts to lead designers for new technology which was later implemented in our product.",
-      "Designed and implemented game systems, including mechanics, and UI, enhancing overall gameplay experiences.",
-      "Ensured seamless integration of art assets with technical systems for optimal performance and visuals.",
+      "Engaged directly with C-Suite and stakeholders to conceptualize and execute seamless gameplay experiences.",
+      "Teamed up with marketing and engineering units to craft high-quality game assets and immersive environments.",
+      "Developed proof of concepts that were later integrated into our existing products, influencing key design and technological decisions.",
+      "Designed, tested, and implemented complex game systems, mechanics, and UI, to improve user engagement and gameplay experience.",
+      "Carried out programming tasks, focusing on designing and implementing modular, optimized systems for enhanced scalability and performance.",
     ],
   },
   {
@@ -330,6 +330,7 @@ const projects = [
           "Shader Development: Developed custom shaders to enhance visual effects and realism.",
         ],
         image: "https://cdnb.artstation.com/p/assets/images/images/063/060/123/large/mohammed-qamar-rocketrumble-heros-render-c.jpg?1684608743",
+        image_Link: "https://www.artstation.com/artwork/xDqNAr",
       },
       {
         id: "C",
@@ -827,6 +828,7 @@ const projects = [
           "Post-Processing: Leveraged post-processing techniques to enhance the overall visual quality of the scene.",
         ],
         image: "https://cdnb.artstation.com/p/assets/images/images/064/611/661/original/mohammed-qamar-shotbreakdown-b.gif?1688359004",
+        image_Link: "https://www.artstation.com/artwork/xDNOJ2 ",
       },
     ],
   },
@@ -917,6 +919,7 @@ const projects = [
           "Modular Construction: Adopted modular design principles to build versatile and reusable assets.",
         ],
         image: "https://cdna.artstation.com/p/assets/images/images/044/673/732/large/mohammed-qamar-screenshot-85.jpg?1640797408",
+        image_Link: "https://www.artstation.com/artwork/ZeewR1",
       },
       {
         id: "B",
