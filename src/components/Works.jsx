@@ -7,7 +7,7 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { throttle } from 'lodash';
 
-import React, { useRef, useState, useEffect, memo } from 'react';
+import React, { useRef, useState, useEffect, memo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -15,37 +15,30 @@ import useOnScreen from './useOnScreen';
 import GifEmbed from './GifEmbed';
 
 const ProjectCard = memo(({
-  index,
-  name,
-  description,
-  tags,
-  image,
-  youtube_URL,
-  video,
+  index, name, description, tags, image, youtube_URL, video,
 }) => {
   const imgRef = useRef(null);
   const isMobile = window.innerWidth <= 768;
   const [hasMedia, setHasMedia] = useState(!!youtube_URL || !!video);
-
-
-const handleMouseEnter = throttle(() => {
-  if (hasMedia) {
-    setHovered(true);
-  }
-}, 200); // Run at most once per 200ms
-  
-  const handleMouseLeave = () => {
-    if (hasMedia) {
-      setHovered(false);
-    }
-  };
-
   const [hovered, setHovered] = useState(false);
-
-   // Add a new state to control playing the GIF on mobile
   const [mobileGifPlaying, setMobileGifPlaying] = useState(false);
+  const [ref, isVisible] = useOnScreen({ threshold: 0.3 });
 
-  const [ref, isVisible] = useOnScreen({ threshold: 0.3 }); // Adjust the threshold according to your requirements
+  const handleMouseEnter = useCallback(throttle(() => {
+    if (hasMedia) setHovered(true);
+  }, 200), [hasMedia]);
+
+  const handleMouseLeave = useCallback(() => {
+    if (hasMedia) setHovered(false);
+  }, [hasMedia]);
+
+  useEffect(() => {
+    if (!isMobile || !isVisible || mobileGifPlaying) return;
+
+    const timer = setTimeout(() => setMobileGifPlaying(true), 2000);
+    return () => clearTimeout(timer);
+
+  }, [isMobile, isVisible, mobileGifPlaying]);
 
   useEffect(() => {
     if (isMobile && isVisible && !mobileGifPlaying) {
@@ -72,7 +65,6 @@ const handleMouseEnter = throttle(() => {
     overflow: 'hidden',
     borderRadius: '1rem',
   };
-  
 
   return (
     <>
@@ -184,7 +176,7 @@ const SubHeadingContent = () => {
 const Works = ({isMobile}) => {
   return (
     <>
-      {isMobile ? (
+      {!isMobile ? (
         <motion.div variants={textVariant()} >
           <TitleContent />
         </motion.div>
@@ -194,9 +186,8 @@ const Works = ({isMobile}) => {
         </div>
       )}
 
-
       <div className="w-full flex">
-        {isMobile ? (
+        {!isMobile ? (
             <motion.p
               variants={fadeIn("", "", 0.1, 1)}
               className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
