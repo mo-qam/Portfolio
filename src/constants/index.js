@@ -727,108 +727,218 @@ const projects = [
       },
     ],
   },
+  // {
+  //   name: "Return Home",
+  //   company_name: "Personal Project",
+  //   background: `
+  //   In "Return Home," a personal project rendered in Unreal Engine 5, I crafted a compelling 3D environment that transports the viewer into a mystical world. The setting revolves around intricately designed hero props—a stone fountain and a mystical sword—surrounded by rich, natural elements.
+  //     `,
+  //   description:
+  //     `
+  //     This project stands as a testament to my capability to blend custom-made and pre-existing assets into a harmonious, visually stunning landscape.
+  //     `,
+  //   tags: [
+  //     {
+  //       name: "Environment Art",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Technical Art",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Hero Prop Design",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Unreal Engine 5",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "Custom Shaders",
+  //       color: "red-text-gradient",
+  //     },
+  //     {
+  //       name: "Vertex Painting",
+  //       color: "cyan-text-gradient",
+  //     },
+  //     {
+  //       name: "Realism & Depth",
+  //       color: "teal-text-gradient",
+  //     },
+  //     {
+  //       name: "Modular Design",
+  //       color: "purple-text-gradient",
+  //     },
+  //   ],
+  //   image: returnHome,
+  //   youtube_URL: "rJF9gXFQqGI",
+  //   source_code_link: "https://www.artstation.com/artwork/xDNOJ2",
+
+  //   ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
+  //   images: [
+  //     {
+  //       id: "A",
+  //       alt: "Media A",
+  //       image_A: "https://cdna.artstation.com/p/assets/images/images/064/628/344/large/mohammed-qamar-sequencemaster-0280.jpg?1688395035",
+  //     },
+  //     {
+  //       id: "B",
+  //       alt: "Media B",
+  //       image_B: "https://cdnb.artstation.com/p/assets/images/images/064/598/261/large/mohammed-qamar-sequencemaster-0413.jpg?1688320202",
+  //     },
+  //   ],
+
+
+  //   project_id: "2",
+  //   image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
+  //   projectType: "Part-Time",
+  //   projectSubtitle: "Crafting a Mystical World, One Pixel at a Time.",
+  //   duration: "2 Months",
+  //   role: "Environment Artist",
+  //   tools: "Unreal Engine 5, 3DS Max, Substance Painter, Photoshop, Marmoset Toolbag",
+  //   media: [
+  //     {
+  //       id: "A",
+  //       alt: "Media A",
+  //       mediaTitle: "Environment Art",
+  //       mediaSubtitle: "Versatile 3D Art Expertise",
+  //       mediaDescription: `
+          
+  //       `,
+  //       mediaBulletPoints: [
+  //         "Advanced Techniques: Utilized high-level modeling and texturing skills to bring the focal elements to life.",
+  //         "Realism & Depth: Incorporated high-quality assets such as foliage, rocks, and debris sourced from the Quixel Megascans library, adding layers of authenticity.",
+  //         "Hero Props: Conceived and created a stone fountain and mystical sword as central, attention-grabbing elements of the scene.",
+  //         "Technical Proficiency: Demonstrated adeptness in Unreal Engine 5, optimizing its capabilities for maximum visual impact.",
+  //       ],
+  //       link: "https://youtu.be/rJF9gXFQqGI",
+  //     },
+  //     {
+  //       id: "B",
+  //       alt: "Media B",
+  //       mediaTitle: "Technical Art",
+  //       mediaSubtitle: "Powering Visual Experience",
+  //       mediaDescription: `
+           
+  //       `,
+  //       mediaBulletPoints: [
+  //         "Custom Shaders: Designed a custom emissive pulse shader for the mystical sword, adding a dynamic, magical quality to the asset.",
+  //         "Vertex Painting: Utilized vertex painting techniques to add nuanced details to the stone fountain, enhancing its visual complexity.",
+  //         "Post-Processing: Leveraged post-processing techniques to enhance the overall visual quality of the scene.",
+  //       ],
+  //       image: "https://cdnb.artstation.com/p/assets/images/images/064/611/661/original/mohammed-qamar-shotbreakdown-b.gif?1688359004",
+  //       image_Link: "https://www.artstation.com/artwork/xDNOJ2 ",
+  //     },
+  //   ],
+  // },
   {
-    name: "Return Home",
+    name: `Batman Arkham Series - 
+    Free Flow Combat System`,
     company_name: "Personal Project",
-    background: `
-    In "Return Home," a personal project rendered in Unreal Engine 5, I crafted a compelling 3D environment that transports the viewer into a mystical world. The setting revolves around intricately designed hero props—a stone fountain and a mystical sword—surrounded by rich, natural elements.
-      `,
+    background:
+    `Inspired by the iconic Batman Arkham series, I undertook the challenge to recreate the fluid, intuitive, and impactful free flow combat system using Unreal Engine 5.
+    `,
     description:
       `
-      This project stands as a testament to my capability to blend custom-made and pre-existing assets into a harmonious, visually stunning landscape.
+      I managed the entire development process, from creating combat animations and enemy AI behaviors to implementing the combo and counter mechanics. 
+      I also integrated advanced visual and sound effects to amplify each punch, kick, and counter move, replicating the visceral feedback of the original combat system.
       `,
     tags: [
       {
-        name: "Environment Art",
+        name: "Combat Animation",
         color: "green-text-gradient",
       },
       {
-        name: "Technical Art",
+        name: "Enemy AI",
         color: "blue-text-gradient",
       },
       {
-        name: "Hero Prop Design",
+        name: "Combo Mechanics",
         color: "pink-text-gradient",
       },
       {
-        name: "Unreal Engine 5",
+        name: "Counter Mechanics",
         color: "yellow-text-gradient",
       },
       {
-        name: "Custom Shaders",
+        name: "Visual Effects",
         color: "red-text-gradient",
       },
       {
-        name: "Vertex Painting",
+        name: "Sound Design",
         color: "cyan-text-gradient",
       },
       {
-        name: "Realism & Depth",
+        name: "Unreal Engine 5",
         color: "teal-text-gradient",
       },
       {
-        name: "Modular Design",
+        name: "Game Mechanics",
         color: "purple-text-gradient",
       },
     ],
-    image: returnHome,
-    youtube_URL: "rJF9gXFQqGI",
-    source_code_link: "https://www.artstation.com/artwork/xDNOJ2",
-
+    image: "https://drive.google.com/uc?export=view&id=1OxAomrk_A93efx4ZZIAy7U1FO8ThdXUU",
+    // youtube_URL: "JXdg2gMbZNg",
+    source_code_link: "https://www.artstation.com/artwork/bl8vLm",
+    
     ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
     images: [
       {
         id: "A",
         alt: "Media A",
-        image_A: "https://cdna.artstation.com/p/assets/images/images/064/628/344/large/mohammed-qamar-sequencemaster-0280.jpg?1688395035",
+        image_A: "https://drive.google.com/uc?export=view&id=1SLtjPUlc_PWx_ud5LnuTeLtA5t4YAuPs",
       },
       {
         id: "B",
         alt: "Media B",
-        image_B: "https://cdnb.artstation.com/p/assets/images/images/064/598/261/large/mohammed-qamar-sequencemaster-0413.jpg?1688320202",
+        image_B: "https://drive.google.com/uc?export=view&id=1OxAomrk_A93efx4ZZIAy7U1FO8ThdXUU",
+      },
+      {
+        id: "C",
+        alt: "Media C",
+        image_B: "https://drive.google.com/uc?export=view&id=1w4alLUrL-VcDknE9STzE6wEBvX5CHIr4",
       },
     ],
-
-
-    project_id: "2",
-    image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
+    project_id: "3", 
     projectType: "Part-Time",
-    projectSubtitle: "Crafting a Mystical World, One Pixel at a Time.",
+    projectSubtitle: "Recreating the exhilarating free flow combat system in Unreal Engine 5.",
     duration: "2 Months",
-    role: "Environment Artist",
-    tools: "Unreal Engine 5, 3DS Max, Substance Painter, Photoshop, Marmoset Toolbag",
+    role: "Game Developer & Designer",
+    tools: "Unreal Engine 5, Photoshop, Premiere Pro",
     media: [
       {
         id: "A",
         alt: "Media A",
-        mediaTitle: "Environment Art",
-        mediaSubtitle: "Versatile 3D Art Expertise",
+        mediaTitle: "Combat Animation & Mechanics",
+        mediaSubtitle: "Bringing Fluidity to Fights",
         mediaDescription: `
-          
+          Recreating the free flow combat demanded a deep understanding of both animation and game mechanics. I ensured each move felt natural, and transitions between moves were seamless.
         `,
         mediaBulletPoints: [
-          "Advanced Techniques: Utilized high-level modeling and texturing skills to bring the focal elements to life.",
-          "Realism & Depth: Incorporated high-quality assets such as foliage, rocks, and debris sourced from the Quixel Megascans library, adding layers of authenticity.",
-          "Hero Props: Conceived and created a stone fountain and mystical sword as central, attention-grabbing elements of the scene.",
-          "Technical Proficiency: Demonstrated adeptness in Unreal Engine 5, optimizing its capabilities for maximum visual impact.",
+          "Animation: Created and implemented combat animations that captured the essence of the Arkham series.",
+          "Combo & Counter: Designed intuitive combo and counter mechanics, allowing players to fluidly move from one enemy to another.",
+          "Enemy AI: Developed enemy behaviors that challenge the player and elevate the combat experience.",
+          "Feedback: Integrated visual and sound effects to provide immediate feedback on successful hits, counters, and evades.",
         ],
-        link: "https://youtu.be/rJF9gXFQqGI",
+        link: "https://drive.google.com/file/d/183X2HQw3JO9PcFX0yBGT1ACkHCSrcKcv/preview",
       },
       {
         id: "B",
         alt: "Media B",
-        mediaTitle: "Technical Art",
-        mediaSubtitle: "Powering Visual Experience",
+        mediaTitle: "Blueprints, Anim Montages & Effects",
+        mediaSubtitle: "Implementing the System",
         mediaDescription: `
-           
+          The depth of the combat system is achieved by leveraging Unreal Engine 5's powerful features like Blueprints and Animation Montages. These tools allowed for the intricate chaining of moves, combos, and reactions that define the free flow combat.
         `,
         mediaBulletPoints: [
-          "Custom Shaders: Designed a custom emissive pulse shader for the mystical sword, adding a dynamic, magical quality to the asset.",
-          "Vertex Painting: Utilized vertex painting techniques to add nuanced details to the stone fountain, enhancing its visual complexity.",
-          "Post-Processing: Leveraged post-processing techniques to enhance the overall visual quality of the scene.",
+          "Blueprints: Extensively used UE5's visual scripting tool - Blueprints, to design the underlying logic of the combat system, from simple actions to complex chained moves.",
+          "Animation Montages: Implemented Anim Montages to sequence and blend multiple animations fluidly, ensuring the combat felt dynamic and responsive.",
+          "Effects Integration: Integrated particle effects to signify critical hits, combo chains, and special moves, adding a visual flair to each interaction.",
+          "Sound Cues: Utilized UE5's sound cue system in tandem with the combat moves, ensuring audio feedback is timely and relevant.",
+          "System Testing: Regularly tested the combat system, refining Blueprints and effects to ensure optimal performance and gameplay feel.",
         ],
-        image: "https://cdnb.artstation.com/p/assets/images/images/064/611/661/original/mohammed-qamar-shotbreakdown-b.gif?1688359004",
-        image_Link: "https://www.artstation.com/artwork/xDNOJ2 ",
+        link: "https://drive.google.com/file/d/1X6JOLsXl5JDfh_VSL5-tUwc0YhzhxrXE/preview",
       },
     ],
   },

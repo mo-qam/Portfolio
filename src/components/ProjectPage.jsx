@@ -110,16 +110,17 @@ const ProjectPage = ({ project }) => {
     <div id={encodedName} className="bg-black-100 rounded-[20px]">
       <div className='bg-tertiary rounded-2xl p-4 md:p-8'>
         <div className={`${styles.padding} bg-tertiary rounded-2xl`}>
-          <header className={`header text-left flex items-center ${isMobile ? 'flex-col mb-20 mt-40' : 'flex-row mb-40 mt-60 pr-4'}`}>
+          <header className={`header text-left flex items-center ${isMobile ? 'flex-col mb-20 mt-40' : 'flex-row mb-40 mt-60 pr-2'}`}>
               <div 
                 onClick={() => window.open(project.source_code_link, "_blank")}
-                className="
+                className={`
                   cursor-pointer transition ease-in-out hover:-translate-y-1 duration-200 tracking-tight
                   hover:ring ring-rose-500 ring-offset-[20px] rounded-2xl dark:ring-offset-slate-900 tracking-wide
-                  "
+                  ${isMobile ? '' : 'max-w-[calc(100%-600px)]'}
+                  `}
               >
                 <p className={styles.heroSubText}>{project.company_name}</p>
-                <h1 className={styles.heroHeadText}>{project.name}</h1>
+                <h1 className={`${styles.heroHeadText}`}>{project.name}</h1>
               </div>
             <div className={`${isMobile ? 'mt-4 w-full h-auto w-[300px] h-[234px]' : 'ml-auto w-[600px] h-[334px]'} relative rounded-[20px] shadow-card`}>
               {/* Foreground Image */}
