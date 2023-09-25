@@ -1,84 +1,61 @@
 import { motion } from "framer-motion";
-import React, { useEffect, useState, useCallback } from "react";
+import React, { useEffect, useState } from "react";
 import { styles } from "../styles";
 import { ControllersCanvas } from "./canvas";
 import { Link } from "react-router-dom";
 import 'react-dropdown/style.css';
+
 import { BsArrowDown } from 'react-icons/bs';
+
+
 import "../index.css";
 
 const Hero = () => {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("");
   
-  const handleScroll = useCallback(() => {
-    if (location.pathname !== '/') {
-      setActive(location.pathname);
-    }
-    
-    const scrollTop = window.scrollY;
-    if (scrollTop > 100) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-      if (location.pathname === '/') {
-        setActive("");
-      }
-    } 
-
-    const sections = document.querySelectorAll("section[id]");
-    sections.forEach((current) => {
-      const sectionId = current.getAttribute("id");
-      const sectionHeight = current.offsetHeight;
-      const sectionTop =
-        current.getBoundingClientRect().top - sectionHeight * 0.2;
-
-      if (sectionTop < 0 && sectionTop + sectionHeight > 0) {
-        setActive(sectionId);
-      }
-    });
-
-  }, [location]);
-
   useEffect(() => {
-    // Add throttling to the scroll event listener
-    const throttledHandleScroll = throttle(handleScroll, 100);
-    window.addEventListener("scroll", throttledHandleScroll);
+    const handleScroll = () => {
+      
+      if (location.pathname !== '/') {
+        setActive(location.pathname);
+      }
+      
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+        if (location.pathname === '/') {
+          setActive("");
+        }
+      }       
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    const navbarHighlighter = () => {
+      const sections = document.querySelectorAll("section[id]");
+
+      sections.forEach((current) => {
+        const sectionId = current.getAttribute("id");
+        const sectionHeight = current.offsetHeight;
+        const sectionTop =
+          current.getBoundingClientRect().top - sectionHeight * 0.2;
+
+        if (sectionTop < 0 && sectionTop + sectionHeight > 0) {
+          setActive(sectionId);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", navbarHighlighter);
 
     return () => {
-      window.removeEventListener("scroll", throttledHandleScroll);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", navbarHighlighter);
     };
-  }, [handleScroll]);
-
-
-  // Throttle function
-  function throttle(func, wait) {
-    let timeout;
-    return function() {
-      if (!timeout) {
-        timeout = setTimeout(() => {
-          timeout = null;
-          func.apply(this, arguments);
-        }, wait);
-      }
-    };
-  }
-
-  const MemoizedArrowDown = React.memo(() => (
-    <motion.div
-      animate={{
-        y: [0, 24, 0],
-      }}
-      transition={{
-        duration: 1.5,
-        repeat: Infinity,
-        repeatType: "loop",
-      }}
-      className="w-3 h-3 mb-4"
-    >
-      <BsArrowDown className="scale-[3.4] text-white-100" />
-    </motion.div>
-  ));
+  }, [location]); // <-- Add location as a dependency
 
   return (
     <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -115,7 +92,21 @@ const Hero = () => {
             }}  
           >
           <div className="flex justify-center items-start p-2">
-            <MemoizedArrowDown />
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="w-3 h-3 mb-4"
+            >
+              <BsArrowDown 
+                className="scale-[3.4] text-white-100"
+              />
+            </motion.div>
           </div>
           </Link>
       </div>

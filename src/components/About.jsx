@@ -54,33 +54,12 @@ const ServiceCard = ({ index, title, icon, isMobile }) => (
 const About = () => {
   return (
     <>
-      {isMobile ? (
-        <div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </div>
-    ) : (
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
-      )}
 
-      {isMobile ? (
-        <div
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        I'm a skilled Designer and Artist with experience in Systems Design,
-        Level Design, Technical Design, 3D Artistry, and UI/UX implementation.
-        I'm a quick learner and collaborate closely with my collegues to
-        create efficient, scalable, and performant solutions that solve
-        problems fast.
-        <a href="https://canvasrebel.com/meet-mohammed-qamar" target="_blank" className="ml-2 text-[15px] max-w-3xl leading-[15px] text-rose-400 hover:animate-pulse ">
-          Click here to learn more about me.
-        </a>
-      </div>
-      ) : (
-        <motion.p
+      <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
@@ -93,7 +72,6 @@ const About = () => {
           Click here to learn more about me.
         </a>
       </motion.p>
-      )}
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
