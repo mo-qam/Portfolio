@@ -21,7 +21,6 @@ const ProjectCard = memo(({
   const isMobile = window.innerWidth <= 768;
   const [hasMedia, setHasMedia] = useState(!!youtube_URL || !!video);
   const [hovered, setHovered] = useState(false);
-  const [mobileGifPlaying, setMobileGifPlaying] = useState(false);
   const [ref, isVisible] = useOnScreen({ threshold: 0.3 });
 
   const handleMouseEnter = useCallback(throttle(() => {
@@ -32,25 +31,7 @@ const ProjectCard = memo(({
     if (hasMedia) setHovered(false);
   }, [hasMedia]);
 
-  useEffect(() => {
-    if (!isMobile || !isVisible || mobileGifPlaying) return;
-
-    const timer = setTimeout(() => setMobileGifPlaying(true), 2000);
-    return () => clearTimeout(timer);
-
-  }, [isMobile, isVisible, mobileGifPlaying]);
-
-  useEffect(() => {
-    if (isMobile && isVisible && !mobileGifPlaying) {
-      const timer = setTimeout(() => {
-        setMobileGifPlaying(true);
-      }, 2000); // Modify the delay as needed (2000 ms = 2 seconds)
-  
-      return () => {
-        clearTimeout(timer);
-      };
-    }
-  }, [isMobile, isVisible, mobileGifPlaying]);
+  const shouldPlayVideo = (isMobile && isVisible) || (!isMobile && hovered);
 
   const mediaWrapperStyle = {
     display: 'flex',
@@ -69,38 +50,33 @@ const ProjectCard = memo(({
   return (
     <>
       {!isMobile ? (
-        <motion.div  ref = {ref} variants={!isMobile && fadeIn("up", "spring", index * 0.5, 0.75)} >
+        <motion.div ref={ref} variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
           <Link to={`/projects/${encodeURIComponent(name)}`} target="_blank">
             <Tilt
               options={{ max: 45, scale: 1, speed: 450 }}
               className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
             >
-              <div className="relative w-full h-[230px] hover:border-4 border-purple-900 rounded-2xl overflow-hidden "
-                      onMouseEnter={handleMouseEnter}
-                      onMouseLeave={handleMouseLeave}>
-                  <img
-                    ref={imgRef}
-                    src={image}
-                    alt={name}
-                    style={{ opacity: hasMedia && hovered && mobileGifPlaying ? 0 : 1 }}
-                    className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 hover:transition-opacity"
-                  />
-                    <GifEmbed
-                      youtube_URL={youtube_URL}
-                      opacity={(hasMedia && mobileGifPlaying) || (hasMedia && hovered) ? 1 : 0}
-                      shouldPlay={(hasMedia && hovered)}
-                      style={mediaWrapperStyle}
-                    />
+              <div
+                className="relative w-full h-[230px] hover:border-4 border-rose-800 rounded-2xl overflow-hidden"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <img
+                  ref={imgRef}
+                  src={image}
+                  alt={name}
+                  className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 hover:transition-opacity"
+                />
               </div>
               <div className="mt-5">
-              <div className="mt-5">
-                <h3 className="text-white font-bold text-[24px]">{name}</h3>
-                {description.split('\n').map((line, index) => (
-                  <p key={index} className="mt-2 text-secondary text-[14px]">
-                    {line}
-                  </p>
-                ))}
-              </div>
+                <div className="mt-5">
+                  <h3 className="text-white font-bold text-[24px]">{name}</h3>
+                  {description.split('\n').map((line, index) => (
+                    <p key={index} className="mt-2 text-secondary text-[14px]">
+                      {line}
+                    </p>
+                  ))}
+                </div>
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
                 {tags.map((tag) => (
@@ -110,7 +86,7 @@ const ProjectCard = memo(({
                 ))}
               </div>
             </Tilt>
-            </Link>
+          </Link>
         </motion.div>
 
       //////////////////////////// MOBILE ////////////////////////////////////////
@@ -122,15 +98,17 @@ const ProjectCard = memo(({
               ref={imgRef}
               src={image}
               alt={name}
-              style={{ opacity: hasMedia && mobileGifPlaying ? 0 : 1 }}
+              style={{ opacity: hasMedia}}
               className="w-full h-full object-cover rounded-2xl transition-opacity duration-300"
             />
-            <GifEmbed
-              youtube_URL={youtube_URL}
-              opacity={(hasMedia && mobileGifPlaying) || (hasMedia && hovered) ? 1 : 0}
-              shouldPlay={hasMedia && mobileGifPlaying}
-              style={mediaWrapperStyle}
-            />
+            {isVisible && (
+              <GifEmbed
+                youtube_URL={youtube_URL}
+                opacity={hasMedia && hovered ? 1 : 0}
+                shouldPlay={hovered}
+                style={mediaWrapperStyle}
+              />
+            )}
           </div>
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>

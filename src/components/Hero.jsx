@@ -7,6 +7,8 @@ import 'react-dropdown/style.css';
 import { BsArrowDown } from 'react-icons/bs';
 import "../index.css";
 
+const isMobile = window.innerWidth <= 768;
+
 const Hero = () => {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("");
@@ -39,6 +41,7 @@ const Hero = () => {
     });
 
   }, [location]);
+  
 
   useEffect(() => {
     // Add throttling to the scroll event listener
@@ -65,19 +68,30 @@ const Hero = () => {
   }
 
   const MemoizedArrowDown = React.memo(() => (
-    <motion.div
-      animate={{
-        y: [0, 24, 0],
-      }}
-      transition={{
-        duration: 1.5,
-        repeat: Infinity,
-        repeatType: "loop",
-      }}
-      className="w-3 h-3 mb-4"
-    >
-      <BsArrowDown className="scale-[3.4] text-white-100" />
-    </motion.div>
+    <>
+      {isMobile ? (
+        <div
+        className="w-3 h-3 mb-4"
+      >
+        <BsArrowDown className="scale-[3.4] text-white-100" />
+      </div>
+      ) : (
+        <motion.div
+        animate={{
+          y: [0, 24, 0],
+        }}
+        transition={{
+          duration: 1.5,
+          repeat: Infinity,
+          repeatType: "loop",
+        }}
+        className="w-3 h-3 mb-4"
+      >
+        <BsArrowDown className="scale-[3.4] text-white-100" />
+      </motion.div>
+
+      )}
+    </>
   ));
 
   return (
