@@ -208,7 +208,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "..looking forward to seeing what you do in the future Mohammed.",
+      "..Mohammed has shown great care and skill in his work. I would love to have him stay on the team and put him in leadership roles.",
     name: "Alex Golebiowski",
     designation: "COO",
     company: "PixelNAUTS Games",
