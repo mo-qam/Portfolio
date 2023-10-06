@@ -54,10 +54,10 @@ const ProjectCard = memo(({
           <Link to={`/projects/${encodeURIComponent(name)}`} target="_blank">
             <Tilt
               options={{ max: 45, scale: 1, speed: 450 }}
-              className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
+              className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full hover:drop-shadow-xl"
             >
               <div
-                className="relative w-full h-[230px] hover:border-4 border-rose-800 rounded-2xl overflow-hidden"
+                className="relative w-full h-[230px] overflow-hidden hover:border-4 border-rose-800 rounded-[18px]"
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
               >
@@ -65,7 +65,7 @@ const ProjectCard = memo(({
                   ref={imgRef}
                   src={image}
                   alt={name}
-                  className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 hover:transition-opacity"
+                  className="w-full h-full object-cover rounded-2xl transition-opacity duration-300"
                 />
               </div>
               <div className="mt-5">
