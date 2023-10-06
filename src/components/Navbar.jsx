@@ -17,7 +17,7 @@ function classNames(...classes) {
 }
 
 const menuItemStyling = (active) => {
-  return active ? 'bg-rose-600 text-gray-100 rounded 2x1' : 'text-secondary';
+  return active ? 'bg-rose-600 text-gray-100 rounded xl scale-[1.015] shadow-xl transition tracking-wider duration-100' : 'text-secondary';
 }
 
 const Navbar = () => {
@@ -110,7 +110,7 @@ const Navbar = () => {
               ) : (
                 //////////////////////////// PROJECTS CHECK ////////////////////////////////////////
                 nav.id === 'projects' ? (
-                  <Menu as="div" className="relative inline-block">
+                  <Menu as="div" className="relative inline-block shadow-2xl">
                     <div>
                       <Menu.Button 
                         className="inline-flex w-full justify-center rounded-md shadow-sm">
@@ -127,8 +127,8 @@ const Navbar = () => {
                       leaveFrom="transform opacity-100 scale-100"
                       leaveTo="transform opacity-0 scale-95"
                     >
-                      <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-rose-500 rounded-md bg-tertiary shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                        <div className="py-1">
+                      <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-rose-500 divide-opacity-30 rounded-md bg-black-200">
+                        <div className="py-1 bg-black-100">
                         <Menu.Item>
                             {({ active }) => (
                               <Link
@@ -137,7 +137,7 @@ const Navbar = () => {
                                 rel={nav.id ? undefined : 'noopener noreferrer'}
                                 className={classNames(
                                   menuItemStyling(active),
-                                  'block px-4 py-2 text-sm font-semibold'
+                                  'block px-4 py-2 text-sm font-semibold text-gray-200'
                                 )}
                                 onClick={(e) => {
                                   // If the link is a regular route, handle it normally

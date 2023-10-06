@@ -133,7 +133,7 @@ const ProjectPage = ({ project }) => {
                 absolute top-0 left-0 w-full object-cover rounded-2xl 
                 shadow-card drop-shadow-xl z-0 transform overflow-hidden
                 ring-inset-2 ring-2 ring-rose-600 
-                hover:ring-4 ring-rose-600 hover:scale-105 transition-all duration-300
+                hover:ring-4 ring-rose-600 hover:scale-105 transition-all duration-300 shadow-inner
                 ${isMobile ? '' : '-translate-x-12 -translate-y-14'}
                 `}>
                 <Slider project={{project}} images={imageUrls} />
@@ -213,7 +213,7 @@ const ProjectPage = ({ project }) => {
                   <div className="col-span-12 mb-24">
 
                     {/* Media */}
-                    <div className="bg-tertiary p-5 rounded-2xl h-[250px] shadow-card overflow-hidden mb-8">
+                    <div className="bg-tertiary p-5 rounded-2xl h-[250px] shadow-card overflow-hidden mb-8 shadow-inner">
                       {isGoogleDrive ? (
                         <iframe
                           src={mediaUrl}
@@ -345,16 +345,16 @@ const ProjectPage = ({ project }) => {
                           ${isMobile ? 'sm:w-[700px] h-[250px]' : 'sm:w-[700px] w-full h-[400px]'}
                         `}>
                           {isGoogleDrive ? (
-                            <iframe
+                              <iframe
                               src={mediaUrl}
                               width="100%"
                               height="100%"
                               allow="autoplay"
-                              className="transition-all duration-300 rounded-2xl scale-110 hover:scale-[1.05]"
+                              className="transition-all duration-300 rounded-2xl scale-110 hover:scale-[1.12] outline-2 outline-rose-600"
                             ></iframe>
                           ) : media.image ? (
                             <Link to={media.image_Link ? media.image_Link : ''} target="_blank">
-                              <div className="Tilt-inner rounded-2xl overflow-hidden h-full hover:scale-[1.05] transition-all duration-200">
+                              <div className="rounded-2xl overflow-hidden h-full hover:scale-[1.05] transition-all duration-200">
                                   <img src={media.image} alt={media.alt} className="h-full w-full" />
                               </div>
                            </Link>

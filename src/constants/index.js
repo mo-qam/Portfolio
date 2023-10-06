@@ -616,7 +616,7 @@ const projects = [
   //   source_code_link: "https://www.artstation.com/artwork/o2dJqL",
   // },
   {
-    name: "Watch Dogs 2 - Marcus' Room",
+    name: "Watch Dogs 2 | Marcus' Room",
     company_name: "Personal Project",
     background:
     ` This project was inspired by the Watch Dogs 2 video game. The goal was to create the main character's room which never appeared in the final game.
@@ -833,7 +833,7 @@ const projects = [
   //   ],
   // },
   {
-    name: `Batman Arkham Series - 
+    name: `Batman Arkham Series | 
     Free Flow Combat System`,
     company_name: "Personal Project",
     background:
@@ -942,113 +942,221 @@ const projects = [
       },
     ],
   },
+///////////////////////////////////////////////////////////////
   {
-    name: "Tracks We Leave",
+    name: "Sunset | Level Design",
     company_name: "University Project",
     background:
-    ` This project was developed as part of my second-year University coursework in an Environment Design class.
-      This game-ready setting stands as a comprehensive showcase of my skills in multiple facets of game development.
-      `,
+    `This project was created as part of my second-year University coursework for the Level Design class.
+    The game-ready level encapsulates my proficiency in designing intricate, engaging, and immersive game spaces.
+    `,
 
     description:
-      `
-      Guided by expert instruction from professors, I developed an array of key components including props, landscape design, lighting, and visual effects. 
-      The environment leverages advanced design techniques such as trim-textures, texture atlases, and modular construction, lending it a level of sophistication and polish. 
-      Inspired by the captivating world of Bend Studio's 'Days Gone,' the project aims to emulate the same level of visual and atmospheric complexity.
-      `,
+    `
+    Under the tutelage of experienced professors, I crafted a level that weaves together essential game design elements such as player navigation, pacing, environmental storytelling, and strategic placement of game mechanics. 
+    Drawing inspiration from the intricate levels of games like Ubisoft's 'FarCry' series, my design focuses on the player journey as the primary objective.
+    `,
+
     tags: [
       {
-        name: "Environment Art",
+        name: "Level Design",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Player Navigation",
         color: "green-text-gradient",
       },
       {
-        name: "Lighting Design",
+        name: "Environmental Storytelling",
         color: "yellow-text-gradient",
       },
       {
-        name: "Visual Effects",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Particle Systems",
+        name: "Strategic Pacing",
         color: "pink-text-gradient",
       },
       {
-        name: "Modular Construction",
+        name: "Rewarding Exploration",
         color: "purple-text-gradient",
       },
-      {
-        name: "Advanced Design Techniques",
-        color: "magenta-text-gradient",
-      },
     ],
-    image: tracksWeLeave,
+    image: 'https://cdnb.artstation.com/p/assets/images/images/044/641/937/large/mohammed-qamar-screenshot-46.jpg?1640704870',
     youtube_URL:"DTKnZPPxC6c",
-    source_code_link: "https://www.artstation.com/artwork/ZeewR1",
+    source_code_link: "https://www.artstation.com/artwork/9N8BmO",
     
     ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
     images: [
       {
         id: "A",
         alt: "Media A",
-        image_A: "https://cdnb.artstation.com/p/assets/images/images/044/675/183/large/mohammed-qamar-screenshot-90.jpg?1690169857",
+        image_A: "https://cdna.artstation.com/p/assets/images/images/044/642/904/large/mohammed-qamar-3.jpg?1640706743",
       },
       {
         id: "B",
         alt: "Media B",
-        image_B: "https://cdna.artstation.com/p/assets/images/images/044/675/192/large/mohammed-qamar-screenshot-89.jpg?1690222187",
+        image_B: "https://cdnb.artstation.com/p/assets/images/images/044/641/929/large/mohammed-qamar-screenshot-43.jpg?1640704849",
       },
       {
         id: "B",
         alt: "Media B",
-        image_B: "https://cdnb.artstation.com/p/assets/images/images/044/675/171/large/mohammed-qamar-screenshot-93.jpg?1640982741",
+        image_B: "https://cdnb.artstation.com/p/assets/images/images/044/641/937/large/mohammed-qamar-screenshot-46.jpg?1640704870",
       },
     ],
 
 
     project_id: "2",
     image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
-    projectType: "Part-Time",
+    projectType: "Full-Time",
     projectSubtitle: "Realized space from the ground up, showcasing a mastery of multiple facets of game development.",
-    duration: "4 Months",
-    role: "Environment Artist",
-    tools: "Unity, 3DS Max, Substance Painter, Photoshop, Marmoset Toolbag",
+    duration: "2 Weeks",
+    role: "Level Designer",
+    tools: "Unity, PureRef",
+
     media: [
       {
-        id: "A",
-        alt: "Media A",
-        mediaTitle: "Environment Art",
-        mediaSubtitle: "A Captivating World",
-        mediaDescription: `
-          In this section of the project, I focused on the detailed construction of props and landscapes, leveraging a range of advanced techniques to add depth and realism to the environment.
-        `,
-        mediaBulletPoints: [
-          "Prop Design: Crafted a variety of in-game props that contribute to the thematic coherence and visual richness of the environment.",
-          "Landscape Crafting: Utilized advanced design skills to create compelling and realistic landscapes.",
-          "Texture Mastery: Employed trim-textures and texture atlases to achieve nuanced visual details.",
-          "Modular Construction: Adopted modular design principles to build versatile and reusable assets.",
-        ],
-        image: "https://cdna.artstation.com/p/assets/images/images/044/673/732/large/mohammed-qamar-screenshot-85.jpg?1640797408",
-        image_Link: "https://www.artstation.com/artwork/ZeewR1",
+          id: "A",
+          alt: "Media A",
+          mediaTitle: "Level Design Complexity",
+          mediaSubtitle: "Strategic Gameplay Spaces",
+          mediaDescription: `
+          This segment of the project showcases my mastery in weaving intricate game spaces, optimized for both exploration and strategic gameplay.
+          `,
+          mediaBulletPoints: [
+              "Intricate Pathways: Designed intertwining routes and shortcuts to reward player exploration.",
+              "Strategic Placement: Strategically placed game elements for enhanced player engagement and challenge.",
+              "Environmental Storytelling: Used visual cues and design elements to subtly convey the game's lore and story.",
+              "Optimization: Ensured smooth gameplay experience through efficient asset utilization and spatial planning.",
+          ],
+          link: "https://drive.google.com/file/d/1SrAMPJtFExRW5FlcKj6NO6s4m5FbP4UY/view?usp=sharing",
       },
       {
-        id: "B",
-        alt: "Media B",
-        mediaTitle: "Visual Effects & Lighting",
-        mediaSubtitle: "Illuminating the World",
-        mediaDescription: `
-          Lighting was an integral part of setting the mood and enhancing the visual complexity of the project.
-        `,
-        mediaBulletPoints: [
-          "Atmospheric Effects: Introduced elements like fog, rain, and wind to create a captivating atmosphere.",
-          "Particle Systems: Used particle systems to generate realistic, dynamic elements, enhancing the overall experience.",
-          "Dynamic Ranges: Created varying lighting conditions to add depth and realism to the setting.",
-          "Visual Complexity: Combined multiple effects to emulate the level of atmospheric complexity found in 'Days Gone.'",
-        ],
-        link: "https://youtu.be/DTKnZPPxC6c",
+          id: "B",
+          alt: "Media B",
+          mediaTitle: "Journey Through War",
+          mediaSubtitle: "A Tale of Resilience and Hope",
+          mediaDescription: `
+          The player embarks on a solemn journey through a city scarred by conflict, bearing witness to the remnants of a once-thriving civilization. The environments, from ruined facades to abandoned checkpoints, tell tales of battles fought, lives lost, and the indomitable human spirit.
+          `,
+          mediaBulletPoints: [
+              "Narrative Landscapes: Every corner of the city narrates a part of its tragic history, urging players to piece together its past.",
+              "Signs of Life: Amidst the devastation, subtle signs of resilience emerge - flickering lights, distant echoes, and remnants of the life that once was.",
+              "War's Aftermath: Encounter deserted outposts, crumbling skyscrapers, and vacant streets, evoking the haunting atmosphere of a post-war world.",
+              "Quest for Hope: Despite the bleakness, the player's journey is a testament to human tenacity, seeking hope in the darkest of times.",
+          ],
+        link: "https://drive.google.com/file/d/10xl0TLE2FTGEmnujNLROdvaPnaFFZEpn/preview",
+        image_Link: "https://www.artstation.com/artwork/ZeewR1",
       },
     ],
+  
   },
+  /////////////////////////////////////////////////////////////
+  // {
+  //   name: "Tracks We Leave",
+  //   company_name: "University Project",
+  //   background:
+  //   ` This project was developed as part of my second-year University coursework in an Environment Design class.
+  //     This game-ready setting stands as a comprehensive showcase of my skills in multiple facets of game development.
+  //     `,
+
+  //   description:
+  //     `
+  //     Guided by expert instruction from professors, I developed an array of key components including props, landscape design, lighting, and visual effects. 
+  //     The environment leverages advanced design techniques such as trim-textures, texture atlases, and modular construction, lending it a level of sophistication and polish. 
+  //     Inspired by the captivating world of Bend Studio's 'Days Gone,' the project aims to emulate the same level of visual and atmospheric complexity.
+  //     `,
+  //   tags: [
+  //     {
+  //       name: "Environment Art",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Lighting Design",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "Visual Effects",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Particle Systems",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Modular Construction",
+  //       color: "purple-text-gradient",
+  //     },
+  //     {
+  //       name: "Advanced Design Techniques",
+  //       color: "magenta-text-gradient",
+  //     },
+  //   ],
+  //   image: tracksWeLeave,
+  //   youtube_URL:"DTKnZPPxC6c",
+  //   source_code_link: "https://www.artstation.com/artwork/ZeewR1",
+    
+  //   ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
+  //   images: [
+  //     {
+  //       id: "A",
+  //       alt: "Media A",
+  //       image_A: "https://cdnb.artstation.com/p/assets/images/images/044/675/183/large/mohammed-qamar-screenshot-90.jpg?1690169857",
+  //     },
+  //     {
+  //       id: "B",
+  //       alt: "Media B",
+  //       image_B: "https://cdna.artstation.com/p/assets/images/images/044/675/192/large/mohammed-qamar-screenshot-89.jpg?1690222187",
+  //     },
+  //     {
+  //       id: "B",
+  //       alt: "Media B",
+  //       image_B: "https://cdnb.artstation.com/p/assets/images/images/044/675/171/large/mohammed-qamar-screenshot-93.jpg?1640982741",
+  //     },
+  //   ],
+
+
+  //   project_id: "2",
+  //   image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
+  //   projectType: "Part-Time",
+  //   projectSubtitle: "Realized space from the ground up, showcasing a mastery of multiple facets of game development.",
+  //   duration: "4 Months",
+  //   role: "Environment Artist",
+  //   tools: "Unity, 3DS Max, Substance Painter, Photoshop, Marmoset Toolbag",
+  //   media: [
+  //     {
+  //       id: "A",
+  //       alt: "Media A",
+  //       mediaTitle: "Environment Art",
+  //       mediaSubtitle: "A Captivating World",
+  //       mediaDescription: `
+  //         In this section of the project, I focused on the detailed construction of props and landscapes, leveraging a range of advanced techniques to add depth and realism to the environment.
+  //       `,
+  //       mediaBulletPoints: [
+  //         "Prop Design: Crafted a variety of in-game props that contribute to the thematic coherence and visual richness of the environment.",
+  //         "Landscape Crafting: Utilized advanced design skills to create compelling and realistic landscapes.",
+  //         "Texture Mastery: Employed trim-textures and texture atlases to achieve nuanced visual details.",
+  //         "Modular Construction: Adopted modular design principles to build versatile and reusable assets.",
+  //       ],
+  //       image: "https://cdna.artstation.com/p/assets/images/images/044/673/732/large/mohammed-qamar-screenshot-85.jpg?1640797408",
+  //       image_Link: "https://www.artstation.com/artwork/ZeewR1",
+  //     },
+  //     {
+  //       id: "B",
+  //       alt: "Media B",
+  //       mediaTitle: "Visual Effects & Lighting",
+  //       mediaSubtitle: "Illuminating the World",
+  //       mediaDescription: `
+  //         Lighting was an integral part of setting the mood and enhancing the visual complexity of the project.
+  //       `,
+  //       mediaBulletPoints: [
+  //         "Atmospheric Effects: Introduced elements like fog, rain, and wind to create a captivating atmosphere.",
+  //         "Particle Systems: Used particle systems to generate realistic, dynamic elements, enhancing the overall experience.",
+  //         "Dynamic Ranges: Created varying lighting conditions to add depth and realism to the setting.",
+  //         "Visual Complexity: Combined multiple effects to emulate the level of atmospheric complexity found in 'Days Gone.'",
+  //       ],
+  //       link: "https://youtu.be/DTKnZPPxC6c",
+  //     },
+  //   ],
+  // },
+  /////////////////////////////////////////////////////////////
 ];
 
 const projectPage = [
