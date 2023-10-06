@@ -1009,7 +1009,7 @@ const projects = [
     projectSubtitle: "Realized space from the ground up, showcasing a mastery of multiple facets of game development.",
     duration: "2 Weeks",
     role: "Level Designer",
-    tools: "Unity, PureRef",
+    tools: "Unity, PureRef, Pen & Paper",
 
     media: [
       {
