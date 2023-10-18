@@ -185,7 +185,7 @@ const testimonials = [
     name: "Hussam Hassan",
     designation: "COO",
     company: "Taply Inc",
-    image: "https://media.licdn.com/dms/image/C5603AQHPSp2Vm7aluw/profile-displayphoto-shrink_800_800/0/1517404935460?e=1697068800&v=beta&t=f1qVh9LcNp1723_l9ccTX4eeBS7ZWDo-IujkL26tO74",
+    image: "https://lh3.googleusercontent.com/d/1z1LfyOk_BnsQztTLvuwXqVXMY9E3krAY",
     link: "https://www.linkedin.com/in/shussamhassan/",
   },
   {
@@ -194,7 +194,7 @@ const testimonials = [
     name: "Arsh Sanwarwala",
     designation: "CEO",
     company: "ThrillX Design",
-    image: "https://media.licdn.com/dms/image/D5603AQH6L-7yaiB8Aw/profile-displayphoto-shrink_800_800/0/1674495449743?e=1697068800&v=beta&t=XGquZ13HDMVlPiA_4uanukZHxGRZqHbrVPmPfnJN50A",
+    image: "https://lh3.googleusercontent.com/d/1bx8LkJp3GNBtw2DUHkVS_ArGZE_YqxLX",
     link: "https://www.linkedin.com/in/arsh-sanwarwala/",
   },
   {
@@ -203,7 +203,7 @@ const testimonials = [
     name: "Kevin Gordon",
     designation: "3D Art Professor",
     company: "Niagara College",
-    image: "https://media.licdn.com/dms/image/C5603AQHl37nptIh2ew/profile-displayphoto-shrink_800_800/0/1517504452964?e=1697068800&v=beta&t=y1x2RAHXiHEY-6v00hB1e-Zh5Tj2wYXOU9AelWz40mM",
+    image: "https://lh3.googleusercontent.com/d/1SoJPhWrHPUAN9q9NIlmcVVzz0Xf32i24",
     link: "https://www.linkedin.com/in/kgordon77/",
   },
   {
@@ -212,7 +212,7 @@ const testimonials = [
     name: "Alex Golebiowski",
     designation: "COO",
     company: "PixelNAUTS Games",
-    image: "https://media.licdn.com/dms/image/C4E03AQE40l6Fmb5Aww/profile-displayphoto-shrink_800_800/0/1649173014738?e=1697068800&v=beta&t=2fss0Cz98-NILoeRxbzoOzAAln9JQkWu0ULmVART30A",
+    image: "https://lh3.googleusercontent.com/d/14LCE9jW_Z35iJTK9xaEZz-8kMTHolasK",
     link: "https://www.linkedin.com/in/alex-golebiowski-40707a14/",
   },
 ];
