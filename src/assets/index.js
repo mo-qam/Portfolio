@@ -1,4 +1,5 @@
-import logo from "./mohammedqamar.png";
+import logo from "./ProfileLogo/mohammedqamar.png";
+import brandLogo from "./BrandLogo/mohammedqamar.png";
 
 import gamedesign from "./mohammed-qamar-gamedesign.png";
 import gamedeveloper from "./mohammed-qamar-gamedeveloper.png";
@@ -54,6 +55,7 @@ import catfe_Gif from "./catfe.gif";
 
 export {
   logo,
+  brandLogo,
   gamedesign,
   gamedeveloper,
   tech3dartist,

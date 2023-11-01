@@ -5,9 +5,18 @@ import { ControllersCanvas } from "./canvas";
 import { Link } from "react-router-dom";
 import 'react-dropdown/style.css';
 import { BsArrowDown } from 'react-icons/bs';
+import { brandLogo } from "../assets";
+
+
+
 import "../index.css";
 
 const isMobile = window.innerWidth <= 768;
+
+const isShortScreen = window.innerHeight <= 700;
+
+
+
 
 const Hero = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -94,6 +103,19 @@ const Hero = () => {
     </>
   ));
 
+  
+  const MemoizedBrandLogo = React.memo(() => (
+    <>
+      {isMobile ? (
+        !isShortScreen ? (
+          <div className="w-22 h-22 mb-2">
+            <img src={brandLogo} alt="mohammed-qamar-logo" className=" text-white-100"/>
+          </div>
+        ) : null
+      ) : null}
+    </>
+  ));
+
   return (
     <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
     <section className={`relative w-full h-screen mx-auto`}>
@@ -120,21 +142,26 @@ const Hero = () => {
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <Link
-            to={`#about`}
-            rel={'noopener noreferrer'}
-            className= 'block px-4 py-2 text-sm font-semibold'
-            onClick={(e) => {
-              const element = document.getElementById('about');
-              element.scrollIntoView({ behavior: 'smooth' });
-            }}  
-          >
-          <div className="flex justify-center items-start p-2">
-            <MemoizedArrowDown />
+          to={`#about`}
+          rel={'noopener noreferrer'}
+          className= 'block px-4 py-2 text-sm font-semibold'
+          onClick={(e) => {
+            const element = document.getElementById('about');
+            element.scrollIntoView({ behavior: 'smooth' });
+          }}  
+        >
+          <div className="flex flex-col justify-center items-center p-5">
+            <div className="mb-4"> {/* Added margin-bottom to create space */}
+              <MemoizedBrandLogo />
+            </div>
+            <div>
+              <MemoizedArrowDown />
+            </div>
           </div>
-          </Link>
+        </Link>
       </div>
     </section>
-    </div>
+  </div>
   );
 };
 
