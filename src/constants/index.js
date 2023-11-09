@@ -294,7 +294,9 @@ const projects = [
     projectSubtitle: "Elevating player experiences through strategic planning and creative problem-solving.",
     duration: "1 Year+",
     role: "Game Designer | 3D Artist",
-    tools: "Unity, Shadergraph, C#, 3DS Max, Substance Painter, Photoshop",
+    tools: `
+    Unity, 
+    Shader Graph, C#, 3DS Max, Substance Painter, Photoshop`,
     media: [
       {
         id: "A",
@@ -416,7 +418,7 @@ const projects = [
     projectSubtitle: "Helping Kaldi Games win the Level Up! Toronto Player's Choice Award.",
     duration: "8 Months",
     role: "Technical Artist | Environment Artist",
-    tools: "Unity, Shadergraph, C#, 3DS Max, Substance Painter, Photoshop",
+    tools: "Unity, Shader Graph, C#, 3DS Max, Substance Painter, Photoshop",
     media: [
       {
         id: "A",
@@ -541,7 +543,7 @@ const projects = [
     projectSubtitle: "Showcasing a mastery of game art production, tailored to enhance gameplay and storytelling.",
     duration: "4 Months",
     role: "Environment Artist",
-    tools: "Unity HDRP, Shadergraph, C#, 3DS Max, Substance Painter, Photoshop, Marmoset Toolbag",
+    tools: "Unity HDRP, Shader Graph, C#, 3DS Max, Substance Painter, Photoshop, Marmoset Toolbag",
     media: [
       {
         id: "A",

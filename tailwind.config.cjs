@@ -25,6 +25,34 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/mohammed-qamar-herobg.png')",
       },
+      keyframes: {
+        fade: {
+          '0%, 100%': { opacity: 0 },
+          '50%': { opacity: 1 },
+        },
+        slideUp: {
+          '0%': { transform: 'translateY(20px)', opacity: 0 },
+          '100%': { transform: 'translateY(0)', opacity: 1 },
+        },
+        swing: {
+          '20%': { transform: 'rotate3d(0, 0, 1, 15deg)' },
+          '40%': { transform: 'rotate3d(0, 0, 1, -10deg)' },
+          '60%': { transform: 'rotate3d(0, 0, 1, 5deg)' },
+          '80%': { transform: 'rotate3d(0, 0, 1, -5deg)' },
+          '100%': { transform: 'rotate3d(0, 0, 1, 0deg)' },
+        },
+        breathe: {
+          '0%': { transform: 'scale(1)', opacity: 1 },
+          '60%': { transform: 'scale(1.05)', opacity: 1 },
+          '100%': { transform: 'scale(1)', opacity: 1 },
+        },
+      },
+      animation: {
+        fade: 'fade 1.5s ease-in-out infinite',
+        slideUp: 'slideUp 0.5s ease-out',
+        swing: 'swing 1s ease-in-out infinite',
+        breathe: 'breathe 3s ease-in-out infinite',
+      },
     },
   },
   plugins: [],

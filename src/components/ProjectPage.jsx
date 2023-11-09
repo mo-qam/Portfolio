@@ -37,16 +37,36 @@ const Slider = ({ images }) => {
 }
 
 
-const DetailCard = ({ label, content, index }) => (
-  <div
-    variants={slideIn("right", "tween", index * 0.1, 0.75)}
-    className="bg-tertiary shadow-card rounded-2xl py-5 px-8 min-h-[100px] min-w-[100px] flex flex-col justify-evenly items-left
-    border-solid border-2 border-rose-600 hover:ring-2 ring-rose-600 transition-all duration-200
-    "
-  >
-    <p className="font-secondary"><strong>{label}</strong></p>
-    <p className='mt-2 '>{content}</p>
-  </div>
+const DetailCard = ({ label, content, index, isMobile }) => (
+  !isMobile ? (
+    <div
+      variants={slideIn("right", "tween", index * 0.1, 0.75)}
+      className="bg-tertiary shadow-card rounded-2xl 
+      py-5 px-8 
+      min-h-[100px] min-w-[100px] 
+      flex flex-col justify-evenly 
+      items-left
+      border-solid border-2 border-rose-600 hover:ring-2 ring-rose-600 transition-all duration-200
+      "
+    >
+      <p className="font-secondary"><strong>{label}</strong></p>
+      <p className='mt-2 '>{content}</p>
+    </div>
+  ) : (
+    <div
+      variants={slideIn("right", "tween", index * 0.1, 0.75)}
+      className="bg-tertiary shadow-card rounded-2xl
+      py-12 px-8 
+      min-h-[190px] min-w-[150px] 
+      flex flex-col justify-evenly 
+      items-left
+      border-solid border-2 border-rose-600 hover:ring-2 ring-rose-600 transition-all duration-200
+      "
+    >
+      <p className="font-secondary animate-breathe"><strong>{label}</strong></p>
+      <p className='mt-2 leading-relaxed'>{content}</p>
+    </div>
+  )
 );
 
 const ServiceCard = ({ index, label, content, isMobile }) => (
@@ -56,7 +76,7 @@ const ServiceCard = ({ index, label, content, isMobile }) => (
         variants={fadeIn(isMobile ? 'up' : 'right', 'spring', index * 0.1, isMobile ? 0.5 : 0.75)}
         className="w-full p-[1px]"
       >
-        <DetailCard label={label} content={content} index={index}/>
+        <DetailCard label={label} content={content} index={index} isMobile={isMobile} />
       </motion.div>
     </Tilt>
   ) : (
@@ -65,7 +85,7 @@ const ServiceCard = ({ index, label, content, isMobile }) => (
         vvariants={fadeIn(isMobile ? 'up' : 'right', 'spring', index * 0.1, isMobile ? 0.5 : 0.75)}
         className="w-full p-[1px]"
       >
-        <DetailCard label={label} content={content} index={index}/>
+        <DetailCard label={label} content={content} index={index} isMobile={isMobile} />
       </motion.div>
     </div>
   )
@@ -110,7 +130,7 @@ const ProjectPage = ({ project }) => {
     <div id={encodedName} className="bg-black-100 rounded-[20px]">
       <div className='bg-tertiary rounded-2xl p-4 md:p-8'>
         <div className={`${styles.padding} bg-tertiary rounded-2xl`}>
-          <header className={`header text-left flex items-center ${isMobile ? 'flex-col mb-20 mt-40' : 'flex-row mb-40 mt-60 pr-2'}`}>
+          <header className={`header text-left flex items-center ${isMobile ? 'flex-col mb-20 mt-20' : 'flex-row mb-40 mt-60 pr-2'}`}>
               <div 
                 onClick={() => window.open(project.source_code_link, "_blank")}
                 className={`
@@ -193,7 +213,7 @@ const ProjectPage = ({ project }) => {
 
         {/* Spacer */}
         <div className="col-span-12">
-          <div className="h-20"></div>
+        {isMobile ? null : <div className="h-20"></div>}
         </div>
         
         {/* Media Section */}

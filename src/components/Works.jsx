@@ -91,8 +91,8 @@ const ProjectCard = memo(({
 
       //////////////////////////// MOBILE ////////////////////////////////////////
       ) : (
-        <Link to={`/projects/${encodeURIComponent(name)}`}>
-        <div ref = {ref} className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full">
+        <Link to={`/projects/${encodeURIComponent(name)}`} id="projects">
+        <div ref = {ref} className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full ">
           <div className="relative w-full h-[230px] border-4 border-purple-900 rounded-2xl overflow-hidden">
             <img
               ref={imgRef}
@@ -122,7 +122,7 @@ const ProjectCard = memo(({
             ))}
           </div>
         </div>
-        </Link>
+      </Link>
     )}
   </>
 );

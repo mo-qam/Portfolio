@@ -6,7 +6,7 @@ const isMobile = window.innerWidth <= 768;
 
 const Balls = ({isMobile }) => (
   isMobile ? (
-      <div className="flex flex-row flex-wrap justify-center gap-4 mb-[-400px]" id="projects">
+      <div className="flex flex-row flex-wrap justify-center gap-4 mb-[-400px]">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
             <BallCanvas icon={technology.icon} />
