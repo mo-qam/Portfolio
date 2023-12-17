@@ -66,7 +66,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    link: "https://drive.proton.me/urls/45AJBY8HS4#0OT8hVQHzY21",
+    link: "https://drive.proton.me/urls/H0Q245CWTW#cIbqew1iUrRC",
   },
   {
     id: "linkedin",
@@ -946,17 +946,18 @@ const projects = [
   },
 ///////////////////////////////////////////////////////////////
   {
-    name: "Sunset | Level Design",
-    company_name: "University Project",
+    name: "Batman Arkham Origins | Level Design",
+    company_name: "Personal Project",
     background:
-    `This project was created as part of my second-year University coursework for the Level Design class.
-    The game-ready level encapsulates my proficiency in designing intricate, engaging, and immersive game spaces.
+    `
+    This project involved creating a comprehensive level design document, focusing on the meticulous planning and development of a game level. 
+    It showcases my proficiency in designing complex, engaging, and immersive game spaces, deeply rooted in the atmospheric and narrative-driven world of the Batman franchise."
     `,
 
     description:
     `
-    Under the tutelage of experienced professors, I crafted a level that weaves together essential game design elements such as player navigation, pacing, environmental storytelling, and strategic placement of game mechanics. 
-    Drawing inspiration from the intricate levels of games like Ubisoft's 'FarCry' series, my design focuses on the player journey as the primary objective.
+    The level is meticulously planned to reflect the complex, layered architecture of Gotham City, integrating stealth, strategy, and action elements emblematic of the Arkham series. 
+    The design process involved a deep dive into environmental storytelling, intuitive player navigation, and dynamic pacing, ensuring each aspect of the level contributes to a cohesive and immersive Batman experience. This project exemplifies my ability to adapt and innovate within established game universes, creating an engaging level that resonates with the series' fans.
     `,
 
     tags: [
@@ -981,70 +982,70 @@ const projects = [
         color: "purple-text-gradient",
       },
     ],
-    image: 'https://cdnb.artstation.com/p/assets/images/images/044/641/937/large/mohammed-qamar-screenshot-46.jpg?1640704870',
+    image: 'https://drive.google.com/uc?export=view&id=13rEVKOysby-EreHwXFPQ8l8V8LeqkJht',
     youtube_URL:"DTKnZPPxC6c",
-    source_code_link: "https://www.artstation.com/artwork/9N8BmO",
+    source_code_link: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view",
     
     ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
     images: [
       {
         id: "A",
         alt: "Media A",
-        image_A: "https://cdna.artstation.com/p/assets/images/images/044/642/904/large/mohammed-qamar-3.jpg?1640706743",
+        image_A: "https://drive.google.com/uc?export=view&id=1qjCf41-nE53sAQdf-hLU0a79FI8Lh1gC",
       },
       {
         id: "B",
         alt: "Media B",
-        image_B: "https://cdnb.artstation.com/p/assets/images/images/044/641/929/large/mohammed-qamar-screenshot-43.jpg?1640704849",
+        image_B: "https://drive.google.com/uc?export=view&id=13rEVKOysby-EreHwXFPQ8l8V8LeqkJht",
       },
       {
         id: "B",
         alt: "Media B",
-        image_B: "https://cdnb.artstation.com/p/assets/images/images/044/641/937/large/mohammed-qamar-screenshot-46.jpg?1640704870",
+        image_B: "https://drive.google.com/uc?export=view&id=12WMZZNgwF7-YzBiW_F_StKHuBW65fw2i",
       },
     ],
 
 
     project_id: "2",
-    image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
+    image_heading: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view?usp=sharing",
     projectType: "Full-Time",
-    projectSubtitle: "Realized space from the ground up, showcasing a mastery of multiple facets of game development.",
+    projectSubtitle: "Showcasing my commitment to designing levels that are not only visually compelling but also narratively coherent and interactive",
     duration: "2 Weeks",
     role: "Level Designer",
-    tools: "Unity, PureRef, Pen & Paper",
+    tools: "Miro, PureRef, Photoshop",
 
     media: [
       {
           id: "A",
           alt: "Media A",
-          mediaTitle: "Level Design Complexity",
-          mediaSubtitle: "Strategic Gameplay Spaces",
+          mediaTitle: "Detailed Level Design Documentation",
+          mediaSubtitle: "Immersive Design in Gotham's Shadows",
           mediaDescription: `
-          This segment of the project showcases my mastery in weaving intricate game spaces, optimized for both exploration and strategic gameplay.
+          Dive into the heart of Gotham City as envisaged for 'Batman Arkham Origins.'
+          This document lays out the intricate designs of a level that balances the cerebral challenge of being Batman with the visceral experience of navigating the city's notorious landscape.
           `,
           mediaBulletPoints: [
-              "Intricate Pathways: Designed intertwining routes and shortcuts to reward player exploration.",
-              "Strategic Placement: Strategically placed game elements for enhanced player engagement and challenge.",
-              "Environmental Storytelling: Used visual cues and design elements to subtly convey the game's lore and story.",
-              "Optimization: Ensured smooth gameplay experience through efficient asset utilization and spatial planning.",
+              "Complex Navigation: Crafted to challenge the World's Greatest Detective with a labyrinthine design that rewards strategic exploration.",
+              "Dramatic Engagement: A space where every element is placed to cultivate a narrative-driven gameplay, echoing the suspense and action of WB Games Montreal's signature style.",
+              "Efficient Execution: A level built not only for aesthetics but optimized for smooth gameplay, ensuring that each asset serves both form and function.",
           ],
-          link: "https://drive.google.com/file/d/1SrAMPJtFExRW5FlcKj6NO6s4m5FbP4UY/view?usp=sharing",
+          link: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view?usp=sharing",
       },
       {
           id: "B",
           alt: "Media B",
-          mediaTitle: "Journey Through War",
-          mediaSubtitle: "A Tale of Resilience and Hope",
+          mediaTitle: "Strategic Layouts and the Art of Stealth",
+          mediaSubtitle: "Exploring the Intricacies of Gotham's Terrain",
           mediaDescription: `
-          The player embarks on a solemn journey through a city scarred by conflict, bearing witness to the remnants of a once-thriving civilization. The environments, from ruined facades to abandoned checkpoints, tell tales of battles fought, lives lost, and the indomitable human spirit.
+          Venture through meticulously planned maps that blend Batman's need for stealth with his combat prowess. 
+          The document contains detailed breakdowns of level layouts, sightlines, and engagement zones, allowing players to strategize their approach to every challenge.
           `,
           mediaBulletPoints: [
-              "Narrative Landscapes: Every corner of the city narrates a part of its tragic history, urging players to piece together its past.",
-              "Signs of Life: Amidst the devastation, subtle signs of resilience emerge - flickering lights, distant echoes, and remnants of the life that once was.",
-              "War's Aftermath: Encounter deserted outposts, crumbling skyscrapers, and vacant streets, evoking the haunting atmosphere of a post-war world.",
-              "Quest for Hope: Despite the bleakness, the player's journey is a testament to human tenacity, seeking hope in the darkest of times.",
+              "Tactical Landscapes: Maps designed for intelligent encounters, enabling a multi-layered approach to combat and investigation.",
+              "Environmental Clues: Every location is embedded with clues, leading the Dark Knight on a journey of discovery and confrontation.",
+              "Dynamic Interactivity: The level adapts to player actions, offering a reactive and immersive gameplay experience where strategy is key.",
           ],
-        link: "https://drive.google.com/file/d/10xl0TLE2FTGEmnujNLROdvaPnaFFZEpn/preview",
+        link: "https://drive.google.com/file/d/19PQpu4Dk-i4gUoszytHT0J8ZaGnRvUZv/preview",
         image_Link: "https://www.artstation.com/artwork/ZeewR1",
       },
     ],
