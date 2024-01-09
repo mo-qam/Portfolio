@@ -6,6 +6,7 @@ import {
 
   artstationIcon,
   linkedinIcon,
+  itchIcon,
   
   git,
   autodesk3DSMax,
@@ -79,6 +80,12 @@ export const navLinks = [
     title: "Artstation",
     link: "https://www.artstation.com/moqam",
     icon: artstationIcon,
+  },
+  {
+    id: "itch",
+    title: "Itch.io",
+    link: "https://mohammed-qamar.itch.io/",
+    icon: itchIcon,
   },
 ];
 

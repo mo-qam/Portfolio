@@ -6,8 +6,10 @@ import gamedeveloper from "./mohammed-qamar-gamedeveloper.png";
 import tech3dartist from "./mohammed-qamar-3dtechartist.png";
 import systemsdesign from "./mohammed-qamar-systemsdesign.png";
 
+//Sites
 import artstationIcon from "./mohammed-qamar-artstation_icon.png";
 import linkedinIcon from "./mohammed-qamar-linkdin_icon.png";
+import itchIcon from "./mohammed-qamar-itch.io.png";
 
 import github from "./mohammed-qamar-github.png";
 import menu from "./menu.svg";
@@ -64,9 +66,12 @@ export {
   menu,
   close,
 
+  //Sites
   artstationIcon,
   linkedinIcon,
+  itchIcon,
 
+  //Tech
   git,
   autodesk3DSMax,
   autodeskMudbox,
@@ -79,9 +84,11 @@ export {
   unity,
   unrealengine,
 
+  //Companies
   pixelnauts,
   taply,
 
+  //Projects
   rocketrumble,
 
   ubisoftNext2023,
