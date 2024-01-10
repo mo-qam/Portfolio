@@ -20,6 +20,7 @@ import {
   unity,
   unrealengine,
 
+  alientrap,
   pixelnauts,
   taply,
   
@@ -141,12 +142,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "3D Artist",
+    company_name: "Alientrap Games",
+    company_link: "https://www.linkedin.com/company/alientrap-games/posts/?feedView=all",
+    icon: alientrap,
+    iconBg: "#383E56",
+    date: "November 2023 - Present",
+    points: [
+      "At Alientrap Games, my role as a 3D Artist involves leveraging my skills in 3D modeling and texturing to contribute to exciting game development projects.",
+      "3D Modeling: Utilize 3ds Max to create detailed and accurate 3D models that align with project requirements..",
+      "Texturing: Apply sophisticated texturing techniques in Substance Painter, ensuring high visual quality and adherence to the project's style.",
+      "Shader Development: Develop custom shaders to enhance game environments.",
+      "Workflow Optimization: Streamline the 3D modeling process, improving efficiency without sacrificing quality.",
+    ],
+  },
+  {
     title: "Game Designer | 3D Artist",
     company_name: "PixelNAUTS Games",
     company_link: "https://pixelnauts.ca/",
     icon: pixelnauts,
     iconBg: "#383E56",
-    date: "June 2022 - Present",
+    date: "June 2022 - August 2023",
     points: [
       "Engaged directly with C-Suite and stakeholders to conceptualize and execute seamless gameplay experiences.",
       "Teamed up with marketing and engineering units to craft high-quality game assets and immersive environments.",

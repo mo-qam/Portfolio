@@ -29,8 +29,8 @@ import unity from "./tech/unity.png";
 import unrealengine from "./tech/unrealengine.png";
 
 //Companies
+import alientrap from "./company/alientrap.png";
 import taply from "./company/taply.png";
-
 import pixelnauts from "./company/pixelnauts.png";
 
 
@@ -85,6 +85,7 @@ export {
   unrealengine,
 
   //Companies
+  alientrap,
   pixelnauts,
   taply,
 
