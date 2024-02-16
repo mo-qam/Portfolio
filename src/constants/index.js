@@ -259,22 +259,13 @@ const projects = [
         Join a charming cast of rocket-powered animal racers as they bash, smash and race their way to victory.
       `,
     description:
-      `As a Designer & 3D Artist for Rocket Rumble, I crafted a diverse array of 3D assets, including character models and environmental props. 
-      I designed levels that enhanced player engagement and aligned well with gameplay mechanics. 
-      Additionally, I collaborated with the systems design team to optimize art assets for real-time multiplayer, elevating the overall user experience through strategic planning and creative problem-solving`,
+      `As a Designer & 3D Artist at Rocket Rumble, I created various 3D assets, character models, and props. 
+      I designed engaging levels and collaborated with the team to optimize assets for multiplayer, improving user experience through strategic and creative problem-solving, aligning art with gameplay mechanics.`,
 
     tags: [
       {
-        "name": "Multiplayer Game Design",
-        "color": "green-text-gradient"
-      },
-      {
         "name": "3D Asset Creation",
         "color": "blue-text-gradient"
-      },
-      {
-        "name": "Player Engagement",
-        "color": "yellow-text-gradient"
       },
       {
         "name": "Environmental Props",
@@ -288,14 +279,6 @@ const projects = [
         "name": "Real-time Optimization",
         "color": "purple-text-gradient"
       },
-      {
-        "name": "Collaborative Design",
-        "color": "teal-text-gradient"
-      },
-      {
-        "name": "Creative Problem-Solving",
-        "color": "orange-text-gradient"
-      }
     ],
     image: rocketrumble,
     youtube_URL: "WvLXuEEq39w",
@@ -393,8 +376,8 @@ const projects = [
       The project was developed by a team of 7 students at Niagara College, and won the Level Up! Toronto 2023 Showcase Players Choice Award.
     `,
     description:
-      `I was responsible for crafting the game's visually striking environment art and provided both technical art and technical design solutions to enhance gameplay mechanics. 
-      In addition, I curated the game's sound design, creating an immersive auditory experience that perfectly complements its narrative and aesthetic.`,
+      `I created the game's breathtaking environment art, providing technical enhancements for gameplay. 
+      I also crafted immersive soundscapes that enhance the narrative and visuals, blending sight and sound flawlessly. This synergy of audio-visual elements elevates the gaming experience, making it more engaging and memorable.`,
       tags: [
         {
           name: "Environment Art",
@@ -506,7 +489,8 @@ const projects = [
     `,
     description:
       `
-      In the Ubisoft Next 2023 3D Art Challenge, I successfully deployed a wide range of skills that would make a significant impact in a studio setting. From environment art to technical tools, my work demonstrated a mastery of game art production, tailored to enhance gameplay and storytelling.
+      In the Ubisoft Next 2023 3D Art Challenge, I successfully deployed a wide range of skills that would make a significant impact in a studio setting. 
+      From environment art to technical tools, my work demonstrated a mastery of game art production, tailored to enhance gameplay and storytelling.
       `,
       tags: [
         {
@@ -530,25 +514,9 @@ const projects = [
           color: "red-text-gradient",
         },
         {
-          name: "Story-Driven Layout",
-          color: "orange-text-gradient",
-        },
-        {
           name: "Pre-Visualization",
           color: "cyan-text-gradient",
         },
-        {
-          name: "High-Impact Visuals",
-          color: "magenta-text-gradient",
-        },
-        {
-          name: "Thematic Consistency",
-          color: "teal-text-gradient",
-        },
-        {
-          name: "Emotional Resonance",
-          color: "violet-text-gradient",
-        }
       ],
       
     image: ubisoftNext2023,
@@ -686,10 +654,6 @@ const projects = [
       {
         name: "Asset Optimization",
         color: "cyan-text-gradient",
-      },
-      {
-        name: "Conceptualization",
-        color: "teal-text-gradient",
       },
       {
         name: "Immersive Design",
@@ -889,10 +853,6 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Combo Mechanics",
-        color: "pink-text-gradient",
-      },
-      {
         name: "Counter Mechanics",
         color: "yellow-text-gradient",
       },
@@ -989,8 +949,8 @@ const projects = [
 
     description:
     `
-    The level is meticulously planned to reflect the complex, layered architecture of Gotham City, integrating stealth, strategy, and action elements emblematic of the Arkham series. 
-    The design process involved a deep dive into environmental storytelling, intuitive player navigation, and dynamic pacing, ensuring each aspect of the level contributes to a cohesive and immersive Batman experience. This project exemplifies my ability to adapt and innovate within established game universes, creating an engaging level that resonates with the series' fans.
+    This level mirrors Gotham's intricate architecture, blending stealth, strategy, and action, key to the Arkham series. 
+    It showcases environmental storytelling, player navigation, and pacing, enhancing the Batman experience. My design adapts to the game universe, engaging fans with an innovative, cohesive level.
     `,
 
     tags: [
@@ -1013,6 +973,10 @@ const projects = [
       {
         name: "Rewarding Exploration",
         color: "purple-text-gradient",
+      },
+      {
+        name: "Documented Design",
+        color: "cyan-text-gradient",
       },
     ],
     image: batmanLevelDesign_A,
