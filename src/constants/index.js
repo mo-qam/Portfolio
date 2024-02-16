@@ -34,6 +34,16 @@ import {
 
   wd2MarcusRoom,
 
+  combatSystem,
+  combatSystem_ScreenShot_A,
+  combatSystem_ScreenShot_B,
+
+  batmanLevelDesign_A,
+  batmanLevelDesign_B,
+  batmanLevelDesign_C,
+
+  
+
   returnHome,
   returnHome_Gif,
 
@@ -903,7 +913,7 @@ const projects = [
         color: "purple-text-gradient",
       },
     ],
-    image: "https://drive.google.com/uc?export=view&id=1OxAomrk_A93efx4ZZIAy7U1FO8ThdXUU",
+    image: combatSystem,
     // youtube_URL: "JXdg2gMbZNg",
     source_code_link: "https://www.artstation.com/artwork/bl8vLm",
     
@@ -912,17 +922,17 @@ const projects = [
       {
         id: "A",
         alt: "Media A",
-        image_A: "https://drive.google.com/uc?export=view&id=1SLtjPUlc_PWx_ud5LnuTeLtA5t4YAuPs",
+        image_A: combatSystem_ScreenShot_A,
       },
       {
         id: "B",
         alt: "Media B",
-        image_B: "https://drive.google.com/uc?export=view&id=1OxAomrk_A93efx4ZZIAy7U1FO8ThdXUU",
+        image_B: combatSystem,
       },
       {
         id: "C",
         alt: "Media C",
-        image_B: "https://drive.google.com/uc?export=view&id=1w4alLUrL-VcDknE9STzE6wEBvX5CHIr4",
+        image_B: combatSystem_ScreenShot_B,
       },
     ],
     project_id: "3", 
@@ -1005,7 +1015,7 @@ const projects = [
         color: "purple-text-gradient",
       },
     ],
-    image: 'https://drive.google.com/uc?export=view&id=13rEVKOysby-EreHwXFPQ8l8V8LeqkJht',
+    image: batmanLevelDesign_A,
     youtube_URL:"DTKnZPPxC6c",
     source_code_link: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view",
     
@@ -1014,17 +1024,17 @@ const projects = [
       {
         id: "A",
         alt: "Media A",
-        image_A: "https://drive.google.com/uc?export=view&id=1qjCf41-nE53sAQdf-hLU0a79FI8Lh1gC",
+        image_A: batmanLevelDesign_B,
       },
       {
         id: "B",
         alt: "Media B",
-        image_B: "https://drive.google.com/uc?export=view&id=13rEVKOysby-EreHwXFPQ8l8V8LeqkJht",
+        image_B: batmanLevelDesign_C,
       },
       {
         id: "B",
         alt: "Media B",
-        image_B: "https://drive.google.com/uc?export=view&id=12WMZZNgwF7-YzBiW_F_StKHuBW65fw2i",
+        image_B: batmanLevelDesign_A,
       },
     ],
 

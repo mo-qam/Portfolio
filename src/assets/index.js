@@ -48,6 +48,14 @@ import returnHome_Gif from "./returnhome.gif";
 
 import wd2MarcusRoom from "./wd2_marcus_thumbnail.jpg";
 
+import combatSystem from "./combatSystemUE5_thumbnail.png";
+import combatSystem_ScreenShot_A from "./combatSystemUE5_ScreenShot_A.png";
+import combatSystem_ScreenShot_B from "./combatSystemUE5_ScreenShot_B.png";
+
+import batmanLevelDesign_A from "./batmanLevelDesign_A.png";
+import batmanLevelDesign_B from "./batmanLevelDesign_B.png";
+import batmanLevelDesign_C from "./batmanLevelDesign_C.png";
+
 import gasStation from "./gasstation.png";
 import gasStation_Gif from "./gasstation.gif";
 
@@ -99,6 +107,14 @@ export {
   tracksWeLeave_Gif,
 
   wd2MarcusRoom,
+
+  combatSystem,
+  combatSystem_ScreenShot_A,
+  combatSystem_ScreenShot_B,
+
+  batmanLevelDesign_A,
+  batmanLevelDesign_B,
+  batmanLevelDesign_C,
 
   returnHome,
   returnHome_Gif,
