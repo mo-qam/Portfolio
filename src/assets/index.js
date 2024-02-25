@@ -16,19 +16,20 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 //Tech
-import git from "./tech/git.png";
+// import git from "./tech/git.png";
 import autodesk3DSMax from "./tech/3dsmax.png";
-import autodeskMudbox from "./tech/mudbox.png";
-import substanceDesigner from "./tech/substancedesigner.png";
 import substancePainter from "./tech/substancepainter.png";
-import substanceSampler from "./tech/substancesampler.png";
-import substanceStager from "./tech/substancestager.png";
+// import autodeskMudbox from "./tech/mudbox.png";
+// import substanceDesigner from "./tech/substancedesigner.png";
+// import substanceSampler from "./tech/substancesampler.png";
+// import substanceStager from "./tech/substancestager.png";
+// import csharp from "./tech/csharp.png";
 import photoshop from "./tech/photoshop.png";
-import csharp from "./tech/csharp.png";
 import unity from "./tech/unity.png";
 import unrealengine from "./tech/unrealengine.png";
 
 //Companies
+import shg from "./company/shg.png";
 import alientrap from "./company/alientrap.png";
 import taply from "./company/taply.png";
 import pixelnauts from "./company/pixelnauts.png";
@@ -80,19 +81,20 @@ export {
   itchIcon,
 
   //Tech
-  git,
+  // git,
   autodesk3DSMax,
-  autodeskMudbox,
-  substanceDesigner,
+  // autodeskMudbox,
   substancePainter,
-  substanceSampler,
-  substanceStager,
+  // substanceDesigner,
+  // substanceSampler,
+  // substanceStager,
   photoshop,
-  csharp,
+  // csharp,
   unity,
   unrealengine,
 
   //Companies
+  shg,
   alientrap,
   pixelnauts,
   taply,

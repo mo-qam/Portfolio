@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF, Float, } from "@react-three/drei";
 
@@ -33,6 +33,9 @@ const Controllers = ({ isMobile }) => {
 
 const ControllersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [isVisible, setIsVisible] = useState(true); // New state to track visibility
+  const canvasContainerRef = useRef(null); // Ref to the container or canvas itself
+
 
   useEffect(() => {
     // Add a listener for changes to the screen size
@@ -53,11 +56,37 @@ const ControllersCanvas = () => {
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
+    
+  }, []);
+
+  useEffect(() => {
+
+    // Visibility tracking logic
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        console.log(entry.isIntersecting);
+        setIsVisible(entry.isIntersecting);
+      },
+      {
+        root: null,
+        threshold: 0.1,
+      }
+    );
+
+    if (canvasContainerRef.current) {
+      observer.observe(canvasContainerRef.current);
+    }
+
+    return () => {
+      if (canvasContainerRef.current) {
+        observer.unobserve(canvasContainerRef.current);
+      }
+    };
   }, []);
 
   return (
     <>
-      {isMobile ? <></> :<Canvas
+      {isMobile || !isVisible ? <></> :<Canvas
         frameloop="ondemand"
         shadows
         dpr={[1, 2]}

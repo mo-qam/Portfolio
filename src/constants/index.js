@@ -8,18 +8,19 @@ import {
   linkedinIcon,
   itchIcon,
   
-  git,
+  // git,
   autodesk3DSMax,
-  autodeskMudbox,
-  substanceDesigner,
+  // autodeskMudbox,
+  // substanceDesigner,
   substancePainter,
-  substanceSampler,
-  substanceStager,
+  // substanceSampler,
+  // substanceStager,
   photoshop,
-  csharp,
+  // csharp,
   unity,
   unrealengine,
 
+  shg,
   alientrap,
   pixelnauts,
   taply,
@@ -110,7 +111,7 @@ const services = [
     icon: gamedeveloper,
   },
   {
-    title: "3D | Technical Artist",
+    title: "Technical Artist",
     icon: tech3dartist,
   },
   {
@@ -128,18 +129,18 @@ const technologies = [
     name: "Unreal Engine",
     icon: unrealengine,
   },
-  {
-    name: "C#",
-    icon: csharp,
-  },
+  // {
+  //   name: "C#",
+  //   icon: csharp,
+  // },
   {
     name: "3ds Max",
     icon: autodesk3DSMax,
   },
-  {
-    name: "Mudbox",
-    icon: autodeskMudbox,
-  },
+  // {
+  //   name: "Mudbox",
+  //   icon: autodeskMudbox,
+  // },
   {
     name: "Substance Painter",
     icon: substancePainter,
@@ -152,14 +153,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "3D Artist",
+    title: "Software Engineer",
+    company_name: "SHG Studios",
+    company_link: "https://www.linkedin.com/company/shg-studios",
+    icon: shg,
+    iconBg: "#383E56",
+    date: "February 2024 - Present",
+    points: [
+      "At SHG Studios, my position as a Software Engineer focuses on harnessing my expertise in Unity and software development to contribute to innovative projects.",
+      "Unity Development: Employ Unity to develop tools and software for game application development, ensuring a seamless user experience across platforms.",
+      "Cross-Platform Integration: Facilitate the integration of native functionalities, optimizing for performance and compatibility across different devices.",
+      "UI/UX Implementation: Implement intuitive and responsive user interfaces, leveraging Unity to enhance user interaction and engagement.",
+      " Project Management: Collaborate closely with cross-functional teams, from initial concept through to final release, ensuring project goals are met within tight deadlines.",
+    ],
+  },
+  {
+    title: "Technical Artist",
     company_name: "Alientrap Games",
     company_link: "https://www.linkedin.com/company/alientrap-games/posts/?feedView=all",
     icon: alientrap,
     iconBg: "#383E56",
     date: "November 2023 - Present",
     points: [
-      "At Alientrap Games, my role as a 3D Artist involves leveraging my skills in 3D modeling and texturing to contribute to exciting game development projects.",
+      "At Alientrap Games, my role as a Technical Artist involves leveraging my skills in Shaders, and 3D modeling to contribute to exciting game development projects.",
       "3D Modeling: Utilize 3ds Max to create detailed and accurate 3D models that align with project requirements..",
       "Texturing: Apply sophisticated texturing techniques in Substance Painter, ensuring high visual quality and adherence to the project's style.",
       "Shader Development: Develop custom shaders to enhance game environments.",
@@ -167,7 +183,7 @@ const experiences = [
     ],
   },
   {
-    title: "Game Designer | 3D Artist",
+    title: "Game Designer",
     company_name: "PixelNAUTS Games",
     company_link: "https://pixelnauts.ca/",
     icon: pixelnauts,
