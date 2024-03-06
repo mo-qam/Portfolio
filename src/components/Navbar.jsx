@@ -1,5 +1,5 @@
 import React, { useEffect, useState, Fragment } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate} from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { projects as projectPageData } from "../constants";
@@ -24,8 +24,20 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
-  const location = useLocation(); // <-- Use React Router's useLocation
+  const handleNavigate = (path) => {
+    // Check if the current location is not the homepage
+    if (location.pathname !== '/') {
+      // Navigate to homepage then to the desired path
+      navigate('/');
+      setTimeout(() => navigate(path), 0);
+    } else {
+      // Navigate normally if already on the homepage
+      navigate(path);
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
