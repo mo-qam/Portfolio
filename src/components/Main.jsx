@@ -13,10 +13,10 @@ const Main = () => {
   return (
     <>
       <Hero />
-      <About />
-      <Experience />
-      <Tech />
       <Works />
+      <Experience />
+      <About />
+      <Tech />
       <Feedbacks />
       <Contact />
     </>

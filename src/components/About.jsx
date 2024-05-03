@@ -56,12 +56,12 @@ const About = () => {
     <>
       {isMobile ? (
         <div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubText}>Who am I?</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </div>
     ) : (
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubText}>Who am I?</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       )}
