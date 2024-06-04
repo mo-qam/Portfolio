@@ -28,10 +28,10 @@ import {
   rocketrumble,
 
   ubisoftNext2023,
-  ubisoftNext2023_Gif,
+
+  ue5_villageSlum,
 
   tracksWeLeave,
-  tracksWeLeave_Gif,
 
   wd2MarcusRoom,
 
@@ -46,13 +46,10 @@ import {
   
 
   returnHome,
-  returnHome_Gif,
 
   gasStation,
-  gasStation_Gif,
 
   catfe,
-  catfe_Gif,
 
 } from "../assets";
 
@@ -153,18 +150,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Gameplay Programmer",
     company_name: "SHG Studios",
     company_link: "https://www.linkedin.com/company/shg-studios",
     icon: shg,
     iconBg: "#383E56",
     date: "February 2024 - Present",
     points: [
-      "At SHG Studios, my position as a Software Engineer focuses on harnessing my expertise in Unity and software development to contribute to innovative projects.",
-      "Unity Development: Employ Unity to develop tools and software for game application development, ensuring a seamless user experience across platforms.",
-      "Cross-Platform Integration: Facilitate the integration of native functionalities, optimizing for performance and compatibility across different devices.",
+      "At SHG Studios, my role as a Gameplay Programmer centers on leveraging my technical skills in Unity and systems design to elevate our gaming projects.",
+      "Gameplay Programming: Utilize Unity to create immersive and interactive gameplay elements, focusing on mechanics that enhance player experience and engagement.",
+      "Systems Design & Integration: Architect and integrate complex game systems, ensuring seamless interactions within the game environment and across various gameplay features.",
       "UI/UX Implementation: Implement intuitive and responsive user interfaces, leveraging Unity to enhance user interaction and engagement.",
-      " Project Management: Collaborate closely with cross-functional teams, from initial concept through to final release, ensuring project goals are met within tight deadlines.",
+      "Technical Solutions: Develop and implement solutions that address gameplay challenges, contributing to the overall stability and performance of the game.",
     ],
   },
   {
@@ -498,14 +495,14 @@ const projects = [
     ],
   },
   {
-    name: "Ubisoft Next 2023",
-    company_name: "Ubisoft Toronto",
+    name: "Village Slum",
+    company_name: "Personal Project",
     background:
-    ` This competition is designed to discover and foster emerging talent in the field of 3D art, specifically focused on video game development. Contestants are asked to complete a challenge that showcases their ability to create high-quality, game-ready 3D assets. 
+    `  
     `,
     description:
       `
-      In the Ubisoft Next 2023 3D Art Challenge, I successfully deployed a wide range of skills that would make a significant impact in a studio setting. 
+      In this Unreal Engine project, I successfully deployed a wide range of skills that would make a significant impact in a studio setting. 
       From environment art to technical tools, my work demonstrated a mastery of game art production, tailored to enhance gameplay and storytelling.
       `,
       tags: [
@@ -535,78 +532,171 @@ const projects = [
         },
       ],
       
-    image: ubisoftNext2023,
+    image: ue5_villageSlum,
     youtube_URL: "LkZfjhZYoQ4",
-    source_code_link: "https://www.artstation.com/artwork/blaPZo",
+    source_code_link: "https://www.artstation.com/artwork/obaOYq",
 
     ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
     images: [
       {
         id: "A",
         alt: "Media A",
-        image_A: "https://cdnb.artstation.com/p/assets/images/images/059/797/069/large/mohammed-qamar-beautyshot-b.jpg?1677162352",
+        image_A: "https://cdna.artstation.com/p/assets/images/images/076/649/072/large/mohammed-qamar-socialthumbnails-villageslumx-thumbnail.jpg?1717466949",
       },
       {
         id: "B",
         alt: "Media B",
-        image_B: "https://cdna.artstation.com/p/assets/images/images/059/797/004/large/mohammed-qamar-beautyshot-a.jpg?1677852331",
+        image_B: "https://cdnb.artstation.com/p/assets/images/images/076/627/917/large/mohammed-qamar-highresscreenshot00000.jpg?1717426378",
       },
     ],
 
 
     project_id: "2",
-    image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
-    projectType: "University Project",
-    projectSubtitle: "Showcasing a mastery of game art production, tailored to enhance gameplay and storytelling.",
+    projectType: "Personal Project",
+    projectSubtitle: "Showcasing a mastery of game art and tools, tailored to enhance gameplay and storytelling.",
     duration: "4 Months",
-    role: "Environment Artist",
-    tools: "Unity HDRP, Shader Graph, C#, 3DS Max, Substance Painter, Photoshop, Marmoset Toolbag",
+    role: "Technical Artist",
+    tools: "Unreal Engine 5, Blueprints, 3DS Max, Substance Painter, Photoshop",
     media: [
       {
         id: "A",
         alt: "Media A",
-        mediaTitle: "3D Art & Level Design",
-        mediaSubtitle: "The Architecture of Gameplay",
+        mediaTitle: "Technical Art & Tools",
+        mediaSubtitle: "Tailoring Tech to Creative Visions",
         mediaDescription: `
-          In my submission for the Ubisoft Next 2023 challenge, I demonstrated a holistic understanding of level design and environmental art. I created assets and layouts that are not just visually captivating but also contribute to gameplay and narrative enhancement.
+        My technical art proficiency was showcased in the development of custom tools and shaders. I created resources that not only enriched the visual landscape but also streamlined the development process, aligning technological capabilities with artistic vision.
         `,
         mediaBulletPoints: [
-          "Efficient Level Design: Created a modular kit designed for quick and flexible level adjustments, thereby saving time and resources.",
-          "Pre-visualization Expertise: Modelled props and developed whitebox layouts, crucial steps for early testing and gameplay mechanics tuning.",
-          "Story-Driven Layout: Developed thematic concepts and layouts based on the given narrative, ensuring alignment with creative direction and enhancing storytelling.",
+          "Advanced Object Scattering and Building Generation: Developed artist-friendly tools for object scattering and building generation using structured data for efficient production workflows.",
+          "Material Customization: Enhanced window and neon materials to create varied roughness and emissive effects based on object positions, adding dynamic visual interest.",
+          "Character Animation Integration: Blended Mixamo animations with weight layers to achieve realistic character movements and poses, enriching the scene's overall animation quality.",
         ],
-        link: "https://youtu.be/LkZfjhZYoQ4",
+        link: "https://youtu.be/UtBrAQVG-38",
       },
       {
         id: "B",
         alt: "Media B",
-        mediaTitle: "Technical Art & Tools",
-        mediaSubtitle: "Tailoring Tech to Creative Visions",
-        mediaDescription: `
-          My technical art proficiency was showcased in the development of custom tools and shaders. I created resources that not only enriched the visual landscape but also streamlined the development process, aligning technological capabilities with artistic vision.
-        `,
+        mediaTitle: "Project Improvements and Collaboration",
+        mediaSubtitle: "Elevating Artistic Vision",
         mediaBulletPoints: [
-          "Visual Atmosphere: Crafted shaders that add depth and mood, enriching player immersion and potentially increasing user engagement.",
-          "Tools for Streamlined Development: Produced customizable tools that can adapt to varying project needs, aiding both designers and programmers in the development process.",
+          "Iterative Tool Development: Refined tools through multiple iterations, focusing on user-friendliness and efficiency to support artistic and production needs.",
+          "Versatile PCG Integration: Utilized structs to manage procedural generation data, ensuring robust and adaptable content creation for various production scenarios.",
+          "Collaborative Feedback Integration: Incorporated valuable feedback from industry experts Vince Perri and Alex Golebiowski, significantly improving tool functionality and scene quality.",
         ],
-        image: "https://cdna.artstation.com/p/assets/images/images/059/797/004/large/mohammed-qamar-beautyshot-a.jpg?1677852331",
-      },
-      {
-        id: "C",
-        alt: "Media C",
-        mediaTitle: "Visual Effects & Atmosphere",
-        mediaSubtitle: "Crafting Cohesion and Emotional Resonance",
-        mediaDescription: `
-          Visual effects in my submission were meticulously crafted to add a layer of emotional depth and thematic cohesion. I employed a combination of particle systems and shaders to produce high-impact visuals that heightened the overall game quality.
-        `,
-        mediaBulletPoints: [
-          "High-Impact Visuals: Utilized particle systems and shaders to produce effects that add polish and emotional depth, enhancing overall game quality.",
-          "Thematic Consistency: Ensured that visual effects supported the theme and atmosphere, adding an extra layer of cohesion and professionalism to any project.",
-        ],
-        image: "https://cdnb.artstation.com/p/assets/images/images/059/797/069/large/mohammed-qamar-beautyshot-b.jpg",
+        link: "https://cdn.artstation.com/p/video_sources/002/004/894/villageslum-tool-showcase-c.mp4",
       },
     ],
   },
+  // {
+  //   name: "Ubisoft Next 2023",
+  //   company_name: "Ubisoft Toronto",
+  //   background:
+  //   ` This competition is designed to discover and foster emerging talent in the field of 3D art, specifically focused on video game development. Contestants are asked to complete a challenge that showcases their ability to create high-quality, game-ready 3D assets. 
+  //   `,
+  //   description:
+  //     `
+  //     In this Unreal Engine project, I successfully deployed a wide range of skills that would make a significant impact in a studio setting. 
+  //     From environment art to technical tools, my work demonstrated a mastery of game art production, tailored to enhance gameplay and storytelling.
+  //     `,
+  //     tags: [
+  //       {
+  //         name: "Level Design",
+  //         color: "blue-text-gradient",
+  //       },
+  //       {
+  //         name: "Technical Art",
+  //         color: "green-text-gradient",
+  //       },
+  //       {
+  //         name: "Visual Effects",
+  //         color: "yellow-text-gradient",
+  //       },
+  //       {
+  //         name: "Modular Design",
+  //         color: "purple-text-gradient",
+  //       },
+  //       {
+  //         name: "Shader Development",
+  //         color: "red-text-gradient",
+  //       },
+  //       {
+  //         name: "Pre-Visualization",
+  //         color: "cyan-text-gradient",
+  //       },
+  //     ],
+      
+  //   image: ubisoftNext2023,
+  //   youtube_URL: "LkZfjhZYoQ4",
+  //   source_code_link: "https://www.artstation.com/artwork/blaPZo",
+
+  //   ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
+  //   images: [
+  //     {
+  //       id: "A",
+  //       alt: "Media A",
+  //       image_A: "https://cdnb.artstation.com/p/assets/images/images/059/797/069/large/mohammed-qamar-beautyshot-b.jpg?1677162352",
+  //     },
+  //     {
+  //       id: "B",
+  //       alt: "Media B",
+  //       image_B: "https://cdna.artstation.com/p/assets/images/images/059/797/004/large/mohammed-qamar-beautyshot-a.jpg?1677852331",
+  //     },
+  //   ],
+
+
+  //   project_id: "2",
+  //   image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
+  //   projectType: "University Project",
+  //   projectSubtitle: "Showcasing a mastery of game art production, tailored to enhance gameplay and storytelling.",
+  //   duration: "4 Months",
+  //   role: "Environment Artist",
+  //   tools: "Unity HDRP, Shader Graph, C#, 3DS Max, Substance Painter, Photoshop, Marmoset Toolbag",
+  //   media: [
+  //     {
+  //       id: "A",
+  //       alt: "Media A",
+  //       mediaTitle: "3D Art & Level Design",
+  //       mediaSubtitle: "The Architecture of Gameplay",
+  //       mediaDescription: `
+  //         In my submission for the Ubisoft Next 2023 challenge, I demonstrated a holistic understanding of level design and environmental art. I created assets and layouts that are not just visually captivating but also contribute to gameplay and narrative enhancement.
+  //       `,
+  //       mediaBulletPoints: [
+  //         "Efficient Level Design: Created a modular kit designed for quick and flexible level adjustments, thereby saving time and resources.",
+  //         "Pre-visualization Expertise: Modelled props and developed whitebox layouts, crucial steps for early testing and gameplay mechanics tuning.",
+  //         "Story-Driven Layout: Developed thematic concepts and layouts based on the given narrative, ensuring alignment with creative direction and enhancing storytelling.",
+  //       ],
+  //       link: "https://youtu.be/LkZfjhZYoQ4",
+  //     },
+  //     {
+  //       id: "B",
+  //       alt: "Media B",
+  //       mediaTitle: "Technical Art & Tools",
+  //       mediaSubtitle: "Tailoring Tech to Creative Visions",
+  //       mediaDescription: `
+  //         My technical art proficiency was showcased in the development of custom tools and shaders. I created resources that not only enriched the visual landscape but also streamlined the development process, aligning technological capabilities with artistic vision.
+  //       `,
+  //       mediaBulletPoints: [
+  //         "Visual Atmosphere: Crafted shaders that add depth and mood, enriching player immersion and potentially increasing user engagement.",
+  //         "Tools for Streamlined Development: Produced customizable tools that can adapt to varying project needs, aiding both designers and programmers in the development process.",
+  //       ],
+  //       image: "https://cdna.artstation.com/p/assets/images/images/059/797/004/large/mohammed-qamar-beautyshot-a.jpg?1677852331",
+  //     },
+  //     {
+  //       id: "C",
+  //       alt: "Media C",
+  //       mediaTitle: "Visual Effects & Atmosphere",
+  //       mediaSubtitle: "Crafting Cohesion and Emotional Resonance",
+  //       mediaDescription: `
+  //         Visual effects in my submission were meticulously crafted to add a layer of emotional depth and thematic cohesion. I employed a combination of particle systems and shaders to produce high-impact visuals that heightened the overall game quality.
+  //       `,
+  //       mediaBulletPoints: [
+  //         "High-Impact Visuals: Utilized particle systems and shaders to produce effects that add polish and emotional depth, enhancing overall game quality.",
+  //         "Thematic Consistency: Ensured that visual effects supported the theme and atmosphere, adding an extra layer of cohesion and professionalism to any project.",
+  //       ],
+  //       image: "https://cdnb.artstation.com/p/assets/images/images/059/797/069/large/mohammed-qamar-beautyshot-b.jpg",
+  //     },
+  //   ],
+  // },
   // {
   //   name: "Gas Station",
   //   description:

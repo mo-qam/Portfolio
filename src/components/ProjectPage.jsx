@@ -270,7 +270,7 @@ const ProjectPage = ({ project }) => {
                           {mediaDesc}
                         </p>
                       ))}
-                      <ul className="mt-5 list-disc ml-5 space-y-2"> 
+                      <ul className="mt-5 list-disc ml-5 space-y-6"> 
                         {media.mediaBulletPoints ? media.mediaBulletPoints.map((bulletPoint, index) => (
                           <li key={index} className="text-white-100 text-[14px] pl-1 tracking-wider">
                             {bulletPoint}

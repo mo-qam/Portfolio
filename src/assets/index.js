@@ -39,13 +39,10 @@ import pixelnauts from "./company/pixelnauts.png";
 import rocketrumble from "./rocketrumble.png";
 
 import ubisoftNext2023 from "./ubisoftNext2023_thumbnail.jpg";
-import ubisoftNext2023_Gif from "./ubisoftNext2023.gif";
 
 import tracksWeLeave from "./tracksweleave.png";
-import tracksWeLeave_Gif from "./tracksweleave.gif";
 
 import returnHome from "./Home_thumbnail.jpg";
-import returnHome_Gif from "./returnhome.gif";
 
 import wd2MarcusRoom from "./wd2_marcus_thumbnail.jpg";
 
@@ -58,10 +55,10 @@ import batmanLevelDesign_B from "./batmanLevelDesign_B.png";
 import batmanLevelDesign_C from "./batmanLevelDesign_C.png";
 
 import gasStation from "./gasstation.png";
-import gasStation_Gif from "./gasstation.gif";
 
 import catfe from "./catfe.png";
-import catfe_Gif from "./catfe.gif";
+
+import ue5_villageSlum from "./village-slum.png";
 
 
 export {
@@ -103,10 +100,8 @@ export {
   rocketrumble,
 
   ubisoftNext2023,
-  ubisoftNext2023_Gif,
 
   tracksWeLeave,
-  tracksWeLeave_Gif,
 
   wd2MarcusRoom,
 
@@ -119,12 +114,11 @@ export {
   batmanLevelDesign_C,
 
   returnHome,
-  returnHome_Gif,
 
   gasStation,
-  gasStation_Gif,
 
   catfe,
-  catfe_Gif,
+
+  ue5_villageSlum,
 
 };
