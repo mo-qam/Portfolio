@@ -60,6 +60,8 @@ import catfe from "./catfe.png";
 
 import ue5_villageSlum from "./village-slum.png";
 
+import ue5_safehouse from "./safehouse_thumbnail.png";
+
 
 export {
   logo,
@@ -120,5 +122,7 @@ export {
   catfe,
 
   ue5_villageSlum,
+
+  ue5_safehouse,
 
 };

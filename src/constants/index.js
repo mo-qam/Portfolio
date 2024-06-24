@@ -31,6 +31,8 @@ import {
 
   ue5_villageSlum,
 
+  ue5_safehouse,
+
   tracksWeLeave,
 
   wd2MarcusRoom,
@@ -227,12 +229,21 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "..we extended our term with Mohammed Qamar due to his excellent performance.",
-    name: "Hussam Hassan",
+      "..Mohammed has shown great care and skill in his work. I would love to have him stay on the team and put him in leadership roles.",
+    name: "Alex Golebiowski",
     designation: "COO",
-    company: "Taply Inc",
-    image: "https://lh3.googleusercontent.com/d/1z1LfyOk_BnsQztTLvuwXqVXMY9E3krAY",
-    link: "https://www.linkedin.com/in/shussamhassan/",
+    company: "PixelNAUTS Games",
+    image: "https://lh3.googleusercontent.com/d/14LCE9jW_Z35iJTK9xaEZz-8kMTHolasK",
+    link: "https://www.linkedin.com/in/alex-golebiowski-40707a14/",
+  },
+  {
+    testimonial:
+    "..Mohammed has an excellent direction with awareness of elements required to produce clean game assets with high visual fidelity.",
+    name: "Kevin Gordon",
+    designation: "3D Art Professor",
+    company: "Niagara College",
+    image: "https://lh3.googleusercontent.com/d/1SoJPhWrHPUAN9q9NIlmcVVzz0Xf32i24",
+    link: "https://www.linkedin.com/in/kgordon77/",
   },
   {
     testimonial:
@@ -245,25 +256,106 @@ const testimonials = [
   },
   {
     testimonial:
-      "..Mohammed has an excellent direction with awareness of elements required to produce clean game assets with high visual fidelity.",
-    name: "Kevin Gordon",
-    designation: "3D Art Professor",
-    company: "Niagara College",
-    image: "https://lh3.googleusercontent.com/d/1SoJPhWrHPUAN9q9NIlmcVVzz0Xf32i24",
-    link: "https://www.linkedin.com/in/kgordon77/",
-  },
-  {
-    testimonial:
-      "..Mohammed has shown great care and skill in his work. I would love to have him stay on the team and put him in leadership roles.",
-    name: "Alex Golebiowski",
+    "..we extended our term with Mohammed Qamar due to his excellent performance.",
+    name: "Hussam Hassan",
     designation: "COO",
-    company: "PixelNAUTS Games",
-    image: "https://lh3.googleusercontent.com/d/14LCE9jW_Z35iJTK9xaEZz-8kMTHolasK",
-    link: "https://www.linkedin.com/in/alex-golebiowski-40707a14/",
+    company: "Taply Inc",
+    image: "https://lh3.googleusercontent.com/d/1z1LfyOk_BnsQztTLvuwXqVXMY9E3krAY",
+    link: "https://www.linkedin.com/in/shussamhassan/",
   },
 ];
 
 const projects = [
+  {
+    name: "Splinter Cell | Safehouse",
+    company_name: "Personal Project",
+    background:
+    `  
+    Third Echelon (3ECH), a top secret initiative within the NSA has been silent for many years.
+    Their safehouses around the globe have been unmaintained since their disappearance... except for one.
+    `,
+    description:
+      `
+      In this Unreal Engine project, I explored the responsibilites of a Level Artist in a AAA studio setting.
+      I created a modular environment that showcased my skills in level design, technical art, and visual effects.
+      `,
+      tags: [
+        {
+          name: "Level Design",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Technical Art",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Visual Effects",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Modular Design",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "Shader Development",
+          color: "red-text-gradient",
+        },
+        {
+          name: "Pre-Visualization",
+          color: "cyan-text-gradient",
+        },
+      ],
+      
+    image: ue5_safehouse,
+    youtube_URL: "KfFk1WWIpqg",
+    source_code_link: "https://www.artstation.com/artwork/KenLVR",
+
+    ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
+    images: [
+      {
+        id: "A",
+        alt: "Media A",
+        image_A: "https://cdnb.artstation.com/p/assets/images/images/077/207/243/large/mohammed-qamar-highresscreenshot00029.jpg?1718847949",
+      },
+    ],
+
+    project_id: "Safehouse",
+    projectType: "Personal Project",
+    projectSubtitle: "Showcasing a mastery of a Level Artist's responsibilities in a AAA studio setting.",
+    duration: "1 Month",
+    role: "Level Artist",
+    tools: "Unreal Engine 5, Blueprints, 3DS Max, Substance Painter, Photoshop",
+    media: [
+      {
+        id: "A",
+        alt: "Media A",
+        mediaTitle: "Final Environment Showcase",
+        mediaSubtitle: "Crafting Immersive Spaces",
+        mediaDescription: `
+        The goals of this piece were to develop a stronger understanding of a Level Artist's responsibility of weaving story intentions into an environment, and create lighting that supports the artistic vision of the project while maintaining realism.
+        `,
+        mediaBulletPoints: [
+          "Modular Mastery: Utilized modular kits to create an environment that was both versatile and aesthetically pleasing.",
+          "Lighting Design: Developed a lighting scheme that supported the narrative and artistic vision of the project.",
+          "Shader Development: Created custom shaders to enhance visual effects and realism.",
+          "Post-Processing: Utilized post-processing effects to enhance the mood and atmosphere of the environment.",
+        ],
+        link: "https://youtu.be/KfFk1WWIpqg",
+      },
+      {
+        id: "B",
+        alt: "Media B",
+        mediaTitle: "Project Progression & Iteration",
+        mediaSubtitle: "Identifying and Addressing Challenges",
+        mediaBulletPoints: [
+          "Iterative Design: Refined the environment through multiple iterations, focusing on narrative clarity and lighting consistency.",
+          "Asset Creation: Developed high-quality 3D focal assets that were optimized for real-time performance.",
+          "Collaborative Feedback Integration: Incorporated valuable feedback from industry experts, significantly improving the environment's quality and narrative clarity.",
+        ],
+        link: "https://youtu.be/jcCF10wo9LI",
+      },
+    ],
+  },
   {
     name: "Rocket Rumble",
     company_name: "PixelNAUTS Games",
@@ -499,6 +591,7 @@ const projects = [
     company_name: "Personal Project",
     background:
     `  
+    The Village Slum is a modular environment designed with a focus on creating technical art tools to improve the art production pipeline.
     `,
     description:
       `
@@ -1044,116 +1137,116 @@ const projects = [
     ],
   },
 ///////////////////////////////////////////////////////////////
-  {
-    name: "Batman Arkham Origins | Level Design",
-    company_name: "Personal Project",
-    background:
-    `
-    This project involved creating a comprehensive level design document, focusing on the meticulous planning and development of a game level. 
-    It showcases my proficiency in designing complex, engaging, and immersive game spaces, deeply rooted in the atmospheric and narrative-driven world of the Batman franchise."
-    `,
+  // {
+  //   name: "Batman Arkham Origins | Level Design",
+  //   company_name: "Personal Project",
+  //   background:
+  //   `
+  //   This project involved creating a comprehensive level design document, focusing on the meticulous planning and development of a game level. 
+  //   It showcases my proficiency in designing complex, engaging, and immersive game spaces, deeply rooted in the atmospheric and narrative-driven world of the Batman franchise."
+  //   `,
 
-    description:
-    `
-    This level mirrors Gotham's intricate architecture, blending stealth, strategy, and action, key to the Arkham series. 
-    It showcases environmental storytelling, player navigation, and pacing, enhancing the Batman experience. My design adapts to the game universe, engaging fans with an innovative, cohesive level.
-    `,
+  //   description:
+  //   `
+  //   This level mirrors Gotham's intricate architecture, blending stealth, strategy, and action, key to the Arkham series. 
+  //   It showcases environmental storytelling, player navigation, and pacing, enhancing the Batman experience. My design adapts to the game universe, engaging fans with an innovative, cohesive level.
+  //   `,
 
-    tags: [
-      {
-        name: "Level Design",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Player Navigation",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Environmental Storytelling",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "Strategic Pacing",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Rewarding Exploration",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Documented Design",
-        color: "cyan-text-gradient",
-      },
-    ],
-    image: batmanLevelDesign_A,
-    youtube_URL:"DTKnZPPxC6c",
-    source_code_link: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view",
+  //   tags: [
+  //     {
+  //       name: "Level Design",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Player Navigation",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Environmental Storytelling",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "Strategic Pacing",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Rewarding Exploration",
+  //       color: "purple-text-gradient",
+  //     },
+  //     {
+  //       name: "Documented Design",
+  //       color: "cyan-text-gradient",
+  //     },
+  //   ],
+  //   image: batmanLevelDesign_A,
+  //   youtube_URL:"DTKnZPPxC6c",
+  //   source_code_link: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view",
     
-    ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
-    images: [
-      {
-        id: "A",
-        alt: "Media A",
-        image_A: batmanLevelDesign_B,
-      },
-      {
-        id: "B",
-        alt: "Media B",
-        image_B: batmanLevelDesign_C,
-      },
-      {
-        id: "B",
-        alt: "Media B",
-        image_B: batmanLevelDesign_A,
-      },
-    ],
+  //   ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
+  //   images: [
+  //     {
+  //       id: "A",
+  //       alt: "Media A",
+  //       image_A: batmanLevelDesign_B,
+  //     },
+  //     {
+  //       id: "B",
+  //       alt: "Media B",
+  //       image_B: batmanLevelDesign_C,
+  //     },
+  //     {
+  //       id: "B",
+  //       alt: "Media B",
+  //       image_B: batmanLevelDesign_A,
+  //     },
+  //   ],
 
 
-    project_id: "2",
-    image_heading: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view?usp=sharing",
-    projectType: "Full-Time",
-    projectSubtitle: "Showcasing my commitment to designing levels that are not only visually compelling but also narratively coherent and interactive",
-    duration: "2 Weeks",
-    role: "Level Designer",
-    tools: "Miro, PureRef, Photoshop",
+  //   project_id: "2",
+  //   image_heading: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view?usp=sharing",
+  //   projectType: "Full-Time",
+  //   projectSubtitle: "Showcasing my commitment to designing levels that are not only visually compelling but also narratively coherent and interactive",
+  //   duration: "2 Weeks",
+  //   role: "Level Designer",
+  //   tools: "Miro, PureRef, Photoshop",
 
-    media: [
-      {
-          id: "A",
-          alt: "Media A",
-          mediaTitle: "Detailed Level Design Documentation",
-          mediaSubtitle: "Immersive Design in Gotham's Shadows",
-          mediaDescription: `
-          Dive into the heart of Gotham City as envisaged for 'Batman Arkham Origins.'
-          This document lays out the intricate designs of a level that balances the cerebral challenge of being Batman with the visceral experience of navigating the city's notorious landscape.
-          `,
-          mediaBulletPoints: [
-              "Complex Navigation: Crafted to challenge the World's Greatest Detective with a labyrinthine design that rewards strategic exploration.",
-              "Dramatic Engagement: A space where every element is placed to cultivate a narrative-driven gameplay, echoing the suspense and action of WB Games Montreal's signature style.",
-              "Efficient Execution: A level built not only for aesthetics but optimized for smooth gameplay, ensuring that each asset serves both form and function.",
-          ],
-          link: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view?usp=sharing",
-      },
-      {
-          id: "B",
-          alt: "Media B",
-          mediaTitle: "Strategic Layouts and the Art of Stealth",
-          mediaSubtitle: "Exploring the Intricacies of Gotham's Terrain",
-          mediaDescription: `
-          Venture through meticulously planned maps that blend Batman's need for stealth with his combat prowess. 
-          The document contains detailed breakdowns of level layouts, sightlines, and engagement zones, allowing players to strategize their approach to every challenge.
-          `,
-          mediaBulletPoints: [
-              "Tactical Landscapes: Maps designed for intelligent encounters, enabling a multi-layered approach to combat and investigation.",
-              "Environmental Clues: Every location is embedded with clues, leading the Dark Knight on a journey of discovery and confrontation.",
-              "Dynamic Interactivity: The level adapts to player actions, offering a reactive and immersive gameplay experience where strategy is key.",
-          ],
-        link: "https://drive.google.com/file/d/19PQpu4Dk-i4gUoszytHT0J8ZaGnRvUZv/preview",
-        image_Link: "https://www.artstation.com/artwork/ZeewR1",
-      },
-    ],
+  //   media: [
+  //     {
+  //         id: "A",
+  //         alt: "Media A",
+  //         mediaTitle: "Detailed Level Design Documentation",
+  //         mediaSubtitle: "Immersive Design in Gotham's Shadows",
+  //         mediaDescription: `
+  //         Dive into the heart of Gotham City as envisaged for 'Batman Arkham Origins.'
+  //         This document lays out the intricate designs of a level that balances the cerebral challenge of being Batman with the visceral experience of navigating the city's notorious landscape.
+  //         `,
+  //         mediaBulletPoints: [
+  //             "Complex Navigation: Crafted to challenge the World's Greatest Detective with a labyrinthine design that rewards strategic exploration.",
+  //             "Dramatic Engagement: A space where every element is placed to cultivate a narrative-driven gameplay, echoing the suspense and action of WB Games Montreal's signature style.",
+  //             "Efficient Execution: A level built not only for aesthetics but optimized for smooth gameplay, ensuring that each asset serves both form and function.",
+  //         ],
+  //         link: "https://drive.google.com/file/d/1npLgHk78AyYETnFjuE97wRc-0bVwU9a2/view?usp=sharing",
+  //     },
+  //     {
+  //         id: "B",
+  //         alt: "Media B",
+  //         mediaTitle: "Strategic Layouts and the Art of Stealth",
+  //         mediaSubtitle: "Exploring the Intricacies of Gotham's Terrain",
+  //         mediaDescription: `
+  //         Venture through meticulously planned maps that blend Batman's need for stealth with his combat prowess. 
+  //         The document contains detailed breakdowns of level layouts, sightlines, and engagement zones, allowing players to strategize their approach to every challenge.
+  //         `,
+  //         mediaBulletPoints: [
+  //             "Tactical Landscapes: Maps designed for intelligent encounters, enabling a multi-layered approach to combat and investigation.",
+  //             "Environmental Clues: Every location is embedded with clues, leading the Dark Knight on a journey of discovery and confrontation.",
+  //             "Dynamic Interactivity: The level adapts to player actions, offering a reactive and immersive gameplay experience where strategy is key.",
+  //         ],
+  //       link: "https://drive.google.com/file/d/19PQpu4Dk-i4gUoszytHT0J8ZaGnRvUZv/preview",
+  //       image_Link: "https://www.artstation.com/artwork/ZeewR1",
+  //     },
+  //   ],
   
-  },
+  // },
   /////////////////////////////////////////////////////////////
   // {
   //   name: "Tracks We Leave",
