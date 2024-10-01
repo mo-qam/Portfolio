@@ -20,6 +20,7 @@ import {
   unity,
   unrealengine,
 
+  ubisoft,
   shg,
   alientrap,
   pixelnauts,
@@ -152,12 +153,26 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Level Artist",
+    company_name: "Ubisoft",
+    company_link: "https://www.ubisoft.com/en-ca/",
+    icon: ubisoft,
+    iconBg: "#383E56",
+    date: "July 2024 - Present",
+    points: [
+      "At Ubisoft, my role as a Level Artist involves leveraging my skills in 3D environment design, asset integration, lighting and collaboration to create immersive and engaging game worlds.",
+      "Narrative Integration: Collaborate with narrative teams to ensure that the environmental art supports and enhances the storytelling.",
+      "Environment Design: Develop interesting layouts that adhere to art direction guidelines and integrate custom assets to enhance game environments.",
+      "Collaboration: Work closely with level design teams to ensure that the artistic vision complements the gameplay.",
+    ],
+  },
+  {
     title: "Gameplay Programmer",
     company_name: "SHG Studios",
     company_link: "https://www.linkedin.com/company/shg-studios",
     icon: shg,
     iconBg: "#383E56",
-    date: "February 2024 - Present",
+    date: "February 2024 - July 2024",
     points: [
       "At SHG Studios, my role as a Gameplay Programmer centers on leveraging my technical skills in Unity and systems design to elevate our gaming projects.",
       "Gameplay Programming: Utilize Unity to create immersive and interactive gameplay elements, focusing on mechanics that enhance player experience and engagement.",
@@ -169,10 +184,10 @@ const experiences = [
   {
     title: "Technical Artist",
     company_name: "Alientrap Games",
-    company_link: "https://www.linkedin.com/company/alientrap-games/posts/?feedView=all",
+    company_link: "https://www.linkedin.com/company/alientrap-games",
     icon: alientrap,
     iconBg: "#383E56",
-    date: "November 2023 - Present",
+    date: "November 2023 - July 2024",
     points: [
       "At Alientrap Games, my role as a Technical Artist involves leveraging my skills in Shaders, and 3D modeling to contribute to exciting game development projects.",
       "3D Modeling: Utilize 3ds Max to create detailed and accurate 3D models that align with project requirements..",
@@ -210,20 +225,20 @@ const experiences = [
       "Demonstrated a strong aptitude for learning and adapting to new tools, techniques, and workflows, leading to a swift promotion to a core team member in under one month.",
     ],
   },
-  {
-    title: "Graphic Designer",
-    company_name: "Taply Inc",
-    company_link: "https://www.taply.io/",
-    icon: taply,
-    iconBg: "#383E56",
-    date: "July 2017 - August 2020",
-    points: [
-      "Spearheaded graphic design efforts at an e-commerce advertising company, creating visually compelling content for various platforms.",
-      "Conducted thorough product research to inform design decisions and ensure alignment with brand identity.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Boosted client engagement by 45% through the creation of visually compelling content for various ad campaigns within the company.",
-    ],
-  },
+  // {
+  //   title: "Graphic Designer",
+  //   company_name: "Taply Inc",
+  //   company_link: "https://www.taply.io/",
+  //   icon: taply,
+  //   iconBg: "#383E56",
+  //   date: "July 2017 - August 2020",
+  //   points: [
+  //     "Spearheaded graphic design efforts at an e-commerce advertising company, creating visually compelling content for various platforms.",
+  //     "Conducted thorough product research to inform design decisions and ensure alignment with brand identity.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Boosted client engagement by 45% through the creation of visually compelling content for various ad campaigns within the company.",
+  //   ],
+  // },
 ];
 
 const testimonials = [

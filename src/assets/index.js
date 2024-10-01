@@ -29,6 +29,7 @@ import unity from "./tech/unity.png";
 import unrealengine from "./tech/unrealengine.png";
 
 //Companies
+import ubisoft from "./company/ubisoft.png";
 import shg from "./company/shg.png";
 import alientrap from "./company/alientrap.png";
 import taply from "./company/taply.png";
@@ -93,6 +94,7 @@ export {
   unrealengine,
 
   //Companies
+  ubisoft,
   shg,
   alientrap,
   pixelnauts,
