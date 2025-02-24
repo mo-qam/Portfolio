@@ -43,8 +43,16 @@ module.exports = {
         },
         breathe: {
           '0%': { transform: 'scale(1)', opacity: 1 },
-          '60%': { transform: 'scale(1.05)', opacity: 1 },
+          '60%': { transform: 'scale(1.01)', opacity: 1 },
           '100%': { transform: 'scale(1)', opacity: 1 },
+        },
+        pulse: {
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0.5 },
+        },
+        upDown: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5px)' },
         },
       },
       animation: {
@@ -52,6 +60,8 @@ module.exports = {
         slideUp: 'slideUp 0.5s ease-out',
         swing: 'swing 1s ease-in-out infinite',
         breathe: 'breathe 3s ease-in-out infinite',
+        'pulse-slow': 'pulse 3s cubic-bezier(0.5, 0, 0.5, .1) infinite',
+        'up-down': 'upDown 2s ease-in-out infinite',
       },
     },
   },

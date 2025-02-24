@@ -100,8 +100,9 @@ const Contact = () => {
       trigger={
         <button
           type="submit"
-          className={`bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary ${
-            isFormValid() ? "opacity-90 hover:opacity-100 transition-opacity" : "opacity-50"
+          className={`bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary
+            ${
+            isFormValid() ? "opacity-90 hover:opacity-100 transition-opacity hover:animate-pulse hover:transition delay-150 duration-300 ease-in-out hover:scale-105" : "opacity-50"
           }`}
           hover="green"
           disabled={!isFormValid() || loading}
@@ -152,7 +153,9 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium
+              hover:transition delay-150 duration-300 ease-in-out hover:translate-y-1 hover:scale-105
+              "
             />
           </label>
           <label className="flex flex-col">
@@ -163,7 +166,9 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium
+              hover:transition delay-150 duration-300 ease-in-out hover:translate-y-1 hover:scale-105
+              "
             />
           </label>
           <label className="flex flex-col">
@@ -174,10 +179,14 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What's on your mind?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium
+              hover:transition delay-150 duration-300 ease-in-out hover:translate-y-1 hover:scale-105
+              "
             />
           </label>
-          <SendButton />
+          <SendButton 
+            className="hover:transition delay-150 duration-300 ease-in-out hover:translate-y-1 hover:scale-105"
+          />
         </form>
       </motion.div>
       <motion.div

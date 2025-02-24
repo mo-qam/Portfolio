@@ -19,11 +19,8 @@ import close from "./close.svg";
 // import git from "./tech/git.png";
 import autodesk3DSMax from "./tech/3dsmax.png";
 import substancePainter from "./tech/substancepainter.png";
-// import autodeskMudbox from "./tech/mudbox.png";
-// import substanceDesigner from "./tech/substancedesigner.png";
-// import substanceSampler from "./tech/substancesampler.png";
-// import substanceStager from "./tech/substancestager.png";
-// import csharp from "./tech/csharp.png";
+import csharp from "./tech/csharp.png";
+import cplusplus from "./tech/cplusplus.png";
 import photoshop from "./tech/photoshop.png";
 import unity from "./tech/unity.png";
 import unrealengine from "./tech/unrealengine.png";
@@ -35,16 +32,18 @@ import alientrap from "./company/alientrap.png";
 import taply from "./company/taply.png";
 import pixelnauts from "./company/pixelnauts.png";
 
+//Testimonials
+import alex_gole from "./testimonials/alex_gole.jpg";
+import jerry_chen from "./testimonials/jerry_chen.jpg";
+import ahmed_hasan from "./testimonials/ahmed_hasan.jpg";
+import roger_liu from "./testimonials/roger_liu.jpg";
+
 
 //Projects
-import rocketrumble from "./rocketrumble.png";
-
-import ubisoftNext2023 from "./ubisoftNext2023_thumbnail.jpg";
-
-import tracksWeLeave from "./tracksweleave.png";
-
-import returnHome from "./Home_thumbnail.jpg";
-
+import ue5_safehouse from "./safehouse_thumbnail.jpg";
+import dunecrawl from "./dunecrawl_thumbnail.jpg"
+import rocketrumble from "./rocketrumble_thumbnail.jpg";
+import ue5_villageSlum from "./village-slum.png";
 import wd2MarcusRoom from "./wd2_marcus_thumbnail.jpg";
 
 import combatSystem from "./combatSystemUE5_thumbnail.png";
@@ -54,14 +53,6 @@ import combatSystem_ScreenShot_B from "./combatSystemUE5_ScreenShot_B.png";
 import batmanLevelDesign_A from "./batmanLevelDesign_A.png";
 import batmanLevelDesign_B from "./batmanLevelDesign_B.png";
 import batmanLevelDesign_C from "./batmanLevelDesign_C.png";
-
-import gasStation from "./gasstation.png";
-
-import catfe from "./catfe.png";
-
-import ue5_villageSlum from "./village-slum.png";
-
-import ue5_safehouse from "./safehouse_thumbnail.png";
 
 
 export {
@@ -81,15 +72,11 @@ export {
   itchIcon,
 
   //Tech
-  // git,
   autodesk3DSMax,
-  // autodeskMudbox,
   substancePainter,
-  // substanceDesigner,
-  // substanceSampler,
-  // substanceStager,
   photoshop,
-  // csharp,
+  csharp,
+  cplusplus,
   unity,
   unrealengine,
 
@@ -101,12 +88,10 @@ export {
   taply,
 
   //Projects
+  ue5_safehouse,
+  dunecrawl,
   rocketrumble,
-
-  ubisoftNext2023,
-
-  tracksWeLeave,
-
+  ue5_villageSlum,
   wd2MarcusRoom,
 
   combatSystem,
@@ -117,14 +102,11 @@ export {
   batmanLevelDesign_B,
   batmanLevelDesign_C,
 
-  returnHome,
 
-  gasStation,
-
-  catfe,
-
-  ue5_villageSlum,
-
-  ue5_safehouse,
+  // Testimonials
+  jerry_chen,
+  ahmed_hasan,
+  roger_liu,
+  alex_gole,
 
 };

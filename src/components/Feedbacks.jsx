@@ -9,6 +9,7 @@ const FeedbackCard = ({
   index,
   testimonial,
   name,
+  preposition = "of",
   designation,
   company,
   image,
@@ -16,7 +17,10 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+    className="
+      bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full
+      hover:transition delay-150 duration-300 ease-in-out translate-y-1 hover:scale-110 
+    "
   >
     <h4 className="text-white font-black text-[48px]">"</h4>
 
@@ -29,7 +33,7 @@ const FeedbackCard = ({
             <span className="blue-text-gradient">@</span> {name}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
+            {designation} {preposition} {company}
           </p>
         </div>
 

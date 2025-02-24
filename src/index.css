@@ -86,6 +86,7 @@
   background: "#00cea8";
   background: linear-gradient(90.13deg, #ff5252 1.9%, #b33939 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #ff5252 1.9%, #b33939 97.5%);
+  @apply animate-up-down;
 }
 
 .red-pink-gradient {
@@ -345,3 +346,5 @@
   -webkit-background-clip: text;
   animation: textShimmer 2s linear infinite;
 }
+
+

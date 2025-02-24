@@ -10,13 +10,9 @@ import {
   
   // git,
   autodesk3DSMax,
-  // autodeskMudbox,
-  // substanceDesigner,
   substancePainter,
-  // substanceSampler,
-  // substanceStager,
   photoshop,
-  // csharp,
+  csharp,
   unity,
   unrealengine,
 
@@ -24,35 +20,22 @@ import {
   shg,
   alientrap,
   pixelnauts,
-  taply,
   
+  dunecrawl,
   rocketrumble,
-
-  ubisoftNext2023,
-
   ue5_villageSlum,
-
   ue5_safehouse,
-
-  tracksWeLeave,
-
   wd2MarcusRoom,
-
   combatSystem,
   combatSystem_ScreenShot_A,
   combatSystem_ScreenShot_B,
 
-  batmanLevelDesign_A,
-  batmanLevelDesign_B,
-  batmanLevelDesign_C,
-
-  
-
-  returnHome,
-
-  gasStation,
-
-  catfe,
+  //Testimonials
+  alex_gole,
+  jerry_chen,
+  ahmed_hasan,
+  roger_liu,
+  cplusplus,
 
 } from "../assets";
 
@@ -129,10 +112,14 @@ const technologies = [
     name: "Unreal Engine",
     icon: unrealengine,
   },
-  // {
-  //   name: "C#",
-  //   icon: csharp,
-  // },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "C++",
+    icon: cplusplus,
+  },
   {
     name: "3ds Max",
     icon: autodesk3DSMax,
@@ -153,7 +140,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Level Artist",
+    title: "Senior Level Artist",
     company_name: "Ubisoft",
     company_link: "https://www.ubisoft.com/en-ca/",
     icon: ubisoft,
@@ -164,21 +151,6 @@ const experiences = [
       "Narrative Integration: Collaborate with narrative teams to ensure that the environmental art supports and enhances the storytelling.",
       "Environment Design: Develop interesting layouts that adhere to art direction guidelines and integrate custom assets to enhance game environments.",
       "Collaboration: Work closely with level design teams to ensure that the artistic vision complements the gameplay.",
-    ],
-  },
-  {
-    title: "Gameplay Programmer",
-    company_name: "SHG Studios",
-    company_link: "https://www.linkedin.com/company/shg-studios",
-    icon: shg,
-    iconBg: "#383E56",
-    date: "February 2024 - July 2024",
-    points: [
-      "At SHG Studios, my role as a Gameplay Programmer centers on leveraging my technical skills in Unity and systems design to elevate our gaming projects.",
-      "Gameplay Programming: Utilize Unity to create immersive and interactive gameplay elements, focusing on mechanics that enhance player experience and engagement.",
-      "Systems Design & Integration: Architect and integrate complex game systems, ensuring seamless interactions within the game environment and across various gameplay features.",
-      "UI/UX Implementation: Implement intuitive and responsive user interfaces, leveraging Unity to enhance user interaction and engagement.",
-      "Technical Solutions: Develop and implement solutions that address gameplay challenges, contributing to the overall stability and performance of the game.",
     ],
   },
   {
@@ -197,6 +169,21 @@ const experiences = [
     ],
   },
   {
+    title: "Gameplay Programmer",
+    company_name: "SHG Studios",
+    company_link: "https://www.linkedin.com/company/shg-studios",
+    icon: shg,
+    iconBg: "#383E56",
+    date: "February 2024 - July 2024",
+    points: [
+      "At SHG Studios, my role as a Gameplay Programmer centers on leveraging my technical skills in Unity and systems design to elevate our gaming projects.",
+      "Gameplay Programming: Utilize Unity to create immersive and interactive gameplay elements, focusing on mechanics that enhance player experience and engagement.",
+      "Systems Design & Integration: Architect and integrate complex game systems, ensuring seamless interactions within the game environment and across various gameplay features.",
+      "UI/UX Implementation: Implement intuitive and responsive user interfaces, leveraging Unity to enhance user interaction and engagement.",
+      "Technical Solutions: Develop and implement solutions that address gameplay challenges, contributing to the overall stability and performance of the game.",
+    ],
+  },
+  {
     title: "Game Designer",
     company_name: "PixelNAUTS Games",
     company_link: "https://pixelnauts.ca/",
@@ -211,32 +198,18 @@ const experiences = [
       "Carried out programming tasks, focusing on designing and implementing modular, optimized systems for enhanced scalability and performance.",
     ],
   },
-  {
-    title: "3D Artist - Intern",
-    company_name: "PixelNAUTS Games",
-    company_link: "https://pixelnauts.ca/",
-    icon: pixelnauts,
-    iconBg: "#383E56",
-    date: "May 2022 - June 2022",
-    points: [
-      "Designed and modeled a variety of 3D assets, such as characters, environments, and props, using industry-standard software like Substance Suite, and 3ds Max, while adhering to the project's style and technical guidelines.",
-      "Worked closely with designers, animators, and other artists to create high-quality 3D assets, fostering a collaborative environment and contributing effectively to the team's success.",
-      "Ensured all 3D assets were optimized for real-time performance, maintaining a balance between visual fidelity and technical constraints, such as polygon count, texture size, and level of detail (LOD).",
-      "Demonstrated a strong aptitude for learning and adapting to new tools, techniques, and workflows, leading to a swift promotion to a core team member in under one month.",
-    ],
-  },
   // {
-  //   title: "Graphic Designer",
-  //   company_name: "Taply Inc",
-  //   company_link: "https://www.taply.io/",
-  //   icon: taply,
+  //   title: "3D Artist - Intern",
+  //   company_name: "PixelNAUTS Games",
+  //   company_link: "https://pixelnauts.ca/",
+  //   icon: pixelnauts,
   //   iconBg: "#383E56",
-  //   date: "July 2017 - August 2020",
+  //   date: "May 2022 - June 2022",
   //   points: [
-  //     "Spearheaded graphic design efforts at an e-commerce advertising company, creating visually compelling content for various platforms.",
-  //     "Conducted thorough product research to inform design decisions and ensure alignment with brand identity.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Boosted client engagement by 45% through the creation of visually compelling content for various ad campaigns within the company.",
+  //     "Designed and modeled a variety of 3D assets, such as characters, environments, and props, using industry-standard software like Substance Suite, and 3ds Max, while adhering to the project's style and technical guidelines.",
+  //     "Worked closely with designers, animators, and other artists to create high-quality 3D assets, fostering a collaborative environment and contributing effectively to the team's success.",
+  //     "Ensured all 3D assets were optimized for real-time performance, maintaining a balance between visual fidelity and technical constraints, such as polygon count, texture size, and level of detail (LOD).",
+  //     "Demonstrated a strong aptitude for learning and adapting to new tools, techniques, and workflows, leading to a swift promotion to a core team member in under one month.",
   //   ],
   // },
 ];
@@ -244,39 +217,43 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "..Mohammed has shown great care and skill in his work. I would love to have him stay on the team and put him in leadership roles.",
+      "Mohammed has shown great care and skill in his work. I would love to have him stay on the team and put him in leadership roles.",
     name: "Alex Golebiowski",
-    designation: "COO",
-    company: "PixelNAUTS Games",
-    image: "https://lh3.googleusercontent.com/d/14LCE9jW_Z35iJTK9xaEZz-8kMTHolasK",
+    designation: "Senior Level Artist",
+    preposition: "at",
+    company: "Ubisoft",
+    image: alex_gole,
     link: "https://www.linkedin.com/in/alex-golebiowski-40707a14/",
   },
   {
     testimonial:
-    "..Mohammed has an excellent direction with awareness of elements required to produce clean game assets with high visual fidelity.",
-    name: "Kevin Gordon",
-    designation: "3D Art Professor",
-    company: "Niagara College",
-    image: "https://lh3.googleusercontent.com/d/1SoJPhWrHPUAN9q9NIlmcVVzz0Xf32i24",
-    link: "https://www.linkedin.com/in/kgordon77/",
+    "He is able to pick up complex subjects quickly and I appreciate his innate curiosity in understanding our underlying tech. ",
+    name: "Jerry Chen",
+    designation: "Senior Technical Artist",
+    preposition: "at",
+    company: "Ubisoft",
+    image: jerry_chen,
+    link: "https://www.linkedin.com/in/jyuanchen/",
   },
   {
     testimonial:
-      "I've never met a designer who truly cares about his craft like Mohammed Qamar does.",
-    name: "Arsh Sanwarwala",
-    designation: "CEO",
-    company: "ThrillX Design",
-    image: "https://lh3.googleusercontent.com/d/1bx8LkJp3GNBtw2DUHkVS_ArGZE_YqxLX",
-    link: "https://www.linkedin.com/in/arsh-sanwarwala/",
+    "Mohammed's positive energy and natural gift for connecting with people made him the kind of person who could turn a team into a family. ",
+    name: "Ahmed Hasan",
+    designation: "Senior Environment Artist",
+    preposition: "at",
+    company: "Ubisoft",
+    image: ahmed_hasan,
+    link: "https://www.linkedin.com/in/ahmedhasan91/",
   },
   {
     testimonial:
-    "..we extended our term with Mohammed Qamar due to his excellent performance.",
-    name: "Hussam Hassan",
-    designation: "COO",
-    company: "Taply Inc",
-    image: "https://lh3.googleusercontent.com/d/1z1LfyOk_BnsQztTLvuwXqVXMY9E3krAY",
-    link: "https://www.linkedin.com/in/shussamhassan/",
+      "He is easily one of the most active and friendly people in the studio. This coupled with his endless curiosity with tech, easily made him countless friends.",
+    name: "Roger Liu",
+    designation: "Senior Level Artist",
+    preposition: "at",
+    company: "Ubisoft",
+    image: roger_liu,
+    link: "https://www.linkedin.com/in/roger-liu-5a88294b/",
   },
 ];
 
@@ -372,6 +349,100 @@ const projects = [
     ],
   },
   {
+    name: "Dune Crawl",
+    company_name: "Alientrap Games",
+    background:
+    ` DuneCrawl is an online coop action-adventure game where players take on the roles of desert faring privateers. Together, players explore the dust seas by piloting their Dune Crawler, a gigantic walking crustacean festooned with cannons and treasure maps.
+    `,
+    description:
+      `As a Technical Artist, I created 3D environment art, shaders, and VFX.
+      I was also responsible for establishing VFX pipelines, integrating art assets used for core gameplay mechanics, and adhering to art/tech direction with tool development.`,
+      tags: [
+        {
+          name: "Technical Art",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Visual Effects",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Modular Design",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "Shader Development",
+          color: "red-text-gradient",
+        },
+        {
+          name: "Pre-Visualization",
+          color: "cyan-text-gradient",
+        },
+      ],
+      
+    image: dunecrawl,
+    youtube_URL: "dTFHzxAAVy4",
+    source_code_link: "https://alexfish02.itch.io/calico-cat-fe",
+
+    ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
+    images: [
+      {
+        id: "A",
+        alt: "Media A",
+        image_A: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1833200/ss_806c7dc0ea269f848229877b474e9fced5015373.1920x1080.jpg?t=1739212478",
+      },
+      {
+        id: "B",
+        alt: "Media B",
+        image_B: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1833200/ss_fa3812a3cffc994d3578884eaaa4ac73c49e8114.1920x1080.jpg?t=1739212478",
+      },
+      {
+        id: "C",
+        alt: "Media C",
+        image_C: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1833200/ss_669e9ff4a1aae498265c7be0d12216d89aa166e8.1920x1080.jpg?t=1739212478",
+      },
+    ],
+
+    project_id: "Dune Crawl",
+    image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
+    projectType: "Full-time",
+    projectSubtitle: "Helping Alientrap Games, take DuneCrawl to the finish line!",
+    duration: "1.5 years",
+    role: "Technical Artist | Environment Artist",
+    tools: "Unity, Shader Graph, C#, 3DS Max, Substance Painter, Photoshop",
+    media: [
+      {
+        id: "A",
+        alt: "Media A",
+        mediaTitle: "Environment Art",
+        mediaSubtitle: "Crafting Immersive Spaces",
+        mediaDescription: `
+          As an Technical Artist, I combined my technical knowledge with my 3D art skills to shape the atmosphere and visual aesthetics of the game. From outdoor set dressing to interior assets, and gameplay assets, my modular designs provided a robust and cohesive setting that perfectly complemented the gameplay.
+        `,
+        mediaBulletPoints: [
+          "Modular Mastery: Designed modular kits to create versatile and cohesive art that followed the existing art direction. Translating hand drawn 2D styles to 3D assets.",
+          "Collaborative Artistry: Developed trim sheets in collaboration with fellow artists, ensuring visual consistency and streamlining asset creation.",
+        ],
+        link: "https://video.fastly.steamstatic.com/store_trailers/257057735/movie480_vp9.webm?t=1727280653",
+      },
+      {
+        id: "B",
+        alt: "Media B",
+        mediaTitle: "Technical Art",
+        mediaSubtitle: "From Polygons to Playability",
+        mediaDescription: `
+           I operated at the nexus of art and technology to develop shaders and customizable tools. My contributions allowed designers and programmers the flexibility to easily modify game elements while maintaining artistic integrity.
+        `,
+        mediaBulletPoints: [
+          "Shader Development: Created shaders that were both visually impressive and aligned with design concepts.",
+          "Tool Customization: Developed highly customizable tools to empower designers and programmers, enabling them to make adjustments easily and efficiently.",
+          "Visual Effects Prowess: Engineered complex visual effects by synergizing particle systems and shaders, all while adhering to the established art direction.",
+        ],
+        link: "https://video.fastly.steamstatic.com/store_trailers/257096482/movie480_vp9.webm?t=1739212477",
+      },
+    ],
+  },
+    {
     name: "Rocket Rumble",
     company_name: "PixelNAUTS Games",
     background:
@@ -379,8 +450,8 @@ const projects = [
         Join a charming cast of rocket-powered animal racers as they bash, smash and race their way to victory.
       `,
     description:
-      `As a Designer & 3D Artist at Rocket Rumble, I created various 3D assets, character models, and props. 
-      I designed engaging levels and collaborated with the team to optimize assets for multiplayer, improving user experience through strategic and creative problem-solving, aligning art with gameplay mechanics.`,
+      `As a Game Designer, I was responsible for level designs, level art, and props. 
+      I designed engaging levels and collaborated with the team to optimize assets for multiplayer, improving user experience through creative problem-solving, aligning art with gameplay mechanics.`,
 
     tags: [
       {
@@ -392,12 +463,8 @@ const projects = [
         "color": "cyan-text-gradient"
       },
       {
-        "name": "Character Modeling",
+        "name": "Level Design",
         "color": "red-text-gradient"
-      },
-      {
-        "name": "Real-time Optimization",
-        "color": "purple-text-gradient"
       },
     ],
     image: rocketrumble,
@@ -485,119 +552,6 @@ const projects = [
           "Editing & Post-Production: Fine-tuned cinematic elements, including camera angles, transitions, and music, to enhance impact.",
         ],
         link: "https://drive.google.com/file/d/1ISIQmbnn6YnVBlj_c_9m_AWy4V_ZSv6k/view?usp=drive_link",
-      },
-    ],
-  },
-  {
-    name: "Calico Cat-fe",
-    company_name: "Kaldi Games",
-    background:
-    ` Pounce into the purrfect world of Calico Cat-fe, a 3D couch co-op game that challenges players to work together in a frenetic drink-serving environment.
-      The project was developed by a team of 7 students at Niagara College, and won the Level Up! Toronto 2023 Showcase Players Choice Award.
-    `,
-    description:
-      `I created the game's breathtaking environment art, providing technical enhancements for gameplay. 
-      I also crafted immersive soundscapes that enhance the narrative and visuals, blending sight and sound flawlessly. This synergy of audio-visual elements elevates the gaming experience, making it more engaging and memorable.`,
-      tags: [
-        {
-          name: "Environment Art",
-          color: "green-text-gradient"
-        },
-        {
-          name: "Technical Art",
-          color: "pink-text-gradient"
-        },
-        {
-          name: "Technical Design",
-          color: "blue-text-gradient"
-        },
-        {
-          name: "Sound Design",
-          color: "teal-text-gradient"
-        },
-        {
-          name: "Narrative Integration",
-          color: "purple-text-gradient"
-        },
-        {
-          name: "Award-Winning",
-          color: "yellow-text-gradient"
-        }
-      ],
-      
-    image: catfe,
-    youtube_URL: "dTFHzxAAVy4",
-    source_code_link: "https://alexfish02.itch.io/calico-cat-fe",
-
-    ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
-    images: [
-      {
-        id: "A",
-        alt: "Media A",
-        image_A: "https://img.itch.zone/aW1hZ2UvMjAzMDQxMi8xMTk1MDMyNS5wbmc=/original/K23iAK.png",
-      },
-      {
-        id: "B",
-        alt: "Media B",
-        image_B: "https://img.itch.zone/aW1hZ2UvMjAzMDQxMi8xMTk1MDMyMy5wbmc=/original/vmX7Kq.png",
-      },
-      {
-        id: "C",
-        alt: "Media C",
-        image_C: "https://img.itch.zone/aW1hZ2UvMjAzMDQxMi8xMTk1MDMyNC5wbmc=/original/XU2xxK.png",
-      },
-    ],
-
-    project_id: "2",
-    image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
-    projectType: "University Project",
-    projectSubtitle: "Helping Kaldi Games win the Level Up! Toronto Player's Choice Award.",
-    duration: "8 Months",
-    role: "Technical Artist | Environment Artist",
-    tools: "Unity, Shader Graph, C#, 3DS Max, Substance Painter, Photoshop",
-    media: [
-      {
-        id: "A",
-        alt: "Media A",
-        mediaTitle: "Environment Art",
-        mediaSubtitle: "Crafting Immersive Spaces",
-        mediaDescription: `
-          As an Environment Artist for Calico Cat-fe, my work was instrumental in shaping the atmosphere and visual aesthetics of the game. From cafe interiors to exteriors, my modular designs provided a robust and cohesive setting that perfectly complemented the gameplay.
-        `,
-        mediaBulletPoints: [
-          "Modular Mastery: Designed modular kits to create versatile and aesthetically pleasing cafe interiors and exteriors.",
-          "Collaborative Artistry: Developed trim sheets in collaboration with fellow artists, ensuring visual consistency and streamlining asset creation.",
-        ],
-        link: "https://drive.google.com/file/d/1ScWEELwI0vBR94XVcvlbff6byXgU8Gmd/view?usp=drive_link",
-      },
-      {
-        id: "B",
-        alt: "Media B",
-        mediaTitle: "Technical Art",
-        mediaSubtitle: "From Polygons to Playability",
-        mediaDescription: `
-           I operated at the nexus of art and technology to develop shaders and customizable tools. My contributions allowed designers and programmers the flexibility to easily modify game elements while maintaining artistic integrity.
-        `,
-        mediaBulletPoints: [
-          "Shader Development: Created shaders that were both visually impressive and aligned with design concepts.",
-          "Tool Customization: Developed highly customizable tools to empower designers and programmers, enabling them to make adjustments easily and efficiently.",
-          "Visual Effects Prowess: Engineered complex visual effects by synergizing particle systems and shaders, all while adhering to the established art direction.",
-        ],
-        link: "https://drive.google.com/file/d/11cniaHyHg7jed0NC0AZzT1m9yiVqetI6/view?usp=drive_link",
-      },
-      {
-        id: "C",
-        alt: "Media C",
-        mediaTitle: "Visual Effects",
-        mediaSubtitle: "Conjuring Digital Magic",
-        mediaDescription: `
-          Specializing in visual effects, I harnessed a blend of particle systems and shaders to design arresting visuals for Calico Cat-fe. My work added layers of depth and dynamism, driving player immersion and aligning with the game’s artistic vision.
-        `,
-        mediaBulletPoints: [
-          "Effect Synergy: Created compelling visual effects by seamlessly integrating particle systems with shaders.",
-          "Directional Adherence: Ensured that all visual effects resonated with the overarching art direction, enhancing the game's cohesive feel.",
-        ],
-        link: "https://drive.google.com/file/d/1uZBqWMpS0wHIHjkmYXceO95MdFU7j2U-/view?usp=drive_link",
       },
     ],
   },
@@ -695,143 +649,6 @@ const projects = [
       },
     ],
   },
-  // {
-  //   name: "Ubisoft Next 2023",
-  //   company_name: "Ubisoft Toronto",
-  //   background:
-  //   ` This competition is designed to discover and foster emerging talent in the field of 3D art, specifically focused on video game development. Contestants are asked to complete a challenge that showcases their ability to create high-quality, game-ready 3D assets. 
-  //   `,
-  //   description:
-  //     `
-  //     In this Unreal Engine project, I successfully deployed a wide range of skills that would make a significant impact in a studio setting. 
-  //     From environment art to technical tools, my work demonstrated a mastery of game art production, tailored to enhance gameplay and storytelling.
-  //     `,
-  //     tags: [
-  //       {
-  //         name: "Level Design",
-  //         color: "blue-text-gradient",
-  //       },
-  //       {
-  //         name: "Technical Art",
-  //         color: "green-text-gradient",
-  //       },
-  //       {
-  //         name: "Visual Effects",
-  //         color: "yellow-text-gradient",
-  //       },
-  //       {
-  //         name: "Modular Design",
-  //         color: "purple-text-gradient",
-  //       },
-  //       {
-  //         name: "Shader Development",
-  //         color: "red-text-gradient",
-  //       },
-  //       {
-  //         name: "Pre-Visualization",
-  //         color: "cyan-text-gradient",
-  //       },
-  //     ],
-      
-  //   image: ubisoftNext2023,
-  //   youtube_URL: "LkZfjhZYoQ4",
-  //   source_code_link: "https://www.artstation.com/artwork/blaPZo",
-
-  //   ////////////////////////////EXPANDED PROJECT PAGE////////////////////////////
-  //   images: [
-  //     {
-  //       id: "A",
-  //       alt: "Media A",
-  //       image_A: "https://cdnb.artstation.com/p/assets/images/images/059/797/069/large/mohammed-qamar-beautyshot-b.jpg?1677162352",
-  //     },
-  //     {
-  //       id: "B",
-  //       alt: "Media B",
-  //       image_B: "https://cdna.artstation.com/p/assets/images/images/059/797/004/large/mohammed-qamar-beautyshot-a.jpg?1677852331",
-  //     },
-  //   ],
-
-
-  //   project_id: "2",
-  //   image_heading: "https://static.wixstatic.com/media/5080c4_6901bf60e7cf485d9e17cfe2db656772~mv2.png/v1/crop/x_17,y_0,w_566,h_315/fill/w_600,h_334,al_c,lg_1,q_85,enc_auto/Untitled%20design.png",
-  //   projectType: "University Project",
-  //   projectSubtitle: "Showcasing a mastery of game art production, tailored to enhance gameplay and storytelling.",
-  //   duration: "4 Months",
-  //   role: "Environment Artist",
-  //   tools: "Unity HDRP, Shader Graph, C#, 3DS Max, Substance Painter, Photoshop, Marmoset Toolbag",
-  //   media: [
-  //     {
-  //       id: "A",
-  //       alt: "Media A",
-  //       mediaTitle: "3D Art & Level Design",
-  //       mediaSubtitle: "The Architecture of Gameplay",
-  //       mediaDescription: `
-  //         In my submission for the Ubisoft Next 2023 challenge, I demonstrated a holistic understanding of level design and environmental art. I created assets and layouts that are not just visually captivating but also contribute to gameplay and narrative enhancement.
-  //       `,
-  //       mediaBulletPoints: [
-  //         "Efficient Level Design: Created a modular kit designed for quick and flexible level adjustments, thereby saving time and resources.",
-  //         "Pre-visualization Expertise: Modelled props and developed whitebox layouts, crucial steps for early testing and gameplay mechanics tuning.",
-  //         "Story-Driven Layout: Developed thematic concepts and layouts based on the given narrative, ensuring alignment with creative direction and enhancing storytelling.",
-  //       ],
-  //       link: "https://youtu.be/LkZfjhZYoQ4",
-  //     },
-  //     {
-  //       id: "B",
-  //       alt: "Media B",
-  //       mediaTitle: "Technical Art & Tools",
-  //       mediaSubtitle: "Tailoring Tech to Creative Visions",
-  //       mediaDescription: `
-  //         My technical art proficiency was showcased in the development of custom tools and shaders. I created resources that not only enriched the visual landscape but also streamlined the development process, aligning technological capabilities with artistic vision.
-  //       `,
-  //       mediaBulletPoints: [
-  //         "Visual Atmosphere: Crafted shaders that add depth and mood, enriching player immersion and potentially increasing user engagement.",
-  //         "Tools for Streamlined Development: Produced customizable tools that can adapt to varying project needs, aiding both designers and programmers in the development process.",
-  //       ],
-  //       image: "https://cdna.artstation.com/p/assets/images/images/059/797/004/large/mohammed-qamar-beautyshot-a.jpg?1677852331",
-  //     },
-  //     {
-  //       id: "C",
-  //       alt: "Media C",
-  //       mediaTitle: "Visual Effects & Atmosphere",
-  //       mediaSubtitle: "Crafting Cohesion and Emotional Resonance",
-  //       mediaDescription: `
-  //         Visual effects in my submission were meticulously crafted to add a layer of emotional depth and thematic cohesion. I employed a combination of particle systems and shaders to produce high-impact visuals that heightened the overall game quality.
-  //       `,
-  //       mediaBulletPoints: [
-  //         "High-Impact Visuals: Utilized particle systems and shaders to produce effects that add polish and emotional depth, enhancing overall game quality.",
-  //         "Thematic Consistency: Ensured that visual effects supported the theme and atmosphere, adding an extra layer of cohesion and professionalism to any project.",
-  //       ],
-  //       image: "https://cdnb.artstation.com/p/assets/images/images/059/797/069/large/mohammed-qamar-beautyshot-b.jpg",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "Gas Station",
-  //   description:
-  //     `This piece is from a personal project rendered in Unity URP. I was responsible for modelling, baking, and texturing.
-  //     Textures for rocks, foliage and skybox, were sourced from textures.com and Unity sample packages.`,
-  //   tags: [
-  //     {
-  //       name: "Unity URP",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "3DS Max",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "Substance Painter",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "Photoshop",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: gasStation,
-  //   gif: gasStation_Gif,
-  //   source_code_link: "https://www.artstation.com/artwork/o2dJqL",
-  // },
   {
     name: "Watch Dogs 2 | Marcus' Room",
     company_name: "Personal Project",
@@ -841,8 +658,8 @@ const projects = [
     `,
     description:
       `
-      I handled everything from 3D modeling and texture baking to advanced lighting schemes and visual effects. 
-      I also managed the post-processing work to ensure the highest quality output. By meticulously taking care of each creative and technical aspect, I succeeded in materializing what was once just a concept into a fully-realized, immersive virtual space.
+      I handled everything from 3D modeling and texturing to lighting schemes and visual effects. 
+      By meticulously taking care of each creative and technical aspect, I succeeded in materializing what was once just a concept into a fully-realized, immersive virtual space.
       `,
     tags: [
       {
@@ -1054,33 +871,21 @@ const projects = [
     `,
     description:
       `
-      I managed the entire development process, from creating combat animations and enemy AI behaviors to implementing the combo and counter mechanics. 
-      I also integrated advanced visual and sound effects to amplify each punch, kick, and counter move, replicating the visceral feedback of the original combat system.
+      I managed the entire development process, from integrating animations and enemy AI behaviors to creating the attack and counter mechanics. 
+      I also integrated visual and sound effects to amplify each possible player input, replicating the visceral feedback of the original combat system.
       `,
     tags: [
       {
-        name: "Combat Animation",
+        name: "Combat Design",
         color: "green-text-gradient",
       },
       {
-        name: "Enemy AI",
+        name: "AI",
         color: "blue-text-gradient",
-      },
-      {
-        name: "Counter Mechanics",
-        color: "yellow-text-gradient",
       },
       {
         name: "Visual Effects",
         color: "red-text-gradient",
-      },
-      {
-        name: "Sound Design",
-        color: "cyan-text-gradient",
-      },
-      {
-        name: "Unreal Engine 5",
-        color: "teal-text-gradient",
       },
       {
         name: "Game Mechanics",
