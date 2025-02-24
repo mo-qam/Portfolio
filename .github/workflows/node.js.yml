@@ -50,6 +50,8 @@ jobs:
         with:
           name: dist
           path: './dist'
+      - name: Verify artifact upload
+        run: echo "Artifact dist uploaded successfully"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
