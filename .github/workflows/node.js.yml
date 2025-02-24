@@ -41,6 +41,8 @@ jobs:
         run: chmod +x ./node_modules/.bin/vite
       - name: Build
         run: ./node_modules/.bin/vite build --debug
+      - name: List dist directory
+        run: ls -la ./dist
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
