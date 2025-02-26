@@ -37,6 +37,7 @@ import alex_gole from "./testimonials/alex_gole.jpg";
 import jerry_chen from "./testimonials/jerry_chen.jpg";
 import ahmed_hasan from "./testimonials/ahmed_hasan.jpg";
 import roger_liu from "./testimonials/roger_liu.jpg";
+import arsh_san from "./testimonials/arsh_san.jpg";
 
 
 //Projects
@@ -108,5 +109,6 @@ export {
   ahmed_hasan,
   roger_liu,
   alex_gole,
+  arsh_san,
 
 };

@@ -13,6 +13,7 @@ import {
   substancePainter,
   photoshop,
   csharp,
+  cplusplus,
   unity,
   unrealengine,
 
@@ -35,7 +36,7 @@ import {
   jerry_chen,
   ahmed_hasan,
   roger_liu,
-  cplusplus,
+  arsh_san,
 
 } from "../assets";
 
@@ -254,6 +255,16 @@ const testimonials = [
     company: "Ubisoft",
     image: roger_liu,
     link: "https://www.linkedin.com/in/roger-liu-5a88294b/",
+  },
+  {
+    testimonial:
+      "I've never seen someone care more for their craft than Mohammed Qamar. His attention to detail and passion for the work he does is truly inspiring.",
+    name: "Arsh Sanwarwala",
+    designation: "CEO",
+    preposition: "of",
+    company: "ThrillX Design",
+    image: arsh_san,
+    link: "https://www.linkedin.com/in/arsh-sanwarwala/",
   },
 ];
 
