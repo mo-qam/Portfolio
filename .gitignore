@@ -2,3 +2,4 @@
 /dist
 /node_modules
 # other directories/files to ignore...
+src/assets/mqamar_DemoReel.mp4
