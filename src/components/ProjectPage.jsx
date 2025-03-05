@@ -293,7 +293,9 @@ const ProjectPage = ({ project }) => {
                         <div className={`col-span-6 mb-40`}>
                           <div className={`
                             bg-tertiary p-5 rounded-2xl shadow-card overflow-hidden
-                            ${isMobile ? 'sm:w-[700px] h-[250px]' : 'sm:w-[200px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px] w-full h-[400px]'}
+                            ${isMobile ? 'sm:w-[700px] h-[250px]' : 
+                              'w-full h-[400px] sm:w-[200px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px] min-[1188px]:w-[500px] max-[1281px]:w-[500px]'
+                            }
                           `}>
                             {isGoogleDrive ? (
                               <iframe
@@ -366,7 +368,7 @@ const ProjectPage = ({ project }) => {
                         <div className={`col-span-${isMobile ? '12' : '6'} mb-24`}>
                         <div className={`
                           bg-tertiary p-5 rounded-2xl shadow-card overflow-hidden
-                          ${isMobile ? 'sm:w-[700px] h-[250px]' : 'sm:w-[200px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px] w-full h-[400px]'}
+                          ${isMobile ? 'w-[700px] h-[250px]' : 'sm:w-[200px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px] w-full h-[400px]'}
                         `}>
                           {isGoogleDrive ? (
                               <iframe
