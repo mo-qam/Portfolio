@@ -96,8 +96,8 @@ const Navbar = () => {
           className="flex items-center gap-2"
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Mohammed Qamar &nbsp; <span className="sm:block hidden"> | Portfolio </span>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            Mohammed Qamar | Portfolio
           </p>
         </Link>
 
@@ -224,7 +224,7 @@ const Navbar = () => {
                         <img
                           src={nav.icon}
                           alt={nav.title}
-                          className="w-6 h-6 object-contain hover:opacity-90 opacity-60"
+                          className="w-6 h-6 min-w-[24px] object-contain hover:opacity-90 opacity-60"
                         />
                       </a>
                   ) : (

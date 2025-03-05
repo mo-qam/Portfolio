@@ -43,38 +43,41 @@ const DetailCard = ({ label, content, index, isMobile }) => (
       variants={slideIn("right", "tween", index * 0.1, 0.75)}
       className="bg-tertiary shadow-card rounded-2xl 
       py-5 px-8 
-      min-h-[100px] min-w-[100px] 
+      min-h-[100px] min-w-[100px] h-[100px] hover:h-[120px]
       flex flex-col justify-evenly 
       items-left
       border-solid border-2 border-rose-600 hover:ring-2 ring-rose-600 transition-all duration-200
+      flex-grow
+      overflow-hidden
       "
     >
       <p className="font-secondary"><strong>{label}</strong></p>
-      <p className='mt-2 '>{content}</p>
+      <p className='mt-2 flex-grow overflow-hidden text-ellipsis text-ellipsis'>{content}</p>
     </div>
   ) : (
     <div
       variants={slideIn("right", "tween", index * 0.1, 0.75)}
       className="bg-tertiary shadow-card rounded-2xl
       py-12 px-8 
-      min-h-[190px] min-w-[150px] 
+      min-h-[190px] min-w-[150px] h-[90px]
       flex flex-col justify-evenly 
       items-left
       border-solid border-2 border-rose-600 hover:ring-2 ring-rose-600 transition-all duration-200
+      flex-grow
       "
     >
       <p className="font-secondary animate-breathe"><strong>{label}</strong></p>
-      <p className='mt-2 leading-relaxed'>{content}</p>
+      <p className='mt-2 leading-relaxed flex-grow overflow-hidden'>{content}</p>
     </div>
   )
 );
 
 const ServiceCard = ({ index, label, content, isMobile }) => (
   !isMobile ? (
-    <Tilt className="xs:w-[290px] w-full">
+    <Tilt className=" w-full sm:w-[200px] md:w-[320px] lg:w-[400px] xl:w-[250px] 2xl:w-[300px]">
       <motion.div
         variants={fadeIn(isMobile ? 'up' : 'right', 'spring', index * 0.1, isMobile ? 0.5 : 0.75)}
-        className="w-full p-[1px]"
+        className="w-full p-[10px] flex flex-col flex-grow"
       >
         <DetailCard label={label} content={content} index={index} isMobile={isMobile} />
       </motion.div>
@@ -82,8 +85,8 @@ const ServiceCard = ({ index, label, content, isMobile }) => (
   ) : (
     <div className="xs:w-[290px] w-full">
       <motion.div
-        vvariants={fadeIn(isMobile ? 'up' : 'right', 'spring', index * 0.1, isMobile ? 0.5 : 0.75)}
-        className="w-full p-[1px]"
+        variants={fadeIn(isMobile ? 'up' : 'right', 'spring', index * 0.1, isMobile ? 0.5 : 0.75)}
+        className="w-full p-[10px] flex flex-col flex-grow"
       >
         <DetailCard label={label} content={content} index={index} isMobile={isMobile} />
       </motion.div>
@@ -142,7 +145,7 @@ const ProjectPage = ({ project }) => {
                 <p className={styles.heroSubText}>{project.company_name}</p>
                 <h1 className={`${styles.heroHeadText}`}>{project.name}</h1>
               </div>
-            <div className={`${isMobile ? 'mt-4 w-full h-auto w-[300px] h-[234px]' : 'ml-auto w-[600px] h-[334px]'} relative rounded-[20px] shadow-card`}>
+            <div className={`${isMobile ? 'mt-4 w-full h-auto w-[300px] h-[234px]' : 'ml-auto w-[600px] h-[234px]'} relative rounded-[20px] shadow-card`}>
               {/* Foreground Image */}
               <img src={imageUrls}
                   alt={project.name}
@@ -154,6 +157,7 @@ const ProjectPage = ({ project }) => {
                 shadow-card drop-shadow-xl z-0 transform overflow-hidden
                 ring-inset-2 ring-2 ring-rose-600 
                 hover:ring-4 ring-rose-600 hover:scale-105 transition-all duration-300 shadow-inner
+                
                 ${isMobile ? '' : '-translate-x-12 -translate-y-14'}
                 `}>
                 <Slider project={{project}} images={imageUrls} />
@@ -169,16 +173,16 @@ const ProjectPage = ({ project }) => {
           <div className={`col-span-1 ${isMobile ? 'col-span-12' : 'md:col-span-5'}`}>
             <h2 className="text-white text-[24px] font-bold mb-12">{project.projectSubtitle}</h2>
             <div className="flex flex-wrap">
-              <div className="w-1/2 pr-3">
+              <div className="">
                 <ServiceCard label="Duration" content={project.duration} isMobile={isMobile} />
               </div>
-              <div className="w-1/2 pr-3">
+              <div className="">
                 <ServiceCard label="Project Type" content={project.projectType} isMobile={isMobile} />
               </div>
-              <div className="w-1/2 mt-4 pr-3">
+              <div className="">
                 <ServiceCard label="Tools" content={project.tools} isMobile={isMobile} />
               </div>
-              <div className="w-1/2 mt-4 pr-3">
+              <div className="">
                 <ServiceCard label="Role" content={project.role} isMobile={isMobile} />
               </div>
                 <div className="w-full mt-12">
@@ -289,7 +293,7 @@ const ProjectPage = ({ project }) => {
                         <div className={`col-span-6 mb-40`}>
                           <div className={`
                             bg-tertiary p-5 rounded-2xl shadow-card overflow-hidden
-                            ${isMobile ? 'sm:w-[700px] h-[250px]' : 'sm:w-[700px] w-full h-[400px]'}
+                            ${isMobile ? 'sm:w-[700px] h-[250px]' : 'sm:w-[200px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px] w-full h-[400px]'}
                           `}>
                             {isGoogleDrive ? (
                               <iframe
@@ -362,7 +366,7 @@ const ProjectPage = ({ project }) => {
                         <div className={`col-span-${isMobile ? '12' : '6'} mb-24`}>
                         <div className={`
                           bg-tertiary p-5 rounded-2xl shadow-card overflow-hidden
-                          ${isMobile ? 'sm:w-[700px] h-[250px]' : 'sm:w-[700px] w-full h-[400px]'}
+                          ${isMobile ? 'sm:w-[700px] h-[250px]' : 'sm:w-[200px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px] w-full h-[400px]'}
                         `}>
                           {isGoogleDrive ? (
                               <iframe
@@ -370,7 +374,7 @@ const ProjectPage = ({ project }) => {
                               width="100%"
                               height="100%"
                               allow="autoplay"
-                              className="transition-all duration-300 rounded-2xl scale-110 hover:scale-[1.12] outline-2 outline-rose-600"
+                              className="transition-all duration-300 rounded-2xl scale-110 hover:scale-[1.12] outline-2 outline-rose-600 "
                             ></iframe>
                           ) : media.image ? (
                             <Link to={media.image_Link ? media.image_Link : ''} target="_blank">

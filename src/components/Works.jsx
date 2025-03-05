@@ -53,7 +53,7 @@ const ProjectCard = memo(({
         <motion.div ref={ref} variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
           <Link to={`/projects/${encodeURIComponent(name)}`} target="_blank">
             <Tilt
-              options={{ max: 45, scale: 1, speed: 450 }}
+              options={{ max: 25, scale: 1, speed: 450 }}
               className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full hover:drop-shadow-xl"
             >
               <div

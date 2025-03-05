@@ -347,4 +347,11 @@
   animation: textShimmer 2s linear infinite;
 }
 
+/* Add this to your CSS file or within a <style> tag in your component */
+@media (max-width: 1146px) and (min-width: 1122px) {
+  .navbar-logo-text {
+    line-height: 1.5; /* Adjust the line-height as needed */
+  }
+}
+
 
