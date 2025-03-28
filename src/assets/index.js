@@ -44,10 +44,10 @@ import arsh_san from "./testimonials/arsh_san.jpg";
 import ue5_safehouse from "./safehouse_thumbnail.jpg";
 import dunecrawl from "./dunecrawl_thumbnail.jpg"
 import rocketrumble from "./rocketrumble_thumbnail.jpg";
-import ue5_villageSlum from "./village-slum.png";
+import ue5_villageSlum from "./village-slum.jpg";
 import wd2MarcusRoom from "./wd2_marcus_thumbnail.jpg";
 
-import combatSystem from "./combatSystemUE5_thumbnail.png";
+import combatSystem from "./conbat-system.jpg";
 import combatSystem_ScreenShot_A from "./combatSystemUE5_ScreenShot_A.png";
 import combatSystem_ScreenShot_B from "./combatSystemUE5_ScreenShot_B.png";
 
