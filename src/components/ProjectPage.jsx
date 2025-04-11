@@ -135,16 +135,23 @@ const ProjectPage = ({ project }) => {
         <div className={`${styles.padding} bg-tertiary rounded-2xl`}>
           <header className={`header text-left flex items-center ${isMobile ? 'flex-col mb-20 mt-20' : 'flex-row mb-40 mt-60 pr-2'}`}>
               <div 
-                onClick={() => window.open(project.source_code_link, "_blank")}
                 className={`
-                  cursor-pointer transition ease-in-out hover:-translate-y-1 duration-200 tracking-tight
-                  hover:ring ring-rose-500 ring-offset-[20px] rounded-2xl dark:ring-offset-slate-900 tracking-wide
+                  
+                  rounded-2xl dark:ring-offset-slate-900 tracking-wide
                   ${isMobile ? '' : 'max-w-[calc(100%-700px)]'}
                   `}
               >
                 <p className={styles.heroSubText}>{project.company_name}</p>
                 <h1 className={`${styles.heroHeadText}`}>{project.name}</h1>
+                <a href={project.source_code_link} target="_blank" rel="noopener noreferrer" 
+                className=' 
+                text-[18px] text-rose-600 
+                 tracking-wider font-bold mt-4
+                hover:px-2 shadow-card transition-all duration-200 hover:animate-pulse hover:scale-105'>
+                  View Project
+                </a>
               </div>
+              <div> </div>
             <div className={`${isMobile ? 'mt-4 w-full h-auto w-[300px] h-[234px]' : 'ml-auto w-[600px] h-[234px]'} relative rounded-[20px] shadow-card`}>
               {/* Foreground Image */}
               <img src={imageUrls}
