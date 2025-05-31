@@ -17,24 +17,29 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
   
 const Slider = ({ images }) => {
-  return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
-      <AutoplaySlider 
-        animation="openAnimation"
-        play={true}
-        cancelOnInteraction={false}
-        interval={4000}
-        className="aws-btn"
-      >
-        {images.map((image, idx) => <div key={idx} data-src={image} />)}
-      </AutoplaySlider>
-    </motion.div>
-  );
-}
+    const showControls = images.length > 1;
+    return (
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+        >
+            <AutoplaySlider 
+                animation="openAnimation"
+                play={true}
+                cancelOnInteraction={false}
+                interval={4000}
+                organicArrows={showControls}  // Only show arrows if more than one image
+                bullets={showControls}        // Only show bullets if more than one image
+                className="aws-btn"
+            >
+                {images.map((image, idx) => (
+                    <div key={idx} data-src={image} />
+                ))}
+            </AutoplaySlider>
+        </motion.div>
+    );
+};
 
 
 const DetailCard = ({ label, content, index, isMobile }) => (
