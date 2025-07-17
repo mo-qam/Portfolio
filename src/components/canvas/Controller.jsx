@@ -87,7 +87,7 @@ const ControllersCanvas = () => {
   return (
     <>
       {isMobile || !isVisible ? <></> :<Canvas
-        frameloop="ondemand"
+        frameloop="always"
         shadows
         dpr={[1, 2]}
         camera={{ position: [20, 3, 5], fov: 25 }}

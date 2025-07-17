@@ -9,9 +9,19 @@ import {
   Contact, 
 } from './';
 
+import ClickSpark from './ClickSpark';
+
 const Main = () => {
   return (
     <>
+    <ClickSpark
+      sparkColor='#fff'
+      sparkSize={10}
+      sparkRadius={15}
+      sparkCount={8}
+      duration={400}
+      className="min-h-screen"
+    >
       <Hero />
       <Works />
       <Experience />
@@ -19,6 +29,8 @@ const Main = () => {
       <Tech />
       <Feedbacks />
       <Contact />
+    </ClickSpark>
+
     </>
   );
 };

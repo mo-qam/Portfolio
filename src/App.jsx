@@ -28,6 +28,7 @@ const ScrollToSection = () => {
 const App = () => {
   return (
     <HashRouter>
+      
       <div className="relative z-0 bg-primary">
         <Navbar />
         <ScrollToSection />

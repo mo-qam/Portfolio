@@ -14,6 +14,8 @@ import { Link } from 'react-router-dom';
 import useOnScreen from './useOnScreen';
 import GifEmbed from './GifEmbed';
 
+
+
 const ProjectCard = memo(({
   index, name, description, tags, image, youtube_URL, video,
 }) => {
@@ -137,6 +139,7 @@ const TitleContent = () => {
   );
 };
 
+
 const SubHeadingContent = () => {
   return (
     <div className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
@@ -178,6 +181,7 @@ const Works = ({isMobile}) => {
           </div>
         )}
       </div>
+
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
